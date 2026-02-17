@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doug's Dharma — Video Index</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  /* Palette extracted from dougsdharma.com */
+  --bg: #f6f4f4;              /* page background */
+  --bg-warm: #eeeceb;
+  --white: #fefdfd;            /* nav/card white */
+  --stone: #d5d3c7;            /* warm stone section bands */
+  --stone-light: #e2e0d6;
+  --teal: #7fa0a2;             /* primary teal accent */
+  --teal-light: #98b5b6;
+  --teal-dark: #669496;
+  --teal-deeper: #4d7e80;
+  --teal-50: #eef3f3;
+  --teal-100: #d8e4e4;
+  --teal-bg: rgba(127,160,162,0.1);
+  --teal-bg-strong: rgba(127,160,162,0.18);
+  --green: #5a7a6a;
+  --green-bg: rgba(90,122,106,0.1);
+  --green-hover: rgba(90,122,106,0.18);
+  --text: #1a1a1a;             /* near-black body text */
+  --text-secondary: #3b3b3b;  /* secondary text */
+  --text-muted: #777777;       /* muted/date text */
+  --border: #d5d3c7;           /* matches stone */
+  --border-light: #e2e0d8;
+  --font-display: 'Raleway', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+  --shadow-lg: 0 8px 28px rgba(0,0,0,0.08);
+  --radius: 6px;
+  --radius-lg: 10px;
+}
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ======== HEADER ======== */
+.site-header {
+  background: var(--white);
+  color: var(--text);
+  padding: 2rem 1.5rem 1.6rem;
+  text-align: center;
+  position: relative;
+  border-bottom: 3px solid var(--teal);
+}
+.site-header h1 {
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.2rem;
+  color: var(--text);
+}
+.site-header h1 span { color: var(--teal); }
+.site-header .subtitle {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.header-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+}
+.header-stat {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+.header-stat strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--teal);
+  letter-spacing: 0;
+}
+
+/* ======== SEARCH BAR ======== */
+.search-bar {
+  max-width: 940px;
+  margin: 1rem auto 0;
+  padding: 0 1rem;
+  position: relative;
+  z-index: 10;
+}
+.search-container {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: 1.1rem 1.3rem;
+}
+.search-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+.search-input-wrap {
+  flex: 1;
+  position: relative;
+}
+.search-input-wrap svg {
+  position: absolute;
+  left: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.85rem 0.6rem 2.5rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 0.93rem;
+  color: var(--text);
+  background: var(--bg);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+.search-input:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(74,122,155,0.12);
+  background: var(--white);
+}
+.search-input::placeholder { color: var(--text-muted); }
+
+.filter-row {
+  display: flex;
+  gap: 0.65rem;
+  margin-top: 0.65rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filter-select {
+  padding: 0.45rem 2rem 0.45rem 0.7rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  background: var(--bg) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%237b8a9a' stroke-width='1.5' fill='none'/%3E%3C/svg%3E") no-repeat right 0.65rem center;
+  appearance: none;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  outline: none;
+  min-width: 155px;
+}
+.filter-select:focus { border-color: var(--teal); }
+
+.sort-btn {
+  padding: 0.45rem 0.8rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  background: var(--bg);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.sort-btn:hover { border-color: var(--teal-light); background: var(--teal-50); }
+.sort-btn.active { border-color: var(--teal); color: var(--teal); background: var(--teal-bg); }
+
+.result-count {
+  margin-left: auto;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  align-self: center;
+}
+
+.active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+.filter-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0.55rem;
+  background: var(--teal-bg);
+  color: var(--teal);
+  border-radius: 20px;
+  font-size: 0.76rem;
+  font-weight: 500;
+}
+.filter-tag button {
+  background: none;
+  border: none;
+  color: var(--teal);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0;
+  opacity: 0.6;
+  transition: opacity 0.15s;
+}
+.filter-tag button:hover { opacity: 1; }
+
+/* ======== MODE TABS ======== */
+.mode-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  max-width: 940px;
+  margin: 1.3rem auto 0;
+  padding: 0 1rem;
+}
+.mode-tab {
+  padding: 0.55rem 1.4rem;
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: var(--teal-50);
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.02em;
+}
+.mode-tab:first-child { border-radius: var(--radius) 0 0 var(--radius); }
+.mode-tab:last-child { border-radius: 0 var(--radius) var(--radius) 0; border-left: 0; }
+.mode-tab:not(:first-child):not(:last-child) { border-left: 0; }
+.mode-tab:hover { color: var(--text-secondary); background: var(--teal-100); }
+.mode-tab.active {
+  color: var(--teal);
+  background: var(--white);
+  border-color: var(--teal);
+  position: relative;
+  z-index: 1;
+}
+
+/* ======== MAIN CONTENT ======== */
+.main-content {
+  max-width: 940px;
+  margin: 1.3rem auto 3rem;
+  padding: 0 1rem;
+}
+
+/* ======== VIDEO CARDS ======== */
+.video-list { display: flex; flex-direction: column; gap: 0.65rem; }
+.video-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 1.15rem 1.35rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+.video-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--border);
+}
+.video-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+}
+.video-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.4;
+}
+.video-title a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.video-title a:hover { color: var(--teal); }
+.video-date {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  margin-top: 0.15rem;
+}
+.video-summary {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.55;
+  margin-bottom: 0.6rem;
+}
+.video-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.topic-chip {
+  display: inline-block;
+  padding: 0.12rem 0.5rem;
+  background: var(--teal-50);
+  color: var(--text-secondary);
+  border-radius: 20px;
+  font-size: 0.73rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: 1px solid transparent;
+}
+.topic-chip:hover {
+  background: var(--teal-bg-strong);
+  color: var(--teal);
+  border-color: rgba(74,122,155,0.2);
+}
+.sutta-chip {
+  display: inline-block;
+  padding: 0.12rem 0.5rem;
+  background: var(--green-bg);
+  color: var(--green);
+  border-radius: 20px;
+  font-size: 0.73rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: 1px solid transparent;
+}
+.sutta-chip:hover {
+  background: var(--green-hover);
+  border-color: rgba(90,122,106,0.2);
+}
+
+/* Expandable details */
+.video-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.video-card.expanded .video-details { max-height: 600px; }
+.video-details-inner {
+  padding-top: 0.65rem;
+  margin-top: 0.65rem;
+  border-top: 1px solid var(--border-light);
+}
+.detail-section { margin-bottom: 0.45rem; }
+.detail-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+.detail-link {
+  font-size: 0.84rem;
+  color: var(--teal);
+  text-decoration: none;
+}
+.detail-link:hover { text-decoration: underline; }
+.detail-text {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+}
+.expand-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.76rem;
+  cursor: pointer;
+  padding: 0.2rem 0;
+  transition: color 0.15s;
+  font-family: var(--font-body);
+}
+.expand-btn:hover { color: var(--teal); }
+
+/* ======== TOPIC BROWSE ======== */
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+  gap: 0.45rem;
+}
+.topic-grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--border-light);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+}
+.topic-grid-item:hover {
+  border-color: var(--teal);
+  background: var(--teal-bg);
+  color: var(--teal);
+}
+.topic-grid-count {
+  font-size: 0.73rem;
+  color: var(--text-muted);
+  background: var(--bg);
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* ======== SUTTA BROWSE ======== */
+.sutta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+  gap: 0.35rem;
+}
+.sutta-grid-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem 0.65rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--border-light);
+  cursor: pointer;
+  transition: all 0.15s;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.sutta-grid-item:hover {
+  border-color: var(--green);
+  background: var(--green-bg);
+  color: var(--green);
+}
+.sutta-grid-count {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  background: var(--bg);
+  padding: 0.1rem 0.35rem;
+  border-radius: 10px;
+}
+.sutta-collection-header {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--teal);
+  margin: 1.3rem 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--border);
+}
+.sutta-collection-header:first-child { margin-top: 0; }
+
+/* ======== LETTER HEADERS ======== */
+.letter-header {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--teal);
+  margin: 1.3rem 0 0.4rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid var(--border);
+}
+.letter-header:first-child { margin-top: 0; }
+
+/* ======== PAGINATION ======== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.3rem;
+}
+.page-btn {
+  padding: 0.4rem 0.75rem;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  background: var(--white);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.page-btn:hover { border-color: var(--teal-light); }
+.page-btn.active { border-color: var(--teal); color: var(--teal); background: var(--teal-bg); }
+.page-btn:disabled { opacity: 0.35; cursor: default; }
+.page-info { font-size: 0.8rem; color: var(--text-muted); }
+
+/* ======== EMPTY STATE ======== */
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+}
+.empty-state p { font-size: 1rem; margin-bottom: 0.4rem; }
+.empty-state .hint { font-size: 0.85rem; }
+
+/* ======== CAVEAT BANNER ======== */
+.caveat-banner {
+  max-width: 940px;
+  margin: 1.2rem auto 0;
+  padding: 0 1rem;
+}
+.caveat-inner {
+  background: var(--teal-50);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.7rem 1rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.5;
+}
+.caveat-inner a {
+  color: var(--teal);
+  text-decoration: none;
+}
+.caveat-inner a:hover { text-decoration: underline; }
+
+/* ======== FOOTER ======== */
+.site-footer {
+  text-align: center;
+  padding: 1.8rem 1rem;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  border-top: 1px solid var(--border);
+  max-width: 940px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.site-footer a { color: var(--teal); text-decoration: none; }
+.site-footer a:hover { text-decoration: underline; }
+
+/* ======== HIGHLIGHT ======== */
+mark {
+  background: rgba(127,160,162,0.2);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* ======== BACK TO TOP ======== */
+.back-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 50;
+}
+.back-to-top.visible { opacity: 1; transform: translateY(0); }
+.back-to-top:hover { background: var(--teal); }
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 640px) {
+  .site-header h1 { font-size: 1.8rem; }
+  .header-stats { gap: 1.2rem; }
+  .search-row { flex-direction: column; }
+  .filter-row { flex-direction: column; align-items: stretch; }
+  .filter-select { min-width: 100%; }
+  .result-count { margin-left: 0; margin-top: 0.2rem; }
+  .topic-grid { grid-template-columns: 1fr; }
+  .sutta-grid { grid-template-columns: 1fr; }
+  .video-card { padding: 0.9rem 1rem; }
+  .mode-tab { padding: 0.45rem 0.9rem; font-size: 0.8rem; }
+  .caveat-inner { font-size: 0.78rem; }
+}
+
+/* ======== SCROLLBAR ======== */
+::-webkit-scrollbar { width: 7px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--teal-100); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--teal-light); }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Doug's <span>Dharma</span></h1>
+  <div class="subtitle">Video Index</div>
+  <div class="header-stats">
+    <div class="header-stat"><strong>PLACEHOLDER_VIDEO_COUNT</strong>Videos</div>
+    <div class="header-stat"><strong>PLACEHOLDER_TOPIC_COUNT</strong>Topics</div>
+    <div class="header-stat"><strong>PLACEHOLDER_SUTTA_COUNT</strong>Suttas</div>
+  </div>
+</header>
+
+<div class="search-bar">
+  <div class="search-container">
+    <div class="search-row">
+      <div class="search-input-wrap">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search titles, summaries, topics, suttas…" autocomplete="off">
+      </div>
+    </div>
+    <div class="filter-row">
+      <select class="filter-select" id="topicFilter"><option value="">All Topics</option></select>
+      <select class="filter-select" id="suttaFilter"><option value="">All Suttas</option></select>
+      <button class="sort-btn" id="sortBtn" data-sort="newest">Newest First</button>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+    <div class="active-filters" id="activeFilters"></div>
+  </div>
+</div>
+
+<div class="mode-tabs">
+  <button class="mode-tab active" data-mode="videos">Videos</button>
+  <button class="mode-tab" data-mode="topics">Browse Topics</button>
+  <button class="mode-tab" data-mode="suttas">Browse Suttas</button>
+</div>
+
+<div class="caveat-banner">
+  <div class="caveat-inner">
+    This index may contain errors. If you find any, please <a href="mailto:odi@onlinedharma.org">contact me</a>.
+  </div>
+</div>
+
+<main class="main-content" id="mainContent">
+  <div id="videoView" class="video-list"></div>
+  <div id="topicView" style="display:none"></div>
+  <div id="suttaView" style="display:none"></div>
+  <div class="pagination" id="pagination"></div>
+</main>
+
+<footer class="site-footer">
+  Doug's Dharma Video Index · <a href="https://www.youtube.com/@DougsDharma" target="_blank" rel="noopener">YouTube Channel</a> · <a href="https://www.dougsdharma.com" target="_blank" rel="noopener">dougsdharma.com</a> · <a href="mailto:odi@onlinedharma.org">Contact</a>
+  <br>PLACEHOLDER_VIDEO_COUNT videos · PLACEHOLDER_DATE_RANGE
+</footer>
+
+<button class="back-to-top" id="backToTop" title="Back to top">
+  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script id="videoData" type="application/json">PLACEHOLDER_DATA</script>
+<script>
+(function() {
+  'use strict';
+
+  const rawData = JSON.parse(document.getElementById('videoData').textContent);
+  const videos = rawData.map(v => ({
+    title: v.t,
+    date: v.d,
+    url: v.u,
+    summary: v.s,
+    topics: v.tp || [],
+    suttaRefs: (v.sr || []).map(s => ({ id: s.id, url: s.url, label: s.l })),
+    otherRefs: (v.or || []).map(r => ({ type: r.type, label: r.label, url: r.url })),
+    relatedVideos: (v.rv || []).map(r => ({ title: r.t, url: r.u })),
+    _search: (v.t + ' ' + v.s + ' ' + (v.tp||[]).join(' ') + ' ' + (v.sr||[]).map(s=>s.id).join(' ')).toLowerCase()
+  }));
+
+  // Build indexes
+  const topicIndex = {};
+  const suttaIndex = {};
+  videos.forEach((v, i) => {
+    v.topics.forEach(t => {
+      if (!topicIndex[t]) topicIndex[t] = [];
+      topicIndex[t].push(i);
+    });
+    v.suttaRefs.forEach(s => {
+      if (!suttaIndex[s.id]) suttaIndex[s.id] = { refs: [], url: s.url };
+      suttaIndex[s.id].refs.push(i);
+    });
+  });
+
+  const sortedTopics = Object.keys(topicIndex).sort((a,b) => a.toLowerCase().localeCompare(b.toLowerCase()));
+  const sortedSuttas = Object.keys(suttaIndex).sort((a,b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+
+  // Populate dropdowns
+  const topicSelect = document.getElementById('topicFilter');
+  const suttaSelect = document.getElementById('suttaFilter');
+  sortedTopics.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t; opt.textContent = t + ' (' + topicIndex[t].length + ')';
+    topicSelect.appendChild(opt);
+  });
+  sortedSuttas.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s; opt.textContent = s + ' (' + suttaIndex[s].refs.length + ')';
+    suttaSelect.appendChild(opt);
+  });
+
+  // State
+  let currentMode = 'videos', searchQuery = '', selectedTopic = '', selectedSutta = '', sortOrder = 'newest', currentPage = 1;
+  const PAGE_SIZE = 20;
+
+  const searchInput = document.getElementById('searchInput');
+  const sortBtn = document.getElementById('sortBtn');
+  const resultCount = document.getElementById('resultCount');
+  const activeFilters = document.getElementById('activeFilters');
+  const videoView = document.getElementById('videoView');
+  const topicView = document.getElementById('topicView');
+  const suttaView = document.getElementById('suttaView');
+  const pagination = document.getElementById('pagination');
+  const modeTabs = document.querySelectorAll('.mode-tab');
+  const backToTop = document.getElementById('backToTop');
+
+  function getFilteredVideos() {
+    let results = videos.map((v,i) => ({ ...v, _idx: i }));
+    if (searchQuery) {
+      const terms = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
+      results = results.filter(v => terms.every(term => v._search.includes(term)));
+    }
+    if (selectedTopic) {
+      const idxSet = new Set(topicIndex[selectedTopic] || []);
+      results = results.filter(v => idxSet.has(v._idx));
+    }
+    if (selectedSutta) {
+      const idxSet = new Set((suttaIndex[selectedSutta] || {}).refs || []);
+      results = results.filter(v => idxSet.has(v._idx));
+    }
+    results.sort((a, b) => {
+      if (!a.date && !b.date) return 0;
+      if (!a.date) return 1;
+      if (!b.date) return -1;
+      return sortOrder === 'newest' ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date);
+    });
+    return results;
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function highlightText(text, query) {
+    if (!query) return escapeHtml(text);
+    const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    let result = escapeHtml(text);
+    terms.forEach(term => {
+      const regex = new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+      result = result.replace(regex, '<mark>$1</mark>');
+    });
+    return result;
+  }
+
+  function formatDate(dateStr) {
+    if (!dateStr) return '';
+    const d = new Date(dateStr + 'T00:00:00');
+    return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  }
+
+  function renderVideoCard(v) {
+    const suttaChips = v.suttaRefs.map(s =>
+      '<span class="sutta-chip" data-sutta="' + escapeHtml(s.id) + '" title="Filter by ' + escapeHtml(s.id) + '">' + escapeHtml(s.id) + '</span>'
+    ).join('');
+    const topicChips = v.topics.map(t =>
+      '<span class="topic-chip" data-topic="' + escapeHtml(t) + '" title="Filter by ' + escapeHtml(t) + '">' + escapeHtml(t) + '</span>'
+    ).join('');
+
+    let detailsHTML = '';
+    if (v.suttaRefs.length) {
+      detailsHTML += '<div class="detail-section"><div class="detail-label">Sutta References</div>';
+      v.suttaRefs.forEach(s => {
+        const label = s.label ? ' ' + s.label : '';
+        if (s.url) {
+          detailsHTML += '<a class="detail-link" href="' + escapeHtml(s.url) + '" target="_blank" rel="noopener">' + escapeHtml(s.id) + escapeHtml(label) + '</a> ';
+        } else {
+          detailsHTML += '<span class="detail-text">' + escapeHtml(s.id) + escapeHtml(label) + '</span> ';
+        }
+      });
+      detailsHTML += '</div>';
+    }
+    if (v.otherRefs.length) {
+      detailsHTML += '<div class="detail-section"><div class="detail-label">References</div>';
+      v.otherRefs.forEach(r => {
+        const label = r.label || r.url;
+        if (r.url) detailsHTML += '<a class="detail-link" href="' + escapeHtml(r.url) + '" target="_blank" rel="noopener">' + escapeHtml(label) + '</a><br>';
+      });
+      detailsHTML += '</div>';
+    }
+    if (v.relatedVideos.length) {
+      detailsHTML += '<div class="detail-section"><div class="detail-label">Related Videos</div>';
+      v.relatedVideos.forEach(r => {
+        detailsHTML += '<a class="detail-link" href="' + escapeHtml(r.url) + '" target="_blank" rel="noopener">' + escapeHtml(r.title) + '</a><br>';
+      });
+      detailsHTML += '</div>';
+    }
+
+    const hasDetails = detailsHTML.length > 0;
+
+    return '<div class="video-card">' +
+      '<div class="video-card-header">' +
+        '<div class="video-title"><a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' + highlightText(v.title, searchQuery) + '</a></div>' +
+        '<div class="video-date">' + formatDate(v.date) + '</div>' +
+      '</div>' +
+      '<div class="video-summary">' + highlightText(v.summary, searchQuery) + '</div>' +
+      '<div class="video-meta">' + topicChips + suttaChips + '</div>' +
+      (hasDetails ? '<button class="expand-btn" onclick="this.parentElement.classList.toggle(\'expanded\');this.textContent=this.parentElement.classList.contains(\'expanded\')?\'▾ Less\':\'▸ More details\'">▸ More details</button>' +
+      '<div class="video-details"><div class="video-details-inner">' + detailsHTML + '</div></div>' : '') +
+    '</div>';
+  }
+
+  function renderPagination(totalPages) {
+    if (totalPages <= 1) { pagination.innerHTML = ''; return; }
+    let html = '<button class="page-btn" ' + (currentPage === 1 ? 'disabled' : '') + ' data-page="' + (currentPage - 1) + '">← Prev</button>';
+    const pages = [1];
+    if (currentPage > 3) pages.push('...');
+    for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) pages.push(i);
+    if (currentPage < totalPages - 2) pages.push('...');
+    if (totalPages > 1) pages.push(totalPages);
+    pages.forEach(p => {
+      if (p === '...') html += '<span class="page-info">…</span>';
+      else html += '<button class="page-btn ' + (p === currentPage ? 'active' : '') + '" data-page="' + p + '">' + p + '</button>';
+    });
+    html += '<button class="page-btn" ' + (currentPage === totalPages ? 'disabled' : '') + ' data-page="' + (currentPage + 1) + '">Next →</button>';
+    pagination.innerHTML = html;
+  }
+
+  function renderVideos() {
+    const filtered = getFilteredVideos();
+    const totalPages = Math.ceil(filtered.length / PAGE_SIZE);
+    if (currentPage > totalPages) currentPage = totalPages || 1;
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageVideos = filtered.slice(start, start + PAGE_SIZE);
+    resultCount.textContent = filtered.length + ' video' + (filtered.length !== 1 ? 's' : '');
+    if (pageVideos.length === 0) {
+      videoView.innerHTML = '<div class="empty-state"><p>No videos found</p><div class="hint">Try adjusting your search or filters</div></div>';
+    } else {
+      videoView.innerHTML = pageVideos.map(renderVideoCard).join('');
+    }
+    renderPagination(totalPages);
+  }
+
+  function renderTopicBrowse() {
+    const q = searchQuery.toLowerCase();
+    let filtered = sortedTopics;
+    if (q) filtered = filtered.filter(t => t.toLowerCase().includes(q));
+    let html = '', currentLetter = '';
+    filtered.forEach(t => {
+      const letter = t[0].toUpperCase();
+      if (letter !== currentLetter) {
+        currentLetter = letter;
+        if (html) html += '</div>';
+        html += '<div class="letter-header">' + letter + '</div><div class="topic-grid">';
+      }
+      html += '<div class="topic-grid-item" data-topic="' + escapeHtml(t) + '"><span>' + highlightText(t, searchQuery) + '</span><span class="topic-grid-count">' + topicIndex[t].length + '</span></div>';
+    });
+    if (html) html += '</div>';
+    if (!html) html = '<div class="empty-state"><p>No topics found</p></div>';
+    topicView.innerHTML = html;
+    resultCount.textContent = filtered.length + ' topic' + (filtered.length !== 1 ? 's' : '');
+    pagination.innerHTML = '';
+  }
+
+  function renderSuttaBrowse() {
+    const q = searchQuery.toLowerCase();
+    let filtered = sortedSuttas;
+    if (q) filtered = filtered.filter(s => s.toLowerCase().includes(q));
+
+    // Group by collection - handle "Vinaya, ..." specially
+    const collections = {};
+    filtered.forEach(s => {
+      let collection;
+      if (s.startsWith('Vinaya')) {
+        collection = 'Vinaya';
+      } else {
+        collection = s.split(/\s/)[0] || 'Other';
+      }
+      if (!collections[collection]) collections[collection] = [];
+      collections[collection].push(s);
+    });
+
+    const collOrder = ['AN', 'DN', 'Dhp', 'Iti', 'MN', 'SN', 'Snp', 'Thag', 'Thig', 'Ud', 'Vinaya'];
+    const fullNames = {
+      'AN': 'Aṅguttara Nikāya (AN)',
+      'DN': 'Dīgha Nikāya (DN)',
+      'Dhp': 'Dhammapada (Dhp)',
+      'Iti': 'Itivuttaka (Iti)',
+      'MN': 'Majjhima Nikāya (MN)',
+      'SN': 'Saṃyutta Nikāya (SN)',
+      'Snp': 'Sutta Nipāta (Snp)',
+      'Thag': 'Theragāthā (Thag)',
+      'Thig': 'Therīgāthā (Thig)',
+      'Ud': 'Udāna (Ud)',
+      'Vinaya': 'Vinaya'
+    };
+    const sortedColls = Object.keys(collections).sort((a,b) => {
+      const ia = collOrder.indexOf(a), ib = collOrder.indexOf(b);
+      if (ia >= 0 && ib >= 0) return ia - ib;
+      if (ia >= 0) return -1;
+      if (ib >= 0) return 1;
+      return a.localeCompare(b);
+    });
+
+    let html = '';
+    sortedColls.forEach(coll => {
+      html += '<div class="sutta-collection-header">' + (fullNames[coll] || coll) + '</div><div class="sutta-grid">';
+      collections[coll].forEach(s => {
+        html += '<div class="sutta-grid-item" data-sutta="' + escapeHtml(s) + '"><span>' + highlightText(s, searchQuery) + '</span><span class="sutta-grid-count">' + suttaIndex[s].refs.length + '</span></div>';
+      });
+      html += '</div>';
+    });
+    if (!html) html = '<div class="empty-state"><p>No suttas found</p></div>';
+    suttaView.innerHTML = html;
+    resultCount.textContent = filtered.length + ' sutta' + (filtered.length !== 1 ? 's' : '');
+    pagination.innerHTML = '';
+  }
+
+  function renderActiveFilters() {
+    let html = '';
+    if (selectedTopic) html += '<span class="filter-tag">Topic: ' + escapeHtml(selectedTopic) + ' <button data-clear="topic">×</button></span>';
+    if (selectedSutta) html += '<span class="filter-tag">Sutta: ' + escapeHtml(selectedSutta) + ' <button data-clear="sutta">×</button></span>';
+    activeFilters.innerHTML = html;
+  }
+
+  function render() {
+    videoView.style.display = currentMode === 'videos' ? '' : 'none';
+    topicView.style.display = currentMode === 'topics' ? '' : 'none';
+    suttaView.style.display = currentMode === 'suttas' ? '' : 'none';
+    if (currentMode === 'videos') renderVideos();
+    else if (currentMode === 'topics') renderTopicBrowse();
+    else if (currentMode === 'suttas') renderSuttaBrowse();
+    renderActiveFilters();
+  }
+
+  // Events
+  let searchTimer;
+  searchInput.addEventListener('input', () => {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => { searchQuery = searchInput.value.trim(); currentPage = 1; render(); }, 200);
+  });
+  topicSelect.addEventListener('change', () => {
+    selectedTopic = topicSelect.value; currentPage = 1;
+    if (currentMode !== 'videos') { currentMode = 'videos'; modeTabs.forEach(t => t.classList.toggle('active', t.dataset.mode === 'videos')); }
+    render();
+  });
+  suttaSelect.addEventListener('change', () => {
+    selectedSutta = suttaSelect.value; currentPage = 1;
+    if (currentMode !== 'videos') { currentMode = 'videos'; modeTabs.forEach(t => t.classList.toggle('active', t.dataset.mode === 'videos')); }
+    render();
+  });
+  sortBtn.addEventListener('click', () => {
+    sortOrder = sortOrder === 'newest' ? 'oldest' : 'newest';
+    sortBtn.textContent = sortOrder === 'newest' ? 'Newest First' : 'Oldest First';
+    sortBtn.classList.toggle('active', sortOrder === 'oldest');
+    currentPage = 1; render();
+  });
+  modeTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      currentMode = tab.dataset.mode;
+      modeTabs.forEach(t => t.classList.toggle('active', t === tab));
+      currentPage = 1; render();
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    const topicEl = e.target.closest('[data-topic]');
+    if (topicEl) {
+      selectedTopic = topicEl.dataset.topic; topicSelect.value = selectedTopic;
+      currentMode = 'videos'; currentPage = 1;
+      modeTabs.forEach(t => t.classList.toggle('active', t.dataset.mode === 'videos'));
+      render(); window.scrollTo({ top: 0, behavior: 'smooth' }); return;
+    }
+    const suttaEl = e.target.closest('[data-sutta]');
+    if (suttaEl) {
+      selectedSutta = suttaEl.dataset.sutta; suttaSelect.value = selectedSutta;
+      currentMode = 'videos'; currentPage = 1;
+      modeTabs.forEach(t => t.classList.toggle('active', t.dataset.mode === 'videos'));
+      render(); window.scrollTo({ top: 0, behavior: 'smooth' }); return;
+    }
+    const clearBtn = e.target.closest('[data-clear]');
+    if (clearBtn) {
+      const which = clearBtn.dataset.clear;
+      if (which === 'topic') { selectedTopic = ''; topicSelect.value = ''; }
+      if (which === 'sutta') { selectedSutta = ''; suttaSelect.value = ''; }
+      currentPage = 1; render(); return;
+    }
+    const pageBtn = e.target.closest('[data-page]');
+    if (pageBtn && !pageBtn.disabled) {
+      currentPage = parseInt(pageBtn.dataset.page); render();
+      document.querySelector('.search-bar').scrollIntoView({ behavior: 'smooth' }); return;
+    }
+  });
+
+  window.addEventListener('scroll', () => { backToTop.classList.toggle('visible', window.scrollY > 400); });
+  backToTop.addEventListener('click', () => { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && document.activeElement !== searchInput) { e.preventDefault(); searchInput.focus(); }
+    if (e.key === 'Escape' && document.activeElement === searchInput) { searchInput.blur(); }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

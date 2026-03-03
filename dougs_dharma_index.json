@@ -1,27 +1,69 @@
 [
   {
-  "title": "When the Government is Fire and ICE: A Buddhist Response to 2026",
-  "date": "2026-02-23",
-  "youtube_url": "https://www.youtube.com/watch?v=iPH3Ys-pzZU",
-  "summary": "Robert Frost famously wrote that the world could end in two ways: in fire or in ice. In 2026, we are seeing both. We see the fire of greed burning up our norms, and the ice of hatred freezing out the vulnerable.",
-  "topics": [
-    "politics"
-  ],
-  "sutta_refs": [
-    {
-  "sutta_id": "SN 35.28",
-  "url": "https://suttacentral.net/sn35.28/en/sujato",
-  "label": null
-  }
-  ],
-  "other_refs": [
-    {"type": "external",
-    "label": "Engaging in Compassion; a chat with Ben Connelly of the Minnesota Zen Center", 
-    "url": "https://digginthedharma.com/episodes/ben-connnelly"
-    },
-    {"type": "external", "label": "Paul Krugman, 'Billionaires Gone Wild' (Feb. 18, 2026) ", "url": "https://open.substack.com/pub/paulkrugman/p/billionaires-gone-wild"}
-  ],
-  "related_videos": []
+    "title": "What Society Should Look Like: The 4 Buddhist Requisites + 1",
+    "date": "2026-03-02",
+    "youtube_url": "https://www.youtube.com/watch?v=S_fl8lU71Os",
+    "summary": "What is the absolute minimum a human being needs, not just to survive, but to flourish? We often argue about \"safety nets\" as if they are a modern political invention. But 2,500 years ago, the Buddha established a specific list of \"Requisites\" (Paccaya): the non-negotiable floor required to live a noble life. In this video, we explore why a society that fails to provide this \"floor\" is, according to the Cakkavatti-Sīhanāda Sutta, a society destined for collapse.",
+    "topics": [
+      "social justice",
+      "wealth/money",
+      "Buddha (historical)",
+      "sila/ethics",
+      "suttas/early texts"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "DN 26",
+        "url": "https://suttacentral.net/dn26/en/sujato",
+        "label": "Cakkavatti-Sīhanāda Sutta"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "external",
+        "label": "The Bhikkhu's Rules on Requisites",
+        "url": "https://www.wisdomlib.org/buddhism/book/the-bhikkhus-rules/d/doc1739.html"
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "Controversies Over Clothing and Food",
+        "url": "https://youtu.be/r5oncPD7jKo"
+      },
+      {
+        "title": "What Did the Buddha Teach About Wealth?",
+        "url": "https://youtu.be/l4TlCvJqasg"
+      }
+    ]
+  },
+  {
+    "title": "When the Government is Fire and ICE: A Buddhist Response to 2026",
+    "date": "2026-02-23",
+    "youtube_url": "https://www.youtube.com/watch?v=iPH3Ys-pzZU",
+    "summary": "Robert Frost famously wrote that the world could end in two ways: in fire or in ice. In 2026, we are seeing both. We see the fire of greed burning up our norms, and the ice of hatred freezing out the vulnerable.",
+    "topics": [
+      "politics"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 35.28",
+        "url": "https://suttacentral.net/sn35.28/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "external",
+        "label": "Engaging in Compassion; a chat with Ben Connelly of the Minnesota Zen Center",
+        "url": "https://digginthedharma.com/episodes/ben-connnelly"
+      },
+      {
+        "type": "external",
+        "label": "Paul Krugman, 'Billionaires Gone Wild' (Feb. 18, 2026) ",
+        "url": "https://open.substack.com/pub/paulkrugman/p/billionaires-gone-wild"
+      }
+    ],
+    "related_videos": []
   },
   {
     "title": "The Buddhist Joy of Knowing Things Won't Last",

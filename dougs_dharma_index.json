@@ -1,5 +1,182 @@
 [
   {
+    "title": "Generative AI and the Vagueness of Sentience: A Dharmic View",
+    "date": "2026-03-23",
+    "youtube_url": "https://www.youtube.com/watch?v=oDQ1hvW6trs",
+    "summary": "Is AI sentient? I argue the question may not have a clear yes-or-no answer — and that this tells us something profound about the nature of personhood itself. Drawing on the ancient \"sorites\" paradox, philosopher Derek Parfit's work on personal identity, and the Buddha's own process-based definition of a \"sentient being,\" I argue that personhood is genuinely vague — not all-or-nothing. AI is making this undeniable.",
+    "topics": [
+      "AI/artificial intelligence",
+      "non-self/anatta",
+      "philosophy",
+      "five aggregates",
+      "Parfit, Derek"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 5.10",
+        "url": "https://suttacentral.net/sn5.10/en/sujato",
+        "label": "Vajirā's chariot simile"
+      },
+      {
+        "sutta_id": "SN 12.61",
+        "url": "https://suttacentral.net/sn12.61/en/sujato",
+        "label": "Consciousness arises and ceases"
+      },
+      {
+        "sutta_id": "SN 23.2",
+        "url": "https://suttacentral.net/sn23.2/en/sujato",
+        "label": "Definition of a \"being\""
+      },
+      {
+        "sutta_id": "AN 3.65",
+        "url": "https://suttacentral.net/an3.65/en/sujato",
+        "label": "Kālāma Sutta"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "external",
+        "label": "Accompanying Substack essay",
+        "url": "https://open.substack.com/pub/dougsmith773158/p/when-you-close-a-chat-window-are"
+      },
+      {
+        "type": "external",
+        "label": "Claude's Constitution (Anthropic)",
+        "url": "https://www-cdn.anthropic.com/cffd979fd050fbc0d8874b8c58b24cc10554e208/claudes-constitution_webPDF_26-01.26a.pdf"
+      },
+      {
+        "type": "external",
+        "label": "Keeling et al., \"Can LLMs make trade-offs involving stipulated pain and pleasure states?\"",
+        "url": "https://arxiv.org/abs/2411.02432"
+      },
+      {
+        "type": "external",
+        "label": "Derek Parfit, Reasons and Persons (1984)",
+        "url": null
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "Is AI Sentient?",
+        "url": "https://youtu.be/bPtuwBgalEU"
+      },
+      {
+        "title": "AI Chat and Meditation",
+        "url": "https://youtu.be/PFyr3QBnnVY"
+      },
+      {
+        "title": "Buddhism and the AI Alignment Problem",
+        "url": "https://youtu.be/AIeGdk-adII"
+      },
+      {
+        "title": "Mindfulness for Computers?",
+        "url": "https://youtu.be/RsOs6DHKhPo"
+      },
+      {
+        "title": "The Chariot Simile",
+        "url": "https://youtu.be/8_AMrB-HOSg"
+      },
+      {
+        "title": "The Problem(s) of Consciousness",
+        "url": "https://youtu.be/W1Pn65QZiZs"
+      },
+      {
+        "title": "The Surprising Vagueness of the Self",
+        "url": "https://youtu.be/PFmF9zuRp2A"
+      },
+      {
+        "title": "Derek Parfit and the Buddha",
+        "url": "https://youtu.be/jrGpGZTlXAk"
+      }
+    ]
+  },
+  {
+    "title": "The Harsh Truth About Having a Body, a Buddhist Perspective",
+    "date": "2026-03-16",
+    "youtube_url": "https://www.youtube.com/watch?v=OEqvlc26Cp0",
+    "summary": "We'll surely encounter them: pain, illness, and aging. How do we deal with such difficulties? We'll look to some early Buddhist practices for clues.",
+    "topics": [
+      "exercise/body",
+      "suffering/dukkha",
+      "death/mortality",
+      "feelings/vedana"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 36.6",
+        "url": "https://suttacentral.net/sn36.6/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "SN 22.1",
+        "url": "https://suttacentral.net/sn22.1/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "external",
+        "label": "Commentary on Therīgāthā 10.1 (Access to Insight)",
+        "url": "https://www.accesstoinsight.org/noncanon/comy/thiga-10-01-ao0.html"
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "Is Meditation Dangerous?",
+        "url": "https://youtu.be/h1A7GwrvaGw"
+      },
+      {
+        "title": "Did the Buddha Feel Pain?",
+        "url": "https://youtu.be/t7IML62w668"
+      },
+      {
+        "title": "Buddha's Surprising Views on Old Age",
+        "url": "https://youtu.be/MCraeWrkRk4"
+      },
+      {
+        "title": "The First Noble Truth is Liberating: the Story of Kisa Gotami",
+        "url": "https://youtu.be/9wI6QcDqHtc"
+      }
+    ]
+  },
+  {
+    "title": "Silence Your Inner Critic: Buddhist Antidote to Anxiety",
+    "date": "2026-03-09",
+    "youtube_url": "https://www.youtube.com/watch?v=d9GUe48Rcrc",
+    "summary": "We can be relentlessly self-critical, to the point of anxiety. Early Buddhism gives us insight into how best to understand and work with this negativity, helping us to tone down our inner critic.",
+    "topics": [
+      "fear/anxiety",
+      "metta/loving-kindness",
+      "self/identity"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 36.6",
+        "url": "https://suttacentral.net/sn36.6/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [],
+    "related_videos": [
+      {
+        "title": "Don't Idolize People (Even the Buddha Made Mistakes)",
+        "url": "https://youtu.be/3jl_7v3hwqQ"
+      },
+      {
+        "title": "The Dalai Lama's Confusion Over Self Hatred",
+        "url": "https://youtu.be/bGjXRoh5j5E"
+      },
+      {
+        "title": "The Golden Rule in Early Buddhism",
+        "url": "https://youtu.be/6KmCDVT9KzE"
+      },
+      {
+        "title": "The Buddhist Cure for \"Busyness\"",
+        "url": "https://youtu.be/NeUt2jyhScY"
+      }
+    ]
+  },
+  {
     "title": "The 4+1 Things Every Human Needs (According to Buddhism)",
     "date": "2026-03-02",
     "youtube_url": "https://www.youtube.com/watch?v=S_fl8lU71Os",
@@ -20758,7 +20935,8 @@
     "topics": [
       "non-self/anatta",
       "views/ditthi",
-      "Hume, David"
+      "Hume, David",
+      "Parfit, Derek"
     ],
     "sutta_refs": [
       {

@@ -1,0 +1,274 @@
+# Doug's Dharma Video Index
+
+> A searchable index of 611 educational videos on early Buddhism
+> by Doug Smith (Doug's Dharma YouTube channel).
+
+## About
+
+Doug's Dharma is a YouTube channel created in 2017 to introduce the
+teachings of early Buddhism to a wide audience. Doug Smith holds a PhD
+in Philosophy and has published scholarly works in Buddhist Studies.
+This index covers videos from March 2017 to March 2026.
+
+## Structured Data
+
+The complete video index is available as machine-readable JSON:
+- Full JSON: https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json
+- Searchable web interface: https://dougs-dharma.github.io/dougs-dharma-index/
+
+Each video entry in the JSON contains:
+- title, date, youtube_url, summary
+- topics (from a controlled vocabulary of 233 terms)
+- sutta_refs (references to early Buddhist texts with SuttaCentral URLs)
+- other_refs (books, articles, external resources)
+- related_videos (links to other Doug's Dharma videos)
+
+## Topics Covered
+
+- AI/artificial intelligence
+- Aaron, Jon
+- Ajahn Brahm
+- Ajahn Chah
+- Amaro, Ajahn
+- Ambedkar, B.R.
+- Analayo
+- Anthony, David
+- Attwood, Jayarava
+- Babauta, Leo
+- Bapat, P.V.
+- Barbie
+- Batchelor, Stephen
+- Blomfeld, Vishvapani
+- Bodhi, Bhikkhu
+- Bodhipaksa
+- Brach, Tara
+- Brahmali, Bhikkhu
+- Brasington, Leigh
+- Braun, Erik
+- Britton, Willoughby
+- Bronkhorst, Johannes
+- Brown, Clair
+- Buddha (historical)
+- Buddhism (blending)
+- Buddhism (early)
+- Buddhism (protestant)
+- Buddhism (schools)
+- Buddhism (weird)
+- COVID-19
+- Carroll, Sean
+- Choesang, Yeshe
+- Collins, Steven
+- Conze, Edward
+- Crosby, Kate
+- Dalai Lama
+- Davidson, Ronald
+- Dennett, Daniel
+- Dhammapada
+- Ehara, N.R.M.
+- Ehrman, Bart
+- Epicurus
+- Faux, Zeke
+- Federman, Asaf
+- Frankl, Viktor
+- Fronsdal, Gil
+- Fuller, Paul
+- Gethin, Rupert
+- Gibbs, Benjamin
+- Goldstein, Joseph
+- Gombrich, Richard
+- Gross, Rita
+- Gunaratana, Henepola
+- Guy, John
+- Hallisey, Charles
+- Harvey, Peter
+- Hayes, Richard
+- Hecker, Hellmuth
+- Hitchens, Christopher
+- Hofstadter, Douglas
+- Huayan
+- Hume, David
+- Jayatilleke, K.N.
+- Jones, Dhivan Thomas
+- Kondo, Marie
+- Kornfield, Jack
+- Ledi Sayadaw
+- Lele, Amod
+- Linn, Vaddhaka
+- Lopez, Donald
+- Macaro, Antonia
+- Mace, Dan
+- Mahayana
+- McCracken, Peggy
+- McKeown, Greg
+- McLeod, Ken
+- Mill, J.S.
+- Muller, Max
+- Nagarjuna
+- Nakamura, Norm
+- Nanamoli, Bhikkhu
+- Neistat, Casey
+- Nhat Hanh, Thich
+- Norman, K.R.
+- Nyanaponika Thera
+- Olendzki, Andrew
+- Olivelle, Patrick
+- Orwell, George
+- Pali canon
+- Parfit, Derek
+- Pascal, Blaise
+- Pigliucci, Massimo
+- Piya Tan
+- Rahula, Walpola
+- Rajapakse, Vijitha
+- Sagan, Carl
+- Salomon, Richard
+- Salzberg, Sharon
+- Samuel, Geoffrey
+- Sapolsky, Robert
+- Shelton, Joshua
+- Sheng Yen
+- Shults, Brett
+- Spagnoli, Maria
+- Sujato, Bhikkhu
+- Suzuki, Shunryu
+- Tatz, Mark
+- Thanissaro, Bhikkhu
+- Theravada
+- Tolle, Eckhart
+- Vajrayana
+- Van Norden, Bryan
+- Weingast, Matty
+- Whitaker, Justin
+- Williams, Paul
+- Wright, Robert
+- Wynne, Alexander
+- Yampolsky, Philip
+- Yuttadhammo, Bhikkhu
+- Zen
+- Zimmerman, Michael
+- abhidhamma
+- advanced vs. beginner
+- aesthetics
+- anger
+- art
+- atheism/agnosticism
+- attachment/clinging
+- breath meditation
+- compassion
+- concentration/samadhi
+- conditionality
+- consciousness
+- contentment
+- death/mortality
+- delusion
+- dependent origination
+- devas/supernatural beings
+- doubt
+- duty/obligation
+- eightfold path
+- emptiness
+- enlightenment/awakening
+- entertainment/media
+- epistemology
+- equanimity
+- exercise/body
+- faith/saddha
+- fame
+- family
+- fear/anxiety
+- feelings/vedana
+- five aggregates
+- five precepts
+- food/eating
+- forgiveness
+- four noble truths
+- free will/determinism
+- generosity/dana
+- gratitude
+- heart sutra/prajnaparamita
+- hindrances
+- humor
+- impermanence
+- jhana/absorption
+- joy/happiness
+- karma
+- letting go
+- loneliness/solitude
+- magic/supernatural
+- meditation
+- mental proliferation/papanca
+- metta/loving-kindness
+- middle way
+- mindfulness
+- nature/environment
+- nirvana/nibbana
+- non-dualism
+- non-self/anatta
+- patience
+- perception
+- perceptions (ten)
+- personal reflection
+- philosophy
+- pleasure
+- politics
+- pragmatism
+- prayer
+- pride/conceit
+- progress
+- rebirth
+- recollections (ten)
+- regret
+- relationships/love
+- relics/archaeology
+- religion
+- renunciation
+- rhetoric/debate
+- right action
+- right effort
+- right intention
+- right livelihood
+- right speech
+- ritual/ceremony
+- sangha/community
+- satipatthana
+- science and Buddhism
+- secular Buddhism
+- self/identity
+- seven factors of awakening
+- sila/ethics
+- sin (concept of)
+- skillful means/upaya
+- skillful/unskillful action
+- social justice
+- spirituality
+- stoicism
+- success/achievement
+- suffering/dukkha
+- suttas/early texts
+- technology
+- therapy/psychology
+- three refuges
+- time/momentariness
+- two truths doctrine
+- views/ditthi
+- vipassana/insight
+- von Rospatt, Alexander
+- war/violence/nonviolence
+- wealth/money
+- weeding
+- wisdom/panna
+- work/livelihood
+
+## Sutta References
+
+This index references 546 unique suttas from the Pali canon
+and other early Buddhist texts. References use standard abbreviations
+(DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
+
+## Links
+
+- YouTube: https://www.youtube.com/@dougsdharma
+- Website: https://www.dougsdharma.com
+- Podcast: https://digginthedharma.com
+- Online courses: https://onlinedharma.org
+- Patreon: https://www.patreon.com/dougsseculardharma

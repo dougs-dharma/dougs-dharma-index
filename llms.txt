@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 611 educational videos on early Buddhism
+> A searchable index of 612 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -261,7 +261,7 @@ Each video entry in the JSON contains:
 
 ## Sutta References
 
-This index references 546 unique suttas from the Pali canon
+This index references 547 unique suttas from the Pali canon
 and other early Buddhist texts. References use standard abbreviations
 (DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
 

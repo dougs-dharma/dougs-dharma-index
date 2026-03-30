@@ -1,5 +1,87 @@
 [
   {
+    "title": "The Karmic Gym: Why Kindness to AI Matters (Even if it Can’t Feel)",
+    "date": "2026-03-30",
+    "youtube_url": "https://www.youtube.com/watch?v=cU2Cqq8zkE4",
+    "summary": "If AI might or might not be sentient, how should we treat it? In this companion video to \"AI and the Vagueness of Sentience,\" I propose \"strategic compassion\": treating AI systems with kindness and moral consideration regardless of whether they’re fully sentient.",
+    "topics": [
+      "AI/artificial intelligence",
+      "metta/loving-kindness",
+      "karma",
+      "sila/ethics"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 5.10",
+        "url": "https://suttacentral.net/sn5.10/en/sujato",
+        "label": "Vajirā"
+      },
+      {
+        "sutta_id": "SN 23.2",
+        "url": "https://suttacentral.net/sn23.2/en/sujato",
+        "label": "Definition of a \"being\""
+      },
+      {
+        "sutta_id": "AN 2.9",
+        "url": "https://suttacentral.net/an2.9/en/sujato",
+        "label": "Guardians of the world"
+      },
+      {
+        "sutta_id": "AN 6.63",
+        "url": "https://suttacentral.net/an6.63/en/sujato",
+        "label": "Intention is karma"
+      },
+      {
+        "sutta_id": "MN 19",
+        "url": "https://suttacentral.net/mn19/en/sujato",
+        "label": "Two kinds of thought"
+      },
+      {
+        "sutta_id": "MN 65",
+        "url": "https://suttacentral.net/mn65/en/sujato",
+        "label": "Gradual training — the colt"
+      },
+      {
+        "sutta_id": "MN 125",
+        "url": "https://suttacentral.net/mn125/en/sujato",
+        "label": "Gradual training — the elephant"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "external",
+        "label": "Accompanying Substack essay",
+        "url": "https://substack.com/@dougsmith773158"
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "AI and the Vagueness of Sentience",
+        "url": "https://youtu.be/oDQ1hvW6trs"
+      },
+      {
+        "title": "The Guardians of the World",
+        "url": "https://youtu.be/ZWs3yaOMcZo"
+      },
+      {
+        "title": "Is AI Sentient?",
+        "url": "https://youtu.be/bPtuwBgalEU"
+      },
+      {
+        "title": "Buddhism and the AI Alignment Problem",
+        "url": "https://youtu.be/AIeGdk-adII"
+      },
+      {
+        "title": "Mindfulness for Computers?",
+        "url": "https://youtu.be/RsOs6DHKhPo"
+      },
+      {
+        "title": "The Surprising Vagueness of the Self",
+        "url": "https://youtu.be/PFmF9zuRp2A"
+      }
+    ]
+  },
+  {
     "title": "Generative AI and the Vagueness of Sentience: A Dharmic View",
     "date": "2026-03-23",
     "youtube_url": "https://www.youtube.com/watch?v=oDQ1hvW6trs",

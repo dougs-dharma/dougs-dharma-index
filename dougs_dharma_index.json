@@ -1,5 +1,35 @@
 [
   {
+    "title": "Science Doesn’t Care What You Believe (And Neither Does the Dharma)",
+    "date": "2026-04-06",
+    "youtube_url": "https://www.youtube.com/watch?v=bCvmeLup4VM",
+    "summary": "How do we avoid fooling ourselves? We’ll consider some similarities between the methodology of the sciences and the Buddha’s understanding of dharma and its practice.",
+    "topics": [
+      "science and Buddhism",
+      "epistemology",
+      "secular Buddhism"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 3.25",
+        "url": "https://suttacentral.net/sn3.25/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "Ud 6.4",
+        "url": "https://suttacentral.net/ud6.4/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "MN 63",
+        "url": "https://suttacentral.net/mn63/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [],
+    "related_videos": []
+  },
+  {
     "title": "The Karmic Gym: Why Kindness to AI Matters (Even if it Can’t Feel)",
     "date": "2026-03-30",
     "youtube_url": "https://www.youtube.com/watch?v=cU2Cqq8zkE4",

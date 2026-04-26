@@ -1,5 +1,83 @@
 [
   {
+    "title": "Hundreds of Dharma Videos – How to Find What You Need",
+    "date": "2026-04-20",
+    "youtube_url": "https://www.youtube.com/watch?v=5CxRQHhNJLM",
+    "summary": "After nine years and 600+ videos, I’ve built a fully searchable index of the entire channel, organized by topic, sutta reference, and keyword search. Whether you’re new to the channel or a longtime viewer, the catalog is designed to help you find whatever question is alive for you right now.",
+    "topics": [
+      "suttas/early texts",
+      "channel news"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 35.245",
+        "url": "https://suttacentral.net/sn35.245/en/sujato",
+        "label": "Kiṁsuka Tree Sutta"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "external",
+        "label": "Doug’s Dharma Video Catalog",
+        "url": "https://dougs-dharma.github.io/dougs-dharma-index/"
+      }
+    ],
+    "related_videos": []
+  },
+  {
+    "title": "The Chain of Suffering: The Buddha’s Hardest Teaching",
+    "date": "2026-04-13",
+    "youtube_url": "https://www.youtube.com/watch?v=_XyKDd1zLbw",
+    "summary": "The doctrine of dependent origination is one of the Buddha’s most profound teachings. It’s also very hard to get a real grasp on. We’ll try to simplify the teaching by looking at a couple of suttas that may reveal an earlier stage in its development.",
+    "topics": [
+      "dependent origination",
+      "suttas/early texts",
+      "suffering/dukkha",
+      "Bronkhorst, Johannes",
+      "Gombrich, Richard"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "DN 15",
+        "url": "https://suttacentral.net/dn15/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "Snp 4.11",
+        "url": "https://suttacentral.net/snp4.11/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "MN 18",
+        "url": "https://suttacentral.net/mn18/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "MN 28",
+        "url": "https://suttacentral.net/mn28/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "book",
+        "label": "Johannes Bronkhorst, Buddhist Teaching in India (2009)",
+        "url": "https://amzn.to/3Y0zha3"
+      },
+      {
+        "type": "book",
+        "label": "Richard Gombrich, What the Buddha Thought (2009)",
+        "url": "https://amzn.to/4pG5bEV"
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "Did the Buddha Feel Pain?",
+        "url": "https://youtu.be/t7IML62w668"
+      }
+    ]
+  },
+  {
     "title": "Science Doesn’t Care What You Believe (And Neither Does the Dharma)",
     "date": "2026-04-06",
     "youtube_url": "https://www.youtube.com/watch?v=bCvmeLup4VM",

@@ -1,5 +1,48 @@
 [
   {
+    "title": "Nirvana Isn’t What You Think It Is",
+    "date": "2026-04-27",
+    "youtube_url": "https://www.youtube.com/watch?v=YDPMqWY1qXk",
+    "summary": "How is Buddhist nirvana described in its early texts? It’s called the ultimate bliss, but also a state where nothing is felt. It’s called the deathless element, but also likened to the extinguishing of a candle flame. We’ll try to untangle this tangle by considering an air conditioner.",
+    "topics": [
+      "nibbana/nirvana",
+      "suttas/early texts"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "Dhp 197–208",
+        "url": "https://suttacentral.net/dhp197-208/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "MN 72",
+        "url": "https://suttacentral.net/mn72/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "Ud 8.1",
+        "url": "https://suttacentral.net/ud8.1/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "AN 9.34",
+        "url": "https://suttacentral.net/an9.34/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [],
+    "related_videos": [
+      {
+        "title": "What Is Buddhist Nirvana?",
+        "url": "https://youtu.be/wYDPJuFGaaw"
+      },
+      {
+        "title": "What is Buddhist Enlightenment?",
+        "url": "https://youtu.be/39lf1XBISJA"
+      }
+    ]
+  },
+  {
     "title": "Hundreds of Dharma Videos – How to Find What You Need",
     "date": "2026-04-20",
     "youtube_url": "https://www.youtube.com/watch?v=5CxRQHhNJLM",

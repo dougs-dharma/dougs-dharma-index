@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 615 educational videos on early Buddhism
+> A searchable index of 616 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -18,7 +18,7 @@ The complete video index is available as machine-readable JSON:
 
 Each video entry in the JSON contains:
 - title, date, youtube_url, summary
-- topics (from a controlled vocabulary of 234 terms)
+- topics (from a controlled vocabulary of 235 terms)
 - sutta_refs (references to early Buddhist texts with SuttaCentral URLs)
 - other_refs (books, articles, external resources)
 - related_videos (links to other Doug's Dharma videos)
@@ -202,6 +202,7 @@ Each video entry in the JSON contains:
 - middle way
 - mindfulness
 - nature/environment
+- nibbana/nirvana
 - nirvana/nibbana
 - non-dualism
 - non-self/anatta
@@ -262,7 +263,7 @@ Each video entry in the JSON contains:
 
 ## Sutta References
 
-This index references 549 unique suttas from the Pali canon
+This index references 550 unique suttas from the Pali canon
 and other early Buddhist texts. References use standard abbreviations
 (DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
 

@@ -1,5 +1,35 @@
 [
   {
+    "title": "What’s Changing on This Channel (And Why)",
+    "date": "2026-05-11",
+    "youtube_url": "https://www.youtube.com/watch?v=JlF3crwEcRs",
+    "summary": "After nine-plus years of building a library focused on early Buddhist teachings, Doug shares some changes coming to the channel — what’s shifting in his thinking, how his life is evolving, and what you can expect going forward. The foundation stays, the exploration grows.",
+    "topics": [
+      "channel news"
+    ],
+    "sutta_refs": [],
+    "other_refs": [],
+    "related_videos": []
+  },
+  {
+    "title": "The Problem with Treating Meditation as a Tool",
+    "date": "2026-05-04",
+    "youtube_url": "https://www.youtube.com/watch?v=HKlvHEPTqwQ",
+    "summary": "Meditation is a great tool to make our lives easier, but is that all it is? We’ll look at the popular notion of meditation as a kind of \"life hack\" and compare that view to a fuller understanding of meditation’s role in Buddhist practice.",
+    "topics": [
+      "meditation"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "AN 10.1",
+        "url": "https://suttacentral.net/an10.1/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [],
+    "related_videos": []
+  },
+  {
     "title": "Nirvana Isn’t What You Think It Is",
     "date": "2026-04-27",
     "youtube_url": "https://www.youtube.com/watch?v=YDPMqWY1qXk",

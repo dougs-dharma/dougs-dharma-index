@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 618 educational videos on early Buddhism
+> A searchable index of 619 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -18,7 +18,7 @@ The complete video index is available as machine-readable JSON:
 
 Each video entry in the JSON contains:
 - title, date, youtube_url, summary
-- topics (from a controlled vocabulary of 235 terms)
+- topics (from a controlled vocabulary of 236 terms)
 - sutta_refs (references to early Buddhist texts with SuttaCentral URLs)
 - other_refs (books, articles, external resources)
 - related_videos (links to other Doug's Dharma videos)
@@ -160,6 +160,7 @@ Each video entry in the JSON contains:
 - conditionality
 - consciousness
 - contentment
+- craving/tanha
 - death/mortality
 - delusion
 - dependent origination

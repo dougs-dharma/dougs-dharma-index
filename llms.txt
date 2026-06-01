@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 619 educational videos on early Buddhism
+> A searchable index of 621 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -8,7 +8,7 @@
 Doug's Dharma is a YouTube channel created in 2017 to introduce the
 teachings of early Buddhism to a wide audience. Doug Smith holds a PhD
 in Philosophy and has published scholarly works in Buddhist Studies.
-This index covers videos from March 2017 to May 2026.
+This index covers videos from March 2017 to June 2026.
 
 ## Structured Data
 
@@ -264,7 +264,7 @@ Each video entry in the JSON contains:
 
 ## Sutta References
 
-This index references 550 unique suttas from the Pali canon
+This index references 551 unique suttas from the Pali canon
 and other early Buddhist texts. References use standard abbreviations
 (DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
 

@@ -1,6 +1,52 @@
 [
   {
-    "title": "7 Ways the Buddha Said to Beat Craving",
+    "title": "Why the Buddha Taught You TO Think",
+    "date": "2026-06-01",
+    "youtube_url": "https://www.youtube.com/watch?v=U0XEkSFoWE8",
+    "summary": "We're often told that meditation means emptying the mind. But the Buddha's own path to enlightenment tells a different story. We explore how Right Intention (sammā saṅkappa) and two famous suttas show that practice isn't about stopping thinking — it's about learning to think skillfully.",
+    "topics": [
+      "meditation",
+      "right intention",
+      "eightfold path",
+      "suttas/early texts"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "MN 19",
+        "url": "https://suttacentral.net/mn19/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "MN 20",
+        "url": "https://suttacentral.net/mn20/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [],
+    "related_videos": []
+  },
+  {
+    "title": "The \"Bee\" Philosophy: A Buddhist Guide to Sustainable Living",
+    "date": "2026-05-25",
+    "youtube_url": "https://www.youtube.com/watch?v=g5KPDC__yVc",
+    "summary": "What did the Buddha have to say about living sustainably? We'll look to the early suttas for some clues and some inspiration we can take for living better lives today.",
+    "topics": [
+      "nature/environment",
+      "sila/ethics",
+      "suttas/early texts"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "Dhp 44–59",
+        "url": "https://suttacentral.net/dhp44-59/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [],
+    "related_videos": []
+  },
+  {
+    "title": "The Buddha's 7 Methods for Overcoming Craving",
     "date": "2026-05-18",
     "youtube_url": "https://www.youtube.com/watch?v=hFygtrD5Qlo",
     "summary": "In the Buddha’s view, craving makes us bound to suffer. In MN 2, the Sabbāsava Sutta, he provided seven different strategies we can use to overcome such craving. We’ll look at all seven.",

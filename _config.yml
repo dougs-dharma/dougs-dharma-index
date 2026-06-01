@@ -1,0 +1,5 @@
+# GitHub Pages config for dougsdharma-site
+# Keeps internal files in the repo but OUT of the published website.
+exclude:
+  - CLAUDE.md
+  - _config.yml

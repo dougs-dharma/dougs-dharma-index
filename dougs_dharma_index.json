@@ -1,5 +1,34 @@
 [
   {
+    "title": "Why the Buddha Rejected Prayer (Mostly)",
+    "date": "2026-06-15",
+    "youtube_url": "https://www.youtube.com/watch?v=6WtRetCi_Oc",
+    "summary": "Prayer is a nearly universal human response to difficulty. But what did the Buddha think of it? We'll look at his complex and nuanced response.",
+    "topics": [
+      "prayer",
+      "suttas/early texts"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "AN 5.43",
+        "url": "https://suttacentral.net/an5.43/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "SN 42.6",
+        "url": "https://suttacentral.net/sn42.6/en/sujato",
+        "label": null
+      },
+      {
+        "sutta_id": "AN 5.48",
+        "url": "https://suttacentral.net/an5.48/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [],
+    "related_videos": []
+  },
+  {
     "title": "Why the Buddha Taught You TO Think",
     "date": "2026-06-01",
     "youtube_url": "https://www.youtube.com/watch?v=U0XEkSFoWE8",

@@ -10,9 +10,19 @@ plus llms.txt, sitemap.xml for agent/search discoverability.
 import json
 import sys
 import os
+import html as html_lib
 from datetime import datetime
+from urllib.parse import urlparse, parse_qs
 
 SITE_URL = "https://dougs-dharma.github.io/dougs-dharma-index"
+
+
+def youtube_id(url):
+    """Extract the YouTube video id from a watch URL."""
+    try:
+        return parse_qs(urlparse(url).query).get('v', [''])[0]
+    except Exception:
+        return ''
 
 print()
 print("Doug's Dharma Index — Build Script")
@@ -55,6 +65,27 @@ for v in data:
         all_topics.add(t)
     for s in v.get('sutta_refs', []):
         all_suttas.add(s['sutta_id'])
+
+# Step 3b: Build a normalized, public projection of each video.
+# This is the single source for videos.json, videos.md, the llms.txt list,
+# and the no-JS anchor fallback — all derived from `data`, so nothing drifts.
+records = []
+for v in data:
+    vid = youtube_id(v.get('youtube_url', ''))
+    canonical = f"https://www.youtube.com/watch?v={vid}" if vid else v.get('youtube_url', '')
+    records.append({
+        "id": vid,
+        "title": v['title'],
+        "url": canonical,
+        "date": v.get('date', ''),
+        "description": v.get('summary', ''),
+        "topics": v.get('topics', []),
+        "suttas": [s['sutta_id'] for s in v.get('sutta_refs', [])],
+    })
+
+# Reverse-chronological order (newest first) for the flat text/HTML listings.
+# Records without a date sort to the end.
+records_sorted = sorted(records, key=lambda r: (r['date'] != '', r['date']), reverse=True)
 
 # Step 4: Create compact JSON for embedding
 compact = []
@@ -113,6 +144,22 @@ schema_json = json.dumps(schema_ld, ensure_ascii=False, separators=(',', ':'))
 schema_tag = f'<script type="application/ld+json">{schema_json}</script>'
 
 # Step 6: Replace placeholders in HTML
+# Build the no-JS fallback: full list of videos as plain anchors (newest first).
+print("  Building no-JavaScript fallback list...")
+noscript_lines = ['        <section class="noscript-index">',
+                  f'          <h2>All {len(records)} videos</h2>',
+                  '          <ul>']
+for r in records_sorted:
+    title = html_lib.escape(r['title'])
+    url = html_lib.escape(r['url'])
+    date = html_lib.escape(r['date'])
+    date_suffix = f' <time datetime="{date}">({date})</time>' if date else ''
+    noscript_lines.append(f'            <li><a href="{url}">{title}</a>{date_suffix}</li>')
+noscript_lines.append('          </ul>')
+noscript_lines.append('        </section>')
+noscript_html = '\n'.join(noscript_lines)
+
+html = html.replace('PLACEHOLDER_NOSCRIPT', noscript_html)
 html = html.replace('PLACEHOLDER_DATA', compact_json)
 html = html.replace('PLACEHOLDER_VIDEO_COUNT', str(len(data)))
 html = html.replace('PLACEHOLDER_TOPIC_COUNT', str(len(all_topics)))
@@ -138,10 +185,42 @@ with open('index.html', 'w', encoding='utf-8') as f:
 size_kb = len(html) // 1024
 print(f"  Created index.html ({size_kb} KB)")
 
+# Step 7b: Generate videos.json (standalone, machine-readable, stable path).
+print("  Generating videos.json...")
+videos_json = {
+    "name": "Doug's Dharma Video Index",
+    "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
+    "url": SITE_URL + "/",
+    "source": SITE_URL + "/dougs_dharma_index.json",
+    "generated": datetime.now().strftime('%Y-%m-%d'),
+    "count": len(records),
+    "videos": records,
+}
+with open('videos.json', 'w', encoding='utf-8') as f:
+    json.dump(videos_json, f, ensure_ascii=False, indent=2)
+print(f"  Created videos.json ({len(records)} videos)")
+
+# Step 7c: Generate videos.md (flat, human- and LLM-readable, newest first).
+print("  Generating videos.md...")
+videos_md_lines = [
+    "# Doug's Dharma — Complete Video Index",
+    "",
+    f"{len(records)} videos, newest first. Format: `Title — watch URL`.",
+    f"Structured data: {SITE_URL}/videos.json",
+    "",
+]
+for r in records_sorted:
+    videos_md_lines.append(f"- {r['title']} — {r['url']}")
+videos_md_lines.append("")
+with open('videos.md', 'w', encoding='utf-8') as f:
+    f.write('\n'.join(videos_md_lines))
+print(f"  Created videos.md ({len(records)} videos)")
+
 # Step 8: Generate llms.txt
 print("  Generating llms.txt...")
 topic_list = sorted(all_topics)
 sutta_list = sorted(all_suttas)
+llms_video_list = '\n'.join(f"- {r['title']} — {r['url']}" for r in records_sorted)
 
 llms_txt = f"""# Doug's Dharma Video Index
 
@@ -157,16 +236,19 @@ This index covers videos from {earliest} to {latest}.
 
 ## Structured Data
 
-The complete video index is available as machine-readable JSON:
-- Full JSON: {SITE_URL}/dougs_dharma_index.json
+The complete video index is available in several machine-readable forms:
+- Normalized JSON (recommended): {SITE_URL}/videos.json
+- Flat Markdown list: {SITE_URL}/videos.md
+- Full source JSON (richest, with refs): {SITE_URL}/dougs_dharma_index.json
 - Searchable web interface: {SITE_URL}/
 
-Each video entry in the JSON contains:
-- title, date, youtube_url, summary
+Each video in videos.json contains:
+- id (YouTube video id), title, url (canonical watch URL), date, description
 - topics (from a controlled vocabulary of {len(all_topics)} terms)
-- sutta_refs (references to early Buddhist texts with SuttaCentral URLs)
-- other_refs (books, articles, external resources)
-- related_videos (links to other Doug's Dharma videos)
+- suttas (early Buddhist text references, e.g. "MN 10", "SN 56.11")
+
+The source file (dougs_dharma_index.json) additionally includes sutta_refs
+with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 
 ## Topics Covered
 
@@ -177,6 +259,10 @@ Each video entry in the JSON contains:
 This index references {len(all_suttas)} unique suttas from the Pali canon
 and other early Buddhist texts. References use standard abbreviations
 (DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
+
+## All Videos (newest first)
+
+{llms_video_list}
 
 ## Links
 
@@ -204,12 +290,28 @@ sitemap_urls.append(f"""  <url>
     <priority>1.0</priority>
   </url>""")
 
-# Raw JSON data file
+# Normalized JSON data file (stable public path)
+sitemap_urls.append(f"""  <url>
+    <loc>{SITE_URL}/videos.json</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>""")
+
+# Flat Markdown list
+sitemap_urls.append(f"""  <url>
+    <loc>{SITE_URL}/videos.md</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>""")
+
+# Raw source JSON data file
 sitemap_urls.append(f"""  <url>
     <loc>{SITE_URL}/dougs_dharma_index.json</loc>
     <lastmod>{now}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>""")
 
 # llms.txt
@@ -249,12 +351,16 @@ print(f"  Stats: {len(data)} videos, {len(all_topics)} topics, {len(all_suttas)}
 print(f"  Date range: {earliest} \u2013 {latest}")
 print()
 print("  Files generated:")
-print("    index.html      - searchable webpage (with JSON-LD schema)")
-print("    llms.txt         - AI/agent discoverability file")
+print("    index.html       - searchable webpage (JSON-LD + no-JS anchor list)")
+print("    videos.json      - normalized machine-readable index (stable path)")
+print("    videos.md        - flat human/LLM-readable list (newest first)")
+print("    llms.txt         - AI/agent discoverability file (full video list)")
 print("    sitemap.xml      - search engine sitemap")
 print("    robots.txt       - search engine instructions")
 print()
-print("  Your raw JSON is also served at:")
+print("  Public data files are served at:")
+print(f"    {SITE_URL}/videos.json")
+print(f"    {SITE_URL}/videos.md")
 print(f"    {SITE_URL}/dougs_dharma_index.json")
 print()
 print("Done! You can now:")

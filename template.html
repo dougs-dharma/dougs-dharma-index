@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Doug's Dharma — Complete Video Index</title>
+<!-- Machine-readable alternates for agents / simple fetchers (relative paths: site is served under a project subpath) -->
+<link rel="alternate" type="application/json" href="videos.json" title="Doug's Dharma video index (JSON)">
+<link rel="alternate" type="text/plain" href="llms.txt" title="Doug's Dharma video index (llms.txt)">
+<link rel="alternate" type="text/markdown" href="videos.md" title="Doug's Dharma video index (Markdown)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -384,6 +388,11 @@
     <!-- ---------- VIDEOS VIEW ---------- -->
     <section class="view is-active" id="view-videos">
       <div class="video-list" id="video-list"></div>
+      <!-- No-JavaScript fallback: full plain-anchor list for agents / simple fetchers.
+           Injected at build time; ignored by browsers that run the JS UI above. -->
+      <noscript>
+PLACEHOLDER_NOSCRIPT
+      </noscript>
       <div class="empty-state" id="empty-state" style="display:none">
         <div class="e-title">No videos match</div>
         <p>Try removing a filter or searching for a different term.</p>
@@ -420,6 +429,8 @@
         <a href="https://www.youtube.com/@DougsDharma">YouTube channel</a>
         <a href="https://www.patreon.com/dougsseculardharma">Patreon</a>
         <a href="https://digginthedharma.com">Diggin' the Dharma podcast</a>
+        <a href="videos.json">Video data (JSON)</a>
+        <a href="llms.txt">llms.txt (for AI agents)</a>
       </div>
     </div>
   </footer>

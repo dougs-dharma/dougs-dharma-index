@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Doug's Dharma — Complete Video Index</title>
+<!-- Machine-readable alternates for agents / simple fetchers (relative paths: site is served under a project subpath) -->
+<link rel="alternate" type="application/json" href="videos.json" title="Doug's Dharma video index (JSON)">
+<link rel="alternate" type="text/plain" href="llms.txt" title="Doug's Dharma video index (llms.txt)">
+<link rel="alternate" type="text/markdown" href="videos.md" title="Doug's Dharma video index (Markdown)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -385,6 +389,637 @@
     <!-- ---------- VIDEOS VIEW ---------- -->
     <section class="view is-active" id="view-videos">
       <div class="video-list" id="video-list"></div>
+      <!-- No-JavaScript fallback: full plain-anchor list for agents / simple fetchers.
+           Injected at build time; ignored by browsers that run the JS UI above. -->
+      <noscript>
+        <section class="noscript-index">
+          <h2>All 622 videos</h2>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=6WtRetCi_Oc">Why the Buddha Rejected Prayer (Mostly)</a> <time datetime="2026-06-15">(2026-06-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=U0XEkSFoWE8">Why the Buddha Taught You TO Think</a> <time datetime="2026-06-01">(2026-06-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=g5KPDC__yVc">The &quot;Bee&quot; Philosophy: A Buddhist Guide to Sustainable Living</a> <time datetime="2026-05-25">(2026-05-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=hFygtrD5Qlo">The Buddha&#x27;s 7 Methods for Overcoming Craving</a> <time datetime="2026-05-18">(2026-05-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JlF3crwEcRs">What’s Changing on This Channel (And Why)</a> <time datetime="2026-05-11">(2026-05-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HKlvHEPTqwQ">The Problem with Treating Meditation as a Tool</a> <time datetime="2026-05-04">(2026-05-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=YDPMqWY1qXk">Nirvana Isn’t What You Think It Is</a> <time datetime="2026-04-27">(2026-04-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=5CxRQHhNJLM">Hundreds of Dharma Videos – How to Find What You Need</a> <time datetime="2026-04-20">(2026-04-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_XyKDd1zLbw">The Chain of Suffering: The Buddha’s Hardest Teaching</a> <time datetime="2026-04-13">(2026-04-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bCvmeLup4VM">Science Doesn’t Care What You Believe (And Neither Does the Dharma)</a> <time datetime="2026-04-06">(2026-04-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=cU2Cqq8zkE4">The Karmic Gym: Why Kindness to AI Matters (Even if it Can’t Feel)</a> <time datetime="2026-03-30">(2026-03-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=oDQ1hvW6trs">Generative AI and the Vagueness of Sentience: A Dharmic View</a> <time datetime="2026-03-23">(2026-03-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=OEqvlc26Cp0">The Harsh Truth About Having a Body, a Buddhist Perspective</a> <time datetime="2026-03-16">(2026-03-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=d9GUe48Rcrc">Silence Your Inner Critic: Buddhist Antidote to Anxiety</a> <time datetime="2026-03-09">(2026-03-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=S_fl8lU71Os">The 4+1 Things Every Human Needs (According to Buddhism)</a> <time datetime="2026-03-02">(2026-03-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=iPH3Ys-pzZU">When the Government is Fire and ICE: A Buddhist Response to 2026</a> <time datetime="2026-02-23">(2026-02-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JEtgJMRpOZQ">Why &#x27;Impermanence&#x27; is One Secret to Joy</a> <time datetime="2026-02-16">(2026-02-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=u50pV7iLOHk">Is Exercise Cheating? (A Buddhist View)</a> <time datetime="2026-02-09">(2026-02-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=rRglc-b2rko">How Karma Works (Even if You Don&#x27;t Believe in Rebirth)</a> <time datetime="2026-02-02">(2026-02-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=NeUt2jyhScY">The Buddhist Cure for &quot;Busyness&quot;</a> <time datetime="2026-01-26">(2026-01-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=OW4-kuUbhIU">Did the Buddha Believe in &quot;Progress&quot;?</a> <time datetime="2026-01-19">(2026-01-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=oxskxqJSUA4">Is Solitary Buddhist Practice Selfish? (The &quot;Lone Buddha&quot; Path)</a> <time datetime="2026-01-12">(2026-01-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9xpzIIu4Dpw">Should Buddhists Be Activists? (A 2,500-Year-Old Debate)</a> <time datetime="2026-01-05">(2026-01-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Gss2kQtTKo4">How to Stop Overthinking (An Ancient Buddhist Fix)</a> <time datetime="2025-12-22">(2025-12-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Mt1w6TC5GLA">The AI Mirror: How Digital Worlds Reveal Your True Self</a> <time datetime="2025-12-15">(2025-12-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=egrYsmcyn2s">The Illusion of &#x27;You&#x27;: A Buddhist Guide to Freedom</a> <time datetime="2025-12-08">(2025-12-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=fZQQa2VQsMk">The &quot;Dissatisfaction Engine&quot; Running Your Brain</a> <time datetime="2025-12-01">(2025-12-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=G__vk2WZfPc">The Buddha&#x27;s 4-Step Method to Solve Any Problem</a> <time datetime="2025-11-24">(2025-11-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=pNjPpr6xFpw">The Buddha on Movies, Music, and Media</a> <time datetime="2025-11-17">(2025-11-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=W3u18K5xL1E">Am I Enlightened? What Early Buddhism Says</a> <time datetime="2025-11-10">(2025-11-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ksxej1dCTgo">Avoiding the Trap of the &#x27;Intelligent Fool&#x27; in Buddhism</a> <time datetime="2025-11-03">(2025-11-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=mzZ4PcwbJtk">Free Will Worth Wanting: the Buddha&#x27;s Radical Answer</a> <time datetime="2025-10-27">(2025-10-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jyMhA6UZZJ4">Why You Don&#x27;t Do What You Know You Should</a> <time datetime="2025-10-20">(2025-10-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ger9h33r8Lk">Wisdom Isn’t What You Might Think — The Buddha’s View</a> <time datetime="2025-10-13">(2025-10-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ypiz1bl5hxY">How to Feel Happier Without Changing Anything</a> <time datetime="2025-10-06">(2025-10-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=luvp0ZSSeBE">6 Ways Buddhism Got Me Through a Scary Night</a> <time datetime="2025-09-29">(2025-09-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IzinQ4r7s10">Why Did the Buddha Warn Against Views?</a> <time datetime="2025-09-22">(2025-09-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2jL9F7b7kfQ">Who’s Really Enlightened? The Buddha’s Surprising Take</a> <time datetime="2025-09-15">(2025-09-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=K6sbls1uzt0">Why the Buddha Might Tell You to Log Off - Practice in a World of Sensory Overload</a> <time datetime="2025-09-08">(2025-09-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=1MPFVkANplM">Is Regret Holding You Back? The Buddha&#x27;s Surprising Approach</a> <time datetime="2025-09-01">(2025-09-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Fo96KED3PhA">What Did the Buddha Say About Time?</a> <time datetime="2025-08-18">(2025-08-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=toZ-U26iCbc">Playfulness on the Path: The Buddha and Humor</a> <time datetime="2025-08-11">(2025-08-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=oCsBs824rxs">What Did the Buddha Say About the Nature of Reality?</a> <time datetime="2025-08-04">(2025-08-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=fsdO0ojCLrA">Three Ways We Cling to a Self — And How to Let Go</a> <time datetime="2025-07-28">(2025-07-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=mpkWFn5KaOY">Why Did the Buddha Say the Mind Was Like a Monkey?</a> <time datetime="2025-07-21">(2025-07-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_Reed8IFv-g">How Did the Buddha Teach Nonviolence Without Being Passive?</a> <time datetime="2025-07-14">(2025-07-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-oQiCveY-Rw">What Did the Buddha Teach About Love and Relationships?</a> <time datetime="2025-07-07">(2025-07-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ou7iVfUG2xU">The Deeper Freedom in Buddhist Renunciation</a> <time datetime="2025-06-30">(2025-06-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Y87ObheErVU">What Is a &quot;Fool&quot; In Early Buddhism?</a> <time datetime="2025-06-23">(2025-06-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=aM71qEEI1yI">Buddha&#x27;s Advice on Discussion and Debate</a> <time datetime="2025-06-16">(2025-06-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=D_7vrCTHcz4">Solitude: Its Advantages and Drawbacks in Buddhist Practice</a> <time datetime="2025-06-09">(2025-06-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=zP25O1MCMn0">Exploring Buddhism&#x27;s Traditional And Lesser Known Refuges</a> <time datetime="2025-06-02">(2025-06-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lBOoZIK3438">The Essential Role of Joy in Buddhist Practice</a> <time datetime="2025-05-26">(2025-05-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qet0WqgCUoA">The Buddha&#x27;s Lessons on Skillful Communication</a> <time datetime="2025-05-19">(2025-05-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=l4TlCvJqasg">What Did the Buddha Teach About Wealth?</a> <time datetime="2025-05-12">(2025-05-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=EfvfjqTEpeA">Doubt as Hindrance and Teacher in Buddhism</a> <time datetime="2025-05-05">(2025-05-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IAWx_eTeDqU">What Did the Buddha Teach About Emotions?</a> <time datetime="2025-04-28">(2025-04-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=sPvuvq5E0g4">The Overlooked Practice of Buddhist Renunciation - What Are We Letting Go Of?</a> <time datetime="2025-04-21">(2025-04-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9yCXPCjXvMk">Four Ways Contemplating Mortality Can Be Life Changing: Its Role in Early Buddhist Practice</a> <time datetime="2025-04-14">(2025-04-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=WhpF_bqXzdY">Why Does the Buddha Emphasize Contentment?</a> <time datetime="2025-04-07">(2025-04-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qkhj0sCPlM8">Buddha&#x27;s Response to Harm: Challenging Wisdom</a> <time datetime="2025-03-31">(2025-03-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_hCmTyYiLVk">What Does It Mean to Be a Stream-Enterer in Early Buddhism?</a> <time datetime="2025-03-24">(2025-03-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=X_YFWdGA3Zs">The Paradox of Effort in Buddhist Practice</a> <time datetime="2025-03-17">(2025-03-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Yzi--o10cJA">Striking A Balance: Finding The Middle Way In Buddhism</a> <time datetime="2025-03-10">(2025-03-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=uTyspcgyhnU">Is Nirvana Achievable For Everyone?</a> <time datetime="2025-03-03">(2025-03-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=6EFJcP_sbrs">Can a Small Intention Change Your Life? Buddhist Karma as Cause and Effect</a> <time datetime="2025-02-17">(2025-02-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-Hk-MhKEeio">Heart of Early Buddhist Practice: the Sangha or an Island?</a> <time datetime="2025-02-10">(2025-02-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FnSfJ7AxKRA">What Matters Most to You? Finding Your Path in Early Buddhist Practice</a> <time datetime="2025-02-03">(2025-02-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dcJ-2iKdS0I">Aspiration vs. Craving - A Buddhist Guide to Contentment and Ambition</a> <time datetime="2025-01-27">(2025-01-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=N6Rw9tnwy8I">How to Live Mindfully: Everyday Buddhist Practices for a More Peaceful Life</a> <time datetime="2025-01-20">(2025-01-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MQYmuoKdsGY">The Art of Letting Go: Early Buddhist Teachings for Everyday Life</a> <time datetime="2025-01-13">(2025-01-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ypShRWUDW3c">The Nature of the Mind - Insights from Early Buddhism on Understanding Yourself</a> <time datetime="2025-01-06">(2025-01-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=AVMj9ViiuDM">The Power of Kindness - Cultivating Compassion and Kindness from Early Buddhist Teachings</a> <time datetime="2024-12-23">(2024-12-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LypuXZX8BK4">Fame and Polemics: Lion&#x27;s Roar of the Heart Sutra</a> <time datetime="2024-12-16">(2024-12-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=QwtmWCx5Mko">Heart Sutra: Essence of a New Wisdom</a> <time datetime="2024-12-09">(2024-12-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XmT8Msu6gqg">Karma Is Not What You Think It Is in Buddhism: Two Troubling Parables</a> <time datetime="2024-12-02">(2024-12-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-1Q_bVnPFCA">Want to Break Free from Suffering? How Intentions Hold You Back: The Case of the Miser&#x27;s Regret</a> <time datetime="2024-11-25">(2024-11-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LN064MEf_V4">Decoding the Buddha&#x27;s Most Puzzling Teaching</a> <time datetime="2024-11-18">(2024-11-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=zTzCjeg34ng">True Buddhist Spirituality?</a> <time datetime="2024-11-11">(2024-11-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=tHUUxBpKL_w">Do We Have a Duty to Act in Buddhism?</a> <time datetime="2024-11-04">(2024-11-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IvAd0VhkQiI">Is Forgiveness Not Buddhist?</a> <time datetime="2024-10-28">(2024-10-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=3jl_7v3hwqQ">Don&#x27;t Idolize People (Even the Buddha Made Mistakes)</a> <time datetime="2024-10-21">(2024-10-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=h1A7GwrvaGw">Is Meditation Dangerous?</a> <time datetime="2024-10-14">(2024-10-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=6Coc7r_d_l4">Do Buddhists Believe in God?</a> <time datetime="2024-10-07">(2024-10-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LbkDlRrV62c">The Buddha in the Voting Booth: Buddhist Political Thought</a> <time datetime="2024-09-30">(2024-09-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MT9kuyeeI4I">Buddha&#x27;s First Sermon: Metaphor, History, Teachings</a> <time datetime="2024-09-23">(2024-09-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ugs5JQ5E0pQ">Practicing Buddhist Right Concentration: Encountering the Esoteric</a> <time datetime="2024-09-16">(2024-09-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dNgZWnyfWAs">Practicing Buddhist Right Mindfulness: Touching Bedrock</a> <time datetime="2024-09-09">(2024-09-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JcVus8XXTjo">Practicing Buddhist Right Effort: the Path Has to Be Walked</a> <time datetime="2024-09-02">(2024-09-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kLzA1yNHNbc">Practicing Buddhist Right Livelihood: Surprisingly Beneficial</a> <time datetime="2024-08-26">(2024-08-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=M8IVFijYLEs">Practicing Buddhist Right Action: Avoiding Regret</a> <time datetime="2024-08-19">(2024-08-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=vjYeXuIR3Lc">Practicing Buddhist Right Speech: Pervasive, Wise, and Difficult</a> <time datetime="2024-08-12">(2024-08-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jtnGy7Y3JgE">Practicing Buddhist Right Intention: Touching Base with What&#x27;s Skillful</a> <time datetime="2024-08-05">(2024-08-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=aYM3RatBOXs">Practicing Buddhist Right View: Beginning at the Deep End</a> <time datetime="2024-07-29">(2024-07-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=u7T1Q-ezQVM">How I Got Into Buddhism</a> <time datetime="2024-07-22">(2024-07-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=klmdb-taLog">Is there a &quot;Buddhist Bible&quot;? Key Buddhist Texts</a> <time datetime="2024-07-15">(2024-07-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=p7PonXcVIK4">Obsessions, Compulsions: Mental Proliferation in Buddhism</a> <time datetime="2024-07-08">(2024-07-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9wc9LW31hFA">Buddha Nature</a> <time datetime="2024-07-01">(2024-07-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=6KmCDVT9KzE">The Golden Rule in Early Buddhism</a> <time datetime="2024-06-24">(2024-06-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=J7tVt-bXVBs">The &quot;Paternalism&quot; of Skillful Means in Buddhism</a> <time datetime="2024-06-17">(2024-06-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8JGugBIQEh0">Discovering the Four Phases of &quot;Skillful Means&quot; in Buddhism: Dilemmas and Controversies</a> <time datetime="2024-06-10">(2024-06-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZIyykKhN1Pk">Unveiling &quot;Skillful Means&quot; in Buddhism: Early Developments</a> <time datetime="2024-06-03">(2024-06-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gO5TdxnCXiA">Consciousness Does Not Arise Alone in Early Buddhism</a> <time datetime="2024-05-27">(2024-05-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Wd2EkuulRlQ">How Does Buddhism Help Us Accept Mortality?</a> <time datetime="2024-05-20">(2024-05-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=QmQq9VrTyMU">Is Enlightenment Possible?</a> <time datetime="2024-05-13">(2024-05-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wYDPJuFGaaw">What Is Buddhist Nirvana?</a> <time datetime="2024-05-06">(2024-05-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=39lf1XBISJA">What is Buddhist Enlightenment?</a> <time datetime="2024-04-29">(2024-04-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=25FFUpZEGsw">How Good Intentions Can Lead to Misery: Lessons from a Buddhist Sutta</a> <time datetime="2024-04-22">(2024-04-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IJKeytMo2tA">Meditations on Failure: a Buddhist Practice</a> <time datetime="2024-04-15">(2024-04-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jrGpGZTlXAk">The Philosopher &quot;Genius&quot; and the Buddha</a> <time datetime="2024-04-08">(2024-04-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Dk_6TPmE1A8">&quot;Daughters of the Buddha&quot;: Stories of Ancient Buddhist Women</a> <time datetime="2024-04-01">(2024-04-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gPlb0e7NEyk">Why Buddhism?</a> <time datetime="2024-03-25">(2024-03-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=VBDMHirAqo0">Effort and Non Effort in Buddhist Practice</a> <time datetime="2024-03-18">(2024-03-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=chwC-DDjTco">Discovering the Path of Right Effort: Buddha&#x27;s Surprising Recommendation to Preserve</a> <time datetime="2024-03-11">(2024-03-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_6exCY7LIZA">Discovering the Path of Right Effort: Developing Towards Enlightenment</a> <time datetime="2024-03-04">(2024-03-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kS8-tV0FxcQ">Discovering the Path of Right Effort: the Power of Giving Up</a> <time datetime="2024-02-26">(2024-02-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=e8PhRhkeB9I">Discovering the Path of Right Effort: Restraint for Inner Peace</a> <time datetime="2024-02-19">(2024-02-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ayvaVnH74vw">One Buddhist Meditation Master&#x27;s Thought Technique to Reduce Stress</a> <time datetime="2024-02-12">(2024-02-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=N4jz4SOEHP0">Did the Buddha Get Angry?</a> <time datetime="2024-02-05">(2024-02-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FEmZZRgT0C0">The Mysterious Buddhist Tale of &quot;Venerable Empty Scripture&quot;</a> <time datetime="2024-01-29">(2024-01-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=l1aKEFQyapM">&quot;Incredible, Amazing!&quot; The Strange Sutta on the Buddha&#x27;s First Steps</a> <time datetime="2024-01-22">(2024-01-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=yYMN5fFM22k">&quot;All Dharmas Are Not Self&quot;: Have We Got It Wrong?</a> <time datetime="2024-01-15">(2024-01-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Nbr0fNwg6Yo">Paths to Merit Transfer in Early Buddhism?</a> <time datetime="2024-01-08">(2024-01-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wggBL6Rc1iE">Collective or Group Karma in Early Buddhism?</a> <time datetime="2024-01-01">(2024-01-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ClPdO5Vib90">Devas &amp; Nagas in Early Buddhism</a> <time datetime="2023-12-18">(2023-12-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=18trkWylJFg">Buddha&#x27;s Advice On The Dangers Of Affection May Surprise You!</a> <time datetime="2023-12-11">(2023-12-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lWIMBs13k3Y">How To Be A Good Friend: Early Buddhist Teachings On Friendship</a> <time datetime="2023-12-04">(2023-12-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xeihmKj7cxY">Superiority of Solitude in Early Buddhism: The Rhinoceros Sutta</a> <time datetime="2023-11-27">(2023-11-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=48tEALvzm5w">Gratitude Practice</a> <time datetime="2023-11-20">(2023-11-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=VAnjRdkji_A">Early Buddhist Theory of Knowledge</a> <time datetime="2023-11-13">(2023-11-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=zaqtcP7CrxA">Mindfulness: Wholesome or Not?</a> <time datetime="2023-11-06">(2023-11-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=rZQIZbj_SjI">The Surprising Vagueness of Our Self: Unveiling the Mysteries of Consciousness  #buddhistphilosophy</a> <time datetime="2023-11-01">(2023-11-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ax7XBJ8HkBQ">A Hidden Assumption in Buddhist Abhidhamma? The Doctrine of Seriality</a> <time datetime="2023-10-30">(2023-10-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dESKdTy0M0Y">The Profound Vagueness of Personal Identity:  Unveiling the Nature of the Self  #buddhistphilosophy</a> <time datetime="2023-10-29">(2023-10-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FpYuY3Rouak">Discovering Freedom: Understanding Buddhist Philosophy of Mind  #buddhistphilosophy #shorts</a> <time datetime="2023-10-28">(2023-10-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=EbIyAk2KwVk">Unlocking the Power of Thoughts: The Buddha&#x27;s Journey to Enlightenment  #buddhistphilosophy #shorts</a> <time datetime="2023-10-27">(2023-10-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Q3ozIl1bjxg">Buddhist Practice for Difficult Times</a> <time datetime="2023-10-23">(2023-10-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wAdalN_se68">This Buddhist Image Hides a Secret</a> <time datetime="2023-10-16">(2023-10-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JHwzX77JTXc">Origins of the Buddhist Earth Touching Gesture</a> <time datetime="2023-10-09">(2023-10-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lRXQnI2uDlw">Have We Found the Buddha&#x27;s Bones? Two New York Exhibitions</a> <time datetime="2023-10-02">(2023-10-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=RG3VjmMe6tY">Tree &amp; Serpent: New Exhibition at the Metropolitan Museum</a> <time datetime="2023-09-25">(2023-09-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PFmF9zuRp2A">Buddhism, Science, and the Surprising Vagueness of the Self</a> <time datetime="2023-09-18">(2023-09-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bP1ZWvmJQOw">Buddhist Rebirth as Symbol and Metaphor</a> <time datetime="2023-09-11">(2023-09-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=QRZiq06qO28">Early Buddhist Ethics</a> <time datetime="2023-09-04">(2023-09-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=mSRp6WHGdjk">Origins of the Buddhist Doctrine of Momentariness</a> <time datetime="2023-08-28">(2023-08-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=7s5mhtxBpwU">What is Buddhism&#x27;s End Goal?</a> <time datetime="2023-08-21">(2023-08-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=hfJ77v7bt8o">Early Buddhist Philosophy of Mind</a> <time datetime="2023-08-14">(2023-08-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=I9I7FCuzzFw">Is There a Hidden Link Between Memory and Mindfulness Practice?</a> <time datetime="2023-08-07">(2023-08-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Lnz1OLUOUaQ">Early Buddhist Metaphysics</a> <time datetime="2023-07-31">(2023-07-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kZ0TLrB1Jys">Seeing What Isn&#x27;t There: Four Kinds of Buddhist Misperception</a> <time datetime="2023-07-24">(2023-07-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=C_4QJ0dyLGw">How Does Perception Work in Buddhism?</a> <time datetime="2023-07-17">(2023-07-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UloCmEs2Mqk">The Paradox of Ownership in Early Buddhism</a> <time datetime="2023-07-10">(2023-07-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PuUGgiYhI4E">Emptiness and the Skillful Self in Buddhism</a> <time datetime="2023-07-03">(2023-07-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=F5cXWCpF1Ko">Lay Meditation in Early Buddhism: Innovation or Revival?</a> <time datetime="2023-06-26">(2023-06-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PFyr3QBnnVY">AI Chat and Meditation | Understanding Internal Dialogue</a> <time datetime="2023-06-19">(2023-06-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bmkpYdLd004">Co-dependency in Buddhist Practice</a> <time datetime="2023-06-12">(2023-06-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=W1Pn65QZiZs">The Problem(s) of Consciousness</a> <time datetime="2023-06-05">(2023-06-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=VWCkhjS1mwU">Nirvana and Enlightenment: What&#x27;s the Difference?</a> <time datetime="2023-05-29">(2023-05-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=uqY0InjxIOE">Cultivating Confidence in Buddhist Practice</a> <time datetime="2023-05-22">(2023-05-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=RsOs6DHKhPo">Mindfulness for Computers? Buddhist Practice and the AI &quot;Alignment Problem&quot;</a> <time datetime="2023-05-15">(2023-05-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=AIeGdk-adII">Buddhism and the AI &quot;Alignment Problem&quot;</a> <time datetime="2023-05-08">(2023-05-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=1ezkdQfbsQs">The Dalai Lama Controversy</a> <time datetime="2023-05-01">(2023-05-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Z80ARDHHrkk">Humility and Skepticism in Buddhist Practice: Problems with the Cankī Sutta</a> <time datetime="2023-04-24">(2023-04-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=pe2-Wg7T3Hs">Spiritual Humility in Early Buddhism: Lessons from the Cankī Sutta</a> <time datetime="2023-04-17">(2023-04-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bPtuwBgalEU">Is AI (ChatGPT, etc.) Sentient? A Perspective from Early Buddhist Psychology</a> <time datetime="2023-04-10">(2023-04-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=EyzNHJfKFCY">Four Kinds of Karma</a> <time datetime="2023-04-03">(2023-04-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HmAuLuxZTNM">Artificial Intelligence (AI) Buddha?</a> <time datetime="2023-03-27">(2023-03-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=hp0zpOYkqMI">Artificial Intelligence (Chat-GPT) and Buddhist Non-Self</a> <time datetime="2023-03-20">(2023-03-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ttMCe-Nhan0">The Buddha&#x27;s Answer on Wanting to Stay With Your Spouse ... Even Into the Next Life</a> <time datetime="2023-03-13">(2023-03-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=4QKUnH4nI7w">The Strange Case of the Dog and Cow Duty Ascetics in Early Buddhism</a> <time datetime="2023-03-06">(2023-03-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=42FJNimAEPw">Non-self and the &quot;I&quot; in Early Buddhism</a> <time datetime="2023-02-27">(2023-02-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LghPqiLKac0">Figuring Out the Buddhist Path: the Five Higher Fetters</a> <time datetime="2023-02-20">(2023-02-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dK9dNhGZOcM">How to Make Early Progress in Buddhist Practice: the Five Lower Fetters</a> <time datetime="2023-02-13">(2023-02-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gzc0k-F705k">The Rebuild is (Mostly) Done!</a> <time datetime="2023-02-06">(2023-02-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FIWQ2EQqjZk">Buddhism: &quot;If There Is No Self, How Can There Be Self Love?&quot;</a> <time datetime="2023-01-30">(2023-01-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=e6OG6vZFWjE">Power of Influence: Buddha and Plato On Rhetoric</a> <time datetime="2023-01-23">(2023-01-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=vGDiPPm5L6E">Buddha on Organized Religion</a> <time datetime="2023-01-16">(2023-01-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=c5cRwCPu2rQ">A Strange Verse in the Most Famous Buddhist Book</a> <time datetime="2023-01-09">(2023-01-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=muWBbX5sSew">The Buddha on Investigating Our Teachers: Should Only Enlightened People Teach Dharma?</a> <time datetime="2023-01-02">(2023-01-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Vah2307CxHQ">Key Buddhist Dharma: the Six Sense Bases</a> <time datetime="2022-12-26">(2022-12-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=W8xM0G77Xvg">The Buddha on Food and Eating</a> <time datetime="2022-12-19">(2022-12-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IFSBmUKeGCY">Buddha and Fame: a Cautionary Tale</a> <time datetime="2022-12-12">(2022-12-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MCraeWrkRk4">Buddha&#x27;s Surprising Views on Old Age</a> <time datetime="2022-12-05">(2022-12-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=h7NNKxcD37U">Mindfulness of Absence: Buddhist Meditation Practice</a> <time datetime="2022-11-28">(2022-11-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=TTN599k2UBI">Dealing with Noise: One Buddhist Meditation Master&#x27;s Solution</a> <time datetime="2022-11-21">(2022-11-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xaon86UCG7I">Did the Buddha Quit?</a> <time datetime="2022-11-14">(2022-11-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xjlBobj0iSA">Buddhism: &quot;If There Is No Self, What Is Reborn?&quot;</a> <time datetime="2022-11-07">(2022-11-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=RqkEeVaH_ZA">Did the Buddha Only Teach Suffering and Its Cessation?</a> <time datetime="2022-10-31">(2022-10-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZE4es3zgmOk">Buddhism and Loneliness</a> <time datetime="2022-10-24">(2022-10-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JXkzLrGMCF8">&quot;Devotion vs. Cultishness&quot; in Buddhism</a> <time datetime="2022-10-17">(2022-10-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8QrvYUIEMV8">The Hierarchy of Pleasures in Early Buddhism</a> <time datetime="2022-10-10">(2022-10-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kV0bo_YDOb0">Is Pleasure the Way to the Good Life? (Epicurus, JS Mill, and the Buddha)</a> <time datetime="2022-10-03">(2022-10-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jtySQwj5pAM">Is Meditation &quot;Doing Nothing&quot;?</a> <time datetime="2022-09-26">(2022-09-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=z5LdGd6t8ZU">Buddha on the Proper Use of Wealth</a> <time datetime="2022-09-19">(2022-09-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=vrNCQfCX6rA">Buddhism in Brief: Eight Key Aspects of the Buddha&#x27;s Teaching</a> <time datetime="2022-09-12">(2022-09-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8kUJ9UBFtzo">Appreciating Nature in Early Buddhism</a> <time datetime="2022-09-05">(2022-09-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=moGPUNfO8no">Do All Religions Lead to the Same Goal?</a> <time datetime="2022-08-29">(2022-08-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Kvc54HnFyTw">Asking Questions of Buddhism</a> <time datetime="2022-08-22">(2022-08-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_d68Ue059gg">Should You Live in City or Country? Buddha&#x27;s Answer</a> <time datetime="2022-08-15">(2022-08-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=n12x4qJnSw0">Buddha on Practicing for Worldly Benefit</a> <time datetime="2022-08-08">(2022-08-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=BmLHCJGp9ao">How Was the Buddha Down-to-Earth? Demythologizing Prayer, Deities, and Devotion</a> <time datetime="2022-08-01">(2022-08-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_MKlOZ0agQU">How Was the Buddha Down-to-Earth? His Approach to Ritual</a> <time datetime="2022-07-25">(2022-07-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=q5nHLz1xoSU">Is the Two Truths Doctrine a Problem for Early Buddhism?</a> <time datetime="2022-07-18">(2022-07-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=g_NyprMpa_U">The Buddhist Nun Who Taught a Brahmin a Lesson</a> <time datetime="2022-07-11">(2022-07-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=BERkwLcIo7M">Is Everything Karma in Early Buddhism?</a> <time datetime="2022-07-04">(2022-07-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FuXWQLDAWww">What Was Buddhism Called in the Buddha&#x27;s Day?</a> <time datetime="2022-06-27">(2022-06-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=15MvPKrqcUM">Nirvana &quot;Here and Now&quot;: What Did it Mean in Early Buddhism?</a> <time datetime="2022-06-22">(2022-06-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UYRabG0lGOc">Early Buddhism&#x27;s Spirit of Inquiry: Bhikkhu Sujato&#x27;s Point</a> <time datetime="2022-06-13">(2022-06-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=71kL5EOH9l8">Have We Overlooked Several Hindrances to Buddhist Meditation?</a> <time datetime="2022-06-06">(2022-06-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kOFA_-xO0jw">What&#x27;s Going on at the House?</a> <time datetime="2022-06-02">(2022-06-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=pJ4ekG0F8HM">The Strange Early Buddhist Sutta on the Impermanence of Elements</a> <time datetime="2022-05-30">(2022-05-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=K41Nl6Jynso">Learn Calm: an Elements Practice from Early Buddhism</a> <time datetime="2022-05-23">(2022-05-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=k8YudW4JURM">Learn Not to Take it Personally: a Non-Self Elements Practice in Early Buddhism</a> <time datetime="2022-05-16">(2022-05-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=7onLA10NFok">The Elements in Early Buddhism: Cross-Cultural History</a> <time datetime="2022-05-09">(2022-05-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=yLK17L0Sp18">Lessons and Practices from the Fire</a> <time datetime="2022-05-02">(2022-05-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dhTULnK8BWo">Buddha&#x27;s Fire Sermon and ... Our House Fire</a> <time datetime="2022-04-25">(2022-04-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=vI7CwsEtmTY">&quot;Buddha Before Buddhism&quot;: Considering Gil Fronsdal&#x27;s Title and Translation</a> <time datetime="2022-04-21">(2022-04-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xM7q0Pu6ei8">How to Practice Buddhism</a> <time datetime="2022-04-18">(2022-04-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=P3AxjyAjG30">Window on the Earliest Buddhism? The Chapter of the Eights</a> <time datetime="2022-04-14">(2022-04-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=TjpBEsrN8HQ">How to Become a Buddha? The Perfections</a> <time datetime="2022-04-11">(2022-04-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=S0mO1WgVvig">The Buddha on &quot;Magic&quot;</a> <time datetime="2022-04-07">(2022-04-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=rQ832y7n1bc">Differences Between Early Buddhism and Theravada: an Essay By Bhante Sujato</a> <time datetime="2022-04-04">(2022-04-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=3IyPHiis01I">What Does &quot;Tathagata&quot; Mean?</a> <time datetime="2022-03-31">(2022-03-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bGjXRoh5j5E">The Dalai Lama&#x27;s Confusion Over Self Hatred</a> <time datetime="2022-03-28">(2022-03-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-am31Ee9KBE">What if there Were a Permanent Self? The Three Pointed Emptiness in Early Buddhism</a> <time datetime="2022-03-21">(2022-03-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-1-Cd2u1enw">Getting Back Up After the Fire</a> <time datetime="2022-03-10">(2022-03-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8v87h8Txn6Y">A Few Days After the Fire (Update)</a> <time datetime="2022-03-03">(2022-03-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=fODi8WOmhbQ">Gutted by Fire</a> <time datetime="2022-02-22">(2022-02-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HL3PQUt_o1A">The Buddha on Loving Ourselves: Why Wasn&#x27;t It Included?</a> <time datetime="2022-02-17">(2022-02-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ShWqEzSESXo">Ajahn Brahm&#x27;s Lovingkindness Practice</a> <time datetime="2022-02-14">(2022-02-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IbNoSWB7q8k">Buddha on Anger and Hatred</a> <time datetime="2022-02-10">(2022-02-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=1ugciJGAZ0k">Discussing Buddhism with My Friend Jon Aaron: a New Podcast!</a> <time datetime="2022-02-07">(2022-02-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FHo9Pj4D5rc">How Many Jhanas Were There in Early Buddhist Meditation?</a> <time datetime="2022-02-03">(2022-02-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=V36Jf_E-puU">The Strange Case of the Formless Meditations in Early Buddhism</a> <time datetime="2022-01-31">(2022-01-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=EjGnawR8gR0">The Deepest Meditative Attainment in Early Buddhism?</a> <time datetime="2022-01-27">(2022-01-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ixqrPU_f7Cw">The &quot;Formless Attainments&quot; of Early Buddhist Meditation</a> <time datetime="2022-01-24">(2022-01-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=DWM3KJasUwI">The Fourth Jhana in Early Buddhism</a> <time datetime="2022-01-20">(2022-01-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lA8QLaNpZ3I">The Third Jhana in Early Buddhism</a> <time datetime="2022-01-17">(2022-01-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xRS7zlZ9oZY">The Second Jhana in Early Buddhism</a> <time datetime="2022-01-13">(2022-01-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GTvYIQ553F8">The First Jhana in Early Buddhism</a> <time datetime="2022-01-10">(2022-01-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bJNp-f70__Y">Leave Enlightenment Aside</a> <time datetime="2022-01-03">(2022-01-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=f1K05kL5gFg">The Perils of Openheartedness</a> <time datetime="2021-12-27">(2021-12-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=s7-GUwDiQCk">Why Be Kind?</a> <time datetime="2021-12-20">(2021-12-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZtsOrOFx9nM">Do Buddhists Believe in &quot;Sin&quot;?</a> <time datetime="2021-12-13">(2021-12-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kkpeRUExUGQ">What Does Buddhism Mean to You?</a> <time datetime="2021-12-09">(2021-12-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=M28cyYMYqk0">A Couple of Thoughts on &quot;Who was the Buddha&quot; by @ReligionForBreakfast</a> <time datetime="2021-12-06">(2021-12-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Vtt9q1V-kAo">The Buddha&#x27;s Creation Story: Myth as History and Inspiration</a> <time datetime="2021-11-29">(2021-11-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MhoqLioMz1o">Gratitude: Integrating it Into Your Life</a> <time datetime="2021-11-22">(2021-11-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ECI_3ytgxcQ">The Early History of the Bodhisattva Ideal</a> <time datetime="2021-11-18">(2021-11-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bs1XtNrNXpM">What is a Bodhisattva?</a> <time datetime="2021-11-15">(2021-11-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=y2shMnIN6UY">Finding Ourselves in Our Appearance vs. Our Accomplishments</a> <time datetime="2021-11-11">(2021-11-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=TWM8vvj3DZ8">A Real Self in Early Buddhism? The Potthapada Sutta</a> <time datetime="2021-11-08">(2021-11-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZWBDstrkgoo">Nirvana in a Few Words: the Buddha&#x27;s Enigmatic Instruction to Bahiya</a> <time datetime="2021-11-04">(2021-11-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qD5dQa4xqag">Can Practicing Kindness Bring Us to Nirvana? One Professor&#x27;s Controversial Claim</a> <time datetime="2021-11-01">(2021-11-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ev4OHQOtvl4">The Buddha&#x27;s Argument for Non-self Through Impermanence: It&#x27;s Strange!</a> <time datetime="2021-10-28">(2021-10-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ro0BV84dci4">A Hidden Meaning Behind the Buddha&#x27;s Second Sermon on Non-self</a> <time datetime="2021-10-25">(2021-10-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9oT04eft43o">Can You Practice Buddhism by Studying It? A New Paper By Analayo</a> <time datetime="2021-10-21">(2021-10-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=14ghdkSddK8">What does &quot;Buddha&quot; Mean: A Live Controversy! Anālayo&#x27;s Response</a> <time datetime="2021-10-18">(2021-10-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=pbmmLgR1EeQ">Did the Buddha Say &quot;Life is Suffering&quot;?</a> <time datetime="2021-10-14">(2021-10-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=t6dt_I_n_UE">Kali and Vedehika: the Buddha&#x27;s Cautionary Tale of Privilege</a> <time datetime="2021-10-11">(2021-10-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=4uKuogq4ZGc">Is Buddhism Nihilistic? One Philosopher&#x27;s Critique</a> <time datetime="2021-10-07">(2021-10-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XGRnGrPrjAc">The Buddha&#x27;s &#x27;Wisest Female Disciple&#x27;: Bhikkhuni Khema</a> <time datetime="2021-10-04">(2021-10-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=BaUs5KasLbs">Buddhism&#x27;s Non-self: How Do You Know? Looking at a Critique</a> <time datetime="2021-09-30">(2021-09-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=6aPKfk9JITM">Finding Our Good Fortune in Early Buddhism</a> <time datetime="2021-09-27">(2021-09-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=7hTUM_iKVmU">Early Buddhist Pragmatism: The Simile of the Handful of Leaves</a> <time datetime="2021-09-20">(2021-09-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HW49oCGYJ1E">Why Do We Count the Breaths in Meditation? Early Buddhist Origins</a> <time datetime="2021-09-13">(2021-09-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=1E79pU6GzNs">A Poem That Isn’t: Buddhist Mindfulness and Rumi&#x27;s &quot;Guest House&quot;</a> <time datetime="2021-09-06">(2021-09-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=z4t-VUhNSkQ">Meditation: Focus on the Present Moment in Early Buddhist Practice</a> <time datetime="2021-08-30">(2021-08-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bmwJ7YhgXms">The Surprising Person Who Taught the Buddha’s Monks: Citta the Householder</a> <time datetime="2021-08-23">(2021-08-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Cf9MbhoDHNQ">Ananda&#x27;s Breakthrough: the Buddha&#x27;s Attendant Learns a Lesson in Non-Self</a> <time datetime="2021-08-16">(2021-08-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=c_R2Y2P1sjI">What Does &quot;Buddha&quot; Mean? A Recent Article May Change Your Mind</a> <time datetime="2021-08-09">(2021-08-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=NoFF8-rA1zE">Consciousness and the Self: One Early Buddhist Monk&#x27;s Famous Mistake</a> <time datetime="2021-08-02">(2021-08-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=t304fy6qZC4">Should You Pursue an Early Buddhist Path?</a> <time datetime="2021-07-26">(2021-07-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=43v6lLweukg">Non-Dualism and Early Buddhism</a> <time datetime="2021-07-19">(2021-07-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=QgNt_t4xY5c">How Should We Read Buddhist Texts? Early Advice</a> <time datetime="2021-07-12">(2021-07-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bp4Ta4GKpMQ">The Murderer Who Became Enlightened: Who was Angulimala?</a> <time datetime="2021-07-05">(2021-07-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lq-YGGnEhIg">Ignorance In Early Buddhism</a> <time datetime="2021-06-28">(2021-06-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZpyTRtcAQ4o">Life of the Buddha&#x27;s Great Lay Donor: Who Was Anathapindika?</a> <time datetime="2021-06-21">(2021-06-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UgEHLKV7DcI">Buddhism&#x27;s Fourth Noble Truth</a> <time datetime="2021-06-17">(2021-06-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=BNmmWY9PAKQ">Buddhism&#x27;s Third Noble Truth</a> <time datetime="2021-06-14">(2021-06-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=1YPDFcOr2t0">Buddhism&#x27;s Second Noble Truth</a> <time datetime="2021-06-10">(2021-06-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZhS-IX2CVl8">Buddhism&#x27;s First Noble Truth</a> <time datetime="2021-06-07">(2021-06-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bnMip0lgLzg">&quot;Superiority Conceit&quot; in Buddhism</a> <time datetime="2021-06-03">(2021-06-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Wyaywrf014U">The Early Ideal of the &quot;Lone Buddha&quot; or Paccekabuddha</a> <time datetime="2021-05-31">(2021-05-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=7Bg8tMblCYA">Who Was Ananda? Life of the Buddha&#x27;s Closest Companion</a> <time datetime="2021-05-24">(2021-05-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=J0cW9LpLadQ">Language in Buddhism: Should We Use &quot;I&quot;, &quot;Me&quot;, &quot;Mine&quot;?</a> <time datetime="2021-05-20">(2021-05-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=5JXnXbyNDGM">Not With a Teacher? Six Ways to Gauge Progress in Buddhism</a> <time datetime="2021-05-17">(2021-05-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=eanEdK4dFA8">Māra&#x27;s Roles in Buddhism: Personal and Cosmological</a> <time datetime="2021-05-13">(2021-05-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=4hDmFFXT_sg">The Parable of the Raft in Early Buddhism: Right View and Non-clinging</a> <time datetime="2021-05-10">(2021-05-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=17JuZUq5OHg">&quot;Dharma&quot; or &quot;Dhamma&quot;? Language and Sectarianism</a> <time datetime="2021-05-06">(2021-05-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XHr_Q5D-cNI">Mindfulness Could Lose You Your Job</a> <time datetime="2021-05-03">(2021-05-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wUDnPy6ACG4">Did the Buddha Teach No Self?</a> <time datetime="2021-04-29">(2021-04-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=AWjn479WZ9U">How Buddhist Practice Helps Nurture Happiness</a> <time datetime="2021-04-26">(2021-04-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=d_cCtPPiN34">Patience with Practice: the Buddha&#x27;s Simile of the Adze Handle</a> <time datetime="2021-04-22">(2021-04-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=3yU3C-b6hII">Who Was the Buddha?</a> <time datetime="2021-04-19">(2021-04-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bty5BXYCC30">Overcoming Arrogance: Story of the Buddhist Monk Malunkyaputta</a> <time datetime="2021-04-15">(2021-04-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=uO3Gd--YFnc">The Buddha&#x27;s Parable of the Poisoned Arrow</a> <time datetime="2021-04-12">(2021-04-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=yBKK1HvieqU">The Buddhist Doctrine of Two Truths: Abhidharma and Nagarjuna</a> <time datetime="2021-04-08">(2021-04-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qL_sspJzQx8">The Buddhist Doctrine of Two Truths: Origins</a> <time datetime="2021-04-05">(2021-04-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ltr0gPj6s50">The Five Precepts of Buddhism: Historical Roots in Early Teachings</a> <time datetime="2021-03-29">(2021-03-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9lhyjbhrIRs">The Controversy Over Nuns (Bhikkhuni) in Buddhism</a> <time datetime="2021-03-22">(2021-03-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jX7suYpv8WM">Buddha on Running a Small Business (!)</a> <time datetime="2021-03-18">(2021-03-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ALl1hmBqtEQ">Overcoming Dharma Doubts: Three Strategies</a> <time datetime="2021-03-15">(2021-03-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-Wz3N5IAGDM">What is &quot;The Unconditioned&quot; in Buddhism?</a> <time datetime="2021-03-11">(2021-03-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qihfGniVzYk">Fourth Anniversary Video: Top Five</a> <time datetime="2021-03-08">(2021-03-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=29cdfOget10">Practicing &quot;Effacement&quot; Through Kindness in Early Buddhism</a> <time datetime="2021-03-04">(2021-03-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JLKJO97Eihg">Three Kinds of Conceit in Early Buddhism</a> <time datetime="2021-03-01">(2021-03-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ki5w8qYIVUo">Diminishing the Five Hindrances to Meditation in Early Buddhism</a> <time datetime="2021-02-25">(2021-02-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dBdfBHkCTIQ">The Five Hindrances to Meditation: &quot;Armies of Māra&quot;</a> <time datetime="2021-02-22">(2021-02-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=AvO_ojgM7Aw">How We Get Caught By Practice: Clinging to Rules and Rituals in Early Buddhism</a> <time datetime="2021-02-18">(2021-02-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=E-X2HLXL8ug">There Were Two Nirvanas</a> <time datetime="2021-02-15">(2021-02-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UOx6-AikZ-Y">The &quot;Underlying Tendencies&quot; of Our Minds: Early Buddhist Understanding of Unskillfulness</a> <time datetime="2021-02-11">(2021-02-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=WcIdaTnraXM">Who Was Sariputta/Åšariputra? (Life of the Buddha&#x27;s Chief Disciple)</a> <time datetime="2021-02-08">(2021-02-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-dD9_mPZUiY">Five Tips to Benefit Mindfulness of Breathing</a> <time datetime="2021-02-04">(2021-02-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=S2XkWDFWbvk">When is a Translation Not a Translation? Poems of the Earliest Buddhist Women</a> <time datetime="2021-02-01">(2021-02-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=zjMOy_ZRofQ">Mindfulness of Breathing Practice: Mind and Dharmas</a> <time datetime="2021-01-28">(2021-01-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=fpcP0Oim4jE">Mindfulness of Breathing Practice: Body and Feelings</a> <time datetime="2021-01-25">(2021-01-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=AVsKCSZzmC0">Mindfulness of Breathing is Important! (Early Buddhist Practice)</a> <time datetime="2021-01-21">(2021-01-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2YB34dspSq8">Who Are You? The Five Aggregates of Buddhism</a> <time datetime="2021-01-18">(2021-01-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=YIcnCqOALPs">What Is the Pali Canon of Buddhism?</a> <time datetime="2021-01-14">(2021-01-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8ZNikKFjw6g">The Buddha&#x27;s Advice for Working With the Eight Worldly Conditions</a> <time datetime="2021-01-11">(2021-01-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=zZOu6PLWrtI">The Buddha&#x27;s Eight Worldly Conditions or &quot;Worldly Winds&quot;</a> <time datetime="2021-01-07">(2021-01-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=O3D-NosYAP8">How Karma Works: Mental Perfuming</a> <time datetime="2021-01-04">(2021-01-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=VCCuUz4Qyww">How Long Should Dharma Videos Be?</a> <time datetime="2020-12-31">(2020-12-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xDsPCn5nxnM">How Karma Works: Sincerity and Reciprocity</a> <time datetime="2020-12-28">(2020-12-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Vto2L3BrcwU">Ten Tips to Improve Your Meditation</a> <time datetime="2020-12-21">(2020-12-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-ylkDiGgln8">The Problem of Personal Continuity and Karma in Early Buddhism</a> <time datetime="2020-12-17">(2020-12-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Z3JDvlsS3Q4">Is Barbie Becoming Buddhist? On Popularizing Practice</a> <time datetime="2020-12-14">(2020-12-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=D9RgTQPnG4A">Is Deep Meditative Absorption (Jhana) Necessary for Enlightenment?</a> <time datetime="2020-12-10">(2020-12-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=SVVjjy3RAks">Walking Meditation: Five Benefits from the Early Tradition</a> <time datetime="2020-12-07">(2020-12-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=SPEoWeF7ClE">How to Do Walking Meditation: Early Buddhist Practice</a> <time datetime="2020-12-03">(2020-12-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lRGIZQF97bA">Kindness is Central to Practice!</a> <time datetime="2020-11-30">(2020-11-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=q6Mes17e1-s">Coming Back is Part of Practice</a> <time datetime="2020-11-23">(2020-11-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=juXMASPK6ek">Digging the Roots of Our Complacency: the Problem of Neutral Feelings in Early Buddhism</a> <time datetime="2020-11-19">(2020-11-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2DotdUIO8iM">How Deep Should Buddhist Meditation Get? The Question of Jhana</a> <time datetime="2020-11-16">(2020-11-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=odRfRY-s8QU">The Five Key Spiritual Faculties of Buddhism</a> <time datetime="2020-11-12">(2020-11-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=fw0fPc0r0O0">“Beginner’s Mind” in Zen and Early Buddhism: its Development and Difference</a> <time datetime="2020-11-09">(2020-11-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=R29XcUDil5c">Three Practices to Minimize Conflict: an Early Buddhist Perspective</a> <time datetime="2020-11-05">(2020-11-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XMLhTXIPoWY">A &quot;Spiral Path&quot; in Buddhism?</a> <time datetime="2020-11-02">(2020-11-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZaexbQ_QChs">The Buddha on Disagreement: His &quot;Conflict-free&quot; Teaching</a> <time datetime="2020-10-26">(2020-10-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=l8FAMaROYnI">Learning from Others (That You Don&#x27;t Agree With)</a> <time datetime="2020-10-19">(2020-10-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8OKCgvr98y8">Pleasure and Minimalism: an Early Buddhist Perspective</a> <time datetime="2020-10-12">(2020-10-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JcKbIKRdIZw">Faith vs. Knowing in Early Buddhism</a> <time datetime="2020-10-05">(2020-10-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Op2vc-vuKbc">Three Ways Desire Makes the World</a> <time datetime="2020-09-28">(2020-09-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jugL_NYQ5Sc">The Buddha Had His Limits</a> <time datetime="2020-09-21">(2020-09-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=3aXjrEdpIjY">When Words Won&#x27;t Work: Self-Defense in Early Buddhism</a> <time datetime="2020-09-14">(2020-09-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qRqxuxS1qUg">Buddhism and Icons: Prohibition to &quot;Idolatry&quot;</a> <time datetime="2020-09-07">(2020-09-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wunMrn-PP_w">Blackout Dharma (Tropical Storm Isaias)</a> <time datetime="2020-08-31">(2020-08-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wi2sd65l95o">The Preeminence of Dharma Among the Buddhist Refuges or Jewels</a> <time datetime="2020-08-24">(2020-08-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=y8GNgWatUwE">Buddhism&#x27;s Decline in India</a> <time datetime="2020-08-17">(2020-08-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XT4GzTYc0xo">Checking In With You: &quot;Beginner&quot; vs. &quot;Advanced&quot; Buddhism?</a> <time datetime="2020-08-03">(2020-08-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Pq0lloB-470">The Gradual Training: An Early Buddhist Map of the Path</a> <time datetime="2020-07-27">(2020-07-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=a62ZgVWANz4">Buddhism on Suicide and Euthanasia</a> <time datetime="2020-07-20">(2020-07-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Ls54cfbqwNE">Buddhism Crash Course: Four Shortest Descriptions of Early Dharma</a> <time datetime="2020-07-13">(2020-07-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=0dCG2fheAQs">What is Early Buddhism?</a> <time datetime="2020-07-06">(2020-07-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=avY2PZ9tucw">How Does Buddhist Practice Work?</a> <time datetime="2020-06-29">(2020-06-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=p0tI1ZjiIQ4">Sudden and Gradual Awakening</a> <time datetime="2020-06-22">(2020-06-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=VlKp1lp-lvk">Becoming Buddhist: is it Necessary?</a> <time datetime="2020-06-15">(2020-06-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=hefnN8THmuI">Buddhism and Race: Caste in Early Buddhism</a> <time datetime="2020-06-11">(2020-06-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MhKWykJr7ZM">Sutta on the Great Forty: the Three-Stroke Engine of Buddhist Practice</a> <time datetime="2020-06-08">(2020-06-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xuhyuHb-9X4">Buddhist Faith</a> <time datetime="2020-06-04">(2020-06-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZBZapci_dy4">Should You Use Meditation Aids?</a> <time datetime="2020-06-01">(2020-06-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ChgE9lQhXKs">6 Ways to Cope with Coronavirus Stress and Anxiety</a> <time datetime="2020-05-28">(2020-05-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lpuGKIWAetg">The Buddha&#x27;s Ten Recollections</a> <time datetime="2020-05-25">(2020-05-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=d6b7FX9vBG0">Overcome Your Doubts Through Science (Coronavirus Dharma Practice)</a> <time datetime="2020-05-21">(2020-05-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=57oqhAKEAF8">Devotion in Early Buddhism</a> <time datetime="2020-05-18">(2020-05-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=sJI2V9iUiRs">Patience in Buddhism</a> <time datetime="2020-05-14">(2020-05-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=CQN7sVmckso">Two Kinds of Buddhist Interdependence: Dependent Origination and Indra&#x27;s Net</a> <time datetime="2020-05-11">(2020-05-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Y-anIijaVqs">Finding Contentment</a> <time datetime="2020-05-07">(2020-05-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=DF4rdQ7FRFY">Buddhism and Ambition</a> <time datetime="2020-05-04">(2020-05-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=g6ikZwrPPTc">A &#x27;Healing&#x27; Practice from Early Buddhism</a> <time datetime="2020-04-30">(2020-04-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9CRAC8hQ7V0">Practicing Positive Thinking</a> <time datetime="2020-04-27">(2020-04-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=B3Mw2qIeUn4">Two Arrows of Buddhism</a> <time datetime="2020-04-23">(2020-04-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GmZNRG2sgkQ">Technology and Ethics: the Importance of Buddhist Dharma</a> <time datetime="2020-04-20">(2020-04-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lCl1KSVuuXg">Universal Healthcare is Dharma: Coronavirus Wisdom</a> <time datetime="2020-04-16">(2020-04-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=tK_sTcv0dg0">How to Become a Buddhist</a> <time datetime="2020-04-13">(2020-04-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=7-JAgMcktCI">Coronavirus Wisdom: Learning from Difficulty</a> <time datetime="2020-04-09">(2020-04-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8CP-ScOCHJ0">Past and Future Buddhas</a> <time datetime="2020-04-06">(2020-04-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=raTA_nv1LyA">Buddhist Coronavirus Practice: Gratitude</a> <time datetime="2020-04-02">(2020-04-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gKIlz5I_0HA">Four Noble Truths of Buddhism: the Practice</a> <time datetime="2020-03-30">(2020-03-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=CJ3s7rP15sc">Overcoming Worry and Boredom: Coronavirus Practice</a> <time datetime="2020-03-26">(2020-03-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=76WNNri9UR4">Mindfulness Meditation: Practicing with Internal, External, and Both</a> <time datetime="2020-03-23">(2020-03-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=NQjtzWIIZv4">Coronavirus and the Dharma: Three Practices</a> <time datetime="2020-03-19">(2020-03-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PVVprT1o0_s">Mindfulness Can Help with the Coronavirus</a> <time datetime="2020-03-16">(2020-03-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bVCgVZ2PUjQ">Is Meditation Necessary?</a> <time datetime="2020-03-09">(2020-03-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GrTFkqYShPU">Buddhas and Awakened Beings: What&#x27;s the Difference?</a> <time datetime="2020-03-02">(2020-03-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=VFFv314ZL-M">Change is Bigger Than You Realize!</a> <time datetime="2020-02-24">(2020-02-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=0kBfKnylj3k">Learning Kindness: The Problems of &quot;Near and Far Enemies&quot; in Buddhism</a> <time datetime="2020-02-17">(2020-02-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PRT4z_8pqb4">Is This How Karma Works?</a> <time datetime="2020-02-10">(2020-02-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jTongGW_nyg">Two Buddhist Practices to Assuage Worry (They Helped Me Recently)</a> <time datetime="2020-02-03">(2020-02-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XbHcqUnWBlc">Emptiness in Buddhism: Early Practice</a> <time datetime="2020-01-27">(2020-01-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=U1_i6EvYDaY">Emptiness in Buddhism: Early Doctrine and Development</a> <time datetime="2020-01-20">(2020-01-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=YFsB7pUg_6Q">How Did Buddhism Begin?</a> <time datetime="2020-01-13">(2020-01-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XbmBzuoR8jM">Was the Buddha Omniscient?</a> <time datetime="2020-01-06">(2020-01-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GdcuuM2uvm4">Can You Become Partly Enlightened?</a> <time datetime="2019-12-30">(2019-12-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UtxeDSsmXJY">The Hardest Buddhist Practice</a> <time datetime="2019-12-23">(2019-12-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=iUDEny5iEAo">Seven Factors of Awakening: Ordinary or Altered Consciousness?</a> <time datetime="2019-12-16">(2019-12-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=r3MpxQOb1Vo">Is a Guru Necessary?</a> <time datetime="2019-12-09">(2019-12-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jiEQ_RKL5wY">Becoming More Objective: Ideas and Practices from Early Buddhism</a> <time datetime="2019-12-02">(2019-12-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-gWULW_aALc">Beginning Buddhist Practice</a> <time datetime="2019-11-25">(2019-11-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9aW-XZDkUnY">Buddhism Dealing with Negativity</a> <time datetime="2019-11-21">(2019-11-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=RoIkz7ZWbyc">&quot;Only This Is True&quot;: a Phrase the Buddha Questioned</a> <time datetime="2019-11-18">(2019-11-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8_AMrB-HOSg">Deep History of Buddhist Chariot Simile: Proto-Indo-European Roots?</a> <time datetime="2019-11-14">(2019-11-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lAVfyW3S_dY">Should You Practice Non-Attachment With Those Closest to You?</a> <time datetime="2019-11-11">(2019-11-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=yTxKgz8MeWg">My Secular Buddhism</a> <time datetime="2019-11-07">(2019-11-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=fX11mDixOYk">Are You Not Supposed to Think in Meditation?</a> <time datetime="2019-11-04">(2019-11-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=vHaT4f4Ttq4">What&#x27;s the Difference Between Buddhist Non-Attachment and Mental Detachment?</a> <time datetime="2019-10-31">(2019-10-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=3naKIHYqKus">Blending Buddhisms</a> <time datetime="2019-10-28">(2019-10-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=yJ9uRS7Nc6Y">Life: Accept It or Escape From It?</a> <time datetime="2019-10-24">(2019-10-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=N9eM36vdkZE">Buddhism and &quot;Atheist Churches&quot; (Religion for Breakfast Video)</a> <time datetime="2019-10-21">(2019-10-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2pkpKX0jMu8">Can You Turn Egoism to Compassion?</a> <time datetime="2019-10-17">(2019-10-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dOIgI4kEZpU">Dealing with Sleepiness in Meditation Q&amp;A Video</a> <time datetime="2019-10-14">(2019-10-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ckCuE-Kt9v4">How Do Your Intentions Trap You? (Dependent Origination)</a> <time datetime="2019-10-10">(2019-10-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=OOvLsg1FKEk">Is &quot;Bracketing Off&quot; or &quot;Cherry Picking&quot; from Religious or Philosophical Belief Systems a Bad Thing?</a> <time datetime="2019-10-07">(2019-10-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XMtbVOK4-30">A Short History of Buddhist Mindfulness Meditation</a> <time datetime="2019-10-03">(2019-10-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZaeQHE1oSSw">Mindfulness for Beginners</a> <time datetime="2019-09-30">(2019-09-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=asP-LoVkOE4">Mindful Awareness and the Rising Tide of Information</a> <time datetime="2019-09-26">(2019-09-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kUW5hBGoG8U">Gauging Progress on the Buddhist Path: The Traditional Four Stages</a> <time datetime="2019-09-23">(2019-09-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=59FXAW3AS2I">Why Won&#x27;t the Buddha Answer You? (The Unanswered Questions)</a> <time datetime="2019-09-16">(2019-09-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=sToH97sMs9c">The Road to Hell Is Paved With Good Intentions</a> <time datetime="2019-09-09">(2019-09-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dMqRrT-5UZ4">What is the Meaning of Life? An Early Buddhist View</a> <time datetime="2019-09-02">(2019-09-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=pWJuC5js0oI">Buddhist Right Speech and Promoting Social Justice</a> <time datetime="2019-08-26">(2019-08-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xX9s78E6lHE">Buddhist Right Speech: How Does it Relate to Free Speech?</a> <time datetime="2019-08-19">(2019-08-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FHu6VG5r7vA">Removing Negative Thoughts: Five Early Buddhist Techniques</a> <time datetime="2019-08-12">(2019-08-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=WlAVNOiNj8g">Mind and Body: What&#x27;s the Difference?</a> <time datetime="2019-08-05">(2019-08-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=TalOMtAqlOA">Body Scan Meditation: Description and History</a> <time datetime="2019-07-29">(2019-07-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ncumFq_RtfU">Does a &quot;Historical Buddha&quot; Matter?</a> <time datetime="2019-07-22">(2019-07-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=EZm0ShgEq08">How Can I Help You?</a> <time datetime="2019-07-15">(2019-07-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=AtGuTuNIw4w">Essentialism and Buddhism</a> <time datetime="2019-07-08">(2019-07-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gVf0RUOHZQo">You Can Be Too Equanimous</a> <time datetime="2019-07-01">(2019-07-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=aBZNU-Vigz0">Buddhist Rebirth, Some Reflections</a> <time datetime="2019-06-24">(2019-06-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=cUOMhvKrks8">Escaping the Thought Trap</a> <time datetime="2019-06-20">(2019-06-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8G5MAVXWLXY">Secular Buddhism: Internal and External</a> <time datetime="2019-06-17">(2019-06-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8zx9vSQH7KI">Confronting Laziness and Apathy</a> <time datetime="2019-06-13">(2019-06-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qlH_qieCgCA">A New Buddhism: Dr. B.R. Ambedkar</a> <time datetime="2019-06-10">(2019-06-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=WecoXflK_DA">Breaking Bad Habits</a> <time datetime="2019-06-06">(2019-06-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LWaBYTf6jv0">Buddhism and Happiness</a> <time datetime="2019-06-03">(2019-06-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=oYT5Ymm-zOE">Making a Living Teaching the Dharma (and Otherwise)</a> <time datetime="2019-05-30">(2019-05-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=83ycWNSnjC0">Buddhism and Rebirth, a History</a> <time datetime="2019-05-27">(2019-05-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ew2iBj7OF2g">Not Mine, Not I, Not Myself and MORE NEWS</a> <time datetime="2019-05-23">(2019-05-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=RMQGwh3t0-U">Marie Kondo and Buddhism</a> <time datetime="2019-05-20">(2019-05-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Z_R6hMbjfjA">Buddhism and Minimalism</a> <time datetime="2019-05-16">(2019-05-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=rkOGbXLgHGs">An ANNOUNCEMENT, new PROJECT!</a> <time datetime="2019-05-13">(2019-05-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=AHXW7g-ZNtc">What Isn&#x27;t Meditation</a> <time datetime="2019-05-09">(2019-05-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PT0Q3E7X1ho">Buddhist Practice for Social Change</a> <time datetime="2019-05-06">(2019-05-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HvAf8fBCPR8">Dealing with Regret</a> <time datetime="2019-05-02">(2019-05-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=0JEhzFfk-gg">Do We Need Pali?</a> <time datetime="2019-04-29">(2019-04-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=u51Yh65TunU">Four Books That Drew Me To Buddhism</a> <time datetime="2019-04-25">(2019-04-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qmQX_DrHg-Q">Was the Buddha Human or Divine?</a> <time datetime="2019-04-22">(2019-04-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_q8poVPPaPw">Equanimity Through Sense Restraint</a> <time datetime="2019-04-18">(2019-04-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=KfNXMkeWWh8">Buddhism for Today, and the SBA</a> <time datetime="2019-04-15">(2019-04-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Zdq9sXgbMSU">Learning vs. Doing Buddhism</a> <time datetime="2019-04-11">(2019-04-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-rEKVKsV2iU">No Local Meditation Group? Six Solutions.</a> <time datetime="2019-04-08">(2019-04-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ncECq2tcHnc">Constructing a Daily Practice</a> <time datetime="2019-04-04">(2019-04-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=L2jTFPzKtK8">Confronting Illness and Death</a> <time datetime="2019-04-01">(2019-04-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bI7_LYzXOHc">Fake It Till You Make It?</a> <time datetime="2019-03-25">(2019-03-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LtT2v1vQBTk">Early Buddhism on the Internet</a> <time datetime="2019-03-18">(2019-03-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gXYwv2jrowU">The Paradox of Greed</a> <time datetime="2019-03-14">(2019-03-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=yzg8qqgIL9w">Authenticity: Good and Bad</a> <time datetime="2019-03-11">(2019-03-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LV0MH5fT9zs">Second Year Anniversary</a> <time datetime="2019-03-07">(2019-03-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=175JTI5AXc4">Is the Mind Luminous?</a> <time datetime="2019-03-04">(2019-03-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=mwqJGlx2CDQ">Ethical Dilemmas in Early Buddhism?</a> <time datetime="2019-02-28">(2019-02-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qKkRDi0EVS0">Understanding Non-self: Khemaka&#x27;s Story</a> <time datetime="2019-02-25">(2019-02-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=nlN3oCeCRFQ">The Unconscious in Early Buddhism?</a> <time datetime="2019-02-21">(2019-02-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZTqibLMY1LM">Can Bad Thoughts Be Good For You?</a> <time datetime="2019-02-18">(2019-02-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JEwQvlfMUf8">The Three Realms of Existence</a> <time datetime="2019-02-14">(2019-02-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IaH3fLhO3Xc">What Continues?</a> <time datetime="2019-02-11">(2019-02-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=EuTIM5JJap4">Why I&#x27;m Doing These Videos</a> <time datetime="2019-02-07">(2019-02-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2CDBhrkX-3s">Letting Go of Control</a> <time datetime="2019-02-04">(2019-02-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=cKyn7VRa2co">Equanimity Meditation: Last of the Brahmaviharas</a> <time datetime="2019-01-31">(2019-01-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Qh1pmjd5-Fo">Sympathetic Joy Meditation: Third of the Brahmaviharas</a> <time datetime="2019-01-28">(2019-01-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gjyTaAK8klM">Compassion Meditation: Second of the Brahmaviharas</a> <time datetime="2019-01-24">(2019-01-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MuKCv6NEL24">Lovingkindness Meditation: First of the Brahmaviharas</a> <time datetime="2019-01-21">(2019-01-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LMS37DNxG2A">Cultivating Healthy Emotions: Intro to Brahmavihara Meditation</a> <time datetime="2019-01-17">(2019-01-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2EnyvQcvroo">Patreon: a Buddhist Why and How</a> <time datetime="2019-01-14">(2019-01-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=zyNrtFIk6Ko">What is Buddhist Meditation?</a> <time datetime="2019-01-10">(2019-01-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=RaLXzB3a-KE">Dealing With Anger</a> <time datetime="2019-01-07">(2019-01-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GNuotqK1ivo">The Buddha and His Family</a> <time datetime="2018-12-31">(2018-12-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=fKDyCszF7zE">Did the Buddha Exist?</a> <time datetime="2018-12-24">(2018-12-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=kS-Xtsq4_xE">What is Authentic Buddhism?</a> <time datetime="2018-12-20">(2018-12-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=C6KSmGciUnI">Real Buddha Quotes!</a> <time datetime="2018-12-17">(2018-12-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=pbngKOUgCDY">Buddhism for Beginners</a> <time datetime="2018-12-13">(2018-12-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LY047NET6Oc">Buddhist Global Relief</a> <time datetime="2018-12-10">(2018-12-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ABPBCT7A0ZY">Secular Buddhist Practice</a> <time datetime="2018-12-06">(2018-12-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xS7unxd5DXY">The Buddha on Just Government</a> <time datetime="2018-12-03">(2018-12-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9wI6QcDqHtc">The First Noble Truth is Liberating: the Story of Kisa Gotami</a> <time datetime="2018-11-29">(2018-11-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=QbGmn-1RsfU">Who is Mara in Buddhism?</a> <time datetime="2018-11-26">(2018-11-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=duKh6_nXJtc">Greatness and Wisdom: Two Opinions</a> <time datetime="2018-11-19">(2018-11-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=t7IML62w668">Did the Buddha Feel Pain?</a> <time datetime="2018-11-15">(2018-11-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=sKKyMYASLVs">What&#x27;s Up With Buddhist Celibacy?</a> <time datetime="2018-11-12">(2018-11-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=aoxagmtSHI0">The Buddha&#x27;s Competitors: Unearthing the Dharma</a> <time datetime="2018-11-08">(2018-11-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=618KfK1zESM">Avoiding Teacher Misconduct: the Buddha&#x27;s Advice</a> <time datetime="2018-11-05">(2018-11-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wFtWu4hDMME">Is the Buddha a Christian Saint?</a> <time datetime="2018-11-01">(2018-11-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MqAW6BU2O_8">Buddhism&#x27;s Three Marks of Existence: Deepest Part of the Dharma</a> <time datetime="2018-10-29">(2018-10-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Kt2jMkOTrqA">Is Philosophy Still Relevant? It Needs Taking Back</a> <time datetime="2018-10-25">(2018-10-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HbXG-xMBTTY">Hidden History: Were There Originally Two Buddhist Refuges?</a> <time datetime="2018-10-22">(2018-10-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=taz55McTJ8E">Five Ways We Construct Ourselves</a> <time datetime="2018-10-18">(2018-10-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=V4894Ug8Y3c">King Asoka: Buddhism&#x27;s Great Political Modernist</a> <time datetime="2018-10-15">(2018-10-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=864ksDOZwXk">Women in Buddhism</a> <time datetime="2018-10-08">(2018-10-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=e-VT5lTopmE">The Four Sights of Buddha: Beneath the Legends</a> <time datetime="2018-10-01">(2018-10-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=MEu4kzfUSDk">The Five Reflections</a> <time datetime="2018-09-24">(2018-09-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dOn1V71N4wk">Is Buddhism Pessimistic?</a> <time datetime="2018-09-17">(2018-09-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8eQwk4OEeGU">Buddhism on Anxiety and Fear</a> <time datetime="2018-09-10">(2018-09-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lRAW-GN4TUA">History of Zen Buddhism: Paradox and Tension</a> <time datetime="2018-09-03">(2018-09-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=61S8ZkpeCDQ">Chronic Stress: Problems and Solutions</a> <time datetime="2018-08-27">(2018-08-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=oFc3PPS3-b8">What is the Middle Way in Early Buddhism?</a> <time datetime="2018-08-20">(2018-08-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=YVZGzgFbnGg">History of Vajrayana or Tantric Buddhism: Power and Transgression</a> <time datetime="2018-08-13">(2018-08-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wi_hqpIu-vk">History of Mahayana Buddhism: Innovation and Perfection</a> <time datetime="2018-08-06">(2018-08-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=L3N1gJqv7j4">Roots of secular Buddhism: Thailand</a> <time datetime="2018-07-30">(2018-07-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=S0B1xqTjt50">History of Theravada Buddhism: Very Old and Very New</a> <time datetime="2018-07-23">(2018-07-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FAazFDC8m6M">The Three Schools of Buddhism: Intro</a> <time datetime="2018-07-16">(2018-07-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=TfQyjLR1bvo">What&#x27;s wrong with pleasure?</a> <time datetime="2018-07-09">(2018-07-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_K80hx9EhL0">Do We Need to be Attached to be Kind?</a> <time datetime="2018-07-02">(2018-07-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=avVf6LNx32E">What is Buddhist Nonattachment?</a> <time datetime="2018-06-25">(2018-06-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=sxQI57m4fNs">Don&#x27;t Buy This Book! (Oxford Handbook of Buddhist Ethics clickbait title ðŸ™‚).</a> <time datetime="2018-06-18">(2018-06-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FVpdon6YErY">How Compassion Became Empathy in Buddhist Meditation</a> <time datetime="2018-06-11">(2018-06-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=VeShNoUXnxw">Is Desire the Root of Suffering?</a> <time datetime="2018-06-07">(2018-06-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=0K0zyE4RseU">Buddhist Compassion Meditation: a Brief History</a> <time datetime="2018-06-04">(2018-06-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=jpkQ18tk644">What&#x27;s the point of practice?</a> <time datetime="2018-05-31">(2018-05-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=4SCcl9lCFk8">Start with Yourself</a> <time datetime="2018-05-24">(2018-05-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=4BnF8MShrBM">When Anger Takes Over: Brittle Metta</a> <time datetime="2018-05-21">(2018-05-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=L3XTb_Cd-fc">Practice is Weeding</a> <time datetime="2018-05-17">(2018-05-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=XkJpp7rNBTA">Is Nirvana Indescribable? Is it Permanent?</a> <time datetime="2018-05-14">(2018-05-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=r5oncPD7jKo">Controversies Over Clothing and Food</a> <time datetime="2018-05-10">(2018-05-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=k8T0K8MHTR0">Clothes and Identity</a> <time datetime="2018-05-07">(2018-05-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=KDVzuAWj7CU">Secular Practice with Images and Rituals</a> <time datetime="2018-04-30">(2018-04-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=isrRbIiHwvc">Breaking Our Sense Sphere Attachments</a> <time datetime="2018-04-26">(2018-04-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=_2LGiwbWpj8">Kindness Towards Everyone?</a> <time datetime="2018-04-23">(2018-04-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dOsZ6g9pG9Y">Perfectionism Social and Personal</a> <time datetime="2018-04-19">(2018-04-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=op7GUt8_x5E">Mindfulness of Dharmas Part 2</a> <time datetime="2018-04-16">(2018-04-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=B6P5q2tGu5Q">Mindfulness of Dharmas Part 1</a> <time datetime="2018-04-12">(2018-04-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ui8IJ5bJLPI">Buddhist Practice or Psychotherapy?</a> <time datetime="2018-04-09">(2018-04-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-sWv88hQ7Tk">What is Protestant Buddhism?</a> <time datetime="2018-04-05">(2018-04-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lI83n5gE7yw">Buddhist &amp; Stoic Wisdom for a Skeptical Age</a> <time datetime="2018-04-02">(2018-04-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=e2GC207-Fpg">The Five Aggregates of Buddhism</a> <time datetime="2018-03-26">(2018-03-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PNZRDPpszkI">What is Insight (Vipassana) Meditation?</a> <time datetime="2018-03-22">(2018-03-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ytEYBK9dJrA">Mindfulness of Mind</a> <time datetime="2018-03-19">(2018-03-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=cCRNnHrqhwA">Politics, Religion, and Engaged Buddhism</a> <time datetime="2018-03-15">(2018-03-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=cJU7-wVQIeg">Mindfulness of Feelings</a> <time datetime="2018-03-12">(2018-03-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=1PRKCG7MuE8">First Year Anniversary!</a> <time datetime="2018-03-08">(2018-03-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UeZ45FoKcN8">Buddhism and Climate Change</a> <time datetime="2018-03-05">(2018-03-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=xbdBIFEvAPY">On Taste and Connoisseurship</a> <time datetime="2018-03-01">(2018-03-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=6h-1RdcJ5h4">Mindfulness of the Body</a> <time datetime="2018-02-26">(2018-02-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ydYLXYvz6oA">Intro to Buddhist Art</a> <time datetime="2018-02-22">(2018-02-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=05VjKBsuTfY">Who Cares What the Buddha Thought?</a> <time datetime="2018-02-19">(2018-02-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=N9ltD8wYQCQ">Was the Buddha Bald?</a> <time datetime="2018-02-15">(2018-02-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gSZjKKuvHEQ">The Buddha on Self and Non-Self</a> <time datetime="2018-02-12">(2018-02-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wXYAY-zmNGs">Buddha and Jesus on Wealth</a> <time datetime="2018-02-08">(2018-02-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Hf1E91yKtvQ">The Buddha and Free Will</a> <time datetime="2018-02-05">(2018-02-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Aa5cyQBBy-g">The Kālāma Sutta: the Buddha&#x27;s Charter of Free Inquiry</a> <time datetime="2018-02-01">(2018-02-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=PUr-X8Q-HcY">Was the Buddha a Philosopher?</a> <time datetime="2018-01-29">(2018-01-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=A2cDhGVgb9A">What is Dependent Origination in Early Buddhism?</a> <time datetime="2018-01-25">(2018-01-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=qkpne2xaNGs">Our Stories:  Are They Everything?</a> <time datetime="2018-01-22">(2018-01-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=gFcP0ZnqHSQ">Knowledge and Wisdom: What&#x27;s the Deal?</a> <time datetime="2018-01-18">(2018-01-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9WXCyqdP7s8">What are the Four Noble Truths?</a> <time datetime="2018-01-15">(2018-01-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZWs3yaOMcZo">The Guardians of the World</a> <time datetime="2018-01-11">(2018-01-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=oN5292K60yc">Considering Karma</a> <time datetime="2018-01-08">(2018-01-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=s0SBxp5Hpok">The Dalai Lama&#x27;s Secular Turn</a> <time datetime="2018-01-04">(2018-01-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8Kdkh7VYPM0">Why Be Generous?</a> <time datetime="2017-12-21">(2017-12-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=A5AdRLFantE">Neistat and Einstein on the Good Life</a> <time datetime="2017-12-18">(2017-12-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8wstShpo3Y8">Buddhists of Other Religions</a> <time datetime="2017-12-14">(2017-12-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9ge9N5aw2Jc">The Buddha&#x27;s Surprising Advice to Converts</a> <time datetime="2017-12-11">(2017-12-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=hBgSBanF4TU">One Way the Dharma Can Bite Us</a> <time datetime="2017-12-07">(2017-12-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HYfYXYbZE20">What Did the Buddha Say About Prayer?</a> <time datetime="2017-12-04">(2017-12-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Wl6b3fFUbLE">Quit Comparing Yourself!</a> <time datetime="2017-11-30">(2017-11-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=4bGPtICK2Ns">Why Buddhism Isn&#x27;t a Religion</a> <time datetime="2017-11-27">(2017-11-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=IFqyXzipnKo">On Gratitude</a> <time datetime="2017-11-23">(2017-11-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=cSHKsFBytM0">Spiritual Materialism</a> <time datetime="2017-11-20">(2017-11-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=8O0Klh_pzjM">Judgment and Non-Judgment</a> <time datetime="2017-11-16">(2017-11-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ABQZpxOTqsg">What is the Present Moment?</a> <time datetime="2017-11-13">(2017-11-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2nPjThn4Xrs">The Five Precepts</a> <time datetime="2017-11-09">(2017-11-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=cwvsYDEIMIk">Why Read Early Buddhist Texts?</a> <time datetime="2017-11-06">(2017-11-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=9vD0tOuE2lk">Spiritual Bypassing</a> <time datetime="2017-11-02">(2017-11-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=M6mpzao9Gv4">Is Early Buddhism in Danger?</a> <time datetime="2017-10-30">(2017-10-30)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dhjCrWI_Yq4">Meditation 101</a> <time datetime="2017-10-26">(2017-10-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=EQsd6D_9jg4">Sticking with Practice: Five Keys</a> <time datetime="2017-10-23">(2017-10-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2ZfKxMwTXrI">Three Strategies for Watching the News</a> <time datetime="2017-10-19">(2017-10-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=DWZAPjKlASM">Is Secular Buddhism an Oxymoron?</a> <time datetime="2017-10-16">(2017-10-16)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-NN0RSjm1uk">Buddhist Fundamentalism</a> <time datetime="2017-10-12">(2017-10-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=meEKGu8VqHU">Why We Can&#x27;t Have Nice Things</a> <time datetime="2017-10-09">(2017-10-09)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=SMlYDHW9EVY">Q&amp;A: Bad Gurus</a> <time datetime="2017-10-05">(2017-10-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=FS5Orvr0iRE">Why Buddhism is True</a> <time datetime="2017-10-02">(2017-10-02)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=CbB2TNQAku0">Buddhism and Stoicism 2: Five Differences</a> <time datetime="2017-09-28">(2017-09-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=wJ0iQiNf6ZE">Buddhism and Stoicism 1: Five Similarities</a> <time datetime="2017-09-25">(2017-09-25)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=DhVgoMouLy8">Right Concentration Extras</a> <time datetime="2017-09-21">(2017-09-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GWcOb1y0xGk">What is Right Concentration?</a> <time datetime="2017-09-18">(2017-09-18)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Y6fAWKCtiik">Buddhist Economics?</a> <time datetime="2017-09-14">(2017-09-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=tocI-KHWIKY">What is Right Mindfulness?</a> <time datetime="2017-09-11">(2017-09-11)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=JoxesaVtYV0">What is Right Effort?</a> <time datetime="2017-09-07">(2017-09-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dSOhWGgqMWA">What is Right Livelihood?</a> <time datetime="2017-09-04">(2017-09-04)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=BN2tNqwf37o">Q&amp;A: Video Music and Nonself Vlogging</a> <time datetime="2017-08-31">(2017-08-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=LgN3MT6m4zI">What Might the Buddha Say About Secular Buddhism?</a> <time datetime="2017-08-28">(2017-08-28)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=45jcnB89m1Q">What is Right Action?</a> <time datetime="2017-08-21">(2017-08-21)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=YfxV12gryGA">What is Right Speech?</a> <time datetime="2017-08-14">(2017-08-14)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=vpeF669f-i8">Dharma Vlog: Cults and Weird Buddhism</a> <time datetime="2017-08-10">(2017-08-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=lr_PY2NHZ5k">What is Right Intention?</a> <time datetime="2017-08-07">(2017-08-07)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2Fv4eouF-DA">What is Right View?</a> <time datetime="2017-07-31">(2017-07-31)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=ZsyaKvUTRKM">Introduction to Buddhism</a> <time datetime="2017-07-24">(2017-07-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UbFKoJxzHkk">Dharma Vlog: Meditation and a Podcast</a> <time datetime="2017-07-20">(2017-07-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=dYNWDFOBtQg">What are Buddhism&#x27;s Key Texts?</a> <time datetime="2017-07-17">(2017-07-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GYJ_k4pITsM">What is Dharma (Buddhism)?</a> <time datetime="2017-07-10">(2017-07-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=GytXVx6ZQSo">Q &amp; A: Secular Monasticism and Choppy Videos</a> <time datetime="2017-07-06">(2017-07-06)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=NFzc-yqxZtQ">What are the Five Hindrances?</a> <time datetime="2017-07-03">(2017-07-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bvkmbJFR8Mw">What are the Three Refuges?</a> <time datetime="2017-06-26">(2017-06-26)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UyKyULHmWD8">What Did the Buddha Teach About Beliefs?</a> <time datetime="2017-06-19">(2017-06-19)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bbHlyxPTM68">Dharma Vlog Experiment!</a> <time datetime="2017-06-15">(2017-06-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=y2kuztpY9hA">Secular Buddhism&#x27;s Roots in South Asia</a> <time datetime="2017-06-12">(2017-06-12)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=HMqnVsYZ4q8">Thinking and Practicing</a> <time datetime="2017-06-05">(2017-06-05)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=2KU-sSsSVow">Enlightenment, European and Buddhist</a> <time datetime="2017-05-29">(2017-05-29)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=QOQiZbAPtW4">Is Buddhism Atheist?</a> <time datetime="2017-05-22">(2017-05-22)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=7mFBdFyyqe0">Loving Kindness Meditation</a> <time datetime="2017-05-15">(2017-05-15)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=-v-iNe1wVZ0">Early Buddhism &amp; Secular Buddhism</a> <time datetime="2017-05-08">(2017-05-08)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=P9PCNHosQ-s">The Three Poisons of Buddhism: Antidotes</a> <time datetime="2017-05-01">(2017-05-01)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=bi8OeCuzHKc">Introduction to the Eightfold Path</a> <time datetime="2017-04-24">(2017-04-24)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=zFZjlkjSboY">Welcome to Doug&#x27;s Secular Dharma!</a> <time datetime="2017-04-23">(2017-04-23)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=yd1rCCWX0bo">Secular Buddhism &amp; Secular Humanism</a> <time datetime="2017-04-17">(2017-04-17)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=rV2iiEttayY">Mindfulness and Concentration Meditation</a> <time datetime="2017-04-10">(2017-04-10)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=i9pUWTk95n0">What is Buddhist Awakening?</a> <time datetime="2017-04-03">(2017-04-03)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UGNfiyRMkgw">Good Books on Early Buddhism</a> <time datetime="2017-03-27">(2017-03-27)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=Oi0V3Pycru0">The Buddha on Politics and Society</a> <time datetime="2017-03-20">(2017-03-20)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=sziAaCI5y1Q">Comparing Early Greek and Buddhist Thought</a> <time datetime="2017-03-13">(2017-03-13)</time></li>
+            <li><a href="https://www.youtube.com/watch?v=UtRk4qD8a-0">What is Secular Buddhism? (#1)</a> <time datetime="2017-03-06">(2017-03-06)</time></li>
+          </ul>
+        </section>
+      </noscript>
       <div class="empty-state" id="empty-state" style="display:none">
         <div class="e-title">No videos match</div>
         <p>Try removing a filter or searching for a different term.</p>
@@ -421,6 +1056,8 @@
         <a href="https://www.youtube.com/@DougsDharma">YouTube channel</a>
         <a href="https://www.patreon.com/dougsseculardharma">Patreon</a>
         <a href="https://digginthedharma.com">Diggin' the Dharma podcast</a>
+        <a href="videos.json">Video data (JSON)</a>
+        <a href="llms.txt">llms.txt (for AI agents)</a>
       </div>
     </div>
   </footer>

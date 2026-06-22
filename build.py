@@ -110,6 +110,7 @@ compact_json = json.dumps(compact, separators=(',', ':'), ensure_ascii=False)
 print("  Generating JSON-LD schema markup...")
 schema_items = []
 for v in data:
+    vid = youtube_id(v.get('youtube_url', ''))
     video_obj = {
         "@type": "VideoObject",
         "name": v['title'],
@@ -118,6 +119,10 @@ for v in data:
         "url": v['youtube_url'],
         "embedUrl": v['youtube_url'].replace("watch?v=", "embed/"),
     }
+    # Google needs a thumbnailUrl for VideoObject rich results; YouTube's
+    # thumbnail path is derivable from the video id.
+    if vid:
+        video_obj["thumbnailUrl"] = f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
     # Add topic keywords
     if v.get('topics'):
         video_obj["keywords"] = ", ".join(v['topics'])

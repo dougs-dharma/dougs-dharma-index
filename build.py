@@ -111,11 +111,16 @@ print("  Generating JSON-LD schema markup...")
 schema_items = []
 for v in data:
     vid = youtube_id(v.get('youtube_url', ''))
+    # Schema.org wants uploadDate as ISO 8601 *with* a timezone. We only have
+    # the calendar date, so anchor it at noon UTC — a representative time that
+    # keeps the same calendar day in every timezone from UTC-11 to UTC+11.
+    raw_date = v.get('date', '')
+    upload_date = f"{raw_date}T12:00:00+00:00" if raw_date else ''
     video_obj = {
         "@type": "VideoObject",
         "name": v['title'],
         "description": v.get('summary', ''),
-        "uploadDate": v.get('date', ''),
+        "uploadDate": upload_date,
         "url": v['youtube_url'],
         "embedUrl": v['youtube_url'].replace("watch?v=", "embed/"),
     }

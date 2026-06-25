@@ -116,10 +116,13 @@ for v in data:
     # keeps the same calendar day in every timezone from UTC-11 to UTC+11.
     raw_date = v.get('date', '')
     upload_date = f"{raw_date}T12:00:00+00:00" if raw_date else ''
+    # Schema.org VideoObject requires a non-empty description; an empty string
+    # counts as "missing". Fall back to the title when no summary is set.
+    description = (v.get('summary') or '').strip() or v['title']
     video_obj = {
         "@type": "VideoObject",
         "name": v['title'],
-        "description": v.get('summary', ''),
+        "description": description,
         "uploadDate": upload_date,
         "url": v['youtube_url'],
         "embedUrl": v['youtube_url'].replace("watch?v=", "embed/"),

@@ -1,5 +1,64 @@
 [
   {
+    "title": "What I Got Wrong About Buddhism (And What Changed Everything)",
+    "date": "2026-06-29",
+    "youtube_url": "https://www.youtube.com/watch?v=wDFhZ5xrwWg",
+    "summary": "Doug reflects on five key lessons he wishes he had understood earlier in his Buddhist practice: misconceptions about meditation, the importance of testing teachings rather than accepting them on faith, treating the Dhamma as tools rather than fixed dogma, the full scope of the gradual training beyond sitting practice, and the teachings on not-self and the two arrows.",
+    "topics": [
+      "beginners",
+      "meditation",
+      "mindfulness",
+      "practice",
+      "noble eightfold path",
+      "anatta/not-self",
+      "suffering/dukkha"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "MN 22",
+        "url": "https://suttacentral.net/mn22/en/sujato",
+        "label": "MN 22 Alagaddūpama Sutta"
+      },
+      {
+        "sutta_id": "AN 3.65",
+        "url": "https://suttacentral.net/an3.65/en/sujato",
+        "label": "AN 3.65 Kālāma Sutta"
+      },
+      {
+        "sutta_id": "SN 56.11",
+        "url": "https://suttacentral.net/sn56.11/en/sujato",
+        "label": "SN 56.11 Dhammacakkappavattana Sutta"
+      },
+      {
+        "sutta_id": "MN 10",
+        "url": "https://suttacentral.net/mn10/en/sujato",
+        "label": "MN 10 Satipaṭṭhāna Sutta"
+      },
+      {
+        "sutta_id": "SN 45.8",
+        "url": "https://suttacentral.net/sn45.8/en/sujato",
+        "label": "SN 45.8 Vibhaṅga Sutta"
+      },
+      {
+        "sutta_id": "DN 2",
+        "url": "https://suttacentral.net/dn2/en/sujato",
+        "label": "DN 2 Sāmaññaphala Sutta"
+      },
+      {
+        "sutta_id": "SN 22.59",
+        "url": "https://suttacentral.net/sn22.59/en/sujato",
+        "label": "SN 22.59 Anattalakkhaṇa Sutta"
+      },
+      {
+        "sutta_id": "SN 36.6",
+        "url": "https://suttacentral.net/sn36.6/en/sujato",
+        "label": "SN 36.6 Sallatha Sutta"
+      }
+    ],
+    "other_refs": [],
+    "related_videos": []
+  },
+  {
     "title": "Why the Buddha Rejected Prayer (Mostly)",
     "date": "2026-06-15",
     "youtube_url": "https://www.youtube.com/watch?v=6WtRetCi_Oc",

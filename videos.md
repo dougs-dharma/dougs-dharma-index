@@ -1,8 +1,9 @@
 # Doug's Dharma — Complete Video Index
 
-622 videos, newest first. Format: `Title — watch URL`.
+623 videos, newest first. Format: `Title — watch URL`.
 Structured data: https://dougs-dharma.github.io/dougs-dharma-index/videos.json
 
+- What I Got Wrong About Buddhism (And What Changed Everything) — https://www.youtube.com/watch?v=wDFhZ5xrwWg
 - Why the Buddha Rejected Prayer (Mostly) — https://www.youtube.com/watch?v=6WtRetCi_Oc
 - Why the Buddha Taught You TO Think — https://www.youtube.com/watch?v=U0XEkSFoWE8
 - The "Bee" Philosophy: A Buddhist Guide to Sustainable Living — https://www.youtube.com/watch?v=g5KPDC__yVc

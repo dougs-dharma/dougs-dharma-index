@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 622 educational videos on early Buddhism
+> A searchable index of 623 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -20,7 +20,7 @@ The complete video index is available in several machine-readable forms:
 
 Each video in videos.json contains:
 - id (YouTube video id), title, url (canonical watch URL), date, description
-- topics (from a controlled vocabulary of 236 terms)
+- topics (from a controlled vocabulary of 240 terms)
 - suttas (early Buddhist text references, e.g. "MN 10", "SN 56.11")
 
 The source file (dougs_dharma_index.json) additionally includes sutta_refs
@@ -152,10 +152,12 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - abhidhamma
 - advanced vs. beginner
 - aesthetics
+- anatta/not-self
 - anger
 - art
 - atheism/agnosticism
 - attachment/clinging
+- beginners
 - breath meditation
 - channel news
 - compassion
@@ -208,6 +210,7 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - nature/environment
 - nibbana/nirvana
 - nirvana/nibbana
+- noble eightfold path
 - non-dualism
 - non-self/anatta
 - patience
@@ -217,6 +220,7 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - philosophy
 - pleasure
 - politics
+- practice
 - pragmatism
 - prayer
 - pride/conceit
@@ -273,6 +277,7 @@ and other early Buddhist texts. References use standard abbreviations
 
 ## All Videos (newest first)
 
+- What I Got Wrong About Buddhism (And What Changed Everything) — https://www.youtube.com/watch?v=wDFhZ5xrwWg
 - Why the Buddha Rejected Prayer (Mostly) — https://www.youtube.com/watch?v=6WtRetCi_Oc
 - Why the Buddha Taught You TO Think — https://www.youtube.com/watch?v=U0XEkSFoWE8
 - The "Bee" Philosophy: A Buddhist Guide to Sustainable Living — https://www.youtube.com/watch?v=g5KPDC__yVc

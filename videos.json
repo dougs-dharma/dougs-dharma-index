@@ -3,9 +3,35 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
   "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
-  "generated": "2026-06-25",
-  "count": 622,
+  "generated": "2026-07-08",
+  "count": 623,
   "videos": [
+    {
+      "id": "wDFhZ5xrwWg",
+      "title": "What I Got Wrong About Buddhism (And What Changed Everything)",
+      "url": "https://www.youtube.com/watch?v=wDFhZ5xrwWg",
+      "date": "2026-06-29",
+      "description": "Doug reflects on five key lessons he wishes he had understood earlier in his Buddhist practice: misconceptions about meditation, the importance of testing teachings rather than accepting them on faith, treating the Dhamma as tools rather than fixed dogma, the full scope of the gradual training beyond sitting practice, and the teachings on not-self and the two arrows.",
+      "topics": [
+        "beginners",
+        "meditation",
+        "mindfulness",
+        "practice",
+        "noble eightfold path",
+        "anatta/not-self",
+        "suffering/dukkha"
+      ],
+      "suttas": [
+        "MN 22",
+        "AN 3.65",
+        "SN 56.11",
+        "MN 10",
+        "SN 45.8",
+        "DN 2",
+        "SN 22.59",
+        "SN 36.6"
+      ]
+    },
     {
       "id": "6WtRetCi_Oc",
       "title": "Why the Buddha Rejected Prayer (Mostly)",

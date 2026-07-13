@@ -54,3 +54,27 @@ Site is on GitHub Pages. GitHub account **dougs-dharma**, repo **dougsdharma-sit
 served at dougsdharma.com via a CNAME. Updates: edit `index.html` in the browser for
 text; re-upload `index.html` for redesigns. The repo's `index.html` is the source of
 truth — if Doug edited in the browser, re-sync (get his current file) before any redo.
+
+## Data & build scripts (this repo)
+- `dougs_dharma_index.json` is the **hand-maintained source of truth** (623 videos:
+  title, date, youtube_url, summary, topics, sutta_refs, other_refs, related_videos).
+- `build.py` regenerates the site derivatives (`index.html`, `videos.json`, `videos.md`,
+  `llms.txt`, `sitemap.xml`, `robots.txt`) from that JSON. It is a clean UTF-8 passthrough.
+- `rebuild_wiki_index.py` regenerates the **vault** file `Past Videos:Writings/Dougs Dharma
+  Wiki Index.md` deterministically from the vault notes + this index. Run it after any
+  frontmatter-enrichment pass or when videos are added:
+  `python3 rebuild_wiki_index.py --notes-dir "<vault>/Past Videos:Writings"`
+  (index defaults to the JSON next to the script). It drops the old editorial "Notable"
+  field on purpose; themes/sources come from the index for linked notes.
+- **Encoding caveat:** the source JSON previously carried double-encoded mojibake
+  (`â€™`, `Åš`, and a 4-byte emoji `🙂` that a 2/3-byte-only fixer misses). It was cleaned
+  2026-07; if you hand-edit the JSON, keep it valid UTF-8 and re-run `build.py`. A quick
+  check: `python3 -c "import json,ftfy;[print(s) for x in json.load(open('dougs_dharma_index.json')) for s in x.values() if isinstance(s,str) and ftfy.fix_encoding(s)!=s]"` should print nothing.
+
+## The vault (Obsidian) — where the video notes live
+Doug's note vault is the connected **"Claude Folders"** folder; per-video outline notes are
+in `Past Videos:Writings/` (~610 `.md` files, most with `video:`/`date:`/`url:`/`suttas:`/
+`summary:` frontmatter joined to this index by the exact published `video:` title). Notes
+were originally `.pages`/RTF conversions, so watch for conversion artifacts if new ones are
+added: double-encoded mojibake, bare RTF codes (`'92`→’, `'93`→“, `'97`→—), dropped Pali
+diacritics (`Pli`→Pāli, `jhna`→jhāna), and `Courier;`/`*HYPERLINK` junk. Cleaned 2026-07.

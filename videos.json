@@ -3,7 +3,7 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
   "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
-  "generated": "2026-07-08",
+  "generated": "2026-07-12",
   "count": 623,
   "videos": [
     {
@@ -765,7 +765,7 @@
         "MN 86",
         "AN 8.20",
         "Ud 5.5",
-        "Vinaya, Saá¹…ghÄdisesa 13",
+        "Vinaya, Saṅghādisesa 13",
         "Vinaya, Khandhaka 10"
       ]
     },
@@ -2101,7 +2101,7 @@
       ],
       "suttas": [
         "Dhp 273",
-        "Vinaya, ParivÄra 3",
+        "Vinaya, Parivāra 3",
         "AN 3.136"
       ]
     },
@@ -3653,7 +3653,7 @@
         "Snp 4.11",
         "MN 26",
         "MN 22",
-        "Snp 4 (Aá¹­á¹­hakavagga)"
+        "Snp 4 (Aṭṭhakavagga)"
       ]
     },
     {
@@ -3684,7 +3684,7 @@
       ],
       "suttas": [
         "Snp 4.11",
-        "Snp 4 (Aá¹­á¹­hakavagga)"
+        "Snp 4 (Aṭṭhakavagga)"
       ]
     },
     {
@@ -4129,7 +4129,7 @@
       "title": "The Buddha's Creation Story: Myth as History and Inspiration",
       "url": "https://www.youtube.com/watch?v=Vtt9q1V-kAo",
       "date": "2021-11-29",
-      "description": "Should we look at ancient stories and myths historically, or as inspirational literature? I'll look at both options through the lens of the AgganÌƒnÌƒa Sutta, a famous, early Buddhist creation myth.",
+      "description": "Should we look at ancient stories and myths historically, or as inspirational literature? I'll look at both options through the lens of the Aggañña Sutta, a famous, early Buddhist creation myth.",
       "topics": [
         "fame",
         "suttas/early texts",
@@ -4344,7 +4344,7 @@
       "title": "Kali and Vedehika: the Buddha's Cautionary Tale of Privilege",
       "url": "https://www.youtube.com/watch?v=t6dt_I_n_UE",
       "date": "2021-10-11",
-      "description": "What is the story of Kāá¸·ī and Vedehikā? We'll consider this early tale from the Buddha and how it relates to our own delusions of perfection, as well as how it helps illuminate some of the pitfalls of privilege and injustice.",
+      "description": "What is the story of Kāḷī and Vedehikā? We'll consider this early tale from the Buddha and how it relates to our own delusions of perfection, as well as how it helps illuminate some of the pitfalls of privilege and injustice.",
       "topics": [
         "social justice"
       ],
@@ -4511,7 +4511,7 @@
       "title": "Ananda's Breakthrough: the Buddha's Attendant Learns a Lesson in Non-Self",
       "url": "https://www.youtube.com/watch?v=Cf9MbhoDHNQ",
       "date": "2021-08-16",
-      "description": "We'll look at the teaching on non-self that cleared up Ä€nanda's doubts about the Buddhist path of practice.",
+      "description": "We'll look at the teaching on non-self that cleared up Ānanda's doubts about the Buddhist path of practice.",
       "topics": [
         "non-self/anatta"
       ],
@@ -4636,7 +4636,7 @@
       "title": "Life of the Buddha's Great Lay Donor: Who Was Anathapindika?",
       "url": "https://www.youtube.com/watch?v=ZpyTRtcAQ4o",
       "date": "2021-06-21",
-      "description": "Who was Anāthapiṇá¸ika/Anāthapiṇá¸ada? We'll look at his importance to the development of the early sangha, some of the topics that the Buddha discussed with him in various discourses, and the important dharma talk given him by Sāriputta on his deathbed.",
+      "description": "Who was Anāthapiṇḍika/Anāthapiṇḍada? We'll look at his importance to the development of the early sangha, some of the topics that the Buddha discussed with him in various discourses, and the important dharma talk given him by Sāriputta on his deathbed.",
       "topics": [
         "sangha/community",
         "suttas/early texts",
@@ -5172,7 +5172,7 @@
     },
     {
       "id": "WcIdaTnraXM",
-      "title": "Who Was Sariputta/Åšariputra? (Life of the Buddha's Chief Disciple)",
+      "title": "Who Was Sariputta/Śariputra? (Life of the Buddha's Chief Disciple)",
       "url": "https://www.youtube.com/watch?v=WcIdaTnraXM",
       "date": "2021-02-08",
       "description": "The Buddha's chief disciple was a man named Sāriputta. We'll look at his life and influence in this video. First we will look at where his main motivation seems to have lain, by looking in detail at how he encountered the Buddha dharma and became enlightened. Then we will turn to his influence on the dharma and sangha. Last we will look at how he was perceived after his death, and how his role was seen to have changed radically, in some later Buddhist circles.",
@@ -5720,7 +5720,7 @@
         "MN 21",
         "AN 8.20",
         "Ud 5.5",
-        "Vinaya, Saá¹…ghÄdisesa 13",
+        "Vinaya, Saṅghādisesa 13",
         "Vinaya, Khandhaka 21",
         "Vinaya, Khandhaka 10"
       ]
@@ -7352,8 +7352,8 @@
         "self/identity"
       ],
       "suttas": [
-        "Vinaya, PÄrÄjika 4",
-        "Vinaya, PÄcittiya 8"
+        "Vinaya, Pārājika 4",
+        "Vinaya, Pācittiya 8"
       ]
     },
     {
@@ -8373,7 +8373,7 @@
       "title": "Controversies Over Clothing and Food",
       "url": "https://www.youtube.com/watch?v=r5oncPD7jKo",
       "date": "2018-05-10",
-      "description": "Some of the Buddha's dictates over clothing and food became controversial in the early history of the saá¹…gha. Indeed, aspects of them are still controversial today. We'll discuss those controversies in this video in their historical context and consider how we might approach them today.",
+      "description": "Some of the Buddha's dictates over clothing and food became controversial in the early history of the saṅgha. Indeed, aspects of them are still controversial today. We'll discuss those controversies in this video in their historical context and consider how we might approach them today.",
       "topics": [
         "food/eating",
         "sangha/community"
@@ -8442,7 +8442,7 @@
       "title": "Perfectionism Social and Personal",
       "url": "https://www.youtube.com/watch?v=dOsZ6g9pG9Y",
       "date": "2018-04-19",
-      "description": "Many of us are perfectionists of one kind or another, and perfectionism has its benefits. It also has its darker side, which we will consider in today's video: both in a sociopolitical sense and in a personal sense. We will finish up by considering a few ways that the Buddha appears not to have been a perfectionist about aspects of the early saá¹…gha.",
+      "description": "Many of us are perfectionists of one kind or another, and perfectionism has its benefits. It also has its darker side, which we will consider in today's video: both in a sociopolitical sense and in a personal sense. We will finish up by considering a few ways that the Buddha appears not to have been a perfectionist about aspects of the early saṅgha.",
       "topics": [
         "sangha/community"
       ],

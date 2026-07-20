@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 623 educational videos on early Buddhism
+> A searchable index of 624 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -8,7 +8,7 @@
 Doug's Dharma is a YouTube channel created in 2017 to introduce the
 teachings of early Buddhism to a wide audience. Doug Smith holds a PhD
 in Philosophy and has published scholarly works in Buddhist Studies.
-This index covers videos from March 2017 to June 2026.
+This index covers videos from March 2017 to July 2026.
 
 ## Structured Data
 
@@ -20,7 +20,7 @@ The complete video index is available in several machine-readable forms:
 
 Each video in videos.json contains:
 - id (YouTube video id), title, url (canonical watch URL), date, description
-- topics (from a controlled vocabulary of 240 terms)
+- topics (from a controlled vocabulary of 241 terms)
 - suttas (early Buddhist text references, e.g. "MN 10", "SN 56.11")
 
 The source file (dougs_dharma_index.json) additionally includes sutta_refs
@@ -41,6 +41,7 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - Bapat, P.V.
 - Barbie
 - Batchelor, Stephen
+- Benatar, David
 - Blomfeld, Vishvapani
 - Bodhi, Bhikkhu
 - Bodhipaksa
@@ -277,6 +278,7 @@ and other early Buddhist texts. References use standard abbreviations
 
 ## All Videos (newest first)
 
+- Is Life a Mistake? (The Buddha vs. Anti-Natalism) — https://www.youtube.com/watch?v=lLYNiGT1Ix0
 - What I Got Wrong About Buddhism (And What Changed Everything) — https://www.youtube.com/watch?v=wDFhZ5xrwWg
 - Why the Buddha Rejected Prayer (Mostly) — https://www.youtube.com/watch?v=6WtRetCi_Oc
 - Why the Buddha Taught You TO Think — https://www.youtube.com/watch?v=U0XEkSFoWE8

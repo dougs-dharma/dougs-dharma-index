@@ -1,5 +1,37 @@
 [
   {
+    "title": "Is Life a Mistake? (The Buddha vs. Anti-Natalism)",
+    "date": "2026-07-13",
+    "youtube_url": "https://www.youtube.com/watch?v=lLYNiGT1Ix0",
+    "summary": "Doug examines whether it is wrong to have children, comparing a surprising teaching attributed to a Buddhist meditation master (Ajahn Chah) with the contemporary philosophical position of anti-natalism as articulated by David Benatar, and considers what early Buddhism has to say about the value of human existence and the nature of suffering.",
+    "topics": [
+      "suffering/dukkha",
+      "philosophy",
+      "Ajahn Chah",
+      "Benatar, David"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "SN 56.48",
+        "url": "https://suttacentral.net/sn56.48/en/sujato",
+        "label": null
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "book",
+        "label": "The Teachings of Ajahn Chah",
+        "url": "https://www.accesstoinsight.org/lib/thai/chah/the_teachings_of_ajahn_chah_web.pdf"
+      },
+      {
+        "type": "article",
+        "label": "David Benatar, \"Why It Is Better Never to Come into Existence,\" American Philosophical Quarterly 34:3, 1997",
+        "url": "https://www.jstor.org/stable/i20009900"
+      }
+    ],
+    "related_videos": []
+  },
+  {
     "title": "What I Got Wrong About Buddhism (And What Changed Everything)",
     "date": "2026-06-29",
     "youtube_url": "https://www.youtube.com/watch?v=wDFhZ5xrwWg",

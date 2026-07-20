@@ -3,9 +3,25 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
   "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
-  "generated": "2026-07-13",
-  "count": 623,
+  "generated": "2026-07-20",
+  "count": 624,
   "videos": [
+    {
+      "id": "lLYNiGT1Ix0",
+      "title": "Is Life a Mistake? (The Buddha vs. Anti-Natalism)",
+      "url": "https://www.youtube.com/watch?v=lLYNiGT1Ix0",
+      "date": "2026-07-13",
+      "description": "Doug examines whether it is wrong to have children, comparing a surprising teaching attributed to a Buddhist meditation master (Ajahn Chah) with the contemporary philosophical position of anti-natalism as articulated by David Benatar, and considers what early Buddhism has to say about the value of human existence and the nature of suffering.",
+      "topics": [
+        "suffering/dukkha",
+        "philosophy",
+        "Ajahn Chah",
+        "Benatar, David"
+      ],
+      "suttas": [
+        "SN 56.48"
+      ]
+    },
     {
       "id": "wDFhZ5xrwWg",
       "title": "What I Got Wrong About Buddhism (And What Changed Everything)",

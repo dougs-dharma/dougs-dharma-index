@@ -1,5 +1,52 @@
 [
   {
+    "title": "Is Early Buddhism the \"Real\" Buddhism? (A Buddhist View)",
+    "date": "2026-07-27",
+    "youtube_url": "https://www.youtube.com/watch?v=m-d3KpaaXZM",
+    "summary": "Doug distinguishes the scholarly category of \"early Buddhism\" — texts and teachings closest to the historical Buddha — from a normative claim that earlier means more authentic or authoritative, arguing that historical priority does not entail normative priority and that what matters is the functional criteria the texts themselves provide for evaluating the Dhamma.",
+    "topics": [
+      "suttas/early texts",
+      "history/scholarship",
+      "Bhikkhu Analayo",
+      "Gombrich, Richard"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "MN 22",
+        "url": "https://suttacentral.net/mn22/en/bodhi",
+        "label": "MN 22 Alagaddūpama Sutta"
+      },
+      {
+        "sutta_id": "MN 38",
+        "url": "https://suttacentral.net/mn38/en/bodhi",
+        "label": "MN 38 Mahātaṇhāsankhaya Sutta"
+      },
+      {
+        "sutta_id": "AN 8.53",
+        "url": "https://suttacentral.net/an8.53/en/sujato",
+        "label": "AN 8.53 Gotamī Sutta"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "book",
+        "label": "Bhikkhu Sujato and Bhikkhu Brahmali, \"The Authenticity of the Early Buddhist Texts\"",
+        "url": "https://ocbs.org/wp-content/uploads/2015/09/authenticity.pdf"
+      },
+      {
+        "type": "book",
+        "label": "Bhikkhu Anālayo, Superiority Conceit in Buddhist Traditions: A Historical Perspective",
+        "url": "https://amzn.to/4tHY1kU"
+      },
+      {
+        "type": "book",
+        "label": "Richard Gombrich and Gananath Obeyesekere, Buddhism Transformed",
+        "url": "https://amzn.to/3RMoEYw"
+      }
+    ],
+    "related_videos": []
+  },
+  {
     "title": "Is Life a Mistake? (The Buddha vs. Anti-Natalism)",
     "date": "2026-07-13",
     "youtube_url": "https://www.youtube.com/watch?v=lLYNiGT1Ix0",

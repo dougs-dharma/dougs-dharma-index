@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 624 educational videos on early Buddhism
+> A searchable index of 625 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -20,7 +20,7 @@ The complete video index is available in several machine-readable forms:
 
 Each video in videos.json contains:
 - id (YouTube video id), title, url (canonical watch URL), date, description
-- topics (from a controlled vocabulary of 241 terms)
+- topics (from a controlled vocabulary of 243 terms)
 - suttas (early Buddhist text references, e.g. "MN 10", "SN 56.11")
 
 The source file (dougs_dharma_index.json) additionally includes sutta_refs
@@ -42,6 +42,7 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - Barbie
 - Batchelor, Stephen
 - Benatar, David
+- Bhikkhu Analayo
 - Blomfeld, Vishvapani
 - Bodhi, Bhikkhu
 - Bodhipaksa
@@ -195,6 +196,7 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - gratitude
 - heart sutra/prajnaparamita
 - hindrances
+- history/scholarship
 - humor
 - impermanence
 - jhana/absorption
@@ -278,6 +280,7 @@ and other early Buddhist texts. References use standard abbreviations
 
 ## All Videos (newest first)
 
+- Is Early Buddhism the "Real" Buddhism? (A Buddhist View) — https://www.youtube.com/watch?v=m-d3KpaaXZM
 - Is Life a Mistake? (The Buddha vs. Anti-Natalism) — https://www.youtube.com/watch?v=lLYNiGT1Ix0
 - What I Got Wrong About Buddhism (And What Changed Everything) — https://www.youtube.com/watch?v=wDFhZ5xrwWg
 - Why the Buddha Rejected Prayer (Mostly) — https://www.youtube.com/watch?v=6WtRetCi_Oc

@@ -3,9 +3,27 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
   "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
-  "generated": "2026-07-20",
-  "count": 624,
+  "generated": "2026-08-07",
+  "count": 625,
   "videos": [
+    {
+      "id": "m-d3KpaaXZM",
+      "title": "Is Early Buddhism the \"Real\" Buddhism? (A Buddhist View)",
+      "url": "https://www.youtube.com/watch?v=m-d3KpaaXZM",
+      "date": "2026-07-27",
+      "description": "Doug distinguishes the scholarly category of \"early Buddhism\" — texts and teachings closest to the historical Buddha — from a normative claim that earlier means more authentic or authoritative, arguing that historical priority does not entail normative priority and that what matters is the functional criteria the texts themselves provide for evaluating the Dhamma.",
+      "topics": [
+        "suttas/early texts",
+        "history/scholarship",
+        "Bhikkhu Analayo",
+        "Gombrich, Richard"
+      ],
+      "suttas": [
+        "MN 22",
+        "MN 38",
+        "AN 8.53"
+      ]
+    },
     {
       "id": "lLYNiGT1Ix0",
       "title": "Is Life a Mistake? (The Buddha vs. Anti-Natalism)",

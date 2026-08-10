@@ -1,5 +1,87 @@
 [
   {
+    "title": "The Knowledge That Can't Be Overpowered – Socrates & the Buddha",
+    "date": "2026-08-10",
+    "youtube_url": "https://www.youtube.com/watch?v=H_nVhawUrTI",
+    "summary": "Doug examines whether there is any reliable way to know when we are right, tracing how confident certainty has misled even history's greatest thinkers, and asking whether Buddhist meditative insight offers a better standard. Drawing on suttas that allow investigating even the Buddha, he argues that knowledge and wisdom can only be built together with others, not secured through introspection alone.",
+    "topics": [
+      "philosophy",
+      "meditation",
+      "wisdom/pañña",
+      "epistemology"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "MN 21",
+        "url": "https://suttacentral.net/mn21/en/sujato",
+        "label": "MN 21 Kakacūpama Sutta"
+      },
+      {
+        "sutta_id": "MN 44",
+        "url": "https://suttacentral.net/mn44/en/sujato",
+        "label": "MN 44 Cūḷavedalla Sutta"
+      },
+      {
+        "sutta_id": "AN 10.27",
+        "url": "https://suttacentral.net/an10.27/en/sujato",
+        "label": "AN 10.27 Kokanuda Sutta"
+      },
+      {
+        "sutta_id": "MN 13",
+        "url": "https://suttacentral.net/mn13/en/sujato",
+        "label": "MN 13 Mahādukkhakkhandha Sutta"
+      },
+      {
+        "sutta_id": "MN 36",
+        "url": "https://suttacentral.net/mn36/en/sujato",
+        "label": "MN 36 Mahāsaccaka Sutta"
+      },
+      {
+        "sutta_id": "MN 47",
+        "url": "https://suttacentral.net/mn47/en/sujato",
+        "label": "MN 47 Vīmaṃsaka Sutta"
+      },
+      {
+        "sutta_id": "Ud 6.4",
+        "url": "https://suttacentral.net/ud6.4/en/sujato",
+        "label": "Ud 6.4 Andhabāla Sutta"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "article",
+        "label": "Descartes, Meditations on First Philosophy (1641)",
+        "url": "https://plato.stanford.edu/entries/descartes-epistemology/"
+      },
+      {
+        "type": "article",
+        "label": "Kant's Philosophy of Mathematics (SEP)",
+        "url": "https://plato.stanford.edu/entries/kant-mathematics/"
+      },
+      {
+        "type": "article",
+        "label": "The Epistemology of Geometry (SEP)",
+        "url": "https://plato.stanford.edu/entries/epistemology-geometry/"
+      },
+      {
+        "type": "article",
+        "label": "Kepler, Mysterium Cosmographicum (1596)",
+        "url": "https://en.wikipedia.org/wiki/Mysterium_Cosmographicum"
+      },
+      {
+        "type": "book",
+        "label": "Wittgenstein, On Certainty: The New Translation, trans. P. M. S. Hacker (Wiley-Blackwell, 2025)",
+        "url": "https://amzn.to/3TzQDLL"
+      },
+      {
+        "type": "article",
+        "label": "Sellars, \"Empiricism and the Philosophy of Mind\" (1956)",
+        "url": "https://www.ditext.com/sellars/epm.html"
+      }
+    ],
+    "related_videos": []
+  },
+  {
     "title": "Is Early Buddhism the \"Real\" Buddhism? (A Buddhist View)",
     "date": "2026-07-27",
     "youtube_url": "https://www.youtube.com/watch?v=m-d3KpaaXZM",

@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 625 educational videos on early Buddhism
+> A searchable index of 626 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -8,7 +8,7 @@
 Doug's Dharma is a YouTube channel created in 2017 to introduce the
 teachings of early Buddhism to a wide audience. Doug Smith holds a PhD
 in Philosophy and has published scholarly works in Buddhist Studies.
-This index covers videos from March 2017 to July 2026.
+This index covers videos from March 2017 to August 2026.
 
 ## Structured Data
 
@@ -20,7 +20,7 @@ The complete video index is available in several machine-readable forms:
 
 Each video in videos.json contains:
 - id (YouTube video id), title, url (canonical watch URL), date, description
-- topics (from a controlled vocabulary of 243 terms)
+- topics (from a controlled vocabulary of 244 terms)
 - suttas (early Buddhist text references, e.g. "MN 10", "SN 56.11")
 
 The source file (dougs_dharma_index.json) additionally includes sutta_refs
@@ -270,6 +270,7 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - wealth/money
 - weeding
 - wisdom/panna
+- wisdom/pañña
 - work/livelihood
 
 ## Sutta References
@@ -280,6 +281,7 @@ and other early Buddhist texts. References use standard abbreviations
 
 ## All Videos (newest first)
 
+- The Knowledge That Can't Be Overpowered – Socrates & the Buddha — https://www.youtube.com/watch?v=H_nVhawUrTI
 - Is Early Buddhism the "Real" Buddhism? (A Buddhist View) — https://www.youtube.com/watch?v=m-d3KpaaXZM
 - Is Life a Mistake? (The Buddha vs. Anti-Natalism) — https://www.youtube.com/watch?v=lLYNiGT1Ix0
 - What I Got Wrong About Buddhism (And What Changed Everything) — https://www.youtube.com/watch?v=wDFhZ5xrwWg

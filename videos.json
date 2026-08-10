@@ -3,9 +3,31 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
   "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
-  "generated": "2026-08-07",
-  "count": 625,
+  "generated": "2026-08-10",
+  "count": 626,
   "videos": [
+    {
+      "id": "H_nVhawUrTI",
+      "title": "The Knowledge That Can't Be Overpowered – Socrates & the Buddha",
+      "url": "https://www.youtube.com/watch?v=H_nVhawUrTI",
+      "date": "2026-08-10",
+      "description": "Doug examines whether there is any reliable way to know when we are right, tracing how confident certainty has misled even history's greatest thinkers, and asking whether Buddhist meditative insight offers a better standard. Drawing on suttas that allow investigating even the Buddha, he argues that knowledge and wisdom can only be built together with others, not secured through introspection alone.",
+      "topics": [
+        "philosophy",
+        "meditation",
+        "wisdom/pañña",
+        "epistemology"
+      ],
+      "suttas": [
+        "MN 21",
+        "MN 44",
+        "AN 10.27",
+        "MN 13",
+        "MN 36",
+        "MN 47",
+        "Ud 6.4"
+      ]
+    },
     {
       "id": "m-d3KpaaXZM",
       "title": "Is Early Buddhism the \"Real\" Buddhism? (A Buddhist View)",

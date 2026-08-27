@@ -1,6 +1,6 @@
 # Doug's Dharma — Complete Video Index
 
-626 videos, newest first. Format: `Title — watch URL`.
+622 videos, newest first. Format: `Title — watch URL`.
 Structured data: https://dougs-dharma.github.io/dougs-dharma-index/videos.json
 
 - Why Our Deepest Certainties Can Be Completely Wrong — https://www.youtube.com/watch?v=H_nVhawUrTI
@@ -138,11 +138,7 @@ Structured data: https://dougs-dharma.github.io/dougs-dharma-index/videos.json
 - Gratitude Practice — https://www.youtube.com/watch?v=48tEALvzm5w
 - Early Buddhist Theory of Knowledge — https://www.youtube.com/watch?v=VAnjRdkji_A
 - Mindfulness: Wholesome or Not? — https://www.youtube.com/watch?v=zaqtcP7CrxA
-- The Surprising Vagueness of Our Self: Unveiling the Mysteries of Consciousness  #buddhistphilosophy — https://www.youtube.com/watch?v=rZQIZbj_SjI
 - A Hidden Assumption in Buddhist Abhidhamma? The Doctrine of Seriality — https://www.youtube.com/watch?v=Ax7XBJ8HkBQ
-- The Profound Vagueness of Personal Identity:  Unveiling the Nature of the Self  #buddhistphilosophy — https://www.youtube.com/watch?v=dESKdTy0M0Y
-- Discovering Freedom: Understanding Buddhist Philosophy of Mind  #buddhistphilosophy #shorts — https://www.youtube.com/watch?v=FpYuY3Rouak
-- Unlocking the Power of Thoughts: The Buddha's Journey to Enlightenment  #buddhistphilosophy #shorts — https://www.youtube.com/watch?v=EbIyAk2KwVk
 - Buddhist Practice for Difficult Times — https://www.youtube.com/watch?v=Q3ozIl1bjxg
 - This Buddhist Image Hides a Secret — https://www.youtube.com/watch?v=wAdalN_se68
 - Origins of the Buddhist Earth Touching Gesture — https://www.youtube.com/watch?v=JHwzX77JTXc

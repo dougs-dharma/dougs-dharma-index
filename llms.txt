@@ -20,7 +20,7 @@ The complete video index is available in several machine-readable forms:
 
 Each video in videos.json contains:
 - id (YouTube video id), title, url (canonical watch URL), date, description
-- topics (from a controlled vocabulary of 246 terms)
+- topics (from a controlled vocabulary of 245 terms)
 - suttas (early Buddhist text references, e.g. "MN 10", "SN 56.11")
 
 The source file (dougs_dharma_index.json) additionally includes sutta_refs
@@ -272,7 +272,6 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 - wealth/money
 - weeding
 - wisdom/panna
-- wisdom/pañña
 - work/livelihood
 
 ## Sutta References

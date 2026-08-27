@@ -38,7 +38,8 @@ WIKI_NAME = "Dougs Dharma Wiki Index.md"
 
 HON = re.compile(r'^(Ajahn|Bhikkhu|Bhikkhuni|Ven|Venerable|Sister|Sayadaw|Lama|Dr|Prof)\b', re.I)
 EXTRA_PEOPLE = {"Analayo", "Bodhipaksa", "Dalai Lama", "Ledi Sayadaw", "Nagarjuna",
-                "Nyanaponika Thera", "Piya Tan", "Sheng Yen", "Epicurus"}
+                "Nyanaponika Thera", "Piya Tan", "Sheng Yen", "Epicurus",
+                "Socrates", "Plato"}
 COLL = re.compile(r'\b(DN|MN|SN|AN|Dhp|Ud|Iti|Snp|Sn|Thag|Thig|Vin|Kp|Pv|Vv|Ja|Mil)\b')
 MARKER = re.compile(r'^\s*(?:\([0-9A-Za-z]+\)|[0-9A-Za-z][.)])\s*')
 BOILER = re.compile(r'^(keep\s+(it\s+)?positive|name at intro|video notes|subscribe|teaser|please put|'

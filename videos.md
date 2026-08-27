@@ -1,8 +1,9 @@
 # Doug's Dharma — Complete Video Index
 
-622 videos, newest first. Format: `Title — watch URL`.
+623 videos, newest first. Format: `Title — watch URL`.
 Structured data: https://dougs-dharma.github.io/dougs-dharma-index/videos.json
 
+- The Knowledge That Can't Be Overpowered — Socrates & the Buddha — https://www.youtube.com/watch?v=rDbEbPNZQiE
 - Why Our Deepest Certainties Can Be Completely Wrong — https://www.youtube.com/watch?v=H_nVhawUrTI
 - Is Early Buddhism the "Real" Buddhism? (A Buddhist View) — https://www.youtube.com/watch?v=m-d3KpaaXZM
 - Is Life a Mistake? (The Buddha vs. Anti-Natalism) — https://www.youtube.com/watch?v=lLYNiGT1Ix0

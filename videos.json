@@ -4,8 +4,25 @@
   "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
   "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
   "generated": "2026-08-27",
-  "count": 622,
+  "count": 623,
   "videos": [
+    {
+      "id": "rDbEbPNZQiE",
+      "title": "The Knowledge That Can't Be Overpowered — Socrates & the Buddha",
+      "url": "https://www.youtube.com/watch?v=rDbEbPNZQiE",
+      "date": "2026-08-24",
+      "description": "Doug takes up Socrates' claim that genuine knowledge cannot be \"overpowered\" by desire or emotion, and reads it alongside early Buddhism's treatment of the same problem. Distinguishing knowing about what is good for us from the kind of knowing that actually changes what we want to do, he argues that early Buddhism treats this second kind of knowledge as something trained rather than merely learned.",
+      "topics": [
+        "philosophy",
+        "epistemology",
+        "wisdom/pañña",
+        "Socrates",
+        "Plato"
+      ],
+      "suttas": [
+        "MN 19"
+      ]
+    },
     {
       "id": "H_nVhawUrTI",
       "title": "Why Our Deepest Certainties Can Be Completely Wrong",

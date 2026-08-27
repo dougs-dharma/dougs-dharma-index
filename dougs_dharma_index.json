@@ -1,5 +1,59 @@
 [
   {
+    "title": "The Knowledge That Can't Be Overpowered — Socrates & the Buddha",
+    "date": "2026-08-24",
+    "youtube_url": "https://www.youtube.com/watch?v=rDbEbPNZQiE",
+    "summary": "Doug takes up Socrates' claim that genuine knowledge cannot be \"overpowered\" by desire or emotion, and reads it alongside early Buddhism's treatment of the same problem. Distinguishing knowing about what is good for us from the kind of knowing that actually changes what we want to do, he argues that early Buddhism treats this second kind of knowledge as something trained rather than merely learned.",
+    "topics": [
+      "philosophy",
+      "epistemology",
+      "wisdom/pañña",
+      "Socrates",
+      "Plato"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "MN 19",
+        "url": "https://suttacentral.net/mn19/en/sujato",
+        "label": "MN 19 Dvedhāvitakka Sutta"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "article",
+        "label": "Plato, Protagoras / Meno / Gorgias (Perseus Digital Library)",
+        "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0178"
+      },
+      {
+        "type": "book",
+        "label": "Plato, Complete Works, ed. John M. Cooper (Hackett)",
+        "url": "https://amzn.to/4fPsQix"
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "Why You Don't Do What You Know You Should",
+        "url": "https://www.youtube.com/watch?v=jyMhA6UZZJ4"
+      },
+      {
+        "title": "Can You Practice Buddhism by Studying It? A New Paper By Analayo",
+        "url": "https://www.youtube.com/watch?v=9oT04eft43o"
+      },
+      {
+        "title": "Wisdom Isn’t What You Might Think — The Buddha’s View",
+        "url": "https://www.youtube.com/watch?v=Ger9h33r8Lk"
+      },
+      {
+        "title": "Why Our Deepest Certainties Can Be Completely Wrong",
+        "url": "https://www.youtube.com/watch?v=H_nVhawUrTI"
+      },
+      {
+        "title": "Knowledge and Wisdom: What's the Deal?",
+        "url": "https://www.youtube.com/watch?v=gFcP0ZnqHSQ"
+      }
+    ]
+  },
+  {
     "title": "Why Our Deepest Certainties Can Be Completely Wrong",
     "date": "2026-08-10",
     "youtube_url": "https://www.youtube.com/watch?v=H_nVhawUrTI",

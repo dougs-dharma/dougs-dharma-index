@@ -1,5 +1,108 @@
 [
   {
+    "title": "Buddhist Training Is Meant to End",
+    "date": "2026-09-07",
+    "youtube_url": "https://www.youtube.com/watch?v=4BUjH_ifNmA",
+    "summary": "Doug asks when Buddhist training is supposed to end, and how anyone would know. Working from the simile of the raft and the Buddha's refusal to appoint a successor — telling the sangha instead to be islands unto themselves — he traces what the early texts offer by way of criteria for judging attainment, including the recognized danger of overestimating one's own.",
+    "topics": [
+      "enlightenment/awakening",
+      "progress",
+      "sangha/community",
+      "suttas/early texts"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "AN 4.35",
+        "url": "https://suttacentral.net/an4.35/en/sujato",
+        "label": "AN 4.35 Vassakāra Sutta"
+      },
+      {
+        "sutta_id": "AN 3.65",
+        "url": "https://suttacentral.net/an3.65/en/sujato",
+        "label": "AN 3.65 Kālāma Sutta"
+      },
+      {
+        "sutta_id": "MN 61",
+        "url": "https://suttacentral.net/mn61/en/sujato",
+        "label": "MN 61 Ambalaṭṭhikarāhulovāda Sutta"
+      },
+      {
+        "sutta_id": "MN 47",
+        "url": "https://suttacentral.net/mn47/en/sujato",
+        "label": "MN 47 Vīmaṃsaka Sutta"
+      },
+      {
+        "sutta_id": "MN 22",
+        "url": "https://suttacentral.net/mn22/en/sujato",
+        "label": "MN 22 Alagaddūpama Sutta"
+      },
+      {
+        "sutta_id": "DN 16",
+        "url": "https://suttacentral.net/dn16/en/sujato",
+        "label": "DN 16 Mahāparinibbāna Sutta"
+      },
+      {
+        "sutta_id": "MN 65",
+        "url": "https://suttacentral.net/mn65/en/sujato",
+        "label": "MN 65 Bhaddāli Sutta"
+      },
+      {
+        "sutta_id": "MN 15",
+        "url": "https://suttacentral.net/mn15/en/sujato",
+        "label": "MN 15 Anumāna Sutta"
+      },
+      {
+        "sutta_id": "MN 21",
+        "url": "https://suttacentral.net/mn21/en/sujato",
+        "label": "MN 21 Kakacūpama Sutta"
+      },
+      {
+        "sutta_id": "Dhp 76",
+        "url": "https://suttacentral.net/dhp76/en/sujato",
+        "label": "Dhp 76"
+      },
+      {
+        "sutta_id": "Dhp 153–154",
+        "url": "https://suttacentral.net/dhp153-154/en/sujato",
+        "label": "Dhp 153–154"
+      },
+      {
+        "sutta_id": "Vinaya, Pārājika 4",
+        "url": "https://suttacentral.net/pli-tv-bu-vb-pj4/en/brahmali",
+        "label": "Vinaya, Pārājika 4 — overestimating one's attainment (adhimāna)"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "article",
+        "label": "HH the 14th Dalai Lama, \"Ethics in the Teacher-Student Relationship\"",
+        "url": "https://info-buddhism.com/Ethics-in-the-Teacher-Student-Relationship.html"
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "The Knowledge That Can't Be Overpowered — Socrates & the Buddha",
+        "url": "https://www.youtube.com/watch?v=rDbEbPNZQiE"
+      },
+      {
+        "title": "Why Our Deepest Certainties Can Be Completely Wrong",
+        "url": "https://www.youtube.com/watch?v=H_nVhawUrTI"
+      },
+      {
+        "title": "Kali and Vedehika: the Buddha's Cautionary Tale of Privilege",
+        "url": "https://www.youtube.com/watch?v=t6dt_I_n_UE"
+      },
+      {
+        "title": "The Early History of the Bodhisattva Ideal",
+        "url": "https://www.youtube.com/watch?v=ECI_3ytgxcQ"
+      },
+      {
+        "title": "Why You Don't Do What You Know You Should",
+        "url": "https://www.youtube.com/watch?v=jyMhA6UZZJ4"
+      }
+    ]
+  },
+  {
     "title": "The Knowledge That Can't Be Overpowered — Socrates & the Buddha",
     "date": "2026-08-24",
     "youtube_url": "https://www.youtube.com/watch?v=rDbEbPNZQiE",
@@ -224,8 +327,8 @@
       "meditation",
       "mindfulness",
       "practice",
-      "noble eightfold path",
-      "anatta/not-self",
+      "eightfold path",
+      "non-self/anatta",
       "suffering/dukkha"
     ],
     "sutta_refs": [
@@ -403,7 +506,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=YDPMqWY1qXk",
     "summary": "How is Buddhist nirvana described in its early texts? It’s called the ultimate bliss, but also a state where nothing is felt. It’s called the deathless element, but also likened to the extinguishing of a candle flame. We’ll try to untangle this tangle by considering an air conditioner.",
     "topics": [
-      "nibbana/nirvana",
+      "nirvana/nibbana",
       "suttas/early texts"
     ],
     "sutta_refs": [

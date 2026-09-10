@@ -3,9 +3,36 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
   "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
-  "generated": "2026-08-27",
-  "count": 623,
+  "generated": "2026-09-10",
+  "count": 624,
   "videos": [
+    {
+      "id": "4BUjH_ifNmA",
+      "title": "Buddhist Training Is Meant to End",
+      "url": "https://www.youtube.com/watch?v=4BUjH_ifNmA",
+      "date": "2026-09-07",
+      "description": "Doug asks when Buddhist training is supposed to end, and how anyone would know. Working from the simile of the raft and the Buddha's refusal to appoint a successor — telling the sangha instead to be islands unto themselves — he traces what the early texts offer by way of criteria for judging attainment, including the recognized danger of overestimating one's own.",
+      "topics": [
+        "enlightenment/awakening",
+        "progress",
+        "sangha/community",
+        "suttas/early texts"
+      ],
+      "suttas": [
+        "AN 4.35",
+        "AN 3.65",
+        "MN 61",
+        "MN 47",
+        "MN 22",
+        "DN 16",
+        "MN 65",
+        "MN 15",
+        "MN 21",
+        "Dhp 76",
+        "Dhp 153–154",
+        "Vinaya, Pārājika 4"
+      ]
+    },
     {
       "id": "rDbEbPNZQiE",
       "title": "The Knowledge That Can't Be Overpowered — Socrates & the Buddha",
@@ -90,8 +117,8 @@
         "meditation",
         "mindfulness",
         "practice",
-        "noble eightfold path",
-        "anatta/not-self",
+        "eightfold path",
+        "non-self/anatta",
         "suffering/dukkha"
       ],
       "suttas": [
@@ -198,7 +225,7 @@
       "date": "2026-04-27",
       "description": "How is Buddhist nirvana described in its early texts? It’s called the ultimate bliss, but also a state where nothing is felt. It’s called the deathless element, but also likened to the extinguishing of a candle flame. We’ll try to untangle this tangle by considering an air conditioner.",
       "topics": [
-        "nibbana/nirvana",
+        "nirvana/nibbana",
         "suttas/early texts"
       ],
       "suttas": [

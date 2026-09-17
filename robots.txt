@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dougs-dharma.github.io/dougs-dharma-index/sitemap.xml
+Sitemap: https://videos.dougsdharma.com/sitemap.xml

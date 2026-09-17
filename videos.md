@@ -1,7 +1,7 @@
 # Doug's Dharma — Complete Video Index
 
 624 videos, newest first. Format: `Title — watch URL`.
-Structured data: https://dougs-dharma.github.io/dougs-dharma-index/videos.json
+Structured data: https://videos.dougsdharma.com/videos.json
 
 - Buddhist Training Is Meant to End — https://www.youtube.com/watch?v=4BUjH_ifNmA
 - The Knowledge That Can't Be Overpowered — Socrates & the Buddha — https://www.youtube.com/watch?v=rDbEbPNZQiE

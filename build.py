@@ -16,7 +16,10 @@ from urllib.parse import urlparse, parse_qs
 
 import build_pages
 
-SITE_URL = "https://dougs-dharma.github.io/dougs-dharma-index"
+# Canonical public origin. Everything else (canonical tags, og:url, sitemap,
+# llms.txt, videos.json, browse pages) is derived from this one constant —
+# change it here and rebuild, nowhere else.
+SITE_URL = "https://videos.dougsdharma.com"
 
 
 def youtube_id(url):
@@ -176,6 +179,7 @@ noscript_lines.append('          </ul>')
 noscript_lines.append('        </section>')
 noscript_html = '\n'.join(noscript_lines)
 
+html = html.replace('PLACEHOLDER_SITE_URL', SITE_URL)
 html = html.replace('PLACEHOLDER_NOSCRIPT', noscript_html)
 html = html.replace('PLACEHOLDER_DATA', compact_json)
 html = html.replace('PLACEHOLDER_VIDEO_COUNT', str(len(data)))

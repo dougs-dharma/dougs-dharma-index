@@ -1,8 +1,8 @@
 {
   "name": "Doug's Dharma Video Index",
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
-  "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
-  "source": "https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json",
+  "url": "https://videos.dougsdharma.com/",
+  "source": "https://videos.dougsdharma.com/dougs_dharma_index.json",
   "generated": "2026-09-17",
   "count": 624,
   "videos": [

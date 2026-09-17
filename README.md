@@ -3,7 +3,7 @@
 A searchable index of every video on the **Doug's Dharma** YouTube channel
 (early Buddhism, secular practice). Static site on GitHub Pages:
 
-➡️ https://dougs-dharma.github.io/dougs-dharma-index/
+➡️ https://videos.dougsdharma.com/
 
 The interactive page renders client-side, but the same dataset is also published
 as plain, fetchable files so AI agents and no-JavaScript fetchers get the full
@@ -69,10 +69,11 @@ leave stale pages behind, because the generator clears `topics/*.html` and
 
 These are linked from the page `<head>` (`<link rel="alternate">`) and the footer.
 
-> **Paths:** the site is served from a GitHub Pages *project* subpath
-> (`/dougs-dharma-index/`), so links use **relative** paths (`videos.json`),
-> which resolve correctly under that subpath. The fully-qualified URL of the
-> JSON is `https://dougs-dharma.github.io/dougs-dharma-index/videos.json`.
+> **Paths:** links use **relative** paths (`videos.json`) throughout, so the
+> site works at any origin. It is served at `videos.dougsdharma.com` via the
+> `CNAME` file; the old `dougs-dharma.github.io/dougs-dharma-index/` URLs
+> 301-redirect there automatically. To move it again, change `SITE_URL` in
+> `build.py` and the `CNAME` file — nothing else hardcodes the origin.
 
 ### `videos.json` schema
 
@@ -80,7 +81,7 @@ These are linked from the page `<head>` (`<link rel="alternate">`) and the foote
 {
   "name": "Doug's Dharma Video Index",
   "description": "...",
-  "url": "https://dougs-dharma.github.io/dougs-dharma-index/",
+  "url": "https://videos.dougsdharma.com/",
   "source": ".../dougs_dharma_index.json",  // richer source file
   "generated": "2026-06-19",                 // build date (YYYY-MM-DD)
   "count": 622,

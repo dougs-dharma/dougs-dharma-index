@@ -13,10 +13,10 @@ This index covers videos from March 2017 to September 2026.
 ## Structured Data
 
 The complete video index is available in several machine-readable forms:
-- Normalized JSON (recommended): https://dougs-dharma.github.io/dougs-dharma-index/videos.json
-- Flat Markdown list: https://dougs-dharma.github.io/dougs-dharma-index/videos.md
-- Full source JSON (richest, with refs): https://dougs-dharma.github.io/dougs-dharma-index/dougs_dharma_index.json
-- Searchable web interface: https://dougs-dharma.github.io/dougs-dharma-index/
+- Normalized JSON (recommended): https://videos.dougsdharma.com/videos.json
+- Flat Markdown list: https://videos.dougsdharma.com/videos.md
+- Full source JSON (richest, with refs): https://videos.dougsdharma.com/dougs_dharma_index.json
+- Searchable web interface: https://videos.dougsdharma.com/
 
 Each video in videos.json contains:
 - id (YouTube video id), title, url (canonical watch URL), date, description

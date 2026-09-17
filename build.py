@@ -221,6 +221,20 @@ with open('videos.json', 'w', encoding='utf-8') as f:
     json.dump(videos_json, f, ensure_ascii=False, indent=2)
 print(f"  Created videos.json ({len(records)} videos)")
 
+# Step 7b-ii: Generate stats.json — a tiny counts-only file.
+# dougsdharma.com's homepage card fetches this so its numbers never go stale.
+# Kept separate from videos.json (400 KB) so the homepage pulls only ~100 bytes.
+print("  Generating stats.json...")
+stats = {
+    "videos": len(records),
+    "topics": len(all_topics),
+    "suttas": len(all_suttas),
+    "generated": datetime.now().strftime('%Y-%m-%d'),
+}
+with open('stats.json', 'w', encoding='utf-8') as f:
+    json.dump(stats, f, ensure_ascii=False, indent=2)
+print(f"  Created stats.json ({stats['videos']} / {stats['topics']} / {stats['suttas']})")
+
 # Step 7c: Generate videos.md (flat, human- and LLM-readable, newest first).
 print("  Generating videos.md...")
 videos_md_lines = [

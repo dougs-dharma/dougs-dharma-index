@@ -1,0 +1,146 @@
+/* ============================================================
+   Doug's Dharma — Browse pages (topics / suttas)
+   Design tokens mirror the canonical subset inlined in index.html.
+   Rule: serif for things that SPEAK; sans, uppercase + wide tracking,
+   for things that LABEL.
+   ============================================================ */
+:root {
+  --night:#122d48; --night-soft:#1a3a5b; --ink:#0b1c2c;
+  --stillwater:#7fa0a2; --stillwater-deep:#649b9b;
+  --parchment:#d7d2c8; --ivory:#efeae0; --ivory-deep:#e3dccf;
+  --smoke:#52585e; --mist:#8a8f95; --ember:#f06e32;
+
+  --fg-inv-1:var(--parchment); --fg-inv-2:rgba(215,210,200,0.72);
+  --fg-inv-3:rgba(215,210,200,0.48);
+  --border-on-light:rgba(11,28,44,0.08); --border-strong-light:rgba(11,28,44,0.18);
+
+  --font-display:'Gentium Book Plus','EB Garamond',Georgia,serif;
+  --font-body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+
+  --text-xs:12px; --text-sm:14px; --text-base:16px; --text-md:18px;
+  --text-lg:20px; --text-xl:24px; --text-2xl:32px; --text-3xl:44px;
+  --tracking-wide:0.06em; --tracking-widest:0.16em;
+
+  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px;
+  --space-5:20px; --space-6:24px; --space-8:32px; --space-10:40px;
+  --space-12:48px; --space-16:64px; --space-20:80px;
+  --radius-sm:4px; --radius-md:8px;
+  --dur-base:240ms;
+  --container:920px;
+}
+
+*,*::before,*::after { box-sizing:border-box; }
+body {
+  margin:0; background:var(--ivory); color:var(--ink);
+  font-family:var(--font-body); font-size:var(--text-base); line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap { max-width:var(--container); margin:0 auto; padding:0 var(--space-8); }
+a { color:inherit; }
+
+.eyebrow {
+  font-family:var(--font-body); font-weight:600; font-size:var(--text-xs);
+  letter-spacing:var(--tracking-widest); text-transform:uppercase; color:var(--mist);
+}
+
+/* ---------- HEADER ---------- */
+header.page {
+  background:var(--night); color:var(--parchment);
+  padding:var(--space-10) 0 var(--space-12);
+}
+header.page .brandline {
+  display:flex; align-items:center; gap:var(--space-3);
+  font-family:var(--font-display); font-size:var(--text-md);
+  color:var(--fg-inv-1); text-decoration:none; margin-bottom:var(--space-8);
+}
+header.page .brandline img { height:26px; width:auto; }
+header.page h1 {
+  font-family:var(--font-display); font-weight:400;
+  font-size:var(--text-3xl); line-height:1.12; margin:0 0 var(--space-3);
+  color:var(--white,#fff);
+}
+header.page .lede {
+  margin:0; color:var(--fg-inv-2); font-size:var(--text-md); max-width:62ch;
+}
+
+/* ---------- BREADCRUMB ---------- */
+nav.crumb { margin-bottom:var(--space-6); font-size:var(--text-xs);
+  letter-spacing:var(--tracking-wide); text-transform:uppercase;
+  color:var(--fg-inv-3); font-weight:600; }
+nav.crumb a { color:var(--fg-inv-2); text-decoration:none; }
+nav.crumb a:hover { color:var(--parchment); }
+nav.crumb span { margin:0 var(--space-2); opacity:0.5; }
+
+/* ---------- CONTENT ---------- */
+main { padding:var(--space-12) 0 var(--space-16); }
+
+ul.videos { list-style:none; margin:0; padding:0; }
+ul.videos li {
+  padding:var(--space-5) 0; border-bottom:1px solid var(--border-on-light);
+}
+ul.videos li:last-child { border-bottom:none; }
+ul.videos .t {
+  font-family:var(--font-display); font-size:var(--text-lg);
+  line-height:1.3; text-decoration:none; color:var(--ink);
+  transition:color var(--dur-base);
+}
+ul.videos .t:hover { color:var(--stillwater-deep); }
+ul.videos .meta {
+  display:block; margin-top:var(--space-1);
+  font-size:var(--text-xs); letter-spacing:var(--tracking-wide);
+  text-transform:uppercase; color:var(--mist); font-weight:600;
+}
+ul.videos p { margin:var(--space-2) 0 0; color:var(--smoke); font-size:var(--text-sm); }
+
+/* ---------- TAG CLOUD (hub pages) ---------- */
+.group { margin-bottom:var(--space-12); }
+.group h2 {
+  font-family:var(--font-display); font-weight:400; font-size:var(--text-xl);
+  margin:0 0 var(--space-5); padding-bottom:var(--space-3);
+  border-bottom:1px solid var(--border-strong-light);
+}
+.taglist { display:flex; flex-wrap:wrap; gap:var(--space-2); }
+.taglist a {
+  display:inline-flex; align-items:baseline; gap:var(--space-2);
+  padding:var(--space-2) var(--space-4);
+  background:var(--ivory-deep); border:1px solid var(--border-on-light);
+  border-radius:var(--radius-sm); text-decoration:none;
+  font-size:var(--text-sm); transition:background var(--dur-base);
+}
+.taglist a:hover { background:var(--parchment); }
+.taglist a .n {
+  font-size:var(--text-xs); color:var(--mist); font-variant-numeric:tabular-nums;
+}
+
+/* Inline (small) entries on hub pages */
+.inline-entry { margin-bottom:var(--space-8); }
+.inline-entry h3 {
+  font-family:var(--font-display); font-weight:400; font-size:var(--text-md);
+  margin:0 0 var(--space-2);
+}
+.inline-entry ul { margin:0; padding-left:var(--space-5); }
+.inline-entry li { font-size:var(--text-sm); margin-bottom:var(--space-1); }
+
+.refbar {
+  margin:0 0 var(--space-8); padding:var(--space-4) var(--space-5);
+  background:var(--ivory-deep); border-left:3px solid var(--stillwater);
+  border-radius:var(--radius-sm); font-size:var(--text-sm); color:var(--smoke);
+}
+.refbar a { color:var(--night); }
+
+/* ---------- FOOTER ---------- */
+footer.page {
+  background:var(--night); color:var(--fg-inv-2);
+  padding:var(--space-12) 0; margin-top:var(--space-16);
+  font-size:var(--text-sm);
+}
+footer.page .foot-inner { display:flex; flex-wrap:wrap; gap:var(--space-8);
+  justify-content:space-between; align-items:flex-start; }
+footer.page a { color:var(--fg-inv-2); text-decoration:none; }
+footer.page a:hover { color:var(--parchment); }
+footer.page .foot-links { display:flex; flex-direction:column; gap:var(--space-2); }
+
+@media (max-width:760px) {
+  .wrap { padding:0 var(--space-5); }
+  header.page h1 { font-size:var(--text-2xl); }
+}

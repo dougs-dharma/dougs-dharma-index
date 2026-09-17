@@ -14,6 +14,8 @@ import html as html_lib
 from datetime import datetime
 from urllib.parse import urlparse, parse_qs
 
+import build_pages
+
 SITE_URL = "https://dougs-dharma.github.io/dougs-dharma-index"
 
 
@@ -160,6 +162,8 @@ schema_tag = f'<script type="application/ld+json">{schema_json}</script>'
 # Build the no-JS fallback: full list of videos as plain anchors (newest first).
 print("  Building no-JavaScript fallback list...")
 noscript_lines = ['        <section class="noscript-index">',
+                  '          <p>Browse by <a href="topics/">topic</a> or '
+                  'by <a href="suttas/">sutta</a>.</p>',
                   f'          <h2>All {len(records)} videos</h2>',
                   '          <ul>']
 for r in records_sorted:
@@ -228,6 +232,11 @@ videos_md_lines.append("")
 with open('videos.md', 'w', encoding='utf-8') as f:
     f.write('\n'.join(videos_md_lines))
 print(f"  Created videos.md ({len(records)} videos)")
+
+# Step 7d: Generate crawlable topic / sutta browse pages.
+print("  Generating topic & sutta browse pages...")
+browse_pages = build_pages.generate(records, data, SITE_URL)
+print(f"  Created {len(browse_pages)} browse pages (topics/ and suttas/)")
 
 # Step 8: Generate llms.txt
 print("  Generating llms.txt...")
@@ -335,6 +344,16 @@ sitemap_urls.append(f"""  <url>
     <priority>0.5</priority>
   </url>""")
 
+# Topic / sutta browse pages (the crawlable, rankable HTML surface).
+# Hub pages rank above the individual entries.
+for rel in browse_pages:
+    sitemap_urls.append(f"""  <url>
+    <loc>{SITE_URL}/{rel}</loc>
+    <lastmod>{now}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>{'0.7' if rel.endswith('/') else '0.6'}</priority>
+  </url>""")
+
 sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {chr(10).join(sitemap_urls)}
@@ -367,6 +386,7 @@ print("  Files generated:")
 print("    index.html       - searchable webpage (JSON-LD + no-JS anchor list)")
 print("    videos.json      - normalized machine-readable index (stable path)")
 print("    videos.md        - flat human/LLM-readable list (newest first)")
+print("    topics/, suttas/ - crawlable browse pages (one URL per topic/sutta)")
 print("    llms.txt         - AI/agent discoverability file (full video list)")
 print("    sitemap.xml      - search engine sitemap")
 print("    robots.txt       - search engine instructions")

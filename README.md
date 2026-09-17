@@ -23,6 +23,8 @@ dougs_dharma_index.json   (source of truth — edit this)
         ├── videos.json       normalized machine-readable index  (stable path)
         ├── videos.md         flat list, newest first
         ├── llms.txt          agent-facing overview + full video list
+        ├── topics/           crawlable page per topic  (+ hub at topics/)
+        ├── suttas/           crawlable page per sutta  (+ hub at suttas/)
         ├── sitemap.xml
         └── robots.txt
 ```
@@ -34,6 +36,27 @@ python3 build.py
 ```
 
 (Or double-click `update_and_build.command`.) Then commit and push to publish.
+
+## Browse pages (`topics/`, `suttas/`)
+
+The interactive page is a single URL, so topic and sutta searches had nothing
+for Google to rank. [`build_pages.py`](build_pages.py) generates a static,
+crawlable page for each one from the same source data:
+
+- `topics/<slug>.html` and `suttas/<slug>.html` — one per entry with **3 or
+  more** videos (`MIN_FOR_PAGE` in `build_pages.py`).
+- Entries below that threshold are listed inline on the hub pages
+  (`topics/`, `suttas/`) instead, so nothing is orphaned and we don't publish
+  hundreds of near-empty pages that search engines treat as thin content.
+- Every page carries its own `<title>`, meta description, canonical URL,
+  Open Graph tags, and `BreadcrumbList` + `ItemList` JSON-LD.
+- All of them are linked from the main page footer and listed in `sitemap.xml`.
+
+**These regenerate completely on every build.** New topics and suttas get pages
+automatically once they reach the threshold; renamed or merged topics do *not*
+leave stale pages behind, because the generator clears `topics/*.html` and
+`suttas/*.html` before writing. Styling lives in
+[`assets/pages.css`](assets/pages.css).
 
 ## Files for agents & simple fetchers
 

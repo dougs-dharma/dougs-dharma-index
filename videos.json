@@ -3,9 +3,26 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://videos.dougsdharma.com/",
   "source": "https://videos.dougsdharma.com/dougs_dharma_index.json",
-  "generated": "2026-09-17",
-  "count": 624,
+  "generated": "2026-09-22",
+  "count": 625,
   "videos": [
+    {
+      "id": "cWnAEqvT3YQ",
+      "title": "What If You're Wrong About Being Enlightened? (What the Buddha Admitted)",
+      "url": "https://www.youtube.com/watch?v=cWnAEqvT3YQ",
+      "date": "2026-09-21",
+      "description": "Doug looks at an episode in which a group of monks declared themselves enlightened in the Buddha's presence — sincere, confident, and in some cases wrong — alongside the Vinaya's recognition of overestimated attainment (adhimāna). Drawing also on later debates, from the Kathāvatthu on the arahant's knowledge to disputes over dharma transmission in Chan and Zen, he argues that the question has less to do with reaching a verdict on one's attainment than with what one does next.",
+      "topics": [
+        "enlightenment/awakening",
+        "epistemology",
+        "Buddhism (schools)",
+        "Zen"
+      ],
+      "suttas": [
+        "MN 105",
+        "Vinaya, Pārājika 4"
+      ]
+    },
     {
       "id": "4BUjH_ifNmA",
       "title": "Buddhist Training Is Meant to End",

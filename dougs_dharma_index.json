@@ -1,5 +1,73 @@
 [
   {
+    "title": "What If You're Wrong About Being Enlightened? (What the Buddha Admitted)",
+    "date": "2026-09-21",
+    "youtube_url": "https://www.youtube.com/watch?v=cWnAEqvT3YQ",
+    "summary": "Doug looks at an episode in which a group of monks declared themselves enlightened in the Buddha's presence — sincere, confident, and in some cases wrong — alongside the Vinaya's recognition of overestimated attainment (adhimāna). Drawing also on later debates, from the Kathāvatthu on the arahant's knowledge to disputes over dharma transmission in Chan and Zen, he argues that the question has less to do with reaching a verdict on one's attainment than with what one does next.",
+    "topics": [
+      "enlightenment/awakening",
+      "epistemology",
+      "Buddhism (schools)",
+      "Zen"
+    ],
+    "sutta_refs": [
+      {
+        "sutta_id": "MN 105",
+        "url": "https://suttacentral.net/mn105/en/sujato",
+        "label": "MN 105 Sunakkhatta Sutta"
+      },
+      {
+        "sutta_id": "Vinaya, Pārājika 4",
+        "url": "https://suttacentral.net/pli-tv-bu-vb-pj4/en/brahmali",
+        "label": "Vinaya, Pārājika 4 — overestimating one's attainment (adhimāna)"
+      }
+    ],
+    "other_refs": [
+      {
+        "type": "book",
+        "label": "Shwe Zan Aung & C.A.F. Rhys Davids (trans.), Points of Controversy (Kathāvatthu), PTS 1915 — II.2 \"Of the Knowledge of the Arahant\" (pp. 116–17), II.3 \"Of Doubt in the Arahant\" (p. 118)",
+        "url": "https://archive.org/details/PointsOfControversyKathavatthu"
+      },
+      {
+        "type": "article",
+        "label": "L.S. Cousins, \"The 'Five Points' and the Origins of the Buddhist Schools,\" The Buddhist Forum vol. II (SOAS, 1991), pp. 27–60",
+        "url": "https://www.academia.edu/1417357/The_Five_Points_and_the_Origins_of_the_Buddhist_Schools"
+      },
+      {
+        "type": "article",
+        "label": "William M. Bodiford, \"Dharma Transmission in Sōtō Zen: Manzan Dōhaku's Reform Movement,\" Monumenta Nipponica 46:4 (1991), pp. 423–451",
+        "url": "https://www.jstor.org/stable/2385187"
+      },
+      {
+        "type": "book",
+        "label": "Jiang Wu, Enlightenment in Dispute: The Reinvention of Chan Buddhism in Seventeenth-Century China (Oxford, 2008)",
+        "url": ""
+      }
+    ],
+    "related_videos": [
+      {
+        "title": "Am I Enlightened? What Early Buddhism Says",
+        "url": "https://www.youtube.com/watch?v=W3u18K5xL1E"
+      },
+      {
+        "title": "Who’s Really Enlightened? The Buddha’s Surprising Take",
+        "url": "https://www.youtube.com/watch?v=2jL9F7b7kfQ"
+      },
+      {
+        "title": "Buddhist Training Is Meant to End",
+        "url": "https://www.youtube.com/watch?v=4BUjH_ifNmA"
+      },
+      {
+        "title": "Why Our Deepest Certainties Can Be Completely Wrong",
+        "url": "https://www.youtube.com/watch?v=H_nVhawUrTI"
+      },
+      {
+        "title": "The Knowledge That Can't Be Overpowered — Socrates & the Buddha",
+        "url": "https://www.youtube.com/watch?v=rDbEbPNZQiE"
+      }
+    ]
+  },
+  {
     "title": "Buddhist Training Is Meant to End",
     "date": "2026-09-07",
     "youtube_url": "https://www.youtube.com/watch?v=4BUjH_ifNmA",

@@ -1,8 +1,9 @@
 # Doug's Dharma — Complete Video Index
 
-624 videos, newest first. Format: `Title — watch URL`.
+625 videos, newest first. Format: `Title — watch URL`.
 Structured data: https://videos.dougsdharma.com/videos.json
 
+- What If You're Wrong About Being Enlightened? (What the Buddha Admitted) — https://www.youtube.com/watch?v=cWnAEqvT3YQ
 - Buddhist Training Is Meant to End — https://www.youtube.com/watch?v=4BUjH_ifNmA
 - The Knowledge That Can't Be Overpowered — Socrates & the Buddha — https://www.youtube.com/watch?v=rDbEbPNZQiE
 - Why Our Deepest Certainties Can Be Completely Wrong — https://www.youtube.com/watch?v=H_nVhawUrTI

@@ -1,0 +1,8 @@
+# iCloud Drive conflict copies. This repo lives in iCloud-synced ~/Documents,
+# and each build rewrites ~270 pages at once, which can make iCloud leave
+# duplicates like "mn-21 2.html" or "topics 2/". Generated names never contain
+# spaces, so "space + number" only ever matches these copies.
+* [0-9]
+* [0-9].*
+* [0-9][0-9]
+* [0-9][0-9].*

@@ -19,6 +19,7 @@ so nothing is orphaned and we don't publish hundreds of thin pages.
 import os
 import re
 import json
+import unicodedata
 import html as html_lib
 from collections import defaultdict
 
@@ -34,9 +35,26 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
 
 
 def slugify(s):
-    """URL-safe slug: 'AN 3.65' -> 'an-3-65', 'suttas/early texts' -> 'suttas-early-texts'."""
+    """URL-safe slug: 'AN 3.65' -> 'an-3-65', 'suttas/early texts' -> 'suttas-early-texts'.
+    Diacritics are transliterated first ('Heart Sūtra' -> 'heart-sutra'); without
+    that, accented letters were dropped and left gaps ('heart-s-tra')."""
+    s = unicodedata.normalize('NFKD', s)
+    s = ''.join(c for c in s if not unicodedata.combining(c))
     s = re.sub(r'[^a-z0-9]+', '-', s.lower())
     return s.strip('-') or 'item'
+
+
+# Pages that were published under an old slug and have since moved. Each old
+# URL gets a small redirect stub so existing links and search results follow
+# the page. Only list URLs that were actually live — a stub for a URL nobody
+# ever saw is just clutter. Stubs are regenerated every build (the stale-page
+# clear below would otherwise delete them) and are kept out of the sitemap.
+LEGACY_REDIRECTS = {
+    # Pre-2026-09-22 slugify dropped diacritics instead of transliterating.
+    'suttas/heart-s-tra.html':         'suttas/heart-sutra.html',
+    'suttas/lotus-s-tra.html':         'suttas/lotus-sutra.html',
+    'suttas/vimalak-rti-nirde-a.html': 'suttas/vimalakirti-nirdesa.html',
+}
 
 
 def build_slug_map(names):
@@ -175,6 +193,39 @@ def video_list_html(videos, indent='    '):
     return f'{indent}<ul class="videos">\n' + '\n'.join(rows) + f'\n{indent}</ul>'
 
 
+def redirect_stub(target_href, target_abs):
+    """Instant client-side redirect for a moved page. GitHub Pages can't send a
+    server 301; Google treats a zero-delay meta refresh as a permanent redirect,
+    and the canonical tells it where the page lives now."""
+    return (
+        '<!DOCTYPE html>\n<html lang="en">\n<head>\n'
+        '<meta charset="utf-8">\n'
+        "<title>Page moved — Doug's Dharma Video Index</title>\n"
+        f'<link rel="canonical" href="{esc(target_abs)}">\n'
+        f'<meta http-equiv="refresh" content="0; url={esc(target_href)}">\n'
+        f'<script>location.replace({json.dumps(target_href)});</script>\n'
+        '</head>\n<body>\n'
+        f'<p>This page has moved to <a href="{esc(target_href)}">{esc(target_abs)}</a>.</p>\n'
+        '</body>\n</html>\n'
+    )
+
+
+def write_redirects(kind, written, site_url):
+    """Emit LEGACY_REDIRECTS stubs for this section. If a target page no longer
+    exists (e.g. it fell below MIN_FOR_PAGE), point at the section hub instead
+    so the old URL still lands somewhere useful."""
+    for old_rel, new_rel in LEGACY_REDIRECTS.items():
+        if not old_rel.startswith(kind + '/'):
+            continue
+        if old_rel in written:
+            raise RuntimeError(f'Legacy redirect {old_rel} would overwrite a real page')
+        if new_rel not in written:
+            new_rel = f'{kind}/'
+        href = os.path.relpath(new_rel, kind) if new_rel.endswith('.html') else './'
+        with open(old_rel, 'w', encoding='utf-8') as f:
+            f.write(redirect_stub(href, f'{site_url}/{new_rel}'))
+
+
 def generate(records, data, site_url):
     """
     records: normalized video dicts (id/title/url/date/description/topics/suttas)
@@ -258,6 +309,9 @@ def generate(records, data, site_url):
             with open(rel, 'w', encoding='utf-8') as f:
                 f.write(html)
             written.append(rel)
+
+        # Not appended to `written`: stubs stay out of the sitemap.
+        write_redirects(kind, written, site_url)
 
         # ---- hub page ----
         parts = []

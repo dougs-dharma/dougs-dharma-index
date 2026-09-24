@@ -7,8 +7,19 @@
 
 Doug's Dharma is a YouTube channel created in 2017 to introduce the
 teachings of early Buddhism to a wide audience. Doug Smith holds a PhD
-in Philosophy and has published scholarly works in Buddhist Studies.
+in Philosophy of Mind and has published scholarly works in Buddhist Studies.
 This index covers videos from March 2017 to September 2026.
+An overview of all his work (courses, essays, book, articles) is at
+https://dougsdharma.com/llms.txt
+
+## Browse Pages
+
+Plain HTML pages (no JavaScript needed), each listing its videos newest first
+with date, summary and watch URL:
+- Topic hub: https://videos.dougsdharma.com/topics/ (one page per topic with 3+ videos, linked below)
+- Sutta hub: https://videos.dougsdharma.com/suttas/ (one page per text cited in 3+ videos, linked below)
+- URL pattern: https://videos.dougsdharma.com/topics/<slug>.html and https://videos.dougsdharma.com/suttas/<slug>.html,
+  e.g. https://videos.dougsdharma.com/suttas/mn-10.html
 
 ## Structured Data
 
@@ -28,254 +39,397 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 
 ## Topics Covered
 
-- AI/artificial intelligence
-- Aaron, Jon
-- Ajahn Brahm
-- Ajahn Chah
-- Amaro, Ajahn
-- Ambedkar, B.R.
-- Analayo
-- Anthony, David
-- Attwood, Jayarava
-- Babauta, Leo
-- Bapat, P.V.
-- Barbie
-- Batchelor, Stephen
-- Benatar, David
-- Bhikkhu Analayo
-- Blomfeld, Vishvapani
-- Bodhi, Bhikkhu
-- Bodhipaksa
-- Brach, Tara
-- Brahmali, Bhikkhu
-- Brasington, Leigh
-- Braun, Erik
-- Britton, Willoughby
-- Bronkhorst, Johannes
-- Brown, Clair
-- Buddha (historical)
-- Buddhism (blending)
-- Buddhism (early)
-- Buddhism (protestant)
-- Buddhism (schools)
-- Buddhism (weird)
-- COVID-19
-- Carroll, Sean
-- Choesang, Yeshe
-- Collins, Steven
-- Conze, Edward
-- Crosby, Kate
-- Dalai Lama
-- Davidson, Ronald
-- Dennett, Daniel
-- Dhammapada
-- Ehara, N.R.M.
-- Ehrman, Bart
-- Epicurus
-- Faux, Zeke
-- Federman, Asaf
-- Frankl, Viktor
-- Fronsdal, Gil
-- Fuller, Paul
-- Gethin, Rupert
-- Gibbs, Benjamin
-- Goldstein, Joseph
-- Gombrich, Richard
-- Gross, Rita
-- Gunaratana, Henepola
-- Guy, John
-- Hallisey, Charles
-- Harvey, Peter
-- Hayes, Richard
-- Hecker, Hellmuth
-- Hitchens, Christopher
-- Hofstadter, Douglas
-- Huayan
-- Hume, David
-- Jayatilleke, K.N.
-- Jones, Dhivan Thomas
-- Kondo, Marie
-- Kornfield, Jack
-- Ledi Sayadaw
-- Lele, Amod
-- Linn, Vaddhaka
-- Lopez, Donald
-- Macaro, Antonia
-- Mace, Dan
-- Mahayana
-- McCracken, Peggy
-- McKeown, Greg
-- McLeod, Ken
-- Mill, J.S.
-- Muller, Max
-- Nagarjuna
-- Nakamura, Norm
-- Nanamoli, Bhikkhu
-- Neistat, Casey
-- Nhat Hanh, Thich
-- Norman, K.R.
-- Nyanaponika Thera
-- Olendzki, Andrew
-- Olivelle, Patrick
-- Orwell, George
-- Pali canon
-- Parfit, Derek
-- Pascal, Blaise
-- Pigliucci, Massimo
-- Piya Tan
-- Plato
-- Rahula, Walpola
-- Rajapakse, Vijitha
-- Sagan, Carl
-- Salomon, Richard
-- Salzberg, Sharon
-- Samuel, Geoffrey
-- Sapolsky, Robert
-- Shelton, Joshua
-- Sheng Yen
-- Shults, Brett
-- Socrates
-- Spagnoli, Maria
-- Sujato, Bhikkhu
-- Suzuki, Shunryu
-- Tatz, Mark
-- Thanissaro, Bhikkhu
-- Theravada
-- Tolle, Eckhart
-- Vajrayana
-- Van Norden, Bryan
-- Weingast, Matty
-- Whitaker, Justin
-- Williams, Paul
-- Wright, Robert
-- Wynne, Alexander
-- Yampolsky, Philip
-- Yuttadhammo, Bhikkhu
-- Zen
-- Zimmerman, Michael
-- abhidhamma
-- advanced vs. beginner
-- aesthetics
-- anger
-- art
-- atheism/agnosticism
-- attachment/clinging
-- beginners
-- breath meditation
-- channel news
-- compassion
-- concentration/samadhi
-- conditionality
-- consciousness
-- contentment
-- craving/tanha
-- death/mortality
-- delusion
-- dependent origination
-- devas/supernatural beings
-- doubt
-- duty/obligation
-- eightfold path
-- emptiness
-- enlightenment/awakening
-- entertainment/media
-- epistemology
-- equanimity
-- exercise/body
-- faith/saddha
-- fame
-- family
-- fear/anxiety
-- feelings/vedana
-- five aggregates
-- five precepts
-- food/eating
-- forgiveness
-- four noble truths
-- free will/determinism
-- generosity/dana
-- gratitude
-- heart sutra/prajnaparamita
-- hindrances
-- history/scholarship
-- humor
-- impermanence
-- jhana/absorption
-- joy/happiness
-- karma
-- letting go
-- loneliness/solitude
-- magic/supernatural
-- meditation
-- mental proliferation/papanca
-- metta/loving-kindness
-- middle way
-- mindfulness
-- nature/environment
-- nirvana/nibbana
-- non-dualism
-- non-self/anatta
-- patience
-- perception
-- perceptions (ten)
-- personal reflection
-- philosophy
-- pleasure
-- politics
-- practice
-- pragmatism
-- prayer
-- pride/conceit
-- progress
-- rebirth
-- recollections (ten)
-- regret
-- relationships/love
-- relics/archaeology
-- religion
-- renunciation
-- rhetoric/debate
-- right action
-- right effort
-- right intention
-- right livelihood
-- right speech
-- ritual/ceremony
-- sangha/community
-- satipatthana
-- science and Buddhism
-- secular Buddhism
-- self/identity
-- seven factors of awakening
-- sila/ethics
-- sin (concept of)
-- skillful means/upaya
-- skillful/unskillful action
-- social justice
-- spirituality
-- stoicism
-- success/achievement
-- suffering/dukkha
-- suttas/early texts
-- technology
-- therapy/psychology
-- three refuges
-- time/momentariness
-- two truths doctrine
-- views/ditthi
-- vipassana/insight
-- von Rospatt, Alexander
-- war/violence/nonviolence
-- wealth/money
-- weeding
-- wisdom/panna
-- work/livelihood
+Linked topics have their own browse page; the rest are listed on the topic hub.
+
+- [AI/artificial intelligence](https://videos.dougsdharma.com/topics/ai-artificial-intelligence.html) (9 videos)
+- Aaron, Jon (1 video)
+- Ajahn Brahm (2 videos)
+- [Ajahn Chah](https://videos.dougsdharma.com/topics/ajahn-chah.html) (7 videos)
+- Amaro, Ajahn (2 videos)
+- [Ambedkar, B.R.](https://videos.dougsdharma.com/topics/ambedkar-b-r.html) (3 videos)
+- [Analayo](https://videos.dougsdharma.com/topics/analayo.html) (81 videos)
+- Anthony, David (1 video)
+- Attwood, Jayarava (1 video)
+- Babauta, Leo (1 video)
+- Bapat, P.V. (1 video)
+- Barbie (1 video)
+- [Batchelor, Stephen](https://videos.dougsdharma.com/topics/batchelor-stephen.html) (5 videos)
+- Benatar, David (1 video)
+- Bhikkhu Analayo (1 video)
+- Blomfeld, Vishvapani (1 video)
+- [Bodhi, Bhikkhu](https://videos.dougsdharma.com/topics/bodhi-bhikkhu.html) (44 videos)
+- Bodhipaksa (1 video)
+- Brach, Tara (1 video)
+- Brahmali, Bhikkhu (1 video)
+- [Brasington, Leigh](https://videos.dougsdharma.com/topics/brasington-leigh.html) (4 videos)
+- Braun, Erik (2 videos)
+- Britton, Willoughby (1 video)
+- [Bronkhorst, Johannes](https://videos.dougsdharma.com/topics/bronkhorst-johannes.html) (4 videos)
+- Brown, Clair (1 video)
+- [Buddha (historical)](https://videos.dougsdharma.com/topics/buddha-historical.html) (22 videos)
+- Buddhism (blending) (1 video)
+- [Buddhism (early)](https://videos.dougsdharma.com/topics/buddhism-early.html) (8 videos)
+- Buddhism (protestant) (1 video)
+- Buddhism (schools) (2 videos)
+- Buddhism (weird) (1 video)
+- [COVID-19](https://videos.dougsdharma.com/topics/covid-19.html) (3 videos)
+- Carroll, Sean (1 video)
+- Choesang, Yeshe (1 video)
+- [Collins, Steven](https://videos.dougsdharma.com/topics/collins-steven.html) (5 videos)
+- Conze, Edward (1 video)
+- Crosby, Kate (1 video)
+- [Dalai Lama](https://videos.dougsdharma.com/topics/dalai-lama.html) (8 videos)
+- Davidson, Ronald (1 video)
+- Dennett, Daniel (1 video)
+- [Dhammapada](https://videos.dougsdharma.com/topics/dhammapada.html) (3 videos)
+- Ehara, N.R.M. (1 video)
+- Ehrman, Bart (2 videos)
+- Epicurus (2 videos)
+- Faux, Zeke (1 video)
+- [Federman, Asaf](https://videos.dougsdharma.com/topics/federman-asaf.html) (4 videos)
+- Frankl, Viktor (1 video)
+- [Fronsdal, Gil](https://videos.dougsdharma.com/topics/fronsdal-gil.html) (11 videos)
+- Fuller, Paul (1 video)
+- [Gethin, Rupert](https://videos.dougsdharma.com/topics/gethin-rupert.html) (12 videos)
+- Gibbs, Benjamin (1 video)
+- [Goldstein, Joseph](https://videos.dougsdharma.com/topics/goldstein-joseph.html) (7 videos)
+- [Gombrich, Richard](https://videos.dougsdharma.com/topics/gombrich-richard.html) (27 videos)
+- Gross, Rita (1 video)
+- [Gunaratana, Henepola](https://videos.dougsdharma.com/topics/gunaratana-henepola.html) (11 videos)
+- Guy, John (1 video)
+- Hallisey, Charles (1 video)
+- [Harvey, Peter](https://videos.dougsdharma.com/topics/harvey-peter.html) (4 videos)
+- Hayes, Richard (1 video)
+- Hecker, Hellmuth (1 video)
+- Hitchens, Christopher (1 video)
+- Hofstadter, Douglas (1 video)
+- Huayan (1 video)
+- Hume, David (1 video)
+- Jayatilleke, K.N. (2 videos)
+- Jones, Dhivan Thomas (2 videos)
+- Kondo, Marie (2 videos)
+- [Kornfield, Jack](https://videos.dougsdharma.com/topics/kornfield-jack.html) (4 videos)
+- Ledi Sayadaw (1 video)
+- Lele, Amod (1 video)
+- Linn, Vaddhaka (1 video)
+- [Lopez, Donald](https://videos.dougsdharma.com/topics/lopez-donald.html) (3 videos)
+- Macaro, Antonia (1 video)
+- Mace, Dan (1 video)
+- [Mahayana](https://videos.dougsdharma.com/topics/mahayana.html) (18 videos)
+- McCracken, Peggy (1 video)
+- McKeown, Greg (1 video)
+- McLeod, Ken (1 video)
+- Mill, J.S. (1 video)
+- [Muller, Max](https://videos.dougsdharma.com/topics/muller-max.html) (3 videos)
+- Nagarjuna (2 videos)
+- Nakamura, Norm (1 video)
+- Nanamoli, Bhikkhu (2 videos)
+- Neistat, Casey (1 video)
+- [Nhat Hanh, Thich](https://videos.dougsdharma.com/topics/nhat-hanh-thich.html) (6 videos)
+- Norman, K.R. (1 video)
+- Nyanaponika Thera (1 video)
+- [Olendzki, Andrew](https://videos.dougsdharma.com/topics/olendzki-andrew.html) (4 videos)
+- Olivelle, Patrick (2 videos)
+- Orwell, George (1 video)
+- [Pali canon](https://videos.dougsdharma.com/topics/pali-canon.html) (3 videos)
+- [Parfit, Derek](https://videos.dougsdharma.com/topics/parfit-derek.html) (3 videos)
+- Pascal, Blaise (1 video)
+- [Pigliucci, Massimo](https://videos.dougsdharma.com/topics/pigliucci-massimo.html) (3 videos)
+- [Piya Tan](https://videos.dougsdharma.com/topics/piya-tan.html) (45 videos)
+- Plato (1 video)
+- [Rahula, Walpola](https://videos.dougsdharma.com/topics/rahula-walpola.html) (5 videos)
+- Rajapakse, Vijitha (1 video)
+- Sagan, Carl (1 video)
+- Salomon, Richard (1 video)
+- [Salzberg, Sharon](https://videos.dougsdharma.com/topics/salzberg-sharon.html) (12 videos)
+- [Samuel, Geoffrey](https://videos.dougsdharma.com/topics/samuel-geoffrey.html) (3 videos)
+- Sapolsky, Robert (2 videos)
+- Shelton, Joshua (1 video)
+- Sheng Yen (1 video)
+- Shults, Brett (1 video)
+- Socrates (1 video)
+- Spagnoli, Maria (1 video)
+- [Sujato, Bhikkhu](https://videos.dougsdharma.com/topics/sujato-bhikkhu.html) (19 videos)
+- Suzuki, Shunryu (1 video)
+- Tatz, Mark (2 videos)
+- Thanissaro, Bhikkhu (2 videos)
+- [Theravada](https://videos.dougsdharma.com/topics/theravada.html) (12 videos)
+- Tolle, Eckhart (1 video)
+- [Vajrayana](https://videos.dougsdharma.com/topics/vajrayana.html) (7 videos)
+- Van Norden, Bryan (1 video)
+- Weingast, Matty (1 video)
+- Whitaker, Justin (1 video)
+- Williams, Paul (1 video)
+- [Wright, Robert](https://videos.dougsdharma.com/topics/wright-robert.html) (4 videos)
+- Wynne, Alexander (2 videos)
+- Yampolsky, Philip (1 video)
+- Yuttadhammo, Bhikkhu (1 video)
+- [Zen](https://videos.dougsdharma.com/topics/zen.html) (7 videos)
+- Zimmerman, Michael (1 video)
+- [abhidhamma](https://videos.dougsdharma.com/topics/abhidhamma.html) (5 videos)
+- advanced vs. beginner (1 video)
+- aesthetics (1 video)
+- [anger](https://videos.dougsdharma.com/topics/anger.html) (9 videos)
+- [art](https://videos.dougsdharma.com/topics/art.html) (7 videos)
+- atheism/agnosticism (2 videos)
+- [attachment/clinging](https://videos.dougsdharma.com/topics/attachment-clinging.html) (17 videos)
+- beginners (1 video)
+- [breath meditation](https://videos.dougsdharma.com/topics/breath-meditation.html) (4 videos)
+- channel news (2 videos)
+- [compassion](https://videos.dougsdharma.com/topics/compassion.html) (10 videos)
+- [concentration/samadhi](https://videos.dougsdharma.com/topics/concentration-samadhi.html) (5 videos)
+- [conditionality](https://videos.dougsdharma.com/topics/conditionality.html) (7 videos)
+- [consciousness](https://videos.dougsdharma.com/topics/consciousness.html) (6 videos)
+- [contentment](https://videos.dougsdharma.com/topics/contentment.html) (3 videos)
+- craving/tanha (1 video)
+- [death/mortality](https://videos.dougsdharma.com/topics/death-mortality.html) (7 videos)
+- [delusion](https://videos.dougsdharma.com/topics/delusion.html) (3 videos)
+- [dependent origination](https://videos.dougsdharma.com/topics/dependent-origination.html) (8 videos)
+- [devas/supernatural beings](https://videos.dougsdharma.com/topics/devas-supernatural-beings.html) (9 videos)
+- [doubt](https://videos.dougsdharma.com/topics/doubt.html) (3 videos)
+- duty/obligation (2 videos)
+- [eightfold path](https://videos.dougsdharma.com/topics/eightfold-path.html) (17 videos)
+- [emptiness](https://videos.dougsdharma.com/topics/emptiness.html) (4 videos)
+- [enlightenment/awakening](https://videos.dougsdharma.com/topics/enlightenment-awakening.html) (46 videos)
+- [entertainment/media](https://videos.dougsdharma.com/topics/entertainment-media.html) (11 videos)
+- [epistemology](https://videos.dougsdharma.com/topics/epistemology.html) (16 videos)
+- [equanimity](https://videos.dougsdharma.com/topics/equanimity.html) (7 videos)
+- [exercise/body](https://videos.dougsdharma.com/topics/exercise-body.html) (4 videos)
+- [faith/saddha](https://videos.dougsdharma.com/topics/faith-saddha.html) (5 videos)
+- [fame](https://videos.dougsdharma.com/topics/fame.html) (21 videos)
+- family (2 videos)
+- [fear/anxiety](https://videos.dougsdharma.com/topics/fear-anxiety.html) (5 videos)
+- feelings/vedana (2 videos)
+- [five aggregates](https://videos.dougsdharma.com/topics/five-aggregates.html) (5 videos)
+- five precepts (2 videos)
+- food/eating (2 videos)
+- forgiveness (2 videos)
+- [four noble truths](https://videos.dougsdharma.com/topics/four-noble-truths.html) (8 videos)
+- free will/determinism (2 videos)
+- [generosity/dana](https://videos.dougsdharma.com/topics/generosity-dana.html) (6 videos)
+- [gratitude](https://videos.dougsdharma.com/topics/gratitude.html) (4 videos)
+- heart sutra/prajnaparamita (2 videos)
+- [hindrances](https://videos.dougsdharma.com/topics/hindrances.html) (6 videos)
+- history/scholarship (1 video)
+- humor (1 video)
+- [impermanence](https://videos.dougsdharma.com/topics/impermanence.html) (7 videos)
+- [jhana/absorption](https://videos.dougsdharma.com/topics/jhana-absorption.html) (8 videos)
+- [joy/happiness](https://videos.dougsdharma.com/topics/joy-happiness.html) (18 videos)
+- [karma](https://videos.dougsdharma.com/topics/karma.html) (17 videos)
+- [letting go](https://videos.dougsdharma.com/topics/letting-go.html) (11 videos)
+- [loneliness/solitude](https://videos.dougsdharma.com/topics/loneliness-solitude.html) (5 videos)
+- magic/supernatural (2 videos)
+- [meditation](https://videos.dougsdharma.com/topics/meditation.html) (75 videos)
+- [mental proliferation/papanca](https://videos.dougsdharma.com/topics/mental-proliferation-papanca.html) (5 videos)
+- [metta/loving-kindness](https://videos.dougsdharma.com/topics/metta-loving-kindness.html) (11 videos)
+- middle way (2 videos)
+- [mindfulness](https://videos.dougsdharma.com/topics/mindfulness.html) (29 videos)
+- [nature/environment](https://videos.dougsdharma.com/topics/nature-environment.html) (14 videos)
+- [nirvana/nibbana](https://videos.dougsdharma.com/topics/nirvana-nibbana.html) (16 videos)
+- non-dualism (1 video)
+- [non-self/anatta](https://videos.dougsdharma.com/topics/non-self-anatta.html) (20 videos)
+- patience (2 videos)
+- [perception](https://videos.dougsdharma.com/topics/perception.html) (3 videos)
+- perceptions (ten) (1 video)
+- [personal reflection](https://videos.dougsdharma.com/topics/personal-reflection.html) (31 videos)
+- [philosophy](https://videos.dougsdharma.com/topics/philosophy.html) (27 videos)
+- [pleasure](https://videos.dougsdharma.com/topics/pleasure.html) (7 videos)
+- [politics](https://videos.dougsdharma.com/topics/politics.html) (8 videos)
+- practice (1 video)
+- [pragmatism](https://videos.dougsdharma.com/topics/pragmatism.html) (4 videos)
+- [prayer](https://videos.dougsdharma.com/topics/prayer.html) (3 videos)
+- [pride/conceit](https://videos.dougsdharma.com/topics/pride-conceit.html) (5 videos)
+- [progress](https://videos.dougsdharma.com/topics/progress.html) (18 videos)
+- [rebirth](https://videos.dougsdharma.com/topics/rebirth.html) (7 videos)
+- recollections (ten) (1 video)
+- [regret](https://videos.dougsdharma.com/topics/regret.html) (4 videos)
+- [relationships/love](https://videos.dougsdharma.com/topics/relationships-love.html) (9 videos)
+- relics/archaeology (1 video)
+- [religion](https://videos.dougsdharma.com/topics/religion.html) (3 videos)
+- [renunciation](https://videos.dougsdharma.com/topics/renunciation.html) (3 videos)
+- [rhetoric/debate](https://videos.dougsdharma.com/topics/rhetoric-debate.html) (21 videos)
+- right action (2 videos)
+- [right effort](https://videos.dougsdharma.com/topics/right-effort.html) (8 videos)
+- [right intention](https://videos.dougsdharma.com/topics/right-intention.html) (4 videos)
+- right livelihood (2 videos)
+- [right speech](https://videos.dougsdharma.com/topics/right-speech.html) (4 videos)
+- ritual/ceremony (2 videos)
+- [sangha/community](https://videos.dougsdharma.com/topics/sangha-community.html) (32 videos)
+- [satipatthana](https://videos.dougsdharma.com/topics/satipatthana.html) (7 videos)
+- [science and Buddhism](https://videos.dougsdharma.com/topics/science-and-buddhism.html) (7 videos)
+- [secular Buddhism](https://videos.dougsdharma.com/topics/secular-buddhism.html) (22 videos)
+- [self/identity](https://videos.dougsdharma.com/topics/self-identity.html) (14 videos)
+- seven factors of awakening (2 videos)
+- [sila/ethics](https://videos.dougsdharma.com/topics/sila-ethics.html) (23 videos)
+- sin (concept of) (2 videos)
+- [skillful means/upaya](https://videos.dougsdharma.com/topics/skillful-means-upaya.html) (3 videos)
+- [skillful/unskillful action](https://videos.dougsdharma.com/topics/skillful-unskillful-action.html) (26 videos)
+- [social justice](https://videos.dougsdharma.com/topics/social-justice.html) (6 videos)
+- [spirituality](https://videos.dougsdharma.com/topics/spirituality.html) (7 videos)
+- [stoicism](https://videos.dougsdharma.com/topics/stoicism.html) (4 videos)
+- success/achievement (2 videos)
+- [suffering/dukkha](https://videos.dougsdharma.com/topics/suffering-dukkha.html) (20 videos)
+- [suttas/early texts](https://videos.dougsdharma.com/topics/suttas-early-texts.html) (121 videos)
+- [technology](https://videos.dougsdharma.com/topics/technology.html) (16 videos)
+- therapy/psychology (2 videos)
+- [three refuges](https://videos.dougsdharma.com/topics/three-refuges.html) (5 videos)
+- [time/momentariness](https://videos.dougsdharma.com/topics/time-momentariness.html) (32 videos)
+- [two truths doctrine](https://videos.dougsdharma.com/topics/two-truths-doctrine.html) (3 videos)
+- [views/ditthi](https://videos.dougsdharma.com/topics/views-ditthi.html) (47 videos)
+- [vipassana/insight](https://videos.dougsdharma.com/topics/vipassana-insight.html) (3 videos)
+- von Rospatt, Alexander (1 video)
+- [war/violence/nonviolence](https://videos.dougsdharma.com/topics/war-violence-nonviolence.html) (3 videos)
+- [wealth/money](https://videos.dougsdharma.com/topics/wealth-money.html) (5 videos)
+- weeding (1 video)
+- [wisdom/panna](https://videos.dougsdharma.com/topics/wisdom-panna.html) (15 videos)
+- [work/livelihood](https://videos.dougsdharma.com/topics/work-livelihood.html) (39 videos)
 
 ## Sutta References
 
 This index references 554 unique suttas from the Pali canon
 and other early Buddhist texts. References use standard abbreviations
 (DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
+Texts cited in 3+ videos have their own page; all 554 are on the sutta hub.
+
+- [AN 1.41-50](https://videos.dougsdharma.com/suttas/an-1-41-50.html) (4 videos)
+- [AN 2.21-31](https://videos.dougsdharma.com/suttas/an-2-21-31.html) (4 videos)
+- [AN 3.39](https://videos.dougsdharma.com/suttas/an-3-39.html) (5 videos)
+- [AN 3.61](https://videos.dougsdharma.com/suttas/an-3-61.html) (4 videos)
+- [AN 3.65](https://videos.dougsdharma.com/suttas/an-3-65.html) (22 videos)
+- [AN 3.100](https://videos.dougsdharma.com/suttas/an-3-100.html) (4 videos)
+- [AN 4.14](https://videos.dougsdharma.com/suttas/an-4-14.html) (4 videos)
+- [AN 4.35](https://videos.dougsdharma.com/suttas/an-4-35.html) (3 videos)
+- [AN 4.49](https://videos.dougsdharma.com/suttas/an-4-49.html) (5 videos)
+- [AN 4.55](https://videos.dougsdharma.com/suttas/an-4-55.html) (3 videos)
+- [AN 4.62](https://videos.dougsdharma.com/suttas/an-4-62.html) (3 videos)
+- [AN 4.77](https://videos.dougsdharma.com/suttas/an-4-77.html) (5 videos)
+- [AN 4.159](https://videos.dougsdharma.com/suttas/an-4-159.html) (3 videos)
+- [AN 5.41](https://videos.dougsdharma.com/suttas/an-5-41.html) (5 videos)
+- [AN 5.43](https://videos.dougsdharma.com/suttas/an-5-43.html) (4 videos)
+- [AN 5.57](https://videos.dougsdharma.com/suttas/an-5-57.html) (6 videos)
+- [AN 6.55](https://videos.dougsdharma.com/suttas/an-6-55.html) (4 videos)
+- [AN 6.63](https://videos.dougsdharma.com/suttas/an-6-63.html) (13 videos)
+- [AN 7.11](https://videos.dougsdharma.com/suttas/an-7-11.html) (5 videos)
+- [AN 8.8](https://videos.dougsdharma.com/suttas/an-8-8.html) (4 videos)
+- [AN 8.51](https://videos.dougsdharma.com/suttas/an-8-51.html) (3 videos)
+- [AN 8.53](https://videos.dougsdharma.com/suttas/an-8-53.html) (5 videos)
+- [AN 9.34](https://videos.dougsdharma.com/suttas/an-9-34.html) (6 videos)
+- [AN 10.72](https://videos.dougsdharma.com/suttas/an-10-72.html) (5 videos)
+- [AN 10.99](https://videos.dougsdharma.com/suttas/an-10-99.html) (3 videos)
+- [Dhp](https://videos.dougsdharma.com/suttas/dhp.html) (3 videos)
+- [Dhp 100](https://videos.dougsdharma.com/suttas/dhp-100.html) (3 videos)
+- [Dhp 157](https://videos.dougsdharma.com/suttas/dhp-157.html) (4 videos)
+- [Dhp 197](https://videos.dougsdharma.com/suttas/dhp-197.html) (6 videos)
+- [Dhp 273](https://videos.dougsdharma.com/suttas/dhp-273.html) (6 videos)
+- [DN 1](https://videos.dougsdharma.com/suttas/dn-1.html) (13 videos)
+- [DN 2](https://videos.dougsdharma.com/suttas/dn-2.html) (12 videos)
+- [DN 9](https://videos.dougsdharma.com/suttas/dn-9.html) (5 videos)
+- [DN 11](https://videos.dougsdharma.com/suttas/dn-11.html) (5 videos)
+- [DN 14](https://videos.dougsdharma.com/suttas/dn-14.html) (4 videos)
+- [DN 15](https://videos.dougsdharma.com/suttas/dn-15.html) (8 videos)
+- [DN 16](https://videos.dougsdharma.com/suttas/dn-16.html) (23 videos)
+- [DN 26](https://videos.dougsdharma.com/suttas/dn-26.html) (6 videos)
+- [DN 27](https://videos.dougsdharma.com/suttas/dn-27.html) (7 videos)
+- [DN 31](https://videos.dougsdharma.com/suttas/dn-31.html) (7 videos)
+- [DN 33](https://videos.dougsdharma.com/suttas/dn-33.html) (10 videos)
+- [Heart Sūtra](https://videos.dougsdharma.com/suttas/heart-sutra.html) (3 videos)
+- [Iti 44](https://videos.dougsdharma.com/suttas/iti-44.html) (3 videos)
+- [Lotus Sūtra](https://videos.dougsdharma.com/suttas/lotus-sutra.html) (4 videos)
+- [MN 2](https://videos.dougsdharma.com/suttas/mn-2.html) (12 videos)
+- [MN 4](https://videos.dougsdharma.com/suttas/mn-4.html) (6 videos)
+- [MN 7](https://videos.dougsdharma.com/suttas/mn-7.html) (4 videos)
+- [MN 9](https://videos.dougsdharma.com/suttas/mn-9.html) (8 videos)
+- [MN 10](https://videos.dougsdharma.com/suttas/mn-10.html) (25 videos)
+- [MN 11](https://videos.dougsdharma.com/suttas/mn-11.html) (4 videos)
+- [MN 12](https://videos.dougsdharma.com/suttas/mn-12.html) (3 videos)
+- [MN 13](https://videos.dougsdharma.com/suttas/mn-13.html) (8 videos)
+- [MN 14](https://videos.dougsdharma.com/suttas/mn-14.html) (4 videos)
+- [MN 18](https://videos.dougsdharma.com/suttas/mn-18.html) (11 videos)
+- [MN 19](https://videos.dougsdharma.com/suttas/mn-19.html) (16 videos)
+- [MN 20](https://videos.dougsdharma.com/suttas/mn-20.html) (4 videos)
+- [MN 21](https://videos.dougsdharma.com/suttas/mn-21.html) (13 videos)
+- [MN 22](https://videos.dougsdharma.com/suttas/mn-22.html) (30 videos)
+- [MN 24](https://videos.dougsdharma.com/suttas/mn-24.html) (4 videos)
+- [MN 26](https://videos.dougsdharma.com/suttas/mn-26.html) (18 videos)
+- [MN 28](https://videos.dougsdharma.com/suttas/mn-28.html) (5 videos)
+- [MN 36](https://videos.dougsdharma.com/suttas/mn-36.html) (7 videos)
+- [MN 38](https://videos.dougsdharma.com/suttas/mn-38.html) (12 videos)
+- [MN 39](https://videos.dougsdharma.com/suttas/mn-39.html) (6 videos)
+- [MN 40](https://videos.dougsdharma.com/suttas/mn-40.html) (3 videos)
+- [MN 44](https://videos.dougsdharma.com/suttas/mn-44.html) (10 videos)
+- [MN 47](https://videos.dougsdharma.com/suttas/mn-47.html) (6 videos)
+- [MN 52](https://videos.dougsdharma.com/suttas/mn-52.html) (5 videos)
+- [MN 53](https://videos.dougsdharma.com/suttas/mn-53.html) (7 videos)
+- [MN 56](https://videos.dougsdharma.com/suttas/mn-56.html) (6 videos)
+- [MN 57](https://videos.dougsdharma.com/suttas/mn-57.html) (4 videos)
+- [MN 58](https://videos.dougsdharma.com/suttas/mn-58.html) (4 videos)
+- [MN 60](https://videos.dougsdharma.com/suttas/mn-60.html) (5 videos)
+- [MN 61](https://videos.dougsdharma.com/suttas/mn-61.html) (6 videos)
+- [MN 62](https://videos.dougsdharma.com/suttas/mn-62.html) (4 videos)
+- [MN 63](https://videos.dougsdharma.com/suttas/mn-63.html) (7 videos)
+- [MN 64](https://videos.dougsdharma.com/suttas/mn-64.html) (8 videos)
+- [MN 65](https://videos.dougsdharma.com/suttas/mn-65.html) (9 videos)
+- [MN 66](https://videos.dougsdharma.com/suttas/mn-66.html) (3 videos)
+- [MN 67](https://videos.dougsdharma.com/suttas/mn-67.html) (3 videos)
+- [MN 70](https://videos.dougsdharma.com/suttas/mn-70.html) (3 videos)
+- [MN 72](https://videos.dougsdharma.com/suttas/mn-72.html) (6 videos)
+- [MN 74](https://videos.dougsdharma.com/suttas/mn-74.html) (6 videos)
+- [MN 77](https://videos.dougsdharma.com/suttas/mn-77.html) (4 videos)
+- [MN 86](https://videos.dougsdharma.com/suttas/mn-86.html) (3 videos)
+- [MN 95](https://videos.dougsdharma.com/suttas/mn-95.html) (9 videos)
+- [MN 99](https://videos.dougsdharma.com/suttas/mn-99.html) (3 videos)
+- [MN 108](https://videos.dougsdharma.com/suttas/mn-108.html) (3 videos)
+- [MN 118](https://videos.dougsdharma.com/suttas/mn-118.html) (5 videos)
+- [MN 121](https://videos.dougsdharma.com/suttas/mn-121.html) (3 videos)
+- [MN 122](https://videos.dougsdharma.com/suttas/mn-122.html) (7 videos)
+- [MN 123](https://videos.dougsdharma.com/suttas/mn-123.html) (5 videos)
+- [MN 128](https://videos.dougsdharma.com/suttas/mn-128.html) (4 videos)
+- [MN 131](https://videos.dougsdharma.com/suttas/mn-131.html) (5 videos)
+- [MN 135](https://videos.dougsdharma.com/suttas/mn-135.html) (4 videos)
+- [MN 140](https://videos.dougsdharma.com/suttas/mn-140.html) (4 videos)
+- [MN 148](https://videos.dougsdharma.com/suttas/mn-148.html) (7 videos)
+- [SN 3.8](https://videos.dougsdharma.com/suttas/sn-3-8.html) (4 videos)
+- [SN 3.19](https://videos.dougsdharma.com/suttas/sn-3-19.html) (4 videos)
+- [SN 3.20](https://videos.dougsdharma.com/suttas/sn-3-20.html) (5 videos)
+- [SN 5.10](https://videos.dougsdharma.com/suttas/sn-5-10.html) (7 videos)
+- [SN 7.2](https://videos.dougsdharma.com/suttas/sn-7-2.html) (4 videos)
+- [SN 12.1](https://videos.dougsdharma.com/suttas/sn-12-1.html) (4 videos)
+- [SN 12.15](https://videos.dougsdharma.com/suttas/sn-12-15.html) (4 videos)
+- [SN 12.17](https://videos.dougsdharma.com/suttas/sn-12-17.html) (6 videos)
+- [SN 12.61](https://videos.dougsdharma.com/suttas/sn-12-61.html) (3 videos)
+- [SN 12.65](https://videos.dougsdharma.com/suttas/sn-12-65.html) (5 videos)
+- [SN 22.59](https://videos.dougsdharma.com/suttas/sn-22-59.html) (13 videos)
+- [SN 22.86](https://videos.dougsdharma.com/suttas/sn-22-86.html) (3 videos)
+- [SN 22.87](https://videos.dougsdharma.com/suttas/sn-22-87.html) (3 videos)
+- [SN 22.94](https://videos.dougsdharma.com/suttas/sn-22-94.html) (5 videos)
+- [SN 35.28](https://videos.dougsdharma.com/suttas/sn-35-28.html) (5 videos)
+- [SN 35.95](https://videos.dougsdharma.com/suttas/sn-35-95.html) (3 videos)
+- [SN 36.6](https://videos.dougsdharma.com/suttas/sn-36-6.html) (10 videos)
+- [SN 36.21](https://videos.dougsdharma.com/suttas/sn-36-21.html) (7 videos)
+- [SN 36.31](https://videos.dougsdharma.com/suttas/sn-36-31.html) (4 videos)
+- [SN 41.8](https://videos.dougsdharma.com/suttas/sn-41-8.html) (3 videos)
+- [SN 42.6](https://videos.dougsdharma.com/suttas/sn-42-6.html) (3 videos)
+- [SN 45.2](https://videos.dougsdharma.com/suttas/sn-45-2.html) (9 videos)
+- [SN 45.8](https://videos.dougsdharma.com/suttas/sn-45-8.html) (17 videos)
+- [SN 46.51](https://videos.dougsdharma.com/suttas/sn-46-51.html) (3 videos)
+- [SN 46.53](https://videos.dougsdharma.com/suttas/sn-46-53.html) (5 videos)
+- [SN 46.54](https://videos.dougsdharma.com/suttas/sn-46-54.html) (7 videos)
+- [SN 47.9](https://videos.dougsdharma.com/suttas/sn-47-9.html) (3 videos)
+- [SN 54.9](https://videos.dougsdharma.com/suttas/sn-54-9.html) (4 videos)
+- [SN 55.53](https://videos.dougsdharma.com/suttas/sn-55-53.html) (4 videos)
+- [SN 56.11](https://videos.dougsdharma.com/suttas/sn-56-11.html) (17 videos)
+- [SN 56.31](https://videos.dougsdharma.com/suttas/sn-56-31.html) (3 videos)
+- [Snp 1.3](https://videos.dougsdharma.com/suttas/snp-1-3.html) (6 videos)
+- [Snp 1.8](https://videos.dougsdharma.com/suttas/snp-1-8.html) (5 videos)
+- [Snp 2.4](https://videos.dougsdharma.com/suttas/snp-2-4.html) (5 videos)
+- [Snp 4.11](https://videos.dougsdharma.com/suttas/snp-4-11.html) (6 videos)
+- [Thag 18.1](https://videos.dougsdharma.com/suttas/thag-18-1.html) (3 videos)
+- [Ud 1.10](https://videos.dougsdharma.com/suttas/ud-1-10.html) (7 videos)
+- [Ud 5.1](https://videos.dougsdharma.com/suttas/ud-5-1.html) (3 videos)
+- [Ud 5.5](https://videos.dougsdharma.com/suttas/ud-5-5.html) (5 videos)
+- [Vimalakīrti Nirdeśa](https://videos.dougsdharma.com/suttas/vimalakirti-nirdesa.html) (3 videos)
+- [Vinaya, Khandhaka 10](https://videos.dougsdharma.com/suttas/vinaya-khandhaka-10.html) (3 videos)
+- [Vinaya, Pārājika 4](https://videos.dougsdharma.com/suttas/vinaya-parajika-4.html) (3 videos)
 
 ## All Videos (newest first)
 
@@ -908,7 +1062,7 @@ and other early Buddhist texts. References use standard abbreviations
 ## Links
 
 - YouTube: https://www.youtube.com/@dougsdharma
-- Website: https://www.dougsdharma.com
+- Website: https://dougsdharma.com
 - Podcast: https://digginthedharma.com
 - Online courses: https://onlinedharma.org
 - Patreon: https://www.patreon.com/dougsseculardharma

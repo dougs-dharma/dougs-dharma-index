@@ -8,6 +8,7 @@ plus llms.txt, sitemap.xml for agent/search discoverability.
 """
 
 import json
+import re
 import sys
 import os
 import html as html_lib
@@ -192,9 +193,12 @@ if dates:
     latest = datetime.strptime(dates[-1], '%Y-%m-%d').strftime('%B %Y')
     html = html.replace('PLACEHOLDER_DATE_RANGE', f'{earliest} \u2013 {latest}')
 
-# Inject JSON-LD just before </head>
-if '</head>' in html:
-    html = html.replace('</head>', f'{schema_tag}\n</head>')
+# Inject JSON-LD just before </body>. At ~400 KB it is most of the page, and
+# putting it in <head> pushed the readable video list 450 KB down the file,
+# past where size-limited AI fetchers stop reading. Search engines read
+# JSON-LD anywhere in the document.
+if '</body>' in html:
+    html = html.replace('</body>', f'{schema_tag}\n</body>')
 else:
     # Fallback: inject at end
     html += f'\n{schema_tag}'
@@ -262,6 +266,35 @@ topic_list = sorted(all_topics)
 sutta_list = sorted(all_suttas)
 llms_video_list = '\n'.join(f"- {r['title']} — {r['url']}" for r in records_sorted)
 
+# Link each topic / sutta to its browse page when one was written, so agents
+# can go straight to a curated list instead of filtering videos.json.
+def llms_entries(kind, names, counts, universe):
+    # Slugs must come from the full name set, exactly as build_pages does, or a
+    # disambiguated slug (e.g. 'foo-2') could come out different here.
+    slugs = build_pages.build_slug_map(universe)
+    out = []
+    for name in names:
+        rel = f'{kind}/{slugs[name]}.html'
+        n = counts.get(name, 0)
+        label = f"{n} video{'s' if n != 1 else ''}"
+        out.append(f"- [{name}]({SITE_URL}/{rel}) ({label})" if rel in browse_pages
+                   else f"- {name} ({label})")
+    return '\n'.join(out)
+
+topic_counts, sutta_counts = {}, {}
+for r in records:
+    for t in r['topics']:
+        topic_counts[t] = topic_counts.get(t, 0) + 1
+    for s in r['suttas']:
+        sutta_counts[s] = sutta_counts.get(s, 0) + 1
+def natural_key(s):
+    """'MN 2' before 'MN 10' — same order as the index's sutta view."""
+    return [int(p) if p.isdigit() else p.lower() for p in re.split(r'(\d+)', s)]
+
+sutta_slugs = build_pages.build_slug_map(all_suttas)
+suttas_with_pages = [s for s in sorted(all_suttas, key=natural_key)
+                     if f"suttas/{sutta_slugs[s]}.html" in browse_pages]
+
 llms_txt = f"""# Doug's Dharma Video Index
 
 > A searchable index of {len(data)} educational videos on early Buddhism
@@ -271,8 +304,19 @@ llms_txt = f"""# Doug's Dharma Video Index
 
 Doug's Dharma is a YouTube channel created in 2017 to introduce the
 teachings of early Buddhism to a wide audience. Doug Smith holds a PhD
-in Philosophy and has published scholarly works in Buddhist Studies.
+in Philosophy of Mind and has published scholarly works in Buddhist Studies.
 This index covers videos from {earliest} to {latest}.
+An overview of all his work (courses, essays, book, articles) is at
+https://dougsdharma.com/llms.txt
+
+## Browse Pages
+
+Plain HTML pages (no JavaScript needed), each listing its videos newest first
+with date, summary and watch URL:
+- Topic hub: {SITE_URL}/topics/ (one page per topic with {build_pages.MIN_FOR_PAGE}+ videos, linked below)
+- Sutta hub: {SITE_URL}/suttas/ (one page per text cited in {build_pages.MIN_FOR_PAGE}+ videos, linked below)
+- URL pattern: {SITE_URL}/topics/<slug>.html and {SITE_URL}/suttas/<slug>.html,
+  e.g. {SITE_URL}/suttas/mn-10.html
 
 ## Structured Data
 
@@ -292,13 +336,18 @@ with SuttaCentral URLs, other_refs (books/articles), and related_videos.
 
 ## Topics Covered
 
-{chr(10).join('- ' + t for t in topic_list)}
+Linked topics have their own browse page; the rest are listed on the topic hub.
+
+{llms_entries('topics', topic_list, topic_counts, all_topics)}
 
 ## Sutta References
 
 This index references {len(all_suttas)} unique suttas from the Pali canon
 and other early Buddhist texts. References use standard abbreviations
 (DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
+Texts cited in {build_pages.MIN_FOR_PAGE}+ videos have their own page; all {len(all_suttas)} are on the sutta hub.
+
+{llms_entries('suttas', suttas_with_pages, sutta_counts, all_suttas)}
 
 ## All Videos (newest first)
 
@@ -307,7 +356,7 @@ and other early Buddhist texts. References use standard abbreviations
 ## Links
 
 - YouTube: https://www.youtube.com/@dougsdharma
-- Website: https://www.dougsdharma.com
+- Website: https://dougsdharma.com
 - Podcast: https://digginthedharma.com
 - Online courses: https://onlinedharma.org
 - Patreon: https://www.patreon.com/dougsseculardharma

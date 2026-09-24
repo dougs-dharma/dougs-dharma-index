@@ -84,7 +84,11 @@ ul.videos .t {
   line-height:1.3; text-decoration:none; color:var(--ink);
   transition:color var(--dur-base);
 }
-ul.videos .t:hover { color:var(--stillwater-deep); }
+ul.videos .t {
+  background:linear-gradient(currentColor,currentColor) 0 100% / 0 1px no-repeat;
+  transition:background-size 0.6s var(--ease-out);
+}
+ul.videos .t:hover { background-size:100% 1px; }
 ul.videos .meta {
   display:block; margin-top:var(--space-1);
   font-size:var(--text-xs); letter-spacing:var(--tracking-wide);
@@ -143,4 +147,24 @@ footer.page .foot-links { display:flex; flex-direction:column; gap:var(--space-2
 @media (max-width:760px) {
   .wrap { padding:0 var(--space-5); }
   header.page h1 { font-size:var(--text-2xl); }
+}
+
+/* ---------- MOTION ----------
+   Slow and gentle, matching the main index: the header settles in on load,
+   and the first videos in a list fade up in a short stagger. CSS only. */
+:root { --ease-out:cubic-bezier(0.22,1,0.36,1); }
+@keyframes rise { from { opacity:0; transform:translateY(10px); } }
+header.page .wrap > * { animation:rise 0.9s var(--ease-out) backwards; }
+header.page .wrap > .brandline { animation-delay:0.05s; }
+header.page .wrap > h1 { animation-delay:0.15s; }
+header.page .wrap > .lede { animation-delay:0.3s; }
+ul.videos li { animation:rise 0.7s var(--ease-out) backwards; }
+ul.videos li:nth-child(1) { animation-delay:0.35s; }
+ul.videos li:nth-child(2) { animation-delay:0.4s; }
+ul.videos li:nth-child(3) { animation-delay:0.45s; }
+ul.videos li:nth-child(4) { animation-delay:0.5s; }
+ul.videos li:nth-child(5) { animation-delay:0.55s; }
+ul.videos li:nth-child(n+6) { animation-delay:0.6s; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration:0.01ms !important; animation:none !important; }
 }

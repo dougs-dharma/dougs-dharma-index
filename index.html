@@ -32,6 +32,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
 <style>
   /* ============================================================
      Doug's Dharma — Design tokens (canonical subset, inlined)
@@ -94,6 +95,9 @@
   }
   .masthead-inner { position:relative; z-index:1; }
   .brandline { display:flex; align-items:center; gap:var(--space-3); margin-bottom:var(--space-8); }
+  a.brandline { text-decoration:none; width:fit-content; }
+  a.brandline span { transition:color var(--dur-base) var(--ease-out); }
+  a.brandline:hover span { color:var(--parchment); }
   .brandline img { width:34px; height:34px; }
   .brandline span {
     font-family:var(--font-body); font-weight:600; font-size:var(--text-sm);
@@ -199,7 +203,8 @@
     font-family:var(--font-display); font-weight:400; font-size:var(--text-2xl); line-height:1.2;
     color:var(--ink); text-decoration:none; display:inline; transition:color var(--dur-base);
   }
-  .vc-title:hover { color:var(--ember-deep); }
+  .vc-title { background:linear-gradient(currentColor,currentColor) 0 100% / 0 1px no-repeat; transition:background-size 0.6s var(--ease-out); }
+  .vc-title:hover { color:var(--ink); background-size:100% 1px; }
   .vc-summary { font-size:var(--text-base); color:var(--smoke); line-height:1.65; margin:var(--space-3) 0 var(--space-5); max-width:74ch; }
 
   .chip-row { display:flex; flex-wrap:wrap; gap:var(--space-2); align-items:center; }
@@ -222,8 +227,11 @@
   .vc-toggle:hover { color:var(--ember-deep); }
   .vc-toggle svg { width:14px; height:14px; transition:transform var(--dur-base); }
   .video-card.is-open .vc-toggle svg { transform:rotate(180deg); }
-  .vc-detail { display:none; margin-top:var(--space-5); padding-top:var(--space-5); border-top:1px solid var(--border-on-light); }
-  .video-card.is-open .vc-detail { display:block; }
+  .vc-detail { display:grid; grid-template-rows:0fr; opacity:0; visibility:hidden;
+    transition:grid-template-rows 0.45s var(--ease-out), opacity 0.35s var(--ease-out), visibility 0s linear 0.45s; }
+  .video-card.is-open .vc-detail { grid-template-rows:1fr; opacity:1; visibility:visible; transition-delay:0s; }
+  .vc-detail-clip { overflow:hidden; min-height:0; }
+  .vc-detail-body { margin-top:var(--space-5); padding-top:var(--space-5); border-top:1px solid var(--border-on-light); }
   .vc-detail h4 { font-family:var(--font-body); font-weight:600; font-size:var(--text-xs); letter-spacing:var(--tracking-widest); text-transform:uppercase; color:var(--mist); margin:0 0 var(--space-2); }
   .vc-detail h4 + h4 { margin-top:var(--space-5); }
   .vc-detail p { font-size:var(--text-sm); color:var(--smoke); line-height:1.7; margin:0 0 var(--space-3); }
@@ -303,11 +311,12 @@
     position:fixed; bottom:var(--space-8); right:var(--space-8); z-index:30;
     width:42px; height:42px; border-radius:var(--radius-full);
     background:var(--night); color:var(--parchment); border:0; cursor:pointer;
-    font-size:18px; display:none; align-items:center; justify-content:center;
-    box-shadow:var(--shadow-2); transition:background var(--dur-base), transform var(--dur-base);
+    font-size:18px; display:flex; align-items:center; justify-content:center;
+    box-shadow:var(--shadow-2); opacity:0; visibility:hidden; transform:translateY(10px);
+    transition:background var(--dur-base), opacity 0.4s var(--ease-out), transform 0.4s var(--ease-out), visibility 0s linear 0.4s;
   }
-  .back-to-top.visible { display:flex; }
-  .back-to-top:hover { background:var(--night-soft); transform:translateY(-2px); }
+  .back-to-top.visible { opacity:1; visibility:visible; transform:none; transition-delay:0s; }
+  .back-to-top.visible:hover { background:var(--night-soft); transform:translateY(-2px); }
 
   /* ============================================================
      FOOTER
@@ -328,6 +337,54 @@
   .foot-links a:hover { color:var(--parchment); }
 
   /* ============================================================
+     MOTION — slow and gentle: fades and small rises, never bounces.
+     Everything here is switched off under prefers-reduced-motion.
+     ============================================================ */
+
+  /* Masthead settles in on load; the title rises word by word. */
+  .js .masthead-inner > * { opacity:0; transform:translateY(12px); transition:opacity 1s var(--ease-out), transform 1s var(--ease-out); }
+  .js .masthead-inner > h1 { opacity:1; transform:none; }
+  .js .masthead-inner > p.sub { transition-delay:0.35s; }
+  .js .masthead-inner > .stats { transition-delay:0.5s; }
+  .js.loaded .masthead-inner > * { opacity:1; transform:none; }
+  .js .w { display:inline-block; overflow:hidden; vertical-align:top; padding:0.14em 0 0.2em; margin:-0.14em 0 -0.2em; }
+  .js .w > span { display:inline-block; transform:translateY(110%); transition:transform 1.2s var(--ease-out); transition-delay:calc(var(--wi, 0) * 80ms + 150ms); }
+  .js.loaded .w > span { transform:none; }
+  .stat .n { display:inline-block; }
+
+  /* Mandala watermarks turn almost imperceptibly — one revolution every seven minutes. */
+  @keyframes drift { to { rotate:360deg; } }
+  .watermark { animation:drift 420s linear infinite; }
+
+  /* View tabs: one underline glides between tabs; the chosen view fades in. */
+  .viewtabs { position:relative; }
+  .viewtabs.has-ink .viewtab.is-active::after { display:none; }
+  .tab-ink { position:absolute; left:0; bottom:-1px; width:1px; height:2px; background:var(--ember); pointer-events:none;
+    transform-origin:left; transition:transform 0.5s var(--ease-out); }
+  @keyframes viewIn { from { opacity:0; transform:translateY(8px); } }
+  .js .view.is-active { animation:viewIn 0.5s var(--ease-out); }
+
+  /* Results fade in when a filter, sort, page or tab changes (never while typing). */
+  @keyframes cardIn { from { opacity:0; transform:translateY(10px); } }
+  .video-card.enter { animation:cardIn 0.6s var(--ease-out) backwards; animation-delay:calc(var(--i, 0) * 45ms); }
+
+  /* Thumbnails */
+  .video-card.has-thumb { display:grid; grid-template-columns:240px minmax(0, 1fr); gap:var(--space-8); align-items:start; }
+  .vc-body { min-width:0; }
+  .vc-thumb { display:block; aspect-ratio:16 / 9; border-radius:var(--radius-md); overflow:hidden; background:var(--ivory-deep); }
+  .vc-thumb img { display:block; width:100%; height:100%; object-fit:cover; transition:transform 0.8s var(--ease-out); }
+  .video-card:hover .vc-thumb img { transform:scale(1.03); }
+
+  /* Phones: the search bar tucks away while you scroll down and returns when you scroll up. */
+  .toolbar { transition:transform 0.4s var(--ease-out); }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { transition-duration:0.01ms !important; transition-delay:0s !important; animation-duration:0.01ms !important; animation-delay:0s !important; }
+    .js .masthead-inner > *, .js .w > span { opacity:1 !important; transform:none !important; }
+    .watermark { animation:none !important; }
+  }
+
+  /* ============================================================
      RESPONSIVE
      ============================================================ */
   @media (max-width:760px) {
@@ -338,6 +395,11 @@
     .result-count { margin-left:0; width:100%; }
     .sort-group { width:100%; }
     .sort-group button { flex:1; }
+    .toolbar.is-tucked { transform:translateY(-100%); }
+    .search-field { flex-basis:100%; }
+    .select-field { flex:1 1 140px; min-width:0; }
+    .select-field select { width:100%; }
+    .video-card.has-thumb { grid-template-columns:1fr; gap:var(--space-5); }
     .viewtabs { gap:var(--space-5); overflow-x:auto; }
     .foot-inner { flex-direction:column; align-items:flex-start; }
   }
@@ -352,10 +414,10 @@
   <header class="masthead">
     <img class="watermark" src="https://dougsdharma.com/assets/logo-mandala-on-navy.png" alt="" onerror="this.style.display='none'">
     <div class="wrap masthead-inner">
-      <div class="brandline">
+      <a class="brandline" href="https://dougsdharma.com" title="Back to dougsdharma.com">
         <img src="https://dougsdharma.com/assets/logo-mark.png" alt="" onerror="this.style.display='none'">
         <span>Doug's Dharma</span>
-      </div>
+      </a>
       <h1>Complete Video Index</h1>
       <p class="sub">Every video on the channel — searchable by topic and sutta reference.</p>
       <div class="stats">
@@ -1099,6 +1161,18 @@
   (function() {
     'use strict';
 
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const THUMBS = true;      // show each video's YouTube thumbnail on its card
+    let animateNext = true;   // fade the next set of results in (not while typing)
+
+    function youtubeId(url) {
+      try {
+        const u = new URL(url);
+        const id = u.searchParams.get('v') || (u.hostname === 'youtu.be' ? u.pathname.slice(1) : '');
+        return id.replace(/[^\w-]/g, '');
+      } catch (e) { return ''; }
+    }
+
     const rawData = JSON.parse(document.getElementById('videoData').textContent);
     const videos = rawData.map(v => ({
       title: v.t,
@@ -1215,7 +1289,7 @@
       return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
     }
 
-    function renderVideoCard(v) {
+    function renderVideoCard(v, i) {
       const topicChips = v.topics.map(t =>
         '<span class="chip chip-topic" data-topic="' + escapeHtml(t) + '">' + escapeHtml(t) + '</span>'
       ).join('');
@@ -1252,18 +1326,26 @@
       }
 
       const expandSection = detailHTML
-        ? '<button class="vc-toggle" onclick="this.closest(\'.video-card\').classList.toggle(\'is-open\')">' +
+        ? '<button class="vc-toggle" aria-expanded="false" onclick="this.setAttribute(\'aria-expanded\', this.closest(\'.video-card\').classList.toggle(\'is-open\'))">' +
           'Details <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>' +
-          '</button><div class="vc-detail">' + detailHTML + '</div>'
+          '</button><div class="vc-detail"><div class="vc-detail-clip"><div class="vc-detail-body">' + detailHTML + '</div></div></div>'
         : '';
 
       const formattedDate = formatDate(v.date);
-      return '<article class="video-card">' +
+      const vid = THUMBS ? youtubeId(v.url) : '';
+      const thumb = vid
+        ? '<a class="vc-thumb" href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">' +
+          '<img src="https://i.ytimg.com/vi/' + vid + '/mqdefault.jpg"' +
+          ' srcset="https://i.ytimg.com/vi/' + vid + '/mqdefault.jpg 320w, https://i.ytimg.com/vi/' + vid + '/hqdefault.jpg 480w"' +
+          ' sizes="(max-width: 760px) 100vw, 240px" alt="" loading="lazy" decoding="async"></a>'
+        : '';
+      const cls = 'video-card' + (thumb ? ' has-thumb' : '') + (animateNext && !reduce ? ' enter' : '');
+      return '<article class="' + cls + '" style="--i:' + Math.min(i || 0, 8) + '">' + thumb + '<div class="vc-body">' +
         (formattedDate ? '<div class="vc-date">' + escapeHtml(formattedDate) + '</div>' : '') +
         '<a class="vc-title" href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' + highlightText(v.title, searchQuery) + '</a>' +
         (v.summary ? '<p class="vc-summary">' + highlightText(v.summary, searchQuery) + '</p>' : '') +
         chipRow + expandSection +
-        '</article>';
+        '</div></article>';
     }
 
     function renderPagination(totalPages) {
@@ -1293,10 +1375,11 @@
         videoList.innerHTML = '';
         emptyState.style.display = '';
       } else {
-        videoList.innerHTML = pageVideos.map(renderVideoCard).join('');
+        videoList.innerHTML = pageVideos.map((v, i) => renderVideoCard(v, i)).join('');
         emptyState.style.display = 'none';
       }
       renderPagination(totalPages);
+      animateNext = false;
     }
 
     function renderTopicBrowse() {
@@ -1393,6 +1476,7 @@
       else if (currentMode === 'topics') renderTopicBrowse();
       else if (currentMode === 'suttas') renderSuttaBrowse();
       renderActiveFilters();
+      positionInk();
     }
 
     // Event listeners
@@ -1403,7 +1487,7 @@
     });
 
     topicSelect.addEventListener('change', () => {
-      selectedTopic = topicSelect.value; currentPage = 1;
+      selectedTopic = topicSelect.value; currentPage = 1; animateNext = true;
       if (currentMode !== 'videos') {
         currentMode = 'videos';
         viewTabs.forEach(t => t.classList.toggle('is-active', t.dataset.view === 'videos'));
@@ -1412,7 +1496,7 @@
     });
 
     suttaSelect.addEventListener('change', () => {
-      selectedSutta = suttaSelect.value; currentPage = 1;
+      selectedSutta = suttaSelect.value; currentPage = 1; animateNext = true;
       if (currentMode !== 'videos') {
         currentMode = 'videos';
         viewTabs.forEach(t => t.classList.toggle('is-active', t.dataset.view === 'videos'));
@@ -1424,13 +1508,13 @@
       btn.addEventListener('click', () => {
         sortOrder = btn.dataset.sort;
         sortButtons.forEach(b => b.classList.toggle('is-active', b === btn));
-        currentPage = 1; render();
+        currentPage = 1; animateNext = true; render();
       });
     });
 
     viewTabs.forEach(tab => {
       tab.addEventListener('click', () => {
-        currentMode = tab.dataset.view; currentPage = 1; render();
+        currentMode = tab.dataset.view; currentPage = 1; animateNext = true; render();
       });
     });
 
@@ -1438,13 +1522,13 @@
       const topicEl = e.target.closest('[data-topic]');
       if (topicEl && !topicEl.closest('select')) {
         selectedTopic = topicEl.dataset.topic; topicSelect.value = selectedTopic;
-        currentMode = 'videos'; currentPage = 1; render();
+        currentMode = 'videos'; currentPage = 1; animateNext = true; render();
         window.scrollTo({ top: 0, behavior: 'smooth' }); return;
       }
       const suttaEl = e.target.closest('[data-sutta]');
-      if (suttaEl && !suttaEl.closest('select') && !suttaEl.tagName === 'A') {
+      if (suttaEl && !suttaEl.closest('select') && suttaEl.tagName !== 'A') {
         selectedSutta = suttaEl.dataset.sutta; suttaSelect.value = selectedSutta;
-        currentMode = 'videos'; currentPage = 1; render();
+        currentMode = 'videos'; currentPage = 1; animateNext = true; render();
         window.scrollTo({ top: 0, behavior: 'smooth' }); return;
       }
       const clearBtn = e.target.closest('[data-clear]');
@@ -1452,11 +1536,11 @@
         const which = clearBtn.dataset.clear;
         if (which === 'topic') { selectedTopic = ''; topicSelect.value = ''; }
         if (which === 'sutta') { selectedSutta = ''; suttaSelect.value = ''; }
-        currentPage = 1; render(); return;
+        currentPage = 1; animateNext = true; render(); return;
       }
       const pageBtn = e.target.closest('[data-page]');
       if (pageBtn && !pageBtn.disabled) {
-        currentPage = parseInt(pageBtn.dataset.page); render();
+        currentPage = parseInt(pageBtn.dataset.page); animateNext = true; render();
         document.querySelector('.toolbar').scrollIntoView({ behavior: 'smooth' }); return;
       }
     });
@@ -1468,6 +1552,87 @@
       if (e.key === '/' && document.activeElement !== searchInput) { e.preventDefault(); searchInput.focus(); }
       if (e.key === 'Escape' && document.activeElement === searchInput) { searchInput.blur(); }
     });
+
+    /* ---- view tabs: one underline that glides to the active tab ---- */
+    const tabsNav = document.getElementById('viewtabs');
+    const tabInk = document.createElement('span');
+    tabInk.className = 'tab-ink';
+    tabsNav.appendChild(tabInk);
+    tabsNav.classList.add('has-ink');
+    let inkPlaced = false;
+    function positionInk() {
+      const active = tabsNav.querySelector('.viewtab.is-active');
+      if (!active) return;
+      const t = 'translateX(' + active.offsetLeft + 'px) scaleX(' + active.offsetWidth + ')';
+      if (!inkPlaced) {                        // first placement: appear in place, don't slide
+        tabInk.style.transition = 'none';
+        tabInk.style.transform = t;
+        void tabInk.offsetWidth;
+        tabInk.style.transition = '';
+        inkPlaced = true;
+      } else {
+        tabInk.style.transform = t;
+      }
+    }
+    window.addEventListener('resize', () => { inkPlaced = false; positionInk(); }, { passive: true });
+    if (document.fonts) document.fonts.ready.then(() => { inkPlaced = false; positionInk(); });
+
+    /* ---- masthead: title words rise, stats tick up to their value, once ---- */
+    const h1 = document.querySelector('.masthead h1');
+    if (h1 && !reduce) {
+      const text = h1.textContent.trim();
+      h1.setAttribute('aria-label', text);
+      h1.textContent = '';
+      text.split(/\s+/).forEach((word, i) => {
+        const w = document.createElement('span'), inner = document.createElement('span');
+        w.className = 'w';
+        w.setAttribute('aria-hidden', 'true');
+        inner.textContent = word;
+        inner.style.setProperty('--wi', i);
+        w.appendChild(inner);
+        if (i) h1.appendChild(document.createTextNode(' '));
+        h1.appendChild(w);
+      });
+    }
+    function tickStats() {
+      if (reduce) return;
+      document.querySelectorAll('.stat .n').forEach(el => {
+        const end = parseInt(el.textContent.replace(/\D/g, ''), 10);
+        if (!end) return;
+        const start = Math.round(end * 0.8), dur = 1800;
+        let t0 = null;
+        el.style.minWidth = el.getBoundingClientRect().width + 'px';   // no width jitter
+        el.textContent = start;
+        setTimeout(() => requestAnimationFrame(function tick(t) {
+          if (t0 === null) t0 = t;
+          const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(start + (end - start) * e);
+          if (p < 1) requestAnimationFrame(tick);
+        }), 500);
+      });
+    }
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      document.documentElement.classList.add('loaded');
+      tickStats();
+    }));
+
+    /* ---- phones: the search bar tucks away on scroll down, returns on scroll up ---- */
+    const toolbar = document.querySelector('.toolbar');
+    const masthead = document.querySelector('.masthead');
+    const narrow = window.matchMedia('(max-width: 760px)');
+    let lastY = window.scrollY;
+    window.addEventListener('scroll', () => {
+      const y = window.scrollY, dy = y - lastY;
+      if (!narrow.matches || toolbar.contains(document.activeElement)) {
+        toolbar.classList.remove('is-tucked'); lastY = y; return;
+      }
+      const tuckFrom = masthead.offsetHeight + toolbar.offsetHeight;
+      if (y <= tuckFrom) toolbar.classList.remove('is-tucked');
+      else if (dy > 8) toolbar.classList.add('is-tucked');
+      else if (dy < -8) toolbar.classList.remove('is-tucked');
+      if (Math.abs(dy) > 8) lastY = y;
+    }, { passive: true });
+    toolbar.addEventListener('focusin', () => toolbar.classList.remove('is-tucked'));
 
     render();
   })();

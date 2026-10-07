@@ -1,8 +1,9 @@
 # Doug's Dharma — Complete Video Index
 
-625 videos, newest first. Format: `Title — watch URL`.
+626 videos, newest first. Format: `Title — watch URL`.
 Structured data: https://videos.dougsdharma.com/videos.json
 
+- What Did the Buddha Really Say About a Mother's Love? — https://www.youtube.com/watch?v=Jn4UN1p8skM
 - What If You're Wrong About Being Enlightened? (What the Buddha Admitted) — https://www.youtube.com/watch?v=cWnAEqvT3YQ
 - Buddhist Training Is Meant to End — https://www.youtube.com/watch?v=4BUjH_ifNmA
 - The Knowledge That Can't Be Overpowered — Socrates & the Buddha — https://www.youtube.com/watch?v=rDbEbPNZQiE

@@ -3,9 +3,30 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://videos.dougsdharma.com/",
   "source": "https://videos.dougsdharma.com/dougs_dharma_index.json",
-  "generated": "2026-09-24",
-  "count": 625,
+  "generated": "2026-10-07",
+  "count": 626,
   "videos": [
+    {
+      "id": "Jn4UN1p8skM",
+      "title": "What Did the Buddha Really Say About a Mother's Love?",
+      "url": "https://www.youtube.com/watch?v=Jn4UN1p8skM",
+      "date": "2026-10-05",
+      "description": "Doug takes up three passages that seem to pull against one another: the Mettā Sutta's image of a mother's love for her only child as the model of boundless kindness, the Buddha's words to a grieving grandmother that those with a hundred loved ones have a hundred sufferings, and his praise of the laywoman Veḷukaṇṭakī Nandamātā. He argues the tension eases once they are read as a sequence rather than as competing claims, on the model of the graduated talk (anupubbikathā).",
+      "topics": [
+        "metta/loving-kindness",
+        "relationships/love",
+        "attachment/clinging",
+        "family"
+      ],
+      "suttas": [
+        "Snp 1.8",
+        "Ud 8.8",
+        "AN 7.53",
+        "MN 56",
+        "MN 123",
+        "Snp 5 (Pārāyanavagga)"
+      ]
+    },
     {
       "id": "cWnAEqvT3YQ",
       "title": "What If You're Wrong About Being Enlightened? (What the Buddha Admitted)",

@@ -1,6 +1,6 @@
 # Doug's Dharma Video Index
 
-> A searchable index of 625 educational videos on early Buddhism
+> A searchable index of 626 educational videos on early Buddhism
 > by Doug Smith (Doug's Dharma YouTube channel).
 
 ## About
@@ -8,7 +8,7 @@
 Doug's Dharma is a YouTube channel created in 2017 to introduce the
 teachings of early Buddhism to a wide audience. Doug Smith holds a PhD
 in Philosophy of Mind and has published scholarly works in Buddhist Studies.
-This index covers videos from March 2017 to September 2026.
+This index covers videos from March 2017 to October 2026.
 An overview of all his work (courses, essays, book, articles) is at
 https://dougsdharma.com/llms.txt
 
@@ -172,7 +172,7 @@ Linked topics have their own browse page; the rest are listed on the topic hub.
 - [anger](https://videos.dougsdharma.com/topics/anger.html) (9 videos)
 - [art](https://videos.dougsdharma.com/topics/art.html) (7 videos)
 - atheism/agnosticism (2 videos)
-- [attachment/clinging](https://videos.dougsdharma.com/topics/attachment-clinging.html) (17 videos)
+- [attachment/clinging](https://videos.dougsdharma.com/topics/attachment-clinging.html) (18 videos)
 - beginners (1 video)
 - [breath meditation](https://videos.dougsdharma.com/topics/breath-meditation.html) (4 videos)
 - channel news (2 videos)
@@ -197,7 +197,7 @@ Linked topics have their own browse page; the rest are listed on the topic hub.
 - [exercise/body](https://videos.dougsdharma.com/topics/exercise-body.html) (4 videos)
 - [faith/saddha](https://videos.dougsdharma.com/topics/faith-saddha.html) (5 videos)
 - [fame](https://videos.dougsdharma.com/topics/fame.html) (21 videos)
-- family (2 videos)
+- [family](https://videos.dougsdharma.com/topics/family.html) (3 videos)
 - [fear/anxiety](https://videos.dougsdharma.com/topics/fear-anxiety.html) (5 videos)
 - feelings/vedana (2 videos)
 - [five aggregates](https://videos.dougsdharma.com/topics/five-aggregates.html) (5 videos)
@@ -221,7 +221,7 @@ Linked topics have their own browse page; the rest are listed on the topic hub.
 - magic/supernatural (2 videos)
 - [meditation](https://videos.dougsdharma.com/topics/meditation.html) (75 videos)
 - [mental proliferation/papanca](https://videos.dougsdharma.com/topics/mental-proliferation-papanca.html) (5 videos)
-- [metta/loving-kindness](https://videos.dougsdharma.com/topics/metta-loving-kindness.html) (11 videos)
+- [metta/loving-kindness](https://videos.dougsdharma.com/topics/metta-loving-kindness.html) (12 videos)
 - middle way (2 videos)
 - [mindfulness](https://videos.dougsdharma.com/topics/mindfulness.html) (29 videos)
 - [nature/environment](https://videos.dougsdharma.com/topics/nature-environment.html) (14 videos)
@@ -243,7 +243,7 @@ Linked topics have their own browse page; the rest are listed on the topic hub.
 - [rebirth](https://videos.dougsdharma.com/topics/rebirth.html) (7 videos)
 - recollections (ten) (1 video)
 - [regret](https://videos.dougsdharma.com/topics/regret.html) (4 videos)
-- [relationships/love](https://videos.dougsdharma.com/topics/relationships-love.html) (9 videos)
+- [relationships/love](https://videos.dougsdharma.com/topics/relationships-love.html) (10 videos)
 - relics/archaeology (1 video)
 - [religion](https://videos.dougsdharma.com/topics/religion.html) (3 videos)
 - [renunciation](https://videos.dougsdharma.com/topics/renunciation.html) (3 videos)
@@ -286,10 +286,10 @@ Linked topics have their own browse page; the rest are listed on the topic hub.
 
 ## Sutta References
 
-This index references 554 unique suttas from the Pali canon
+This index references 555 unique suttas from the Pali canon
 and other early Buddhist texts. References use standard abbreviations
 (DN, MN, SN, AN, etc.) and link to SuttaCentral.net translations.
-Texts cited in 3+ videos have their own page; all 554 are on the sutta hub.
+Texts cited in 3+ videos have their own page; all 555 are on the sutta hub.
 
 - [AN 1.41-50](https://videos.dougsdharma.com/suttas/an-1-41-50.html) (4 videos)
 - [AN 2.21-31](https://videos.dougsdharma.com/suttas/an-2-21-31.html) (4 videos)
@@ -310,6 +310,7 @@ Texts cited in 3+ videos have their own page; all 554 are on the sutta hub.
 - [AN 6.55](https://videos.dougsdharma.com/suttas/an-6-55.html) (4 videos)
 - [AN 6.63](https://videos.dougsdharma.com/suttas/an-6-63.html) (13 videos)
 - [AN 7.11](https://videos.dougsdharma.com/suttas/an-7-11.html) (5 videos)
+- [AN 7.53](https://videos.dougsdharma.com/suttas/an-7-53.html) (3 videos)
 - [AN 8.8](https://videos.dougsdharma.com/suttas/an-8-8.html) (4 videos)
 - [AN 8.51](https://videos.dougsdharma.com/suttas/an-8-51.html) (3 videos)
 - [AN 8.53](https://videos.dougsdharma.com/suttas/an-8-53.html) (5 videos)
@@ -360,7 +361,7 @@ Texts cited in 3+ videos have their own page; all 554 are on the sutta hub.
 - [MN 47](https://videos.dougsdharma.com/suttas/mn-47.html) (6 videos)
 - [MN 52](https://videos.dougsdharma.com/suttas/mn-52.html) (5 videos)
 - [MN 53](https://videos.dougsdharma.com/suttas/mn-53.html) (7 videos)
-- [MN 56](https://videos.dougsdharma.com/suttas/mn-56.html) (6 videos)
+- [MN 56](https://videos.dougsdharma.com/suttas/mn-56.html) (7 videos)
 - [MN 57](https://videos.dougsdharma.com/suttas/mn-57.html) (4 videos)
 - [MN 58](https://videos.dougsdharma.com/suttas/mn-58.html) (4 videos)
 - [MN 60](https://videos.dougsdharma.com/suttas/mn-60.html) (5 videos)
@@ -382,7 +383,7 @@ Texts cited in 3+ videos have their own page; all 554 are on the sutta hub.
 - [MN 118](https://videos.dougsdharma.com/suttas/mn-118.html) (5 videos)
 - [MN 121](https://videos.dougsdharma.com/suttas/mn-121.html) (3 videos)
 - [MN 122](https://videos.dougsdharma.com/suttas/mn-122.html) (7 videos)
-- [MN 123](https://videos.dougsdharma.com/suttas/mn-123.html) (5 videos)
+- [MN 123](https://videos.dougsdharma.com/suttas/mn-123.html) (6 videos)
 - [MN 128](https://videos.dougsdharma.com/suttas/mn-128.html) (4 videos)
 - [MN 131](https://videos.dougsdharma.com/suttas/mn-131.html) (5 videos)
 - [MN 135](https://videos.dougsdharma.com/suttas/mn-135.html) (4 videos)
@@ -420,19 +421,21 @@ Texts cited in 3+ videos have their own page; all 554 are on the sutta hub.
 - [SN 56.11](https://videos.dougsdharma.com/suttas/sn-56-11.html) (17 videos)
 - [SN 56.31](https://videos.dougsdharma.com/suttas/sn-56-31.html) (3 videos)
 - [Snp 1.3](https://videos.dougsdharma.com/suttas/snp-1-3.html) (6 videos)
-- [Snp 1.8](https://videos.dougsdharma.com/suttas/snp-1-8.html) (5 videos)
+- [Snp 1.8](https://videos.dougsdharma.com/suttas/snp-1-8.html) (6 videos)
 - [Snp 2.4](https://videos.dougsdharma.com/suttas/snp-2-4.html) (5 videos)
 - [Snp 4.11](https://videos.dougsdharma.com/suttas/snp-4-11.html) (6 videos)
 - [Thag 18.1](https://videos.dougsdharma.com/suttas/thag-18-1.html) (3 videos)
 - [Ud 1.10](https://videos.dougsdharma.com/suttas/ud-1-10.html) (7 videos)
 - [Ud 5.1](https://videos.dougsdharma.com/suttas/ud-5-1.html) (3 videos)
 - [Ud 5.5](https://videos.dougsdharma.com/suttas/ud-5-5.html) (5 videos)
+- [Ud 8.8](https://videos.dougsdharma.com/suttas/ud-8-8.html) (3 videos)
 - [Vimalakīrti Nirdeśa](https://videos.dougsdharma.com/suttas/vimalakirti-nirdesa.html) (3 videos)
 - [Vinaya, Khandhaka 10](https://videos.dougsdharma.com/suttas/vinaya-khandhaka-10.html) (3 videos)
 - [Vinaya, Pārājika 4](https://videos.dougsdharma.com/suttas/vinaya-parajika-4.html) (3 videos)
 
 ## All Videos (newest first)
 
+- What Did the Buddha Really Say About a Mother's Love? — https://www.youtube.com/watch?v=Jn4UN1p8skM
 - What If You're Wrong About Being Enlightened? (What the Buddha Admitted) — https://www.youtube.com/watch?v=cWnAEqvT3YQ
 - Buddhist Training Is Meant to End — https://www.youtube.com/watch?v=4BUjH_ifNmA
 - The Knowledge That Can't Be Overpowered — Socrates & the Buddha — https://www.youtube.com/watch?v=rDbEbPNZQiE

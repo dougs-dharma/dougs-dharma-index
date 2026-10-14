@@ -1607,11 +1607,6 @@
         "label": null
       },
       {
-        "sutta_id": "SN 22.59",
-        "url": "https://suttacentral.net/sn22.59/en/sujato",
-        "label": null
-      },
-      {
         "sutta_id": "AN 6.63",
         "url": "https://suttacentral.net/an6.63/en/sujato",
         "label": null
@@ -9376,11 +9371,6 @@
         "label": null
       },
       {
-        "sutta_id": "MN 2",
-        "url": "https://suttacentral.net/mn2/en/sujato",
-        "label": null
-      },
-      {
         "sutta_id": "MN 72",
         "url": "https://suttacentral.net/mn72/en/sujato",
         "label": null
@@ -9505,11 +9495,6 @@
       {
         "sutta_id": "DN 31",
         "url": "https://suttacentral.net/dn31/en/sujato",
-        "label": null
-      },
-      {
-        "sutta_id": "MN 40",
-        "url": "https://suttacentral.net/mn40/en/sujato",
         "label": null
       }
     ],
@@ -12478,7 +12463,7 @@
     ],
     "related_videos": [
       {
-        "title": "Bhikkhu Bodhi Responds to Bhikkhu Anālayo on 'Buddha'",
+        "title": "What does \"Buddha\" Mean: A Live Controversy! Anālayo's Response",
         "url": "https://youtu.be/14ghdkSddK8"
       },
       {

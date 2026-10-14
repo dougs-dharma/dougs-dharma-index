@@ -54,6 +54,9 @@ LEGACY_REDIRECTS = {
     'suttas/heart-s-tra.html':         'suttas/heart-sutra.html',
     'suttas/lotus-s-tra.html':         'suttas/lotus-sutra.html',
     'suttas/vimalak-rti-nirde-a.html': 'suttas/vimalakirti-nirdesa.html',
+    # 2026-10-14: MN 40 had been double-counted in one video; deduped, it falls
+    # below MIN_FOR_PAGE and now lives on the hub.
+    'suttas/mn-40.html':               'suttas/',
 }
 
 

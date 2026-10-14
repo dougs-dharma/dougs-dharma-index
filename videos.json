@@ -3,7 +3,7 @@
   "description": "Machine-readable index of Doug's Dharma YouTube videos on early Buddhism.",
   "url": "https://videos.dougsdharma.com/",
   "source": "https://videos.dougsdharma.com/dougs_dharma_index.json",
-  "generated": "2026-10-07",
+  "generated": "2026-10-14",
   "count": 626,
   "videos": [
     {
@@ -664,7 +664,6 @@
         "DN 2",
         "SN 22.59",
         "AN 3.61",
-        "SN 22.59",
         "AN 6.63",
         "Ud 5.5"
       ]
@@ -3462,7 +3461,6 @@
         "MN 9",
         "MN 11",
         "MN 64",
-        "MN 2",
         "MN 72",
         "AN 4.77",
         "AN 5.48"
@@ -3492,8 +3490,7 @@
         "DN 5",
         "Snp 2.7",
         "AN 7.47",
-        "DN 31",
-        "MN 40"
+        "DN 31"
       ]
     },
     {

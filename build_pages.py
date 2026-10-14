@@ -61,6 +61,9 @@ LEGACY_REDIRECTS = {
     # fall below MIN_FOR_PAGE and now live on the hub.
     'topics/delusion.html':            'topics/',
     'topics/renunciation.html':        'topics/',
+    # 2026-10-14: people-tag audit dropped translation-only credits; Max Muller
+    # (Milinda translation listed on three videos) falls below MIN_FOR_PAGE.
+    'topics/muller-max.html':          'topics/',
 }
 
 

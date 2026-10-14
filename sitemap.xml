@@ -37,6 +37,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/ajahn-brahm.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/ajahn-chah.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -62,6 +68,18 @@
   </url>
   <url>
     <loc>https://videos.dougsdharma.com/topics/bodhi-bhikkhu.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/bodhipaksa.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/brahmali-bhikkhu.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -121,6 +139,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/epicurus.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/federman-asaf.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -128,6 +152,12 @@
   </url>
   <url>
     <loc>https://videos.dougsdharma.com/topics/fronsdal-gil.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/fuller-paul.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -163,6 +193,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/hecker-hellmuth.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/jayatilleke-k-n.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/kornfield-jack.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -181,13 +223,31 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://videos.dougsdharma.com/topics/muller-max.html</loc>
+    <loc>https://videos.dougsdharma.com/topics/mcleod-ken.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/neistat-casey.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://videos.dougsdharma.com/topics/nhat-hanh-thich.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/norman-k-r.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/nyanaponika-thera.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -223,6 +283,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/plato.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/rahula-walpola.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -241,7 +307,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/socrates.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/sujato-bhikkhu.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/thanissaro-bhikkhu.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -259,7 +337,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/whitaker-justin.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/williams-paul.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/wright-robert.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/wynne-alexander.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

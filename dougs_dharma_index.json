@@ -381,8 +381,9 @@
     "topics": [
       "suttas/early texts",
       "history/scholarship",
-      "Bhikkhu Analayo",
-      "Gombrich, Richard"
+      "Gombrich, Richard",
+      "Buddhism (early)",
+      "Analayo"
     ],
     "sutta_refs": [
       {
@@ -429,7 +430,8 @@
       "suffering/dukkha",
       "philosophy",
       "Ajahn Chah",
-      "Benatar, David"
+      "Benatar, David",
+      "family"
     ],
     "sutta_refs": [
       {
@@ -878,7 +880,8 @@
       "non-self/anatta",
       "philosophy",
       "five aggregates",
-      "Parfit, Derek"
+      "Parfit, Derek",
+      "consciousness"
     ],
     "sutta_refs": [
       {
@@ -1053,9 +1056,9 @@
     "topics": [
       "social justice",
       "wealth/money",
-      "Buddha (historical)",
       "sila/ethics",
-      "suttas/early texts"
+      "suttas/early texts",
+      "politics"
     ],
     "sutta_refs": [
       {
@@ -1118,7 +1121,7 @@
     "summary": "We usually think of impermanence as bad news, and often it is! But if we step back a bit we can see how impermanence can also provide us with resilience and even joy if we understand it wisely.",
     "topics": [
       "impermanence",
-      "art"
+      "joy/happiness"
     ],
     "sutta_refs": [
       {
@@ -1141,9 +1144,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=u50pV7iLOHk",
     "summary": "Is exercise some kind of \"cheat\" to mental stability? We'll consider the importance of physical exertion to our practice, what it meant in the Buddha's day, and how we can integrate it into our routine.",
     "topics": [
-      "Buddha (historical)",
-      "exercise/body",
-      "views/ditthi"
+      "exercise/body"
     ],
     "sutta_refs": [
       {
@@ -1224,7 +1225,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=NeUt2jyhScY",
     "summary": "We live in a culture of \"busyness\", feeling overwhelmed rather than truly productive and fulfilled at work. What lessons might the Buddha have for us in navigating our productivity at work? As we'll see, it involves four ways we can learn to relinquish.",
     "topics": [
-      "work/livelihood"
+      "work/livelihood",
+      "letting go"
     ],
     "sutta_refs": [
       {
@@ -1242,8 +1244,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=OW4-kuUbhIU",
     "summary": "We live in a world that strives for progress. What does early Buddhism have to say about it? We'll consider two views of progress, how the Buddhist path aligns with them, and what it might really mean to \"progress\" along the Path.",
     "topics": [
-      "progress",
-      "views/ditthi"
+      "progress"
     ],
     "sutta_refs": [
       {
@@ -1284,7 +1285,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=oxskxqJSUA4",
     "summary": "What would the Buddha say about the modern tendency to pursue quiet practice alone in our homes? Are there drawbacks or pitfalls to lone practice?",
     "topics": [
-      "loneliness/solitude"
+      "loneliness/solitude",
+      "sangha/community"
     ],
     "sutta_refs": [
       {
@@ -1329,9 +1331,7 @@
     "summary": "Is the Buddhist Path one of political engagement and activism, or one of disengagement and quietism? We'll look at some proponents of both views, then turn to how the early texts frame the issue.",
     "topics": [
       "politics",
-      "rhetoric/debate",
       "suttas/early texts",
-      "views/ditthi",
       "Bodhi, Bhikkhu",
       "McLeod, Ken",
       "Lele, Amod",
@@ -1426,7 +1426,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=egrYsmcyn2s",
     "summary": "Our sense of self is a brilliantly constructed illusion. We'll take a peek behind the curtain at how it all comes together.",
     "topics": [
-      "self/identity"
+      "self/identity",
+      "non-self/anatta"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -1444,7 +1445,8 @@
     "summary": "We usually think that the route to true happiness is getting what we want. Yet dissatisfaction persists! We'll take a look at this frustrating conundrum, and point the way towards a solution.",
     "topics": [
       "joy/happiness",
-      "science and Buddhism"
+      "science and Buddhism",
+      "suffering/dukkha"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -1465,7 +1467,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=G__vk2WZfPc",
     "summary": "We all have stress and suffering in our lives. Is there a method we can use to pinpoint its cause and bring relief? We'll look at the 2500 year old four-step method used by the Buddha, and how it can make our lives better today.",
     "topics": [
-      "suffering/dukkha"
+      "suffering/dukkha",
+      "four noble truths"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -1478,7 +1481,6 @@
     "summary": "What did the Buddha have to say about entertainment? Is it ever skillful for us? We'll consider the difference between monastic and lay lifestyles, and how the Buddha saw entertainment as part of an ordinary life. Then we'll consider ways to make entertainment more skillful.",
     "topics": [
       "entertainment/media",
-      "sangha/community",
       "skillful/unskillful action"
     ],
     "sutta_refs": [
@@ -1666,9 +1668,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=Ger9h33r8Lk",
     "summary": "What makes someone wise? We'll consider two competing views from the Buddha's day, as reflected in an early sutta. Then we'll see how both views can be integrated into a livelier whole.",
     "topics": [
-      "Buddha (historical)",
       "suttas/early texts",
-      "views/ditthi",
       "wisdom/panna"
     ],
     "sutta_refs": [
@@ -1779,10 +1779,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=2jL9F7b7kfQ",
     "summary": "How can we know who's really enlightened? It's not a simple question. We'll take a look at various early suttas that show even back in the Buddha's day it was not considered at all straightforward, but rather required a lot of time and effort, and even then it was far from sure. We'll also consider how this might reflect on our own attitude to practice today.",
     "topics": [
-      "Buddha (historical)",
       "enlightenment/awakening",
       "suttas/early texts",
-      "time/momentariness",
       "Piya Tan"
     ],
     "sutta_refs": [
@@ -1954,7 +1952,6 @@
     "summary": "Time is fundamental to lived experience, but it's also something we don't give much thought to. The Buddha had a complicated approach to time, both cosmological and practical. We will consider his views about past, present, and future, about deep time, and how it applies to our practice.",
     "topics": [
       "time/momentariness",
-      "views/ditthi",
       "Bodhi, Bhikkhu"
     ],
     "sutta_refs": [
@@ -1994,8 +1991,8 @@
     "summary": "Was the Buddha serious all the time? Or did he sometimes use humor and satire to teach lessons? We'll consider the Buddha's attitude towards laughter as well as his use of humor and satire in teaching and debating. Then we'll consider ways humor can be useful to our practice today.",
     "topics": [
       "humor",
-      "time/momentariness",
-      "Gombrich, Richard"
+      "Gombrich, Richard",
+      "rhetoric/debate"
     ],
     "sutta_refs": [
       {
@@ -2080,7 +2077,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=oCsBs824rxs",
     "summary": "What really exists? It's an old question, and one that the Buddha approached in a unique way. We'll look at the Buddha's practical approach to questions of reality.",
     "topics": [
-      "nature/environment"
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -2128,7 +2125,7 @@
     "topics": [
       "letting go",
       "self/identity",
-      "time/momentariness"
+      "attachment/clinging"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -2288,8 +2285,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=Ou7iVfUG2xU",
     "summary": "When we think of renunciation we often think in terms of giving up material things. But there's more to it than that. We'll look at this deeper aspect to renunciation practice, as well as a couple of key mistakes people make when considering renunciation.",
     "topics": [
-      "generosity/dana",
-      "renunciation"
+      "renunciation",
+      "letting go"
     ],
     "sutta_refs": [
       {
@@ -2421,7 +2418,7 @@
     "summary": "The Buddha praised solitude as highly beneficial, but he also warned of its dangers. How can we best balance solitude and community in our practice, and how can we cultivate solitude even in our busy everyday lives?",
     "topics": [
       "loneliness/solitude",
-      "work/livelihood"
+      "sangha/community"
     ],
     "sutta_refs": [
       {
@@ -2550,10 +2547,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=qet0WqgCUoA",
     "summary": "Communication is a critical life skill, particularly in the contemporary world of 24/7 social media. We'll look at what the Buddha had to say about skillful speech and apply it to communication more broadly. We will also look at examples of difficult conversations in the Buddha's day.",
     "topics": [
-      "Buddha (historical)",
-      "entertainment/media",
       "skillful/unskillful action",
-      "technology"
+      "technology",
+      "right speech"
     ],
     "sutta_refs": [
       {
@@ -2745,8 +2741,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=IAWx_eTeDqU",
     "summary": "In early Buddhism emotions are both unproblematic features of our mental environment, and things to be cultivated or transformed, depending on the case. We will look at these aspects of emotions, and how we can work towards a healthy emotional life.",
     "topics": [
-      "nature/environment",
-      "work/livelihood"
+      "therapy/psychology"
     ],
     "sutta_refs": [
       {
@@ -3073,7 +3068,8 @@
     "topics": [
       "nirvana/nibbana",
       "sangha/community",
-      "Gombrich, Richard"
+      "Gombrich, Richard",
+      "enlightenment/awakening"
     ],
     "sutta_refs": [
       {
@@ -3142,10 +3138,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=6EFJcP_sbrs",
     "summary": "What is Buddhist karma and how does it work? It's most useful to view karma as a natural law of cause and effect, showing how our intentions shape our experiences. I'll demystify some common misconceptions of Buddhist karma, provide some contemplative practices, as well as discuss how a focus on the present moment can help illuminate how karma works.",
     "topics": [
-      "karma",
-      "time/momentariness",
-      "views/ditthi",
-      "work/livelihood"
+      "karma"
     ],
     "sutta_refs": [
       {
@@ -3252,7 +3245,8 @@
     "topics": [
       "contentment",
       "attachment/clinging",
-      "suffering/dukkha"
+      "suffering/dukkha",
+      "craving/tanha"
     ],
     "sutta_refs": [
       {
@@ -3326,7 +3320,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=ypShRWUDW3c",
     "summary": "Early Buddhism provides several key insights into ourselves that can aid in living with greater clarity and peace. We will look at a couple of these as well as suggest practices for cultivating awareness of them.",
     "topics": [
-      "nature/environment"
+      "five aggregates",
+      "non-self/anatta"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -3344,7 +3339,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=AVMj9ViiuDM",
     "summary": "Kindness and compassion are key early Buddhist teachings. What are they, and why are they important? We'll look at these questions as well as suggest several practices for cultivating such beneficial states.",
     "topics": [
-      "compassion"
+      "compassion",
+      "metta/loving-kindness"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -3357,9 +3353,9 @@
     "summary": "In this second video on the Heart Sutra we'll look at its importance within the history of Buddhist dharma. What is its distinctive, polemical framing? What sorts of claims does it make, and how does it justify them? This all leads to the question of how and why the sutra is so important, and how it became so famous.",
     "topics": [
       "Mahayana",
-      "fame",
       "heart sutra/prajnaparamita",
-      "Bodhi, Bhikkhu"
+      "Bodhi, Bhikkhu",
+      "rhetoric/debate"
     ],
     "sutta_refs": [
       {
@@ -3384,7 +3380,8 @@
     "topics": [
       "Mahayana",
       "heart sutra/prajnaparamita",
-      "wisdom/panna"
+      "wisdom/panna",
+      "emptiness"
     ],
     "sutta_refs": [
       {
@@ -3471,8 +3468,7 @@
       "conditionality",
       "consciousness",
       "dependent origination",
-      "suttas/early texts",
-      "work/livelihood"
+      "suttas/early texts"
     ],
     "sutta_refs": [
       {
@@ -3510,7 +3506,8 @@
     "summary": "What makes us \"truly spiritually inclined\"? One aspect may be \"nibbidā\", a Pāli word with a number of interpretations. We'll consider those interpretations, and how becoming disenchanted is key to true spirituality.",
     "topics": [
       "enlightenment/awakening",
-      "Piya Tan"
+      "Piya Tan",
+      "spirituality"
     ],
     "sutta_refs": [
       {
@@ -3643,7 +3640,8 @@
     "summary": "Often religions are built around the ideal of a perfected being, but such ideals mask historical reality. We will look at a hint of this in early Christianity as well as several examples from early Buddhism of the Buddha's own fallibility and humanity. We'll then turn to one contemporary author who says, \"Please Don’t Idolize Me (or Anyone, Really)\".",
     "topics": [
       "pride/conceit",
-      "Gross, Rita"
+      "Gross, Rita",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -3721,8 +3719,9 @@
     "topics": [
       "meditation",
       "suttas/early texts",
-      "work/livelihood",
-      "Britton, Willoughby"
+      "Britton, Willoughby",
+      "therapy/psychology",
+      "vipassana/insight"
     ],
     "sutta_refs": [
       {
@@ -3771,7 +3770,8 @@
     "summary": "Buddhism's views about god and gods are paradoxical. On the one hand, all traditional forms of Buddhism accept the existence of deities. On the other hand, Buddhism is fundamentally an atheistic religion. We'll consider this paradox with a look at early Buddhism in particular.",
     "topics": [
       "devas/supernatural beings",
-      "views/ditthi"
+      "atheism/agnosticism",
+      "religion"
     ],
     "sutta_refs": [
       {
@@ -3809,8 +3809,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=LbkDlRrV62c",
     "summary": "What would the Buddha have told us about political involvement? We'll look at a couple of recent scholarly takes on this question that suggest political disengagement. Then we'll turn to some of the Buddha's political views, and how it all might help us towards a better future in today's world.",
     "topics": [
-      "politics",
-      "views/ditthi"
+      "politics"
     ],
     "sutta_refs": [
       {
@@ -3860,7 +3859,10 @@
     "topics": [
       "suttas/early texts",
       "Piya Tan",
-      "Norman, K.R."
+      "Norman, K.R.",
+      "four noble truths",
+      "middle way",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -3924,7 +3926,8 @@
       "eightfold path",
       "meditation",
       "suttas/early texts",
-      "Gunaratana, Henepola"
+      "Gunaratana, Henepola",
+      "jhana/absorption"
     ],
     "sutta_refs": [
       {
@@ -4105,7 +4108,8 @@
       "regret",
       "right action",
       "Gunaratana, Henepola",
-      "Tatz, Mark"
+      "Tatz, Mark",
+      "sila/ethics"
     ],
     "sutta_refs": [
       {
@@ -4264,9 +4268,9 @@
     "summary": "Is there a \"Buddhist Bible\"? We'll consider some key Buddhist texts, by analogy with the Old and New Testaments. What are they, and how do they relate to one another? NB: This is not intended to be an exhaustive list — I only barely touched the surface of the Mahāyāna Sūtras.",
     "topics": [
       "Mahayana",
-      "rhetoric/debate",
       "Muller, Max",
-      "Nagarjuna"
+      "Nagarjuna",
+      "Pali canon"
     ],
     "sutta_refs": [
       {
@@ -4475,7 +4479,6 @@
     "summary": "What is Buddha nature or the \"Tathāgatagarbha\"? We'll begin by looking at the roots for these concepts in the early Buddhist texts. Then we'll turn to the origins of the mature concepts in later Mahāyāna texts. Finally we'll turn to some controversies and disagreements over what such concepts might really mean.",
     "topics": [
       "Mahayana",
-      "nature/environment",
       "Zimmerman, Michael",
       "Analayo"
     ],
@@ -4534,7 +4537,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=6KmCDVT9KzE",
     "summary": "The Golden Rule plays a key role in early Buddhist ethics. I'll show where we find it, as well as how the Buddha seems to have derived it from a principle of psychology. I'll also consider the question of why the rule is expressed negatively in early Buddhism.",
     "topics": [
-      "science and Buddhism",
       "sila/ethics",
       "Piya Tan"
     ],
@@ -4586,12 +4588,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=J7tVt-bXVBs",
     "summary": "The idea of \"skillful means\" plays a central role in much Buddhist dharma. We'll consider one of its most famous early examples and why one scholar considered it a \"paternalistic\" concept. We'll also look at its role in reinterpreting the dharma in a revolutionary way. Finally we'll consider the dangers of superiority conceit in Buddhist practice.",
     "topics": [
-      "fame",
       "pride/conceit",
       "skillful means/upaya",
-      "skillful/unskillful action",
       "Analayo",
-      "Federman, Asaf"
+      "Federman, Asaf",
+      "Mahayana"
     ],
     "sutta_refs": [
       {
@@ -4650,7 +4651,6 @@
     "topics": [
       "Mahayana",
       "skillful means/upaya",
-      "skillful/unskillful action",
       "Tatz, Mark",
       "Federman, Asaf"
     ],
@@ -4720,9 +4720,7 @@
     "summary": "What is \"skillful means\" in Buddhism, particularly in early Buddhism? We'll look at its usage in the early texts, in particular in one odd text where it seems the Buddha recommends a practice of sense desire, and then turn to its more famous usage in the Mahayana Lotus Sutra.",
     "topics": [
       "Mahayana",
-      "fame",
       "skillful means/upaya",
-      "skillful/unskillful action",
       "suttas/early texts",
       "Analayo"
     ],
@@ -4789,8 +4787,8 @@
     "summary": "We will look at consciousness in early Buddhism: how does it arise? Can it arise alone? We will consider these questions with reference to several texts from early Buddhism.",
     "topics": [
       "consciousness",
-      "loneliness/solitude",
-      "Piya Tan"
+      "Piya Tan",
+      "dependent origination"
     ],
     "sutta_refs": [
       {
@@ -4971,7 +4969,6 @@
     "summary": "What does nirvana mean in Buddhism? We'll look at some descriptions of it before turning to different views on its ontological status. Then we'll consider some later developments in ideas about nirvana. ** Note: the Pāli term \"appatiṭṭha\" in Ud. 8.1 likely parallels the Sanskrit \"apratiṣṭha\" rather than \"apratiṣṭhita\". Does this make any difference? Research leaves me unsure, though doubtful. If you have answers feel free to post them!",
     "topics": [
       "nirvana/nibbana",
-      "views/ditthi",
       "Bodhi, Bhikkhu",
       "Piya Tan"
     ],
@@ -5191,7 +5188,8 @@
     "topics": [
       "suttas/early texts",
       "Faux, Zeke",
-      "Sujato, Bhikkhu"
+      "Sujato, Bhikkhu",
+      "skillful/unskillful action"
     ],
     "sutta_refs": [
       {
@@ -5239,8 +5237,7 @@
     "summary": "I've failed. Many times. I'll look at some of those failures, and how we can work with failure in our lives. Failure can be frustrating and painful, but it can also be a help to us.",
     "topics": [
       "progress",
-      "meditation",
-      "work/livelihood"
+      "success/achievement"
     ],
     "sutta_refs": [
       {
@@ -5274,9 +5271,9 @@
     "topics": [
       "philosophy",
       "self/identity",
-      "views/ditthi",
       "Parfit, Derek",
-      "Collins, Steven"
+      "Collins, Steven",
+      "non-self/anatta"
     ],
     "sutta_refs": [
       {
@@ -5534,7 +5531,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=_6exCY7LIZA",
     "summary": "Right Effort in Buddhist practice has four aspects. The third aspect is known as \"development\". What is this effort to develop, and how can we practice with it?",
     "topics": [
-      "enlightenment/awakening",
       "right effort"
     ],
     "sutta_refs": [
@@ -5566,10 +5562,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=kS8-tV0FxcQ",
     "summary": "Right Effort in Buddhist practice has four aspects. The second aspect is that of \"giving up\". What does this mean and how can we put it into practice?",
     "topics": [
-      "generosity/dana",
-      "renunciation",
       "right effort",
-      "Piya Tan"
+      "Piya Tan",
+      "letting go"
     ],
     "sutta_refs": [
       {
@@ -5600,7 +5595,6 @@
     "summary": "Right Effort in Buddhist practice has four aspects. The first of these is the effort to restrain. What does that mean, and how can we work with it?",
     "topics": [
       "right effort",
-      "work/livelihood",
       "Piya Tan"
     ],
     "sutta_refs": [
@@ -5653,7 +5647,6 @@
     "topics": [
       "meditation",
       "views/ditthi",
-      "work/livelihood",
       "Ajahn Chah"
     ],
     "sutta_refs": [],
@@ -5801,7 +5794,8 @@
     "summary": "The sutta on the \"Incredible and Amazing\" features of the Buddha is the key source for the story of his marvelous birth. It is a strange and problematic sutta for many reasons that we will get into in this video.",
     "topics": [
       "suttas/early texts",
-      "Analayo"
+      "Analayo",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -5830,10 +5824,10 @@
     "youtube_url": "https://www.youtube.com/watch?v=yYMN5fFM22k",
     "summary": "\"All dharmas are not self\" is perhaps the deepest wisdom in Buddhism. How should we understand it? We'll look at both a traditional interpretation and a new understanding based on the suttas by monastic scholar Bhikkhu Sujato.",
     "topics": [
-      "sangha/community",
       "suttas/early texts",
       "wisdom/panna",
-      "Sujato, Bhikkhu"
+      "Sujato, Bhikkhu",
+      "non-self/anatta"
     ],
     "sutta_refs": [
       {
@@ -6073,8 +6067,8 @@
     "topics": [
       "anger",
       "attachment/clinging",
-      "sangha/community",
-      "suttas/early texts"
+      "suttas/early texts",
+      "relationships/love"
     ],
     "sutta_refs": [
       {
@@ -6268,8 +6262,7 @@
     "topics": [
       "epistemology",
       "philosophy",
-      "suttas/early texts",
-      "work/livelihood"
+      "suttas/early texts"
     ],
     "sutta_refs": [
       {
@@ -6338,7 +6331,6 @@
       "Theravada",
       "abhidhamma",
       "mindfulness",
-      "sangha/community",
       "skillful/unskillful action",
       "Analayo",
       "Olendzki, Andrew"
@@ -6501,9 +6493,7 @@
     "topics": [
       "art",
       "Mahayana",
-      "enlightenment/awakening",
       "suttas/early texts",
-      "time/momentariness",
       "Spagnoli, Maria"
     ],
     "sutta_refs": [
@@ -6534,7 +6524,8 @@
     "summary": "A recent essay by John Guy, Chief Curator of South Asian Art at the Metropolitan Museum of Art in NY suggests we might have found the Buddha's relics. I'll consider a current exhibit at the Met and an essay by Guy discussing excavations at Piprahwa in India and the precious relics discovered there. (Note that the bones themselves are not in the exhibit).",
     "topics": [
       "relics/archaeology",
-      "Guy, John"
+      "Guy, John",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -6616,7 +6607,10 @@
     "youtube_url": "https://www.youtube.com/watch?v=PFmF9zuRp2A",
     "summary": "The Buddha taught that the self was conventional, impermanent, and ever changing. We will look to contemporary medicine, science, and philosophy to find how those conclusions are not only supported, but deepened in surprising and even shocking ways.",
     "topics": [
-      "impermanence"
+      "impermanence",
+      "self/identity",
+      "non-self/anatta",
+      "science and Buddhism"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -6664,7 +6658,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=bP1ZWvmJQOw",
     "summary": "How do you approach the concept of Buddhist rebirth? Traditionally it's understood literally, which is how the Buddha saw it. But there is another option open to us, which is to take it as a resonant metaphor for the changeable nature of life.",
     "topics": [
-      "nature/environment",
       "rebirth",
       "Analayo",
       "Fronsdal, Gil",
@@ -6774,11 +6767,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=mSRp6WHGdjk",
     "summary": "We may have heard discussion of \"mind moments\" in Buddhism and how things last for only a moment and then are replaced. Did such ideas originate from the Buddha? We will look at their history, and what the Buddha had to say about time and change.",
     "topics": [
-      "rhetoric/debate",
       "time/momentariness",
       "Bodhi, Bhikkhu",
       "von Rospatt, Alexander",
-      "Sujato, Bhikkhu"
+      "Sujato, Bhikkhu",
+      "abhidhamma"
     ],
     "sutta_refs": [
       {
@@ -6822,7 +6815,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=7s5mhtxBpwU",
     "summary": "What is Buddhism's end goal, and what then happens to humanity?",
     "topics": [
-      "enlightenment/awakening"
+      "enlightenment/awakening",
+      "nirvana/nibbana"
     ],
     "sutta_refs": [
       {
@@ -6849,7 +6843,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=hfJ77v7bt8o",
     "summary": "What was the philosophy of mind in early Buddhism? I'll look at several different aspects of the Buddha's analysis of the mind, including a couple of topics that are important in a Western philosophical context but that the Buddha didn't discuss.",
     "topics": [
-      "philosophy"
+      "philosophy",
+      "consciousness"
     ],
     "sutta_refs": [
       {
@@ -6933,8 +6928,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=Lnz1OLUOUaQ",
     "summary": "What did the Buddha have to say about key metaphysical topics such as what exists and how it is structured? I'll discuss this most basic aspect of philosophy and how the Buddha's views fit into some contemporary discussions of topics such as realism and non-realism.",
     "topics": [
-      "philosophy",
-      "views/ditthi"
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -6988,7 +6982,6 @@
     "topics": [
       "perception",
       "suffering/dukkha",
-      "work/livelihood",
       "Dalai Lama"
     ],
     "sutta_refs": [
@@ -7071,7 +7064,6 @@
       "emptiness",
       "non-self/anatta",
       "skillful/unskillful action",
-      "work/livelihood",
       "Analayo"
     ],
     "sutta_refs": [
@@ -7106,7 +7098,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=F5cXWCpF1Ko",
     "summary": "Did laypeople practice meditation in the Buddha's day? We'll look to a recent paper by Anālayo to answer the question of whether lay meditation is a recent innovation in Buddhist practice, or a revival of something that went on in early days.",
     "topics": [
-      "Buddha (historical)",
       "meditation",
       "Analayo"
     ],
@@ -7220,7 +7211,8 @@
     "summary": "Can Buddhist practices of lovingkindness and compassion reinforce our tendencies towards co-dependency? We will look at what co-dependency is, how it may arise, and how it differs from Buddhist ideals of kindness and compassion among other practices.",
     "topics": [
       "compassion",
-      "metta/loving-kindness"
+      "metta/loving-kindness",
+      "relationships/love"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -7252,8 +7244,8 @@
     "summary": "What is consciousness? I'll begin by looking at it from an early Buddhist perspective and then turn to work by contemporary philosophers like David Chalmers and Frank Jackson. In particular, I'll consider what Chalmers calls the \"easy\" and \"hard\" problems of consciousness, and what they tell us about what consciousness might be.",
     "topics": [
       "consciousness",
-      "work/livelihood",
-      "Pigliucci, Massimo"
+      "Pigliucci, Massimo",
+      "philosophy"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -7605,7 +7597,6 @@
     "summary": "One early Buddhist sutta recounts a discussion the Buddha had with a young brahmin. The Buddha raises a number of important points about how we come to believe we have knowledge, particularly of spiritual matters. We will look at that sutta and consider what it might tell us about spiritual humility and coming to know.",
     "topics": [
       "epistemology",
-      "rhetoric/debate",
       "spirituality",
       "suttas/early texts",
       "Piya Tan"
@@ -7639,7 +7630,8 @@
     "summary": "Is AI sentient? Could it be made sentient? I'll consider those questions from the perspective of early Buddhist psychology. First I'll consider some claims about why current AI chatbots are clearly not sentient and then I'll turn to using some categories from early Buddhist psychology to help illuminate the issue. Finally I'll turn to some intriguing evidence from a recent paper.",
     "topics": [
       "AI/artificial intelligence",
-      "science and Buddhism"
+      "science and Buddhism",
+      "consciousness"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -7791,7 +7783,6 @@
     "topics": [
       "AI/artificial intelligence",
       "enlightenment/awakening",
-      "letting go",
       "technology"
     ],
     "sutta_refs": [],
@@ -7863,9 +7854,7 @@
     "summary": "What does artificial intelligence have to tell us about the central Buddhist teaching of non-self? We'll delve into some of the recent advances in AI, focusing in particular on the chat programs ChatGPT (GPT-3 -- recorded before the release of GPT-4) and LaMDA. Then we'll turn to the Buddhist notion of non-self. Finally we'll look at what one of these artificially intelligent programs had to say about the relationship between Buddhist non-self and AI.",
     "topics": [
       "AI/artificial intelligence",
-      "letting go",
       "non-self/anatta",
-      "relationships/love",
       "technology"
     ],
     "sutta_refs": [],
@@ -8015,8 +8004,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=4QKUnH4nI7w",
     "summary": "So-called dog- and cow-duty ascetics approached the Buddha to ask him about their practices. We will look at the sutta in which this occurs and at what the Buddha had to say to them.",
     "topics": [
-      "duty/obligation",
-      "suttas/early texts"
+      "suttas/early texts",
+      "karma"
     ],
     "sutta_refs": [
       {
@@ -8085,7 +8074,7 @@
     "summary": "The five higher fetters are five deep ways our mental processes bind us to the world of dukkha and suffering. They are a companion and addition to the five lower fetters discussed in an earlier video. We will discuss each of them and how they work.",
     "topics": [
       "suffering/dukkha",
-      "work/livelihood"
+      "progress"
     ],
     "sutta_refs": [
       {
@@ -8307,7 +8296,6 @@
     "summary": "There's a very strange verse in the Dhammapada, one that's been understood for over a millennium to have a variety of readings that don't come across well in translation. We'll look at the verse and consider why it's been so tough to translate, as well as what it might really mean.",
     "topics": [
       "Dhammapada",
-      "fame",
       "Piya Tan"
     ],
     "sutta_refs": [
@@ -8514,7 +8502,7 @@
     "topics": [
       "death/mortality",
       "suttas/early texts",
-      "views/ditthi"
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -8633,7 +8621,8 @@
     "summary": "Did you know the Buddha may have quit the sangha? I'll look at one early sutta and discuss what happened, and why it seems as though the Buddha was on the verge of permanent retirement. I'll also consider a couple of other interesting aspects of this sutta's narrative.",
     "topics": [
       "sangha/community",
-      "suttas/early texts"
+      "suttas/early texts",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -8823,7 +8812,7 @@
     "summary": "Considering the differences between devotional guru practices and \"cultishness,\" discussed in a video interview with B. Allan Wallace, an expert on Tibetan Buddhism. What are some of the dangers with our relationship to a teacher or guru, and how does early Buddhist practice reflect upon them?",
     "topics": [
       "Vajrayana",
-      "relationships/love"
+      "faith/saddha"
     ],
     "sutta_refs": [
       {
@@ -8923,10 +8912,10 @@
     "topics": [
       "pleasure",
       "sila/ethics",
-      "views/ditthi",
       "Gibbs, Benjamin",
       "Mill, J.S.",
-      "Epicurus"
+      "Epicurus",
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -9060,7 +9049,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=vrNCQfCX6rA",
     "summary": "It's not the Eightfold Path, this is another approach the Buddha provided for how to understand his approach to practice and to life. What should we focus on? What should we leave aside? Here are eight answers from an early sutta.",
     "topics": [
-      "eightfold path",
       "suttas/early texts"
     ],
     "sutta_refs": [
@@ -9103,8 +9091,7 @@
     "summary": "What did the early Buddhists have to say about appreciating nature? It's a bit of a conundrum. We'll look at what a couple of venerable monks had to say about the beauty of the natural world. Then we'll turn to the Buddha's views on such pleasures generally. Finally we'll turn to some ways of understanding nature appreciation that reconcile the difficulties.",
     "topics": [
       "nature/environment",
-      "sangha/community",
-      "views/ditthi"
+      "aesthetics"
     ],
     "sutta_refs": [
       {
@@ -9147,10 +9134,10 @@
     "summary": "Do all systems of spiritual practice lead to the same place? Are they all essentially identical? This is a view that's come to be known as \"perennial philosophy\" or \"universalism\". I'll consider what the Buddha had to say about such things, as well as some of the benefits and drawbacks of such a claim. At the end I'll turn to how I think we should understand this sort of perennialism.",
     "topics": [
       "philosophy",
-      "personal reflection",
       "spirituality",
       "views/ditthi",
-      "Goldstein, Joseph"
+      "Goldstein, Joseph",
+      "religion"
     ],
     "sutta_refs": [
       {
@@ -9238,7 +9225,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=_d68Ue059gg",
     "summary": "What sort of lifestyle is best for dharma practice? The Buddha had a bit to say about the differences between living in the village versus living in the wilderness of the forest or countryside. We'll look at some of what he had to say, and how it fit into one prominent early meditation practice.",
     "topics": [
-      "meditation"
+      "meditation",
+      "loneliness/solitude"
     ],
     "sutta_refs": [
       {
@@ -9433,7 +9421,6 @@
     "topics": [
       "pragmatism",
       "ritual/ceremony",
-      "views/ditthi",
       "Lopez, Donald"
     ],
     "sutta_refs": [
@@ -9765,9 +9752,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=UYRabG0lGOc",
     "summary": "One of the highlights of the early Buddhist teachings is their relative openness to investigation and inquiry. This is a point made in a recent paper by scholar and monastic Bhikkhu Sujato. I'll discuss the point with reference to a few early suttas, as well as mentioning some caveats.",
     "topics": [
-      "sangha/community",
       "suttas/early texts",
-      "Sujato, Bhikkhu"
+      "Sujato, Bhikkhu",
+      "epistemology"
     ],
     "sutta_refs": [
       {
@@ -9883,7 +9870,6 @@
     "summary": "Contemplating the impermanence of the elements helps us to understand their non-self nature. In one early Buddhist sutta, Sāriputta gives an argument as to how the four elements are impermanent. But it's a strange sutta, full of equivocation and odd claims. Nevertheless as we'll see its basic message is clear as day.",
     "topics": [
       "impermanence",
-      "nature/environment",
       "non-self/anatta",
       "rhetoric/debate",
       "suttas/early texts",
@@ -10010,7 +9996,7 @@
     "summary": "The elements play a key role in early Buddhist meditation practice, but the idea of them didn't originate with the Buddha. I'll look at the history of the elements with a focus on their role in ancient Greek philosophy as well as other systems of thought. Then I'll turn to the elements understood scientifically, and how that reveals the proper way we should consider them in a Buddhist context. Recorded before our house fire.",
     "topics": [
       "meditation",
-      "personal reflection"
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -10045,8 +10031,7 @@
     "summary": "I'll outline three lessons learned from the fire, worldly wise things that helped out in a time of need, as well as two practices that I've found useful. I'll also consider a couple of key early Buddhist suttas.",
     "topics": [
       "personal reflection",
-      "suttas/early texts",
-      "time/momentariness"
+      "suttas/early texts"
     ],
     "sutta_refs": [
       {
@@ -10074,7 +10059,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=dhTULnK8BWo",
     "summary": "We had a house fire a few weeks ago. I'll begin by looking at the Buddha's famous Fire Sermon, traditionally understood to be his third public discourse, and then turn to what happened to us during that long night. I'll also have a nice announcement, long overdue!",
     "topics": [
-      "fame",
       "personal reflection",
       "suttas/early texts",
       "Piya Tan"
@@ -10107,11 +10091,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=vI7CwsEtmTY",
     "summary": "In this video we'll take a look at the idea of finding a \"Buddha Before Buddhism,\" an idea suggested by a recent translation of the Chapter of the Eights (Aṭṭhakavagga) by Gil Fronsdal. I'll talk a bit about his book, then we'll turn to the question of why the Chapter of the Eights is considered early, then consider a claim that the text provides a markedly different form of the dharma than the one we're familiar with. Recorded before our house fire.",
     "topics": [
-      "personal reflection",
       "Bodhi, Bhikkhu",
       "Fronsdal, Gil",
       "Sujato, Bhikkhu",
-      "Jones, Dhivan Thomas"
+      "Jones, Dhivan Thomas",
+      "Buddhism (early)"
     ],
     "sutta_refs": [
       {
@@ -10172,7 +10156,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=xM7q0Pu6ei8",
     "summary": "How do people practice Buddhism? I'll look at some of the more popular contemporary Buddhist practices from around the world. Recorded before our house fire.",
     "topics": [
-      "personal reflection"
+      "Buddhism (schools)"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -10197,7 +10181,6 @@
     "topics": [
       "conditionality",
       "dependent origination",
-      "personal reflection",
       "suttas/early texts",
       "views/ditthi",
       "Bodhi, Bhikkhu",
@@ -10235,8 +10218,6 @@
     "topics": [
       "Mahayana",
       "Theravada",
-      "personal reflection",
-      "work/livelihood",
       "Sujato, Bhikkhu"
     ],
     "sutta_refs": [],
@@ -10277,9 +10258,7 @@
     "summary": "The Buddha had a nuanced view on magic and the supernatural. We'll look at one crucial aspect of that view, corresponding to what we might term \"conversion magic\" or magical means used to convince and convert. Recorded before our house fire.",
     "topics": [
       "devas/supernatural beings",
-      "magic/supernatural",
-      "personal reflection",
-      "views/ditthi"
+      "magic/supernatural"
     ],
     "sutta_refs": [
       {
@@ -10366,9 +10345,8 @@
     "summary": "There seem to have been differences between Theravāda belief and practice and that found in early Buddhism, however figuring this all out is a matter of some debate and controversy. Translator and scholar Bhikkhu Sujato has written an essay enumerating some key differences he sees. I'll go through six of the more interesting ones. Recorded before our house fire.",
     "topics": [
       "Theravada",
-      "personal reflection",
-      "rhetoric/debate",
-      "Sujato, Bhikkhu"
+      "Sujato, Bhikkhu",
+      "Buddhism (early)"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -10413,7 +10391,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=3IyPHiis01I",
     "summary": "The Buddha often referred to himself as \"the Tathāgata\". But what does that epithet mean, and where does it come from? I'll look at some scholarly opinions, and then turn to the interesting history of the term. Recorded before our house fire.",
     "topics": [
-      "personal reflection",
       "Buddha (historical)",
       "Piya Tan",
       "Gombrich, Richard",
@@ -10503,10 +10480,10 @@
     "topics": [
       "Vajrayana",
       "anger",
-      "personal reflection",
       "Salzberg, Sharon",
       "Dalai Lama",
-      "Kornfield, Jack"
+      "Kornfield, Jack",
+      "self/identity"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -10550,9 +10527,9 @@
     "topics": [
       "emptiness",
       "joy/happiness",
-      "personal reflection",
       "suttas/early texts",
-      "Piya Tan"
+      "Piya Tan",
+      "non-self/anatta"
     ],
     "sutta_refs": [
       {
@@ -10757,8 +10734,8 @@
     "summary": "Exciting news to report! Jon Aaron and I are releasing a new podcast entitled \"Diggin' the Dharma\". Jon is an Insight meditation teacher of mine, and a good friend. In this video we'll introduce ourselves and discuss our first meeting and aims for the podcast to come.",
     "topics": [
       "meditation",
-      "vipassana/insight",
-      "Aaron, Jon"
+      "Aaron, Jon",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -10778,7 +10755,6 @@
     "topics": [
       "jhana/absorption",
       "meditation",
-      "progress",
       "suttas/early texts",
       "Analayo"
     ],
@@ -10826,9 +10802,9 @@
     "topics": [
       "meditation",
       "nirvana/nibbana",
-      "skillful/unskillful action",
       "suttas/early texts",
-      "Bodhi, Bhikkhu"
+      "Bodhi, Bhikkhu",
+      "jhana/absorption"
     ],
     "sutta_refs": [
       {
@@ -10949,7 +10925,8 @@
       "meditation",
       "suttas/early texts",
       "Wynne, Alexander",
-      "Nanamoli, Bhikkhu"
+      "Nanamoli, Bhikkhu",
+      "jhana/absorption"
     ],
     "sutta_refs": [
       {
@@ -11013,7 +10990,7 @@
     "summary": "We'll look at what the fourth jhana is in early Buddhism by considering its definition and the simile the Buddha provides to illustrate its character. We'll also consider some of the paradoxical nature of the early Buddhist approach to pleasures.",
     "topics": [
       "jhana/absorption",
-      "nature/environment"
+      "pleasure"
     ],
     "sutta_refs": [
       {
@@ -11116,7 +11093,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=GTvYIQ553F8",
     "summary": "What is the first jhana of early Buddhism? We'll look first at the idea of jhana and its role in the Buddha's search for enlightenment. Then we'll turn to the definition of the first jhana, what its various terms might mean, and finally we'll look at one simile the Buddha used to describe it.",
     "topics": [
-      "enlightenment/awakening",
       "jhana/absorption"
     ],
     "sutta_refs": [
@@ -11199,7 +11175,7 @@
       "compassion",
       "joy/happiness",
       "skillful/unskillful action",
-      "work/livelihood"
+      "metta/loving-kindness"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -11259,7 +11235,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=kkpeRUExUGQ",
     "summary": "What does Buddhism \"mean\"? I'll describe five aspects of what it means to me, with the help of one 1950's paper by a Burmese monastic scholar, and hope you'll let us know what Buddhism means to you as well in the comments!",
     "topics": [
-      "sangha/community"
+      "personal reflection"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -11377,7 +11353,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=Vtt9q1V-kAo",
     "summary": "Should we look at ancient stories and myths historically, or as inspirational literature? I'll look at both options through the lens of the Aggañña Sutta, a famous, early Buddhist creation myth.",
     "topics": [
-      "fame",
       "suttas/early texts",
       "Piya Tan",
       "Gombrich, Richard",
@@ -11502,8 +11477,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=bs1XtNrNXpM",
     "summary": "What is a Bodhisattva? We'll answer that question, looking at such things as the Bodhisattva Vows, the aim of the Bodhisattva path, and differing views on what one needs to do to become a Bodhisattva.",
     "topics": [
-      "Mahayana",
-      "views/ditthi"
+      "Mahayana"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -11526,7 +11500,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=y2shMnIN6UY",
     "summary": "When we think about who we really are, often we will identify ourselves with our appearance. That's easy to see through, as one commenter on a video of mine recently noted. But we also identify ourselves with our accomplishments, or our preferences or views. What did the Buddha have to say about all this? I'll look at some of his practical suggestions, and suggest a practice as well.",
     "topics": [
-      "views/ditthi"
+      "self/identity"
     ],
     "sutta_refs": [
       {
@@ -11558,10 +11532,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=TWM8vvj3DZ8",
     "summary": "Did the Buddha ever suggest there was a way to find a real sort of self? We'll look to the Poṭṭhapāda Sutta for an answer to this question. There we will see an interesting dialogue where the Buddha delves into a discussion of personal continuity over time, and a notion of our \"acquired self\". An incisive simile makes the Buddha's surprising conclusion clear.",
     "topics": [
-      "rhetoric/debate",
       "suttas/early texts",
-      "time/momentariness",
-      "Piya Tan"
+      "Piya Tan",
+      "self/identity"
     ],
     "sutta_refs": [
       {
@@ -11637,7 +11610,8 @@
       "Bodhi, Bhikkhu",
       "Gombrich, Richard",
       "Analayo",
-      "Gethin, Rupert"
+      "Gethin, Rupert",
+      "metta/loving-kindness"
     ],
     "sutta_refs": [
       {
@@ -11856,9 +11830,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=14ghdkSddK8",
     "summary": "There is a controversy over the meaning of \"Buddha\": two of the leading monastic scholars and translators don't agree. A few weeks ago I posted a video on Ven. Bhikkhu Bodhi's idea that \"enlightenment\" translates \"bodhi\" and \"the Enlightened One\" translates \"Buddha\". In this video I discuss Ven. Bhikkhu Anālayo's opposing view that \"awakening\" translates \"bodhi\" and \"the Awakened One\" translates \"Buddha\". This difference of opinions should help us get more of an idea about what the words mean and why translation is so difficult and important!",
     "topics": [
-      "enlightenment/awakening",
-      "sangha/community",
-      "views/ditthi"
+      "enlightenment/awakening"
     ],
     "sutta_refs": [
       {
@@ -11900,7 +11872,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=pbmmLgR1EeQ",
     "summary": "Oftentimes you will hear that the Buddha did say \"Life is suffering,\" but it's not so. Nevertheless there is some truth to the misconception, and we'll look into the more nuanced point the Buddha made about life.",
     "topics": [
-      "suffering/dukkha"
+      "suffering/dukkha",
+      "four noble truths"
     ],
     "sutta_refs": [
       {
@@ -11954,7 +11927,6 @@
       "non-self/anatta",
       "philosophy",
       "rhetoric/debate",
-      "technology",
       "Nhat Hanh, Thich"
     ],
     "sutta_refs": [
@@ -11998,7 +11970,8 @@
     "summary": "We'll look at the life of Bhikkhunī Khemā, whom the Buddha called his wisest female disciple, using a sutta about her, a poem she wrote, and later material from the Theravāda commentaries. These will help illustrate her incisive approach to the dharma. **NB: sometimes in the video I refer to Khemā as  “Bhikkhunī” even before she was ordained. This is a slip of the tongue!",
     "topics": [
       "Theravada",
-      "suttas/early texts"
+      "suttas/early texts",
+      "sangha/community"
     ],
     "sutta_refs": [
       {
@@ -12060,7 +12033,8 @@
     "summary": "How do we come to know the truth of non-self in early Buddhism? Do we come to it through deep meditative insight, or by other means? We'll look at a recent critique of the claim that we come to know non-self through deep meditative insight.",
     "topics": [
       "meditation",
-      "non-self/anatta"
+      "non-self/anatta",
+      "epistemology"
     ],
     "sutta_refs": [
       {
@@ -12102,8 +12076,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=6aPKfk9JITM",
     "summary": "How do we find good fortune in our daily lives? I've written a book on answers from early Buddhism, which is just out! I'll discuss the origins of the book in a retreat by scholar and translator Ven. Bhikkhu Bodhi: his kindness has made the book much stronger. Then I'll turn to how the Buddha discusses the roots of good fortune in proper practice.",
     "topics": [
-      "enlightenment/awakening",
-      "Bodhi, Bhikkhu"
+      "Bodhi, Bhikkhu",
+      "joy/happiness"
     ],
     "sutta_refs": [
       {
@@ -12165,7 +12139,8 @@
     "topics": [
       "meditation",
       "Analayo",
-      "Bapat, P.V."
+      "Bapat, P.V.",
+      "breath meditation"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -12330,9 +12305,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=bmwJ7YhgXms",
     "summary": "We'll look at Citta the Householder. Who was he and what were some interesting events in his life as recounted in the early suttas? We'll see how it was that even laypeople could be accomplished teachers of the dharma during the Buddha's day.",
     "topics": [
-      "Buddha (historical)",
       "sangha/community",
-      "success/achievement",
       "suttas/early texts"
     ],
     "sutta_refs": [
@@ -12396,7 +12369,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=Cf9MbhoDHNQ",
     "summary": "We'll look at the teaching on non-self that cleared up Ānanda's doubts about the Buddhist path of practice.",
     "topics": [
-      "non-self/anatta"
+      "non-self/anatta",
+      "doubt"
     ],
     "sutta_refs": [
       {
@@ -12479,7 +12453,6 @@
     "summary": "Are you your consciousness? We'll look for an answer to this question by considering the famous mistake of Sāti the Fisherman's Son, an early Buddhist monk who was famously corrected by the Buddha. We'll also consider where Sāti might have gotten his view from.",
     "topics": [
       "consciousness",
-      "fame",
       "views/ditthi",
       "Olivelle, Patrick"
     ],
@@ -12627,8 +12600,6 @@
     "summary": "Aṅgulimāla was a mass-murdering brigand who was converted by the Buddha into a monk, and who eventually became enlightened. We'll look at the most famous elements of his story and why they are important from an early Buddhist point of view. We'll then turn to one recent speculation on the origins of Aṅgulimāla.",
     "topics": [
       "enlightenment/awakening",
-      "fame",
-      "views/ditthi",
       "Gombrich, Richard",
       "Analayo"
     ],
@@ -12820,7 +12791,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=1YPDFcOr2t0",
     "summary": "What is the Second Noble Truth of Buddhism? We'll look at this truth of samudaya through a dive into the Buddha's definition of it in his first sermon.",
     "topics": [
-      "four noble truths"
+      "four noble truths",
+      "craving/tanha"
     ],
     "sutta_refs": [
       {
@@ -12847,7 +12819,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=ZhS-IX2CVl8",
     "summary": "What is the First Noble Truth of Buddhism? We'll look at this truth of dukkha through a dive into the Buddha's definition of it in his first sermon.",
     "topics": [
-      "suffering/dukkha"
+      "suffering/dukkha",
+      "four noble truths"
     ],
     "sutta_refs": [
       {
@@ -12905,8 +12878,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=Wyaywrf014U",
     "summary": "What is the early ideal of the \"lone Buddha\" or Paccekabuddha/  Pratyekabuddha? We'll look at its historical development and an early poem that may indicate the lifestyle of the \"lone Buddha\".",
     "topics": [
-      "Buddha (historical)",
-      "Analayo"
+      "Analayo",
+      "loneliness/solitude"
     ],
     "sutta_refs": [
       {
@@ -12971,7 +12944,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=J0cW9LpLadQ",
     "summary": "\"Languaging\" in Buddhism is something many dharma teachers will consider. Sometimes eliminating words like \"I\", \"me\", or \"you\" from our language can help us see things more objectively. But is it something we can keep up for long, and is it really necessary? We'll look to one early sutta for clues.",
     "topics": [
-      "suttas/early texts"
+      "suttas/early texts",
+      "non-self/anatta"
     ],
     "sutta_refs": [
       {
@@ -13054,7 +13028,6 @@
     "summary": "The parable of the raft is one of the most famous early Buddhist parables. We'll look at it in context in this video, illustrating its place in a particularly profound early sutta.",
     "topics": [
       "attachment/clinging",
-      "fame",
       "suttas/early texts",
       "views/ditthi",
       "Piya Tan",
@@ -13093,8 +13066,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=17JuZUq5OHg",
     "summary": "A comment I get from time to time is that the name of this channel should be \"Doug's Dhamma\". This opens up an interesting discussion about some of the earliest languages of Buddhism and how their use reflects upon modern-day issues of Buddhist sectarianism.",
     "topics": [
-      "rhetoric/debate",
-      "time/momentariness"
+      "Buddhism (schools)"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -13112,7 +13084,8 @@
     "summary": "We'll look at one recent article in the Harvard Business Review that claims mindfulness meditation can lead to worse job performance, something that could potentially lose you your job. Why is this and what lessons should we take from it? H/T to Ted Meissner for the article!",
     "topics": [
       "meditation",
-      "mindfulness"
+      "mindfulness",
+      "work/livelihood"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -13130,7 +13103,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=wUDnPy6ACG4",
     "summary": "Did the Buddha teach that there was literally no self? We'll look at that question and see what the Buddha had to say about the claim that there was absolutely no self. We'll also look at his broader picture of the self.",
     "topics": [
-      "non-self/anatta"
+      "non-self/anatta",
+      "self/identity"
     ],
     "sutta_refs": [
       {
@@ -13188,7 +13162,6 @@
     "summary": "We'll look at three early Buddhist similes used to express the gradual nature of progress along the path. These highlight how we should use patience as part of our approach to meditation and life.",
     "topics": [
       "meditation",
-      "nature/environment",
       "patience",
       "progress"
     ],
@@ -13222,7 +13195,7 @@
     "summary": "Who was the Buddha? In this introduction to his life, we will look at how he got started, and at his struggle to attain enlightenment. Then we'll turn to his personality and major accomplishments during his mature teaching career.",
     "topics": [
       "enlightenment/awakening",
-      "work/livelihood"
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -13242,7 +13215,8 @@
     "topics": [
       "meditation",
       "wisdom/panna",
-      "Piya Tan"
+      "Piya Tan",
+      "pride/conceit"
     ],
     "sutta_refs": [
       {
@@ -13297,8 +13271,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=uO3Gd--YFnc",
     "summary": "One of the Buddha's most famous parables is that of the poisoned arrow. What did it say, and why is it important?",
     "topics": [
-      "fame",
-      "Piya Tan"
+      "Piya Tan",
+      "pragmatism"
     ],
     "sutta_refs": [
       {
@@ -13376,7 +13350,6 @@
     "topics": [
       "Mahayana",
       "suttas/early texts",
-      "time/momentariness",
       "two truths doctrine"
     ],
     "sutta_refs": [
@@ -13441,7 +13414,8 @@
     "summary": "What are the five precepts of Buddhism? Where did they come from and why should we practice them? We will look at these questions in this video.",
     "topics": [
       "five precepts",
-      "Piya Tan"
+      "Piya Tan",
+      "sila/ethics"
     ],
     "sutta_refs": [
       {
@@ -13600,8 +13574,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=jX7suYpv8WM",
     "summary": "Yes, strange though it may seem, the Buddha did have something to say about running a small business. We'll see four beneficial qualities that help one in this endeavor, and how the Buddha compares them to similar qualities of the well-practicing monastic.",
     "topics": [
-      "sangha/community",
-      "Piya Tan"
+      "Piya Tan",
+      "work/livelihood"
     ],
     "sutta_refs": [
       {
@@ -13711,7 +13685,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=qihfGniVzYk",
     "summary": "It's the fourth anniversary of this channel Doug's Dharma on YouTube! To celebrate, I'll look back on several videos I found particularly interesting to make over the past year, and then we'll turn to the top five videos in terms of 28-day viewership.",
     "topics": [
-      "personal reflection"
+      "personal reflection",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -13768,12 +13743,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=29cdfOget10",
     "summary": "What is the practice of self-effacement in early Buddhism? We'll look at one sutta that distinguishes a practice of self-effacement through kindness and non-harming from a separate practice of deep meditative absorption. We'll also consider how certain practices may be more helpful in effacing greed, hatred, and delusion.",
     "topics": [
-      "anger",
-      "delusion",
       "jhana/absorption",
       "meditation",
       "suttas/early texts",
-      "Analayo"
+      "Analayo",
+      "metta/loving-kindness"
     ],
     "sutta_refs": [
       {
@@ -13895,9 +13869,7 @@
     "summary": "The Buddha discussed five tendencies of mind that hinder our progress in meditation and indeed that can get in the way of our living a happy life. They may metaphorically be understood as the \"armies of Māra\". We'll discuss each of those five hindrances with an eye to what the early texts say about how they tend to arise.",
     "topics": [
       "hindrances",
-      "joy/happiness",
       "meditation",
-      "progress",
       "suttas/early texts"
     ],
     "sutta_refs": [
@@ -13933,7 +13905,8 @@
     "summary": "One of our unskillful underlying tendencies of mind in early Buddhism is that of clinging to rules and rituals. We'll discuss what that is, as well as its potential historical development, and how it may manifest in us today.",
     "topics": [
       "attachment/clinging",
-      "skillful/unskillful action"
+      "skillful/unskillful action",
+      "ritual/ceremony"
     ],
     "sutta_refs": [
       {
@@ -14048,7 +14021,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=WcIdaTnraXM",
     "summary": "The Buddha's chief disciple was a man named Sāriputta. We'll look at his life and influence in this video. First we will look at where his main motivation seems to have lain, by looking in detail at how he encountered the Buddha dharma and became enlightened. Then we will turn to his influence on the dharma and sangha. Last we will look at how he was perceived after his death, and how his role was seen to have changed radically, in some later Buddhist circles.",
     "topics": [
-      "death/mortality",
       "enlightenment/awakening",
       "sangha/community",
       "Piya Tan"
@@ -14108,7 +14080,6 @@
       "breath meditation",
       "meditation",
       "mindfulness",
-      "work/livelihood",
       "Analayo"
     ],
     "sutta_refs": [],
@@ -14130,8 +14101,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=S2XkWDFWbvk",
     "summary": "A book purporting to translate poetry of the first Buddhist women was released last year to great fanfare. More recently discussion has arisen as to whether what the book presents is actually a translation, and whether instead it erases the voices of these women. Thanks to the work of Ayya Sudhamma, Bhikkhu Sujato, and Bhikkhu Akāliko among others for their work on this matter. This video has relied upon them. UPDATE: Shambhala has since released a statement indicating that they intend to \"reissue\" the book.",
     "topics": [
-      "rhetoric/debate",
-      "work/livelihood",
       "Weingast, Matty",
       "Hallisey, Charles",
       "Bodhipaksa",
@@ -14375,8 +14344,7 @@
     "summary": "Gain and loss, fame and infamy, praise and blame, pleasure and pain: they orient our lives. How should we work with these conditions most skillfully? We will look at what the Buddha had to say.",
     "topics": [
       "fame",
-      "pleasure",
-      "work/livelihood"
+      "pleasure"
     ],
     "sutta_refs": [
       {
@@ -14422,7 +14390,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=zZOu6PLWrtI",
     "summary": "In an early sutta, the Buddha pointed to eight worldly conditions (otherwise known as \"worldly winds\") that effect our lives and stress us out. We will take a look at these eight conditions and try to understand them for what they are. NB: Thanks to Lp Sander Khemadhammo for pointing out that the metaphor of winds in the context of these conditions (at least, six of the eight) is used in at least one sutta.",
     "topics": [
-      "suttas/early texts"
+      "suttas/early texts",
+      "fame"
     ],
     "sutta_refs": [
       {
@@ -14450,8 +14419,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=O3D-NosYAP8",
     "summary": "We'll look at one way that karma can be said to work: how our intentions can redound upon us in the future for good or ill. But instead of doing so by way of outside influences upon us, it can also do so by the perfuming of our own mind-stream.",
     "topics": [
-      "karma",
-      "work/livelihood"
+      "karma"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -14472,7 +14440,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=VCCuUz4Qyww",
     "summary": "I recently ran a poll on the Community tab of my channel asking how long you all preferred these videos to be. Here I'll discuss the results of that poll and some thoughts I have about the videos for 2021 and beyond!",
     "topics": [
-      "personal reflection"
+      "personal reflection",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -14485,7 +14454,7 @@
     "summary": "We'll take a look at how karma can be made sense of as a real phenomenon in nature and in human society through notions such as sincerity and reciprocity. We'll also look at how some ideas from evolutionary biology demonstrate how karmic ideas can be found in the animal world as well.",
     "topics": [
       "karma",
-      "nature/environment"
+      "science and Buddhism"
     ],
     "sutta_refs": [
       {
@@ -14515,8 +14484,6 @@
     "summary": "Do you want to improve your meditation practice? We'll look at ten things you can do to make meditation easier and more productive. We'll also consider a bonus eleventh thing that may change how you view the other ten!",
     "topics": [
       "meditation",
-      "views/ditthi",
-      "work/livelihood",
       "Gunaratana, Henepola",
       "Analayo",
       "Goldstein, Joseph",
@@ -14544,7 +14511,7 @@
       "karma",
       "rebirth",
       "suffering/dukkha",
-      "time/momentariness"
+      "self/identity"
     ],
     "sutta_refs": [
       {
@@ -14569,7 +14536,8 @@
     "topics": [
       "Barbie",
       "Salzberg, Sharon",
-      "mindfulness"
+      "mindfulness",
+      "entertainment/media"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -14780,7 +14748,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=q6Mes17e1-s",
     "summary": "We live stressful lives and often our practice takes a back seat. We may feel there's some \"magic pill\" out there that will make life better, or we may simply let it all lapse. We'll discuss that all, and see why coming back is a central part of practice. You can do it!",
     "topics": [
-      "magic/supernatural"
+      "right effort"
     ],
     "sutta_refs": [
       {
@@ -14803,7 +14771,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=juXMASPK6ek",
     "summary": "Complacency can be a problem in our personal lives, and a disaster on a national or even a global scale. Where does complacency come from? We will look to one of its roots, following a path laid down in the teachings of early Buddhism. We will also then turn to a practice which may help us dig out this root.",
     "topics": [
-      "progress",
       "feelings/vedana",
       "Analayo"
     ],
@@ -14952,9 +14919,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=odRfRY-s8QU",
     "summary": "Which mental faculties are most important for our development along the path? We will look at the so-called \"five spiritual faculties\": what they are, what our attitude should be towards them, and to whom they may apply.",
     "topics": [
-      "spirituality",
       "Conze, Edward",
-      "Gethin, Rupert"
+      "Gethin, Rupert",
+      "faith/saddha"
     ],
     "sutta_refs": [
       {
@@ -15078,7 +15045,8 @@
     "topics": [
       "suttas/early texts",
       "Bodhi, Bhikkhu",
-      "Jones, Dhivan Thomas"
+      "Jones, Dhivan Thomas",
+      "dependent origination"
     ],
     "sutta_refs": [
       {
@@ -15135,7 +15103,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=ZaexbQ_QChs",
     "summary": "Conflict often stems from our disagreements with others. Early Buddhism contains material that can help us deal with such conflicts. Indeed, the Buddha claimed to teach in a way that avoided conflict altogether. We will look at how this was the case through a particular sutta from the early tradition.",
     "topics": [
-      "suttas/early texts"
+      "suttas/early texts",
+      "views/ditthi",
+      "rhetoric/debate"
     ],
     "sutta_refs": [
       {
@@ -15169,10 +15139,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=l8FAMaROYnI",
     "summary": "Learning from others in a wise way involves a delicate balance between having a skeptical, critical eye and being charitable and open-minded. We'll discuss that balance in this video, and make use of a story involving the Thai meditation master Ajahn Chah.",
     "topics": [
-      "generosity/dana",
-      "meditation",
       "Amaro, Ajahn",
-      "Ajahn Chah"
+      "Ajahn Chah",
+      "epistemology"
     ],
     "sutta_refs": [
       {
@@ -15202,7 +15171,8 @@
     "summary": "It often seems Buddhism is against our pursuing pleasures and avoiding pains. We'll consider whether and to what extent it is possible to live an ordinary life that doesn't pursue pleasures, looking in particular at minimalist lifestyles, and minimalism in general as an aesthetic approach.",
     "topics": [
       "pleasure",
-      "Kondo, Marie"
+      "Kondo, Marie",
+      "aesthetics"
     ],
     "sutta_refs": [
       {
@@ -15273,7 +15243,8 @@
     "summary": "We'll look at three ways that desire \"makes the world\" for us, from the traditional Buddhist understanding of cosmology to a more down-to-earth way, and finally to a deeper, more fundamental understanding of the role desire and attachment plays in our lives.",
     "topics": [
       "attachment/clinging",
-      "Wright, Robert"
+      "Wright, Robert",
+      "craving/tanha"
     ],
     "sutta_refs": [
       {
@@ -15355,7 +15326,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=3aXjrEdpIjY",
     "summary": "Sometimes words aren't enough to get us out of difficult situations. We'll look at several examples from early Buddhism where the Buddha and his disciples had to find more forceful methods. What line is too far? It's something we'll also consider.",
     "topics": [
-      "work/livelihood"
+      "war/violence/nonviolence"
     ],
     "sutta_refs": [
       {
@@ -15399,7 +15370,6 @@
     "summary": "The the Buddha's image plays a complex role in Buddhist history. We will look at how Buddhism seems to have changed from a largely aniconic tradition into one that was considered by its religious rivals as the epitome of \"idolatry\".",
     "topics": [
       "art",
-      "five aggregates",
       "Harvey, Peter"
     ],
     "sutta_refs": [],
@@ -15529,8 +15499,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=y8GNgWatUwE",
     "summary": "Why did Buddhism decline and eventually disappear in India, the land where it all began? We will look at the reasons and how they are different from the usual stories we are told. In particular we will look at factors internal to Buddhism in India at the time, as well as to competition with Hinduism and Islam. Lastly we will turn to some lessons we can take from all this, and to the eventual resurgence of Buddhism in India at the end. Thanks to Bernat Font for help locating resources for this video!",
     "topics": [
-      "time/momentariness",
-      "Harvey, Peter"
+      "Harvey, Peter",
+      "history/scholarship"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -15571,7 +15541,8 @@
     "summary": "What is the \"gradual training\"? It's a map of the path we find in early Buddhism, leading from our first inkling of the dharma up to nirvana itself. We will discuss \"gradual training\" as an idea, and then turn to the map itself, pointing out its major landmarks as found in the early suttas.",
     "topics": [
       "nirvana/nibbana",
-      "suttas/early texts"
+      "suttas/early texts",
+      "progress"
     ],
     "sutta_refs": [
       {
@@ -15626,9 +15597,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=a62ZgVWANz4",
     "summary": "What does Buddhism have to say about suicide and euthanasia? We will first look at the broader Buddhist context and then turn to what may have been the Buddha's own views on euthanasia and the controversy surrounding them.",
     "topics": [
-      "views/ditthi",
       "Analayo",
-      "Harvey, Peter"
+      "Harvey, Peter",
+      "death/mortality"
     ],
     "sutta_refs": [
       {
@@ -15785,8 +15756,6 @@
     "summary": "How does Buddhist practice work? We will consider the Buddhist focus on dukkha or suffering/unsatisfactoriness, and how our spending time with it can paradoxically help us bring it to an end.",
     "topics": [
       "suffering/dukkha",
-      "time/momentariness",
-      "work/livelihood",
       "Whitaker, Justin",
       "Batchelor, Stephen"
     ],
@@ -15843,7 +15812,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=VlKp1lp-lvk",
     "summary": "Is it really necessary to become Buddhist if we agree with the Buddhist dharma and want to practice? We will look at the Western (and Vedic) notion of religious identity and belonging before turning to the example of early Buddhism. How did people approach \"becoming Buddhist\" back then? What might the dharma itself have to say about this?",
     "topics": [
-      "self/identity"
+      "self/identity",
+      "religion"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -15869,8 +15839,6 @@
     "summary": "Today we're dealing with crimes perpetrated through centuries of racial injustice in the United States and indeed around the world. Was there anything the Buddha said that might be helpful or interesting to us? We will look at issues of race and in particular caste in early Buddhism, and at the Buddha's views on these subjects.",
     "topics": [
       "social justice",
-      "views/ditthi",
-      "work/livelihood",
       "Gombrich, Richard"
     ],
     "sutta_refs": [
@@ -15982,7 +15950,8 @@
     "summary": "In this \"deep dive\" we will look at some highlights of one complex and fascinating early sutta called \"The Great Forty\". We will see how it highlights a three-part engine of correct practice. We will also see how it makes a somewhat problematic analysis of the path into \"mundane\" and \"transcendent\" factors, and how historical study may help us to figure out what's really going on.",
     "topics": [
       "suttas/early texts",
-      "Analayo"
+      "Analayo",
+      "eightfold path"
     ],
     "sutta_refs": [
       {
@@ -16050,7 +16019,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=ZBZapci_dy4",
     "summary": "Many of us practice with aids to our meditation such as music, incense, or even verbal guidance. Are these things we should be pursuing? Or are there potential pitfalls with them?",
     "topics": [
-      "entertainment/media",
       "meditation"
     ],
     "sutta_refs": [
@@ -16069,7 +16037,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=ChgE9lQhXKs",
     "summary": "We'll look at six ways the CDC recommends we cope with the stress and anxiety surrounding the Coronavirus, with an eye to the Buddhist dharma. Several of the ways recommended have deep resonances with Buddhist practice. We will also discuss how these strategies can help us live better lives even after the Coronavirus is long gone.",
     "topics": [
-      "fear/anxiety"
+      "fear/anxiety",
+      "COVID-19"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -16230,7 +16199,8 @@
     "summary": "We will look at the practice of patience in early Buddhism, and relate it to our current problem: dealing with the coronavirus. We will see that although patience is not as central to early practice as it later became, it is nevertheless lauded by the Buddha through various interesting and powerful examples that may resonate with us today. (NB: when it comes to patience we must also be aware that there are times when not being patient is called for. That will not however be the subject of this video).",
     "topics": [
       "patience",
-      "Bodhi, Bhikkhu"
+      "Bodhi, Bhikkhu",
+      "COVID-19"
     ],
     "sutta_refs": [
       {
@@ -16277,7 +16247,8 @@
       "Huayan",
       "Mahayana",
       "conditionality",
-      "dependent origination"
+      "dependent origination",
+      "nature/environment"
     ],
     "sutta_refs": [
       {
@@ -16336,7 +16307,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=Y-anIijaVqs",
     "summary": "Can we find a practice that allows us to find contentment with our present life, particularly in the light of the Coronavirus and its effects? We will look at some discussions of the early Buddhist dharma that highlight contentment and its cultivation.",
     "topics": [
-      "contentment"
+      "contentment",
+      "COVID-19"
     ],
     "sutta_refs": [
       {
@@ -16379,7 +16351,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=DF4rdQ7FRFY",
     "summary": "Is Buddhist practice consistent with having personal ambitions and passions? We'll look into that question in this video.",
     "topics": [
-      "progress"
+      "success/achievement"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -16484,7 +16456,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=B3Mw2qIeUn4",
     "summary": "One of the Buddha's most famous similes was that of the two arrows. We will discuss aspects of that simile and how understanding it can help us in our practice with the Coronavirus.",
     "topics": [
-      "fame"
+      "COVID-19",
+      "suffering/dukkha",
+      "feelings/vedana"
     ],
     "sutta_refs": [
       {
@@ -16540,8 +16514,8 @@
     "summary": "How important is healthcare to society, and to each of us individually? We will consider that question and how it can best be provided. We will also take a look at an event from the Buddha's life that illustrates the essential nature of such care.",
     "topics": [
       "Buddha (historical)",
-      "nature/environment",
-      "wisdom/panna"
+      "COVID-19",
+      "social justice"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -16626,7 +16600,8 @@
     "summary": "The Coronavirus can provide us wisdom teachings. We will look at one in this video. In particular we will look at how important it can be at times to step out of our ordinary lives and in so doing overcome our ordinary tendencies towards apathy or narrow vision.",
     "topics": [
       "wisdom/panna",
-      "Bodhi, Bhikkhu"
+      "Bodhi, Bhikkhu",
+      "COVID-19"
     ],
     "sutta_refs": [
       {
@@ -16736,7 +16711,8 @@
     "topics": [
       "gratitude",
       "joy/happiness",
-      "suttas/early texts"
+      "suttas/early texts",
+      "COVID-19"
     ],
     "sutta_refs": [
       {
@@ -16792,7 +16768,7 @@
     "summary": "How can we work to overcome worry and boredom in our ordinary lives, or in an extraordinary circumstance like the Coronavirus? We will look at one practice from early Buddhism: focus on the present.",
     "topics": [
       "fear/anxiety",
-      "work/livelihood"
+      "COVID-19"
     ],
     "sutta_refs": [
       {
@@ -16904,7 +16880,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=PVVprT1o0_s",
     "summary": "Mindfulness practice can help us remain healthy in the face of a virus, even the Coronavirus. We'll look at how with the help of a recent article from the New York Times.",
     "topics": [
-      "mindfulness"
+      "mindfulness",
+      "COVID-19"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -17039,7 +17016,8 @@
     "topics": [
       "compassion",
       "equanimity",
-      "joy/happiness"
+      "joy/happiness",
+      "metta/loving-kindness"
     ],
     "sutta_refs": [
       {
@@ -17073,7 +17051,7 @@
     "summary": "Karma is partly about the results of our actions. We'll discuss that in this video, using the example of my recent skin surgery. We'll also look at the question of our own persistence through time: are we the same person now who did the deed originally, or not? Or something in between? We'll see what the Buddha had to say about it all.",
     "topics": [
       "karma",
-      "time/momentariness"
+      "self/identity"
     ],
     "sutta_refs": [
       {
@@ -17234,7 +17212,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=YFsB7pUg_6Q",
     "summary": "How did Buddhism begin? We'll look at its place in the \"axial age\" of great thinkers who changed the world, then turn to the historical context in which the Buddha's ideas arose. Where did his ideas come from? What did he accept, and what did he take issue with?",
     "topics": [
-      "Buddhism (early)"
+      "Buddhism (early)",
+      "Buddha (historical)"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -17255,7 +17234,9 @@
       "enlightenment/awakening",
       "nirvana/nibbana",
       "suttas/early texts",
-      "Analayo"
+      "Analayo",
+      "Buddha (historical)",
+      "epistemology"
     ],
     "sutta_refs": [
       {
@@ -17386,7 +17367,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=jiEQ_RKL5wY",
     "summary": "Is there a practice we can use to become more objective? We'll consider several ways from early Buddhism that we mistake how the world is, and then turn to practices we can use to overcome our subjective errors.",
     "topics": [
-      "epistemology"
+      "epistemology",
+      "perception"
     ],
     "sutta_refs": [
       {
@@ -17404,7 +17386,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=-gWULW_aALc",
     "summary": "Are you interested in beginning a Buddhist practice but don't know where to start? This is the video for you. I'll discuss two basic elements of Buddhist practice that we can all put to work immediately in our own lives, and point the way towards a third.",
     "topics": [
-      "work/livelihood"
+      "beginners"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -17444,7 +17426,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=RoIkz7ZWbyc",
     "summary": "When does certainty become a problem? Is it always a problem? We'll look at what the Buddha had to say about some people who expressed certainty and the extent to which the Buddha himself did so.",
     "topics": [
-      "epistemology"
+      "epistemology",
+      "views/ditthi"
     ],
     "sutta_refs": [
       {
@@ -17487,7 +17470,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=8_AMrB-HOSg",
     "summary": "The simile of the chariot is one of the most famous in all of Buddhism. We'll look at the deep history of the chariot in the cultures of ancient Eurasia and its importance generally to the area. Then we'll turn to how the chariot was used as a metaphor for practice in Buddhism, finally turning to the way it may have played a role in feminism within the early sangha.",
     "topics": [
-      "fame",
       "sangha/community",
       "Fronsdal, Gil",
       "Anthony, David",
@@ -17548,7 +17530,8 @@
       "attachment/clinging",
       "letting go",
       "skillful/unskillful action",
-      "work/livelihood"
+      "family",
+      "relationships/love"
     ],
     "sutta_refs": [
       {
@@ -17583,7 +17566,6 @@
     "summary": "Secular Buddhism means different things to different people. In this video I'll try to outline some of my own ideas about a secular path, and a little about how my views may differ from some others.",
     "topics": [
       "secular Buddhism",
-      "views/ditthi",
       "Batchelor, Stephen"
     ],
     "sutta_refs": [],
@@ -17697,7 +17679,6 @@
     "topics": [
       "Buddhism (blending)",
       "Mahayana",
-      "sangha/community",
       "Analayo",
       "Goldstein, Joseph"
     ],
@@ -17742,7 +17723,8 @@
       "atheism/agnosticism",
       "secular Buddhism",
       "spirituality",
-      "views/ditthi"
+      "religion",
+      "sangha/community"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -17810,7 +17792,8 @@
     "topics": [
       "conditionality",
       "dependent origination",
-      "suffering/dukkha"
+      "suffering/dukkha",
+      "karma"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -17822,7 +17805,9 @@
     "youtube_url": "https://www.youtube.com/watch?v=OOvLsg1FKEk",
     "summary": "We'll discuss what it really means to \"bracket off\" or \"cherry pick\" material from a tradition that one finds useful as versus material that one does not. Is this a recent or questionable thing to do? We'll look at some examples of \"bracketing off\" and \"cherry picking\" from religious history and how they might relate to secular approaches to Buddhism among other things.",
     "topics": [
-      "philosophy"
+      "philosophy",
+      "secular Buddhism",
+      "religion"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -17881,7 +17866,8 @@
       "Gunaratana, Henepola",
       "Analayo",
       "Goldstein, Joseph",
-      "Nhat Hanh, Thich"
+      "Nhat Hanh, Thich",
+      "beginners"
     ],
     "sutta_refs": [
       {
@@ -17963,7 +17949,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=59FXAW3AS2I",
     "summary": "There were many questions that the Buddha refused to answer. We will look at those questions, many of which may interest us today, and consider why the Buddha wouldn't answer them. Then we will consider what this refusal to answer says about the early Buddhist path.",
     "topics": [
-      "views/ditthi"
+      "views/ditthi",
+      "pragmatism"
     ],
     "sutta_refs": [
       {
@@ -17992,7 +17979,8 @@
     "summary": "For the Buddha good intentions play a key role in the ethical value of our actions. But isn't the road to hell paved with good intentions? We'll look at the Buddha's ethical system and some concerns about the role of intentions.",
     "topics": [
       "sila/ethics",
-      "Fronsdal, Gil"
+      "Fronsdal, Gil",
+      "karma"
     ],
     "sutta_refs": [
       {
@@ -18021,8 +18009,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=dMqRrT-5UZ4",
     "summary": "Is there a meaning to life? We will begin by looking at what \"meaning\" is, and then take that to suggest various questions we might consider. Finally we will turn to what an early Buddhist answer might be.",
     "topics": [
-      "philosophy",
-      "views/ditthi"
+      "philosophy"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -18151,7 +18138,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=FHu6VG5r7vA",
     "summary": "We will discuss five techniques in early Buddhism for removing negative thoughts. Often it's said that we should simply observe thoughts arise and pass, not trying to influence them. This is a very good practice, but the Buddha suggested others that are more active. We will describe these five techniques and discuss why they should be considered more advanced practices, and why they may be problematic. Especially the last one!",
     "topics": [
-      "mental proliferation/papanca"
+      "mental proliferation/papanca",
+      "meditation"
     ],
     "sutta_refs": [
       {
@@ -18210,7 +18198,8 @@
     "summary": "We'll look at the body scan meditation. We'll see that there seem to be two or three different practices that go by that name. Then we'll delve a little into the history of the practice, and see where it might -- or might not -- have come from.",
     "topics": [
       "meditation",
-      "Analayo"
+      "Analayo",
+      "mindfulness"
     ],
     "sutta_refs": [
       {
@@ -18283,7 +18272,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=EZm0ShgEq08",
     "summary": "How can I help you? In this video I'll discuss the ways I'm trying to provide aid for you in your understanding of early Buddhism, but I'm interested also in hearing other ideas from you!",
     "topics": [
-      "personal reflection"
+      "personal reflection",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -18456,8 +18446,8 @@
     "summary": "We will look at the Indian lawyer, economist, politician, and tireless advocate for social justice Dr. B.R. Ambedkar, his career and influence, and in particular his development of a new Buddhist path in so-called \"Navayāna\" Buddhism or \"the New Vehicle\". We will see how it differs from traditional early Buddhist belief and practice, and how it is aimed at improving the situation of the most impoverished in India and around the world.",
     "topics": [
       "social justice",
-      "work/livelihood",
-      "Ambedkar, B.R."
+      "Ambedkar, B.R.",
+      "politics"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -18469,8 +18459,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=WecoXflK_DA",
     "summary": "Bad habits: we all have them. What does early Buddhism have to say about bad habits, and how we can deal with them? We'll look into some of the roots of bad habits and skillful methods to decrease their intensity over time.",
     "topics": [
-      "skillful/unskillful action",
-      "time/momentariness"
+      "skillful/unskillful action"
     ],
     "sutta_refs": [
       {
@@ -18557,7 +18546,6 @@
     "topics": [
       "rebirth",
       "time/momentariness",
-      "views/ditthi",
       "Batchelor, Stephen",
       "Ambedkar, B.R."
     ],
@@ -18596,7 +18584,8 @@
     "summary": "Marie Kondo's \"KonMari method\" to reduce clutter has some resonances with, and some differences from, the teachings of early Buddhism. We'll discuss her method and then look at a passage from an early sutta and what it might tell us about how to go even deeper to reduce mental clutter from our lives.",
     "topics": [
       "suttas/early texts",
-      "Kondo, Marie"
+      "Kondo, Marie",
+      "letting go"
     ],
     "sutta_refs": [
       {
@@ -18676,7 +18665,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=rkOGbXLgHGs",
     "summary": "Today's video is all about a fun announcement I have of a new project to teach the dharma. You all need longer-form material in addition to these YouTube videos. That means courses! I'm starting up the Online Dharma Institute to provide courses in early and secular Buddhism. Right now I have a new free mini-course available, on wisdom, kindness, and calm. Please check it out at onlinedharma.org, I hope you enjoy!",
     "topics": [
-      "personal reflection"
+      "personal reflection",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -18759,7 +18749,8 @@
     "summary": "Pāli is the language of many of the oldest Buddhist discourses. Do we need to know Pāli to know about or practice early Buddhism? We'll consider that question with reference to a new book out by eminent Pāli scholar Richard Gombrich, as well as a look at a couple of early texts from the Buddha ... translated from Pāli.",
     "topics": [
       "suttas/early texts",
-      "Gombrich, Richard"
+      "Gombrich, Richard",
+      "Pali canon"
     ],
     "sutta_refs": [
       {
@@ -18812,7 +18803,8 @@
     "summary": "We see aspects of both humanity and divinity in the Buddha of the early texts. I'll discuss some of those aspects and propose some ways the historical development might have proceeded.",
     "topics": [
       "suttas/early texts",
-      "Analayo"
+      "Analayo",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -18922,7 +18914,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=Zdq9sXgbMSU",
     "summary": "Many of us spend our time learning about Buddhism. That's great but there is another way to approach it: by doing. We'll look at some of the key differences between these approaches and why it's good to know about both of them.",
     "topics": [
-      "time/momentariness"
+      "practice"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -18934,7 +18926,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=-rEKVKsV2iU",
     "summary": "What should you do if you're having trouble finding a local meditation group? It's one of my most asked questions. I have six different things you might consider doing.",
     "topics": [
-      "meditation"
+      "meditation",
+      "sangha/community"
     ],
     "sutta_refs": [
       {
@@ -18973,7 +18966,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=L2jTFPzKtK8",
     "summary": "How do we confront illness and death? We will all experience them, but often don't want to contemplate them. I'll discuss some recent YouTube channels that have dealt with illness and death in deep and profound ways, as well as a little of my own journey. Then I'll turn to both traditional Buddhist and secular contemplations that may prove useful.",
     "topics": [
-      "Zen",
       "death/mortality",
       "Analayo",
       "Fronsdal, Gil",
@@ -19137,7 +19129,7 @@
     "summary": "We often feel that the more we have, the happier we will be. Is that really so? We will take a look at the paradox of greed using a story from the Buddha's teaching.",
     "topics": [
       "attachment/clinging",
-      "philosophy"
+      "craving/tanha"
     ],
     "sutta_refs": [
       {
@@ -19156,7 +19148,8 @@
     "summary": "Many of us feel that being authentic is a life goal. We will look at that claim, and with the help of a recent article, compare the goal of authenticity with another more plainly ethical goal. We will ask if there may be a potential downside to authenticity, and try to find when authenticity might be useful and when it might not be.",
     "topics": [
       "sila/ethics",
-      "Analayo"
+      "Analayo",
+      "self/identity"
     ],
     "sutta_refs": [
       {
@@ -19195,7 +19188,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=LV0MH5fT9zs",
     "summary": "It's hard to believe it's been two years already! I'll go over some of the developments we've been through over the past twelve months, and look ahead to some new ones. I'll also discuss the aims of this channel going forward. Thanks to all of you for your support!",
     "topics": [
-      "personal reflection"
+      "personal reflection",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -19208,7 +19202,6 @@
     "summary": "We may have heard the metaphor of the \"luminous mind\" in Buddhist discourse. We'll discuss one famous source of that metaphor and how it has influenced some aspects of Buddhist thought in the abhidharma and thereafter, as well as certain implicit tensions arising from that influence.",
     "topics": [
       "abhidhamma",
-      "fame",
       "suttas/early texts",
       "Bodhi, Bhikkhu",
       "Analayo",
@@ -19248,7 +19241,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=mwqJGlx2CDQ",
     "summary": "We'll look at ethical dilemmas and their role in western systems of ethics, then turn to Buddhism and ask whether such dilemmas play any role at all. Then we'll turn to some classic dilemmas and ask how they might be treated in an early Buddhist context.",
     "topics": [
-      "sila/ethics"
+      "sila/ethics",
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -19308,7 +19302,6 @@
       "science and Buddhism",
       "self/identity",
       "suttas/early texts",
-      "time/momentariness",
       "Gethin, Rupert"
     ],
     "sutta_refs": [
@@ -19375,11 +19368,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=JEwQvlfMUf8",
     "summary": "What are the three realms of existence in early Buddhism? We'll begin by looking at the way early thinkers sometimes had odd ways of approaching the world. Then we'll turn to the early Buddhist account of the three realms themselves, and how they relate to certain states of mind. Finally we'll turn to how we can view these states as metaphorical for ways of being in this very life.",
     "topics": [
-      "views/ditthi",
       "Bodhi, Bhikkhu",
       "Piya Tan",
       "Gombrich, Richard",
-      "Analayo"
+      "Analayo",
+      "rebirth"
     ],
     "sutta_refs": [
       {
@@ -19443,7 +19436,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=IaH3fLhO3Xc",
     "summary": "We'll look at one way that was proposed for understanding what of our selves continues from moment to moment. Then we'll see what the Buddha had to say about that: how past, future, and present relate to the self.",
     "topics": [
-      "time/momentariness"
+      "time/momentariness",
+      "self/identity"
     ],
     "sutta_refs": [
       {
@@ -19492,7 +19486,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=cKyn7VRa2co",
     "summary": "In this video we will look at the meditation practice of equanimity in the Brahmavihāras or so-called abodes of the gods. We will begin with a look at what equanimity means in early Buddhism, and its importance. We will turn to a couple of practices of equanimity meditation, one from the early and one from the later tradition. After making this video I realized that I hadn't included the third type of practice that was mentioned in the earlier three videos on the Brahmavihāras. I think you all should be able to extrapolate from those practices to this, but if you have questions don't hesitate to ask. :-)",
     "topics": [
-      "devas/supernatural beings",
       "equanimity",
       "meditation",
       "Salzberg, Sharon"
@@ -19533,7 +19526,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=Qh1pmjd5-Fo",
     "summary": "The practice of sympathetic joy is the third of the so-called Brahmavihāras or abodes of the gods. We will discuss what it entails, why we should practice it, and look at three different approaches to such a practice in the Buddhist tradition. We will also consider some potential problems that may come up when we consider sympathetic joy.",
     "topics": [
-      "devas/supernatural beings",
       "joy/happiness",
       "meditation",
       "Salzberg, Sharon"
@@ -19594,7 +19586,6 @@
     "topics": [
       "meditation",
       "metta/loving-kindness",
-      "time/momentariness",
       "Analayo",
       "Salzberg, Sharon"
     ],
@@ -19631,7 +19622,9 @@
     "summary": "Today's video looks at the meditation practice of the Brahmavihāras or \"abodes of Brahma\". This practice is to cultivate four emotions key to a healthy and skillful approach to the world. We will introduce these four emotions, what they are, and why we should consider them fundamental to our path towards a better and wiser life.",
     "topics": [
       "meditation",
-      "skillful/unskillful action"
+      "skillful/unskillful action",
+      "metta/loving-kindness",
+      "compassion"
     ],
     "sutta_refs": [
       {
@@ -19679,7 +19672,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=2EnyvQcvroo",
     "summary": "We'll discuss the role Patreon plays in this channel, why I've decided to use their platform model. We'll also discuss the relation of generosity to Buddhist practice both historically and in our own lives.",
     "topics": [
-      "generosity/dana"
+      "generosity/dana",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -19693,7 +19687,8 @@
     "topics": [
       "meditation",
       "Goldstein, Joseph",
-      "Salzberg, Sharon"
+      "Salzberg, Sharon",
+      "beginners"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -19719,7 +19714,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=GNuotqK1ivo",
     "summary": "We'll take a look at some of the stories around the Buddha's family, his wife and child, and whether they may have been constructed out of whole cloth. Then we'll turn to look at the tension between family and practice in the early tradition and today.",
     "topics": [
-      "family"
+      "family",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -19778,7 +19774,6 @@
     "summary": "What is authentic Buddhism? We'll take a look at that question from the point of view of the early texts. We'll see that they present us with two different ways we might approach the question.",
     "topics": [
       "suttas/early texts",
-      "views/ditthi",
       "Sujato, Bhikkhu"
     ],
     "sutta_refs": [
@@ -19891,7 +19886,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=pbngKOUgCDY",
     "summary": "Are you a beginner at Buddhism? This is the video for you! We'll look at how Buddhism views the world and how Buddhist practice stems from that view.",
     "topics": [
-      "views/ditthi"
+      "beginners"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -19903,8 +19898,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=LY047NET6Oc",
     "summary": "We'll take a look at the aid organization Buddhist Global Relief (BGR) as an example of a place we might consider practicing generosity. First we'll consider the benefits of generosity generally, and then after considering BGR in particular we'll also consider a couple of ways religious aid organizations may be problematic. We'll see that BGR does not fall into those common traps. NB: I am not affiliated with BGR, and neither are these videos.",
     "topics": [
-      "generosity/dana",
-      "work/livelihood"
+      "generosity/dana"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -19959,7 +19953,8 @@
     "summary": "It may surprise us with today's \"life is good\" mindset, but the First Noble Truth can be liberating. Yes, it can be helpful and stress-reducing to consider that life is not ultimately satisfactory. We'll consider that conundrum, with a particular look at the story of Kisa Gotami and the mustard seed.",
     "topics": [
       "suttas/early texts",
-      "four noble truths"
+      "four noble truths",
+      "suffering/dukkha"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -19982,7 +19977,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=QbGmn-1RsfU",
     "summary": "Who is Māra in Buddhism? We'll give an answer to that question by looking at how Māra is both similar to and different from the Christian idea of the devil. We'll also look at a famous simile about Māra from the earliest stratum of Buddhism, using that to illuminate his character and what we can do about the effects that he represents.",
     "topics": [
-      "fame"
+      "devas/supernatural beings"
     ],
     "sutta_refs": [
       {
@@ -20035,7 +20030,6 @@
     "summary": "One question we may have is whether the achievement of awakening -- or even that of being a Buddha -- means we no longer experience pain. We'll consider that question, with an emphasis on what the early texts say about what the awakened experience might be like.",
     "topics": [
       "enlightenment/awakening",
-      "success/achievement",
       "suttas/early texts"
     ],
     "sutta_refs": [
@@ -20095,7 +20089,8 @@
     "topics": [
       "suttas/early texts",
       "Bodhi, Bhikkhu",
-      "Analayo"
+      "Analayo",
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -20134,8 +20129,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=618KfK1zESM",
     "summary": "Buddhist teacher misconduct has been in the news recently. We'll consider some ways the Buddha's teachings can point us to a more skillful and secure relationship to teachers and to the teachings themselves.",
     "topics": [
-      "relationships/love",
-      "skillful/unskillful action"
+      "skillful/unskillful action",
+      "sangha/community"
     ],
     "sutta_refs": [
       {
@@ -20251,7 +20246,9 @@
     "summary": "Buddhism's three marks of existence are the deepest part of the dharma. We will discuss what they are, and how there are subtle differences between their scope. We'll then look at how they were emphasized in different ways throughout history, and how they've made a strong comeback in the modern world due to one influential teacher.",
     "topics": [
       "impermanence",
-      "Fronsdal, Gil"
+      "Fronsdal, Gil",
+      "non-self/anatta",
+      "suffering/dukkha"
     ],
     "sutta_refs": [
       {
@@ -20364,7 +20361,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=V4894Ug8Y3c",
     "summary": "King Aśoka was arguably Buddhism's most important political convert. We'll look at how his edicts were modern, enlightened, and inclusive, bringing to fruition a Buddhist approach to society and politics.",
     "topics": [
-      "enlightenment/awakening",
       "politics",
       "Gombrich, Richard"
     ],
@@ -20395,9 +20391,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=864ksDOZwXk",
     "summary": "We'll take a look at the history of women in Buddhism, focusing mainly on the period of the Buddha and his immediate followers. Then we'll spend a little time looking at later developments, before finishing up with the fascinating story of an early nun who is responsible for one of the most famous analogies in all of Buddhism.",
     "topics": [
-      "fame",
-      "time/momentariness",
-      "Samuel, Geoffrey"
+      "Samuel, Geoffrey",
+      "sangha/community"
     ],
     "sutta_refs": [
       {
@@ -20477,7 +20472,6 @@
     "summary": "Many of us will be familiar with the legend of the four sights that Siddhattha Gotama encountered on leaving his father's palace for the first time at age twenty nine. We'll look at that legend, its sources, and consider what might have been the real history behind it.",
     "topics": [
       "Buddha (historical)",
-      "time/momentariness",
       "Piya Tan",
       "Analayo"
     ],
@@ -20533,7 +20527,7 @@
     "summary": "The Buddha recommended five reflections for regular contemplation by all. We will go through those five and then spend time with some larger considerations on the role of karma.",
     "topics": [
       "karma",
-      "time/momentariness"
+      "death/mortality"
     ],
     "sutta_refs": [
       {
@@ -20561,7 +20555,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=dOn1V71N4wk",
     "summary": "Is Buddhism pessimistic? We'll talk about why one might think of Buddhism in that way, and whether or not that's really accurate. We'll also look at how Buddhism approaches difficulties that we find in the world, and why it's necessary to look at these difficulties with open eyes, no matter how happy and successful one may be in life.",
     "topics": [
-      "joy/happiness"
+      "joy/happiness",
+      "suffering/dukkha"
     ],
     "sutta_refs": [
       {
@@ -20640,7 +20635,8 @@
     "summary": "Chronic stress causes us many problems in daily life. We'll look at seven ways it can impact us, and then turn to nine potential solutions to the syndrome of chronic stress. We'll find that many of the solutions supported by contemporary research mirror those found in early Buddhism.",
     "topics": [
       "suffering/dukkha",
-      "Sapolsky, Robert"
+      "Sapolsky, Robert",
+      "science and Buddhism"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -20694,7 +20690,6 @@
     "summary": "We'll go over the history of tantric Buddhism, its origins as well as its differences from other forms of Buddhist belief and practice. Then we'll give an overall characterization of what constitutes this somewhat transgressive form of Buddhism. It’s a huge topic so this video should only be seen as an intro!",
     "topics": [
       "Vajrayana",
-      "sin (concept of)",
       "Gombrich, Richard",
       "Samuel, Geoffrey",
       "Davidson, Ronald"
@@ -20782,7 +20777,6 @@
     "summary": "Theravāda Buddhism can be seen both as very old and very new. We'll go over the ways Theravāda has roots in the earliest forms of Buddhism, as well as the way it may be a very recent form of religious identity. This is a huge topic and so the video should only be seen as the barest introduction!",
     "topics": [
       "Theravada",
-      "self/identity",
       "Gombrich, Richard",
       "Gethin, Rupert"
     ],
@@ -20810,7 +20804,8 @@
       "Buddhism (schools)",
       "Mahayana",
       "Vajrayana",
-      "Samuel, Geoffrey"
+      "Samuel, Geoffrey",
+      "Theravada"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -20842,8 +20837,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=TfQyjLR1bvo",
     "summary": "What's wrong with pleasure? It often seems as though sensory pleasures are an unalloyed good, the sorts of things that we should aim to gain as much of during our lifetimes as possible. The Buddha had a somewhat different view of them however, which we will consider in this video.",
     "topics": [
-      "pleasure",
-      "views/ditthi"
+      "pleasure"
     ],
     "sutta_refs": [
       {
@@ -20863,7 +20857,8 @@
     "topics": [
       "attachment/clinging",
       "sila/ethics",
-      "Kornfield, Jack"
+      "Kornfield, Jack",
+      "metta/loving-kindness"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -20887,7 +20882,8 @@
     "summary": "We'll look at aspects of the Buddhist idea of nonattachment in this video, asking what it means and how we might go about practicing it. We will also look at the \"near enemy\" of nonattachment, something that should not be confused with it.",
     "topics": [
       "letting go",
-      "Goldstein, Joseph"
+      "Goldstein, Joseph",
+      "attachment/clinging"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -20954,7 +20950,8 @@
     "summary": "It is sometimes said that desire is the root of suffering, or that the Buddha claimed such a thing. We will look at the ways in which desire can be unskillful, including some that are very close to our hearts, and other ways in which desires can in fact be skillful. We will see that far from being solely the root of suffering, desire can also be the root of the escape from suffering.",
     "topics": [
       "skillful/unskillful action",
-      "suffering/dukkha"
+      "suffering/dukkha",
+      "craving/tanha"
     ],
     "sutta_refs": [
       {
@@ -20993,9 +20990,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=0K0zyE4RseU",
     "summary": "Buddhist compassion meditation practices changed dramatically during the millennium from the Buddha's lifetime to the lifetimes of some of his most famous commentators. Using a paper by the gifted scholar Anālayo as a guide, we will look at the earliest recorded compassion practices and at practices found in works by the later philosophers and commentators Buddhaghosa and Vasubandhu.",
     "topics": [
-      "Buddha (historical)",
       "compassion",
-      "fame",
       "meditation",
       "Analayo"
     ],
@@ -21021,7 +21016,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=jpkQ18tk644",
     "summary": "It often happens that those of us with a regular -- or irregular! -- practice will come to a place of wondering: \"What's the point?\" We'll discuss the nature of these completely normal doubts and ways to deal with them. We'll also try to deal with the question of what the point is of it all.",
     "topics": [
-      "nature/environment"
+      "doubt"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -21033,9 +21028,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=4SCcl9lCFk8",
     "summary": "We all want to make the world a better place, but doing so can be at times difficult, frustrating, even stressful. Rather than turning towards cynicism, why not start making the world a better place by working with yourself?",
     "topics": [
-      "enlightenment/awakening",
-      "work/livelihood",
-      "Bodhi, Bhikkhu"
+      "Bodhi, Bhikkhu",
+      "social justice"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -21078,7 +21072,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=L3XTb_Cd-fc",
     "summary": "Daily practice along the path is like weeding our yard. Weeds tend to sprout if the ground lies unattended, but by diligent effort we can make a difference. We'll consider that metaphor in this video.",
     "topics": [
-      "weeding"
+      "weeding",
+      "right effort"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -21183,8 +21178,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=KDVzuAWj7CU",
     "summary": "Many of us have questions about including images or rituals in secular Buddhist practice. We may find the idea congenial, on the other hand we may have an aversion to traditional forms of practice, or indeed we may come from a different religious background altogether. In this video we will consider adding chants, bells, incense, images, and other similar trappings of more traditional practice to our repertoire.",
     "topics": [
-      "anger",
-      "secular Buddhism"
+      "secular Buddhism",
+      "ritual/ceremony"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -21196,7 +21191,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=isrRbIiHwvc",
     "summary": "What are the \"sense spheres\" and how do they get us attached in unskillful ways? How do we go about breaking these attachments? We'll discuss all that in this video.",
     "topics": [
-      "skillful/unskillful action"
+      "skillful/unskillful action",
+      "attachment/clinging"
     ],
     "sutta_refs": [
       {
@@ -21262,7 +21258,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=op7GUt8_x5E",
     "summary": "Fourth and last of the foundations of mindfulness is Mindfulness of Dharmas. In this second half of our introduction, we will continue going through the practices involved in this foundation. In particular we will go through mindfulness of the factors of awakening, and of the Four Noble Truths in this video.",
     "topics": [
-      "enlightenment/awakening",
       "four noble truths",
       "mindfulness",
       "satipatthana",
@@ -21293,7 +21288,8 @@
       "hindrances",
       "mindfulness",
       "satipatthana",
-      "Analayo"
+      "Analayo",
+      "five aggregates"
     ],
     "sutta_refs": [
       {
@@ -21468,8 +21464,8 @@
     "summary": "With the advent of \"engaged Buddhism\", Buddhism in the modern world has taken an emphasis on political involvement. We will look at some of the history of religious involvement in politics, with a particular focus on Buddhism, and ask how Buddhism can work best in a secular context.",
     "topics": [
       "politics",
-      "work/livelihood",
-      "Rahula, Walpola"
+      "Rahula, Walpola",
+      "religion"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -21483,7 +21479,8 @@
     "topics": [
       "mindfulness",
       "satipatthana",
-      "Analayo"
+      "Analayo",
+      "feelings/vedana"
     ],
     "sutta_refs": [
       {
@@ -21501,17 +21498,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=1PRKCG7MuE8",
     "summary": "Wow, it's hard to believe a year has already passed since publishing my first video on YouTube! In the interim we've had a busy time going through some of the dharma of early Buddhism, with a focus on contemporary practice and experience. Here's a look back with some thoughts on the channel going forward.",
     "topics": [
-      "conditionality",
-      "dependent origination",
-      "eightfold path",
-      "four noble truths",
-      "karma",
-      "meditation",
-      "spirituality",
-      "stoicism",
-      "time/momentariness",
-      "wealth/money",
-      "work/livelihood"
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -21568,7 +21555,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=UeZ45FoKcN8",
     "summary": "Recently the renowned translator and activist Bhikkhu Bodhi gave a daylong event on Buddhism and climate change. Today's video summarizes his concerns and diagnoses, and looks at some aspects of Buddhist practice that can help us in our daily struggles with this key issue.",
     "topics": [
-      "enlightenment/awakening",
       "nature/environment",
       "Bodhi, Bhikkhu"
     ],
@@ -21637,7 +21623,8 @@
     "topics": [
       "meditation",
       "mindfulness",
-      "Analayo"
+      "Analayo",
+      "satipatthana"
     ],
     "sutta_refs": [
       {
@@ -21693,7 +21680,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=N9ltD8wYQCQ",
     "summary": "We usually think of the Buddha as having a full head of hair, but it may not always have been so. Today we'll look at some of the history of Buddhist iconography, and take some lessons about how viewpoints can change over time.",
     "topics": [
-      "time/momentariness"
+      "art",
+      "Buddha (historical)"
     ],
     "sutta_refs": [
       {
@@ -21738,9 +21726,10 @@
     "summary": "The Buddha's teachings on the self and on non-self are some of his most subtle, interesting, and unique. We'll take a look at them in this video. We'll also compare the Buddha's view of the self with that of western philosophers David Hume and Derek Parfit.",
     "topics": [
       "non-self/anatta",
-      "views/ditthi",
       "Hume, David",
-      "Parfit, Derek"
+      "Parfit, Derek",
+      "self/identity",
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -21798,8 +21787,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=wXYAY-zmNGs",
     "summary": "Both the Buddha and Jesus viewed wealth as problematic in various respects, but their approaches differed in important ways due to their historical backgrounds and outlooks. We'll consider both the views of the historical Jesus as well as those of the Buddha in order to compare and contrast their approaches.",
     "topics": [
-      "views/ditthi",
-      "wealth/money"
+      "wealth/money",
+      "religion"
     ],
     "sutta_refs": [
       {
@@ -22029,8 +22018,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=oN5292K60yc",
     "summary": "Let's consider karma. We’ll go over three problems with the Buddhist notion of karma. Then we’ll discuss how the Buddha defined the term, and how his usage was innovative and different in its time. We'll see that there is a way to recover a useful sense of the term, so we can understand it in a contemporary context.",
     "topics": [
-      "karma",
-      "time/momentariness"
+      "karma"
     ],
     "sutta_refs": [
       {
@@ -22098,7 +22086,7 @@
     "summary": "YouTuber Casey Neistat and physicist Albert Einstein had contrasting ideas of what might constitute the good life. We'll look at both of them and compare them with some ideas from Aristotle and early Buddhism.",
     "topics": [
       "joy/happiness",
-      "rhetoric/debate"
+      "philosophy"
     ],
     "sutta_refs": [
       {
@@ -22130,7 +22118,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=8wstShpo3Y8",
     "summary": "Can you be a Buddhist and a Christian, a Jew, or member of some other religion? We will take a look at that question and investigate how such cross-fertilization works with a secular approach to Buddhist belief and practice.",
     "topics": [
-      "Zen"
+      "religion",
+      "generosity/dana"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22147,7 +22136,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=9ge9N5aw2Jc",
     "summary": "When folks converted from competing religions or philosophies to the Buddha's dhamma, he had a couple of pieces of advice that might surprise some of us. We will look at that advice and some lessons we can take away from them for today's world.",
     "topics": [
-      "sangha/community"
+      "sangha/community",
+      "religion"
     ],
     "sutta_refs": [
       {
@@ -22186,7 +22176,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=hBgSBanF4TU",
     "summary": "If we misuse the dharma it can come back to bite us: this is the upshot of one famous sutta. We will look at this sutta and consider some of its implications for our approach to the Buddha's teachings both online and in person.",
     "topics": [
-      "fame",
       "suttas/early texts",
       "technology"
     ],
@@ -22279,8 +22268,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=IFqyXzipnKo",
     "summary": "Thanksgiving is a good time to reflect on the great number of people for whom we should be grateful. This includes not only the folks close to us, or who we know well, but also includes those whom we may never lay eyes on. So many people are responsible for our living a life as good as we live today. We will also consider three important causes of ingratitude, drawn from Nyanadassana's pamphlet.",
     "topics": [
-      "gratitude",
-      "time/momentariness"
+      "gratitude"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -22317,9 +22305,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=8O0Klh_pzjM",
     "summary": "It is critical to our progress along the path that we make lucid judgments about skillful and unskillful thoughts and behaviors. At the same time though we are often enjoined to pursue a kind of non-judgmental awareness. How are these recommendations reconciled? Or are they completely at odds? We will look at this question in this video.",
     "topics": [
-      "progress",
-      "skillful/unskillful action",
-      "time/momentariness"
+      "skillful/unskillful action"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22371,7 +22357,6 @@
     "topics": [
       "Dhammapada",
       "Pali canon",
-      "enlightenment/awakening",
       "suttas/early texts",
       "Bodhi, Bhikkhu",
       "Fronsdal, Gil"
@@ -22418,8 +22403,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=9vD0tOuE2lk",
     "summary": "Spiritual bypassing is a condition we can all fall into from time to time, even those of us who do not see ourselves on a \"spiritual\" path. What is the condition and how can we strive to avoid it?",
     "topics": [
-      "spirituality",
-      "time/momentariness"
+      "spirituality"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22432,7 +22416,8 @@
     "summary": "Academic study of early Buddhism has waned to near nothing, if a recent editorial by eminent scholar Richard Gombrich is anything to go on. I'll discuss why this should concern us.",
     "topics": [
       "Buddhism (early)",
-      "Gombrich, Richard"
+      "Gombrich, Richard",
+      "history/scholarship"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22444,7 +22429,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=dhjCrWI_Yq4",
     "summary": "Ever thought about meditating, but weren't sure how to begin? This video goes through some of the basics involved in sitting and walking meditation. Just the right thing to get you started!",
     "topics": [
-      "meditation"
+      "meditation",
+      "beginners"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22456,7 +22442,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=EQsd6D_9jg4",
     "summary": "I'm sure we all know that watching YouTube videos isn't really adequate as a form of practice. So how should we view our ongoing practice? How long will it take to reach the goal? In this video I'll discuss five keys we should use to engage best with practice.",
     "topics": [
-      "views/ditthi"
+      "progress"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22468,7 +22454,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=2ZfKxMwTXrI",
     "summary": "The news nowadays can be pretty stressful and depressing for many of us. Are there any strategies we can use to lessen its psychological impact on us? I'll outline three basic mindsets we can use, suggested by early Buddhist teachings, plus some additional thoughts.",
     "topics": [
-      "personal reflection"
+      "entertainment/media"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22493,10 +22479,10 @@
     "summary": "Recent events, particularly those involving the Rohingya in Burma and the role of nuns in Theravāda Buddhism, raise the question as to what constitutes Buddhist fundamentalism, and whether and how it might be different from its Western counterpart. We will look at the issue in a broad overview.",
     "topics": [
       "Theravada",
-      "rhetoric/debate",
       "sangha/community",
       "suttas/early texts",
-      "war/violence/nonviolence"
+      "war/violence/nonviolence",
+      "politics"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -22579,10 +22565,10 @@
     "summary": "Buddhism and Stoicism are in many ways allied philosophies. However in this video we will look at five ways that they differ. We will be looking in specific at early Buddhism and Stoicism as reflected in its Classical Greek and Roman texts, and as explained in Massimo Pigliucci's recent book \"How to Be a Stoic\". While my previous video considered five ways that they were similar, their similarities overwhelm their differences for most aspects of the path up until nearly its very end.",
     "topics": [
       "mindfulness",
-      "rhetoric/debate",
       "stoicism",
       "Pigliucci, Massimo",
-      "Wright, Robert"
+      "Wright, Robert",
+      "philosophy"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -22610,10 +22596,10 @@
     "youtube_url": "https://www.youtube.com/watch?v=wJ0iQiNf6ZE",
     "summary": "Buddhism and Stoicism are in many ways allied philosophies. In this video we will look at five ways that they overlap. We will be looking in specific at early Buddhism and Stoicism as reflected in its Classical Greek and Roman texts, and as explained in Massimo Pigliucci's recent book \"How to Be a Stoic\". While my next video will consider five ways that they differ, their similarities overwhelm their differences for most aspects of the path up until nearly its very end.",
     "topics": [
-      "rhetoric/debate",
       "stoicism",
       "Pigliucci, Massimo",
-      "Wright, Robert"
+      "Wright, Robert",
+      "philosophy"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -22641,7 +22627,8 @@
     "summary": "What are the so-called \"formless jhānas\" or formless attainments in meditation? That's one of the questions left on the cutting room floor after my video on Right Concentration. We'll also tackle the question of how concentration meditation has tended to be sidestepped in a modern context.",
     "topics": [
       "concentration/samadhi",
-      "meditation"
+      "meditation",
+      "jhana/absorption"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22655,8 +22642,8 @@
     "topics": [
       "concentration/samadhi",
       "eightfold path",
-      "fame",
-      "Brasington, Leigh"
+      "Brasington, Leigh",
+      "jhana/absorption"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -22676,7 +22663,8 @@
     "topics": [
       "Brown, Clair",
       "Linn, Vaddhaka",
-      "work/livelihood"
+      "work/livelihood",
+      "wealth/money"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -22700,7 +22688,6 @@
     "summary": "Mindfulness meditation is increasingly popular nowadays, but its roots go back to early Buddhist texts associated with the seventh stage along the Eightfold Path. We will delve a little into these texts and attempt to flesh out the key aspects of mindfulness meditation in the early tradition.",
     "topics": [
       "eightfold path",
-      "enlightenment/awakening",
       "meditation",
       "mindfulness",
       "satipatthana",
@@ -22729,8 +22716,6 @@
     "summary": "Right effort is one of the more overlooked aspects of the Eightfold Path but may also be one of the most important. We'll discuss the four parts of right effort and how to distinguish effort from \"efforting\". Images in this video from the Metropolitan Museum and Pixabay. Music in this video: Greet the Day with Joy by AudioHero",
     "topics": [
       "eightfold path",
-      "entertainment/media",
-      "joy/happiness",
       "right effort"
     ],
     "sutta_refs": [],
@@ -22743,8 +22728,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=dSOhWGgqMWA",
     "summary": "When looking at right livelihood within Buddhism, traditionally there are five prohibited livelihoods. However there is also a great deal of interesting additional material about inappropriate livelihoods for monastics, as well as a couple of wrong livelihoods for laypeople that the Buddha was reluctant to discuss. We'll go over it all! It's worth pointing out that the material about wrong livelihood for monastics may be product of a later interpolation. Anālayo suggests this in his Early Buddhist Meditation Studies, p. 169. If so then the issues I mentioned in the video might be product of dallying by later monastics with these practices, and its censure by those closer to the textual tradition, rather than any skepticism per se on the part of the Buddha himself. Music on this video:",
     "topics": [
-      "entertainment/media",
-      "meditation",
       "right livelihood",
       "work/livelihood",
       "Analayo"
@@ -22766,7 +22749,8 @@
     "summary": "So I'll be asking you folks a question to start with, and then we'll consider the issue of doing a vlog while taking the Buddha's notion of non-self seriously. Are the two compatible or not?",
     "topics": [
       "entertainment/media",
-      "non-self/anatta"
+      "non-self/anatta",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22778,15 +22762,11 @@
     "youtube_url": "https://www.youtube.com/watch?v=LgN3MT6m4zI",
     "summary": "What might the Buddha have thought about secular approaches to Buddhism? We will take a look at arguments found in a couple of early texts, the Apaṇṇaka and Sandaka Suttas, as jumping-off points. Our trip will take us through perhaps the earliest known materialist philosopher, as well as Blaise Pascal's wager for the existence of God. Then we will look at six possible responses to those arguments, taking inspiration from the Buddha's famous discourse to the Kālāmas, his discourse to the Householders of the Bamboo Gate, plus much more. It's a jam-packed episode!",
     "topics": [
-      "Pali canon",
       "devas/supernatural beings",
-      "enlightenment/awakening",
-      "fame",
       "philosophy",
       "rhetoric/debate",
       "secular Buddhism",
       "suttas/early texts",
-      "technology",
       "Bodhi, Bhikkhu",
       "Pascal, Blaise"
     ],
@@ -22842,9 +22822,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=45jcnB89m1Q",
     "summary": "The Buddha gave three key examples of actions we should avoid, but nuances remain depending on our status as layperson or monastic, as well as our understanding of some of the more in-depth teachings about the self. Music in this video: \"Soaring\" Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 3.0 License",
     "topics": [
-      "entertainment/media",
       "right action",
-      "sangha/community"
+      "sila/ethics"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -22933,7 +22912,8 @@
     "summary": "On this vlog I'll talk about the strange instructions that started me off meditating, and a great podcast I was just on.",
     "topics": [
       "meditation",
-      "secular Buddhism"
+      "secular Buddhism",
+      "personal reflection"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -22964,11 +22944,11 @@
       "Dhammapada",
       "Theravada",
       "abhidhamma",
-      "enlightenment/awakening",
       "suttas/early texts",
       "Gombrich, Richard",
       "Gethin, Rupert",
-      "Muller, Max"
+      "Muller, Max",
+      "Pali canon"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -23069,8 +23049,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=GytXVx6ZQSo",
     "summary": "Mixing things up here, today we'll get into questions from a couple of viewers. One involves whether there is room for a kind of deep secular Buddhist practice akin to monasticism, and another deals with the way I've been editing these videos. Please let me know your thoughts as well in the comments below! Music in this video:",
     "topics": [
-      "entertainment/media",
-      "secular Buddhism"
+      "secular Buddhism",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -23112,8 +23092,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=bvkmbJFR8Mw",
     "summary": "Traditional Buddhists often take the \"three refuges\". What are they and can they be understood in secular terms? Music in this video:",
     "topics": [
-      "entertainment/media",
-      "three refuges"
+      "three refuges",
+      "secular Buddhism"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -23141,9 +23121,7 @@
     "youtube_url": "https://www.youtube.com/watch?v=UyKyULHmWD8",
     "summary": "The Buddha's early teachings on non-clinging to beliefs, views, and opinions are some of his deepest and most profound, as well as being a little tricky to understand. For those interested in a very detailed look at the Buddha on views, do check out Paul Fuller's book \"The Notion of Diṭṭhi in Theravāda Buddhism\". Although it does have \"Theravāda\" in the title, the book is about Pāli Buddhism in particular, which covers early Buddhism as well. NB: this is very advanced reading!",
     "topics": [
-      "Theravada",
       "attachment/clinging",
-      "entertainment/media",
       "views/ditthi"
     ],
     "sutta_refs": [],
@@ -23216,7 +23194,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=2KU-sSsSVow",
     "summary": "The word \"enlightenment\" is used to describe a period of history in Europe, and a state of mind in Buddhism. What do these really mean, and do they share any important similarities?",
     "topics": [
-      "enlightenment/awakening"
+      "enlightenment/awakening",
+      "philosophy"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -23263,10 +23242,8 @@
     "youtube_url": "https://www.youtube.com/watch?v=7mFBdFyyqe0",
     "summary": "What is Loving Kindness (mettā) meditation and how did it develop? Many people today practice a form that probably originated centuries after the Buddha's day. Thanks to Andy Olendzki for his work on the historical roots of mettā meditation, from which I've drawn over the years. Needless to say any errors are my own!",
     "topics": [
-      "Buddha (historical)",
       "meditation",
       "metta/loving-kindness",
-      "work/livelihood",
       "Salzberg, Sharon"
     ],
     "sutta_refs": [],
@@ -23285,7 +23262,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=-v-iNe1wVZ0",
     "summary": "Folks interested in a secular approach to Buddhism will find many forms of Buddhism congenial. Why is early Buddhism particularly so? We will look at the Kevaddha Sutta (DN 11) and some material from Richard Gombrich, eminent scholar of early Buddhism, to help illuminate the discussion. Websites mentioned in the video:",
     "topics": [
-      "rhetoric/debate",
       "secular Buddhism",
       "suttas/early texts",
       "Gombrich, Richard"
@@ -23334,7 +23310,8 @@
     "topics": [
       "Theravada",
       "Zen",
-      "secular Buddhism"
+      "secular Buddhism",
+      "channel news"
     ],
     "sutta_refs": [],
     "other_refs": [],
@@ -23408,16 +23385,14 @@
     "youtube_url": "https://www.youtube.com/watch?v=UGNfiyRMkgw",
     "summary": "Lots of folks ask me for recommendations of good books on early Buddhism. I have a bunch of good ones here. This is my fourth YouTube video, so it's a bit rougher than some of the later ones. Apologies and thanks for watching!",
     "topics": [
-      "Theravada",
-      "enlightenment/awakening",
-      "satipatthana",
       "Bodhi, Bhikkhu",
       "Gombrich, Richard",
       "Analayo",
       "Gethin, Rupert",
       "Williams, Paul",
       "Rahula, Walpola",
-      "Bronkhorst, Johannes"
+      "Bronkhorst, Johannes",
+      "Buddhism (early)"
     ],
     "sutta_refs": [],
     "other_refs": [
@@ -23470,7 +23445,6 @@
     "youtube_url": "https://www.youtube.com/watch?v=Oi0V3Pycru0",
     "summary": "Here we'll look at what the Buddha had to say about politics and society. He had a very interesting approach and some unique insights to provide! This is my third YouTube video, so it's a bit rougher than some of the later ones. Apologies!",
     "topics": [
-      "enlightenment/awakening",
       "politics",
       "Bodhi, Bhikkhu"
     ],

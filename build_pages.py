@@ -57,6 +57,10 @@ LEGACY_REDIRECTS = {
     # 2026-10-14: MN 40 had been double-counted in one video; deduped, it falls
     # below MIN_FOR_PAGE and now lives on the hub.
     'suttas/mn-40.html':               'suttas/',
+    # 2026-10-14: topic re-tag removed keyword-match false positives; these
+    # fall below MIN_FOR_PAGE and now live on the hub.
+    'topics/delusion.html':            'topics/',
+    'topics/renunciation.html':        'topics/',
 }
 
 

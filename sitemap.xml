@@ -91,6 +91,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/buddhism-schools.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/covid-19.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -271,6 +277,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/aesthetics.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/anger.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -283,13 +295,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/atheism-agnosticism.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/attachment-clinging.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/beginners.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/breath-meditation.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/channel-news.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -325,13 +355,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://videos.dougsdharma.com/topics/death-mortality.html</loc>
+    <loc>https://videos.dougsdharma.com/topics/craving-tanha.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://videos.dougsdharma.com/topics/delusion.html</loc>
+    <loc>https://videos.dougsdharma.com/topics/death-mortality.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -421,6 +451,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://videos.dougsdharma.com/topics/feelings-vedana.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://videos.dougsdharma.com/topics/five-aggregates.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -446,6 +482,12 @@
   </url>
   <url>
     <loc>https://videos.dougsdharma.com/topics/hindrances.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/history-scholarship.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -500,6 +542,12 @@
   </url>
   <url>
     <loc>https://videos.dougsdharma.com/topics/metta-loving-kindness.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/middle-way.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -607,12 +655,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://videos.dougsdharma.com/topics/renunciation.html</loc>
-    <lastmod>2026-10-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://videos.dougsdharma.com/topics/rhetoric-debate.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -632,6 +674,12 @@
   </url>
   <url>
     <loc>https://videos.dougsdharma.com/topics/right-speech.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/ritual-ceremony.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -716,6 +764,12 @@
   </url>
   <url>
     <loc>https://videos.dougsdharma.com/topics/technology.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://videos.dougsdharma.com/topics/therapy-psychology.html</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
